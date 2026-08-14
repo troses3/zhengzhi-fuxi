@@ -341,103 +341,80 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="app-header">
-        {/* 第一行：品牌标题 + 右侧紧凑操作与数据 */}
-        <div className="top-nav-bar">
-          <div className="brand-title">
-            <span className="brand-icon">📚</span>
-            <span className="brand-name">政治理论题库</span>
+      <header className="header">
+        <h1>
+          <span>📚</span>
+          <span className="title-text">政治理论题库</span>
+        </h1>
+        <div className="progress-container">
+          <div className="progress-bar">
+            <div className="progress-fill" style={{ width: `${progress}%` }}></div>
+          </div>
+          <div className="stats">
+            <button 
+              className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
+              onClick={() => handleFilterClick('known')}
+              title="只复习已掌握"
+            >
+              <span className="dot dot-known"></span>
+              已掌握: <span className="stat-count">{stats.known}</span>
+            </button>
+            <button 
+              className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
+              onClick={() => handleFilterClick('unsure')}
+              title="只复习模糊"
+            >
+              <span className="dot dot-unsure"></span>
+              模糊: <span className="stat-count">{stats.unsure}</span>
+            </button>
+            <button 
+              className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
+              onClick={() => handleFilterClick('unknown')}
+              title="只复习生词"
+            >
+              <span className="dot dot-unknown"></span>
+              生词: <span className="stat-count">{stats.unknown}</span>
+            </button>
+            <button 
+              className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
+              onClick={() => setFilter('all')}
+              title="查看全部"
+            >
+              总计: <span className="stat-count">{total}</span>
+            </button>
           </div>
 
-          <div className="top-actions">
-            <button 
-              className={`order-toggle-btn ${isRandom ? 'is-random' : ''}`}
-              onClick={() => setIsRandom(!isRandom)}
-              title={isRandom ? "当前为随机出题（点击切为顺序）" : "当前为顺序出题（点击切为随机）"}
-            >
-              {isRandom ? '🔀 随机' : '🔁 顺序'}
-            </button>
-            <div className="stats-pill">
-              <button 
-                className={`mini-stat-btn ${filter === 'known' ? 'active-known' : ''}`}
-                onClick={() => handleFilterClick('known')}
-                title="已掌握"
-              >
-                <span className="dot dot-known"></span>{stats.known}
-              </button>
-              <button 
-                className={`mini-stat-btn ${filter === 'unsure' ? 'active-unsure' : ''}`}
-                onClick={() => handleFilterClick('unsure')}
-                title="模糊"
-              >
-                <span className="dot dot-unsure"></span>{stats.unsure}
-              </button>
-              <button 
-                className={`mini-stat-btn ${filter === 'unknown' ? 'active-unknown' : ''}`}
-                onClick={() => handleFilterClick('unknown')}
-                title="生词"
-              >
-                <span className="dot dot-unknown"></span>{stats.unknown}
-              </button>
-              <span className="pill-divider">/</span>
-              <button 
-                className={`mini-stat-btn total-btn ${filter === 'all' ? 'active-all' : ''}`}
-                onClick={() => setFilter('all')}
-                title="查看全部"
-              >
-                {total}
-              </button>
+          {/* 第一行修改：单行横向滑动章节栏 */}
+          <div className="category-scroll-container">
+            <div className="category-scroll-track">
+              {[
+                { key: 'all', label: '全部章节' },
+                { key: '第一章 十五五规划专题', label: '🚩 十五五' },
+                { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
+                { key: '第三章 习近平新时代思想', label: '🌟 习近平新思想' },
+                { key: '第四章 最新重要方针政策', label: '🚀 方针政策' },
+                { key: '第五章 2026新法典与时政考察', label: '⚖️ 2026新法典' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.key)}
+                >
+                  {cat.label}
+                </button>
+              ))}
             </div>
           </div>
-        </div>
 
-        {/* 微型进度条 */}
-        <div className="mini-progress-bar">
-          <div className="mini-progress-fill" style={{ width: `${progress}%` }}></div>
-        </div>
-
-        {/* 第二行：分类筛选横向丝滑滑动栏 */}
-        <div className="category-scroll-container">
-          <div className="category-scroll-track">
-            {[
-              { key: 'all', label: '全部章节' },
-              { key: '第一章 十五五规划专题', label: '🚩 十五五' },
-              { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
-              { key: '第三章 习近平新时代思想', label: '🌟 习近平新思想' },
-              { key: '第四章 最新重要方针政策', label: '🚀 方针政策' },
-              { key: '第五章 2026新法典与时政考察', label: '⚖️ 2026新法典' },
-            ].map(cat => (
-              <button
-                key={cat.key}
-                className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
-                onClick={() => setSelectedCategory(cat.key)}
-              >
-                {cat.label}
-              </button>
-            ))}
+          {/* 第二行修改：原版胶囊UI（修复手机端折行与间距） */}
+          <div className="mode-toggle">
+            <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
+            <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
+            <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>
+            <span className="mode-divider"></span>
+            <button className={`mode-btn ${!isRandom ? 'active' : ''}`} onClick={() => setIsRandom(false)}>顺序</button>
+            <button className={`mode-btn ${isRandom ? 'active' : ''}`} onClick={() => setIsRandom(true)}>随机</button>
           </div>
-        </div>
-
-        {/* 第三行：模式分段控制器（3等分，绝不折行） */}
-        <div className="mode-segmented-control">
-          <button 
-            className={`seg-btn ${activeMode === 'contrast' ? 'active' : ''}`} 
-            onClick={() => setActiveMode('contrast')}
-          >
-            易混辨析
-          </button>
-          <button 
-            className={`seg-btn ${activeMode === 'quiz' ? 'active' : ''}`} 
-            onClick={() => setActiveMode('quiz')}
-          >
-            挖空特训
-          </button>
-          <button 
-            className={`seg-btn ${activeMode === 'speed' ? 'active' : ''}`} 
-            onClick={() => setActiveMode('speed')}
-          >
-            速览速记
-          </button>
         </div>
       </header>
 
