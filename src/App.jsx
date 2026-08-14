@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { initialPoliticalTheory } from './data/political_theory';
+import { chaogePoliticalTheory } from './data/political_theory_chaoge';
 import './App.css';
-
-const STORAGE_KEY = 'pt-tracker-v11';
 
 const getShortMeaning = (meaning) => {
   if (!meaning) return "";
@@ -55,6 +54,9 @@ function App() {
   const [activeMode, setActiveMode] = useState(() => {
     return localStorage.getItem('pt-tracker-active-mode') || 'contrast';
   }); // 'quiz', 'speed', 'contrast'
+  const [dataSource, setDataSource] = useState(() => {
+    return localStorage.getItem('pt-tracker-datasource') || 'huasheng';
+  }); // 'huasheng', 'chaoge'
   const [hideBlanksInSpeedMode, setHideBlanksInSpeedMode] = useState(true);
   const [currentExample, setCurrentExample] = useState('');
   const [history, setHistory] = useState([]);
@@ -73,9 +75,14 @@ function App() {
     localStorage.setItem('pt-tracker-active-mode', activeMode);
   }, [activeMode]);
 
+  useEffect(() => {
+    localStorage.setItem('pt-tracker-datasource', dataSource);
+  }, [dataSource]);
+
   // Load from local storage or initial
   useEffect(() => {
-    const stored = localStorage.getItem(STORAGE_KEY);
+    const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v11' : 'pt-tracker-v11-chaoge';
+    const stored = localStorage.getItem(storageKey);
     let loadedItems = [];
     if (stored) {
       try {
@@ -86,11 +93,12 @@ function App() {
     }
     
     if (!loadedItems || loadedItems.length === 0) {
-      loadedItems = initialPoliticalTheory.map(item => ({
+      const sourceData = dataSource === 'huasheng' ? initialPoliticalTheory : chaogePoliticalTheory;
+      loadedItems = sourceData.map(item => ({
         ...item,
         status: 'new'
       }));
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(loadedItems));
+      localStorage.setItem(storageKey, JSON.stringify(loadedItems));
     }
     setItems(loadedItems);
 
@@ -107,11 +115,16 @@ function App() {
         const randIndex = candidateIndices[Math.floor(Math.random() * candidateIndices.length)];
         setCurrentIndex(randIndex);
       } else {
-        const randIndex = Math.floor(Math.random() * loadedItems.length);
         setCurrentIndex(randIndex);
       }
+    } else {
+      setCurrentIndex(0);
     }
-  }, []);
+    
+    setHistory([]);
+    setIsFlipped(false);
+    setSelectedOption(null);
+  }, [dataSource]);
 
   // Update stats
   useEffect(() => {
@@ -120,9 +133,10 @@ function App() {
       const unsure = items.filter(i => i.status === 'unsure').length;
       const unknown = items.filter(i => i.status === 'unknown').length;
       setStats({ known, unsure, unknown });
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+      const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v11' : 'pt-tracker-v11-chaoge';
+      localStorage.setItem(storageKey, JSON.stringify(items));
     }
-  }, [items]);
+  }, [items, dataSource]);
 
   // Filtered by chapter
   const currentCategoryItems = items.filter(item => {
@@ -387,7 +401,7 @@ function App() {
           {/* 第一行修改：单行横向滑动章节栏 */}
           <div className="category-scroll-container">
             <div className="category-scroll-track">
-              {[
+              {dataSource === 'huasheng' ? [
                 { key: 'all', label: '全部章节' },
                 { key: '第一章 十五五规划专题', label: '🚩 十五五' },
                 { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
@@ -402,12 +416,26 @@ function App() {
                 >
                   {cat.label}
                 </button>
+              )) : [
+                { key: 'all', label: '全部章节' },
+                { key: '超格精简版', label: '📚 超格精简' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.key)}
+                >
+                  {cat.label}
+                </button>
               ))}
             </div>
           </div>
 
           {/* 第二行修改：原版胶囊UI（修复手机端折行与间距） */}
           <div className="mode-toggle">
+            <button className={`mode-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
+            <button className={`mode-btn ${dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge')}>📖 超格</button>
+            <span className="mode-divider"></span>
             <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
             <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
             <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>
@@ -629,8 +657,9 @@ function App() {
         {/* 重置进度 */}
         <div className="controls">
           <button className="btn-text" onClick={() => {
-            if(window.confirm('确定要重置所有学习进度吗？')) {
-              localStorage.removeItem(STORAGE_KEY);
+            if(window.confirm(`确定要重置当前数据库（${dataSource === 'huasheng' ? '花生' : '超格'}）的学习进度吗？`)) {
+              const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v11' : 'pt-tracker-v11-chaoge';
+              localStorage.removeItem(storageKey);
               window.location.reload();
             }
           }}>
