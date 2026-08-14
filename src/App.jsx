@@ -41,6 +41,52 @@ const getShortMeaning = (meaning) => {
   return meaning;
 };
 
+function SpeedItemCard({ item, idx, globalMasked }) {
+  const [isRevealed, setIsRevealed] = useState(!globalMasked);
+
+  useEffect(() => {
+    setIsRevealed(!globalMasked);
+  }, [globalMasked]);
+
+  const displayEx = item.examples && item.examples.length > 0 ? item.examples[0] : item.meaning;
+  const parts = displayEx ? displayEx.split(new RegExp(`(${item.word})`, 'g')) : [item.meaning];
+
+  const toggleReveal = (e) => {
+    e.stopPropagation();
+    setIsRevealed(prev => !prev);
+  };
+
+  return (
+    <div className="speed-item-card" onClick={toggleReveal}>
+      <div className="speed-word-row">
+        <span className="speed-label">考点 {idx + 1}</span>
+        <span 
+          className={`speed-blank ${!isRevealed ? 'masked' : 'revealed'}`}
+          onClick={toggleReveal}
+          title={!isRevealed ? '点击揭晓' : '点击遮挡'}
+        >
+          {item.word}
+        </span>
+      </div>
+      <div className="speed-meaning">
+        {parts.map((part, i) => 
+          part === item.word ? (
+            <span 
+              key={i} 
+              className={`speed-inline-blank ${!isRevealed ? 'masked' : 'revealed'}`}
+              title={!isRevealed ? '点击揭晓' : '点击遮挡'}
+            >
+              {part}
+            </span>
+          ) : (
+            <span key={i}>{part}</span>
+          )
+        )}
+      </div>
+    </div>
+  );
+}
+
 function App() {
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -628,33 +674,14 @@ function App() {
                 {hideBlanksInSpeedMode ? '👀 揭晓全部' : '🙈 遮挡考点'}
               </button>
             </div>
-            {currentCategoryItems.map((item, idx) => {
-              const displayEx = item.examples && item.examples.length > 0 ? item.examples[0] : item.meaning;
-              const parts = displayEx.split(new RegExp(`(${item.word})`, 'g'));
-              return (
-                <div key={idx} className="speed-item-card">
-                  <div className="speed-word-row">
-                    <span className="speed-label">考点 {idx + 1}</span>
-                    <span 
-                      className={`speed-blank ${hideBlanksInSpeedMode ? 'masked' : 'revealed'}`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        e.currentTarget.classList.toggle('revealed');
-                        e.currentTarget.classList.toggle('masked');
-                      }}
-                      title={hideBlanksInSpeedMode ? '点击揭晓' : '点击遮挡'}
-                    >
-                      {item.word}
-                    </span>
-                  </div>
-                  <div className="speed-meaning">
-                    {parts.map((part, i) => 
-                      part === item.word ? <strong key={i} style={{color: 'var(--accent-color)'}}>{part}</strong> : part
-                    )}
-                  </div>
-                </div>
-              );
-            })}
+            {currentCategoryItems.map((item, idx) => (
+              <SpeedItemCard 
+                key={`${item.word}-${idx}`} 
+                item={item} 
+                idx={idx} 
+                globalMasked={hideBlanksInSpeedMode} 
+              />
+            ))}
           </div>
         )}
 

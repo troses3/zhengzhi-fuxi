@@ -971,6 +971,33 @@ body {
   background: rgba(59, 130, 246, 0.1);
   color: var(--accent-color);
 }
+
+.speed-inline-blank {
+  font-weight: 700;
+  display: inline;
+  padding: 0.1rem 0.35rem;
+  margin: 0 0.15rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.speed-inline-blank.masked {
+  background: #cbd5e1;
+  color: transparent;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  display: inline-block;
+  min-width: 3.2rem;
+  height: 1.25em;
+  vertical-align: -2px;
+}
+
+.speed-inline-blank.revealed {
+  background: rgba(59, 130, 246, 0.12);
+  color: var(--accent-color);
+  display: inline;
+}
 /* 辨析卡片 */
 .contrast-item-card {
   background: white;
