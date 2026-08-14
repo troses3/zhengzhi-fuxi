@@ -502,17 +502,34 @@ function App() {
       </header>
 
       <main className="main-content">
-        {/* 模式一：挖空特训（单题翻转卡片） */}
-        {activeMode === 'quiz' && (
+        {/* 卡片模式：挖空特训 & 易混辨析 */}
+        {(activeMode === 'quiz' || activeMode === 'contrast') && (
           <>
             <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
               <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                 {/* 卡片正面 */}
                 <div className="card-front">
-                  <h2 className="idiom-word sentence-blank">
-                    {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
-                  </h2>
-                  <div className="card-hint">点击翻转查看选项</div>
+                  {activeMode === 'quiz' ? (
+                    <h2 className="idiom-word sentence-blank">
+                      {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                    </h2>
+                  ) : (
+                    <div>
+                      <h2 
+                        className="idiom-word"
+                        style={(() => {
+                          const len = (currentItem.word || '').length;
+                          if (len <= 4) return { fontSize: '2.5rem', fontWeight: '800', letterSpacing: '0.08rem' };
+                          if (len <= 8) return { fontSize: '1.8rem', fontWeight: '700', letterSpacing: '0.03rem', lineHeight: '1.35' };
+                          return { fontSize: '1.35rem', fontWeight: '700', letterSpacing: '0', lineHeight: '1.4' };
+                        })()}
+                      >
+                        {currentItem.word}
+                      </h2>
+                      <div className="contrast-front-sub">请辨析【{currentItem.word}】的科学定位与对应官方论断</div>
+                    </div>
+                  )}
+                  <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
                   {currentItem.status !== 'new' && (
                     <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
                       上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
@@ -527,11 +544,19 @@ function App() {
                       {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
                     </div>
                     <div className="card-back-content">
-                      <div className="sentence-question">
-                        {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                      {activeMode === 'quiz' ? (
+                        <div className="sentence-question">
+                          {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                        </div>
+                      ) : (
+                        <h3>🎯 【{currentItem.word}】</h3>
+                      )}
+                      
+                      <div className="quiz-title">
+                        {activeMode === 'quiz' ? '请选择正确的考点词：' : `请选择与【${currentItem.word}】严格对应的科学论断：`}
                       </div>
-                      <div className="quiz-title">请选择正确的考点词：</div>
-                      <div className={`options-container options-grid-2x2 ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+
+                      <div className={`options-container ${activeMode === 'quiz' ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
                         {shuffledOptions.map((opt, index) => {
                           let btnClass = "option-btn";
                           if (selectedOption !== null) {
@@ -555,20 +580,17 @@ function App() {
                               }}
                               disabled={selectedOption !== null}
                             >
-                              <span className="option-label">{['A', 'B', 'C', 'D'][index]}. </span>
-                              <span className="option-text-word">{opt.text}</span>
-                              {selectedOption !== null && opt.isCorrect && (
-                                <span className="option-status-icon correct-icon">✓</span>
-                              )}
-                              {selectedOption !== null && !opt.isCorrect && selectedOption === index && (
-                                <span className="option-status-icon incorrect-icon">✗</span>
-                              )}
+                              <span className="option-label">
+                                {selectedOption !== null && opt.isCorrect ? '✓ ' : selectedOption !== null && selectedOption === index ? '✗ ' : `${['A', 'B', 'C', 'D'][index]}. `}
+                              </span>
+                              <span className={activeMode === 'quiz' ? 'option-text-word' : 'option-text'}>{opt.text}</span>
                             </button>
                           );
                         })}
                       </div>
 
-                      {selectedOption !== null && (
+                      {/* 挖空特训作答反馈 */}
+                      {activeMode === 'quiz' && selectedOption !== null && (
                         <div className="quiz-feedback-details">
                           <div className="example-item highlighted-example">
                             <strong>官方原文：</strong>
@@ -579,10 +601,31 @@ function App() {
                             </span>
                           </div>
                           {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
-                            <div className="incorrect-choice-tip" style={{marginTop: '0.6rem', fontSize: '0.85rem', color: 'var(--danger)', padding: '0.4rem 0.75rem', background: 'rgba(239, 68, 68, 0.06)', borderRadius: '8px', border: '1px solid rgba(239, 68, 68, 0.2)'}}>
+                            <div className="incorrect-choice-tip">
                               ⚠️ 你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
                             </div>
                           )}
+                        </div>
+                      )}
+
+                      {/* 易混辨析作答反馈：权威对照解析 */}
+                      {activeMode === 'contrast' && selectedOption !== null && (
+                        <div className="contrast-feedback-details">
+                          <div className="explanation-title">📝 易混考点权威辨析：</div>
+                          <div className="contrast-explanation-list">
+                            <div className="contrast-exp-item main-exp">
+                              <span className="exp-badge correct-badge">✅ 正确项</span>
+                              <strong className="exp-word">【{currentItem.word}】</strong>：
+                              <span className="exp-meaning">{currentItem.meaning}</span>
+                            </div>
+                            {currentItem.distractors && currentItem.distractors.map((d, dIdx) => (
+                              <div key={dIdx} className="contrast-exp-item distractor-exp">
+                                <span className="exp-badge dist-badge">📌 易混项</span>
+                                <strong className="exp-word">【{d.word}】</strong>：
+                                <span className="exp-meaning">{d.meaning}</span>
+                              </div>
+                            ))}
+                          </div>
                         </div>
                       )}
                     </div>
@@ -607,31 +650,6 @@ function App() {
               </button>
             </div>
           </>
-        )}
-
-        {/* 模式二：易混辨析（经典横向对比清单） */}
-        {activeMode === 'contrast' && (
-          <div className="list-mode-container">
-            <div className="list-mode-header">
-              <h3>易混辨析 - {currentCategoryItems.length} 组对比</h3>
-            </div>
-            {currentCategoryItems.map((item, idx) => (
-              <div key={`${item.word}-${idx}`} className="contrast-item-card">
-                <div className="contrast-main-word">🎯 【{item.word}】</div>
-                <div className="contrast-main-meaning">{item.meaning}</div>
-                
-                <div className="contrast-vs-label">⚡ 易混淆项横向对比</div>
-                <div className="contrast-distractors-list">
-                  {item.distractors && item.distractors.map((d, dIdx) => (
-                    <div key={dIdx} className="contrast-distractor-item">
-                      <div className="contrast-distractor-word">📌 【{d.word}】</div>
-                      <div className="contrast-distractor-meaning">{d.meaning}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
         )}
 
         {/* 扩展模式：速览速记 */}
