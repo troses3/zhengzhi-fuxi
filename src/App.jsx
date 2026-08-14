@@ -502,144 +502,136 @@ function App() {
       </header>
 
       <main className="main-content">
-        {(activeMode === 'quiz' || activeMode === 'contrast') && (
+        {/* 模式一：挖空特训（单题翻转卡片） */}
+        {activeMode === 'quiz' && (
           <>
             <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
               <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                 {/* 卡片正面 */}
                 <div className="card-front">
-                  {activeMode === 'quiz' ? (
-                    <h2 className="idiom-word sentence-blank">
-                      {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
-                    </h2>
-                  ) : (
-                <h2 
-                  className="idiom-word"
-                  style={(() => {
-                    const len = (currentItem.word || '').length;
-                    if (len <= 4) return { fontSize: '2.8rem', fontWeight: '800', letterSpacing: '0.1rem' };
-                    if (len <= 8) return { fontSize: '2.0rem', fontWeight: '700', letterSpacing: '0.04rem', lineHeight: '1.35' };
-                    if (len <= 14) return { fontSize: '1.5rem', fontWeight: '700', letterSpacing: '0.02rem', lineHeight: '1.4' };
-                    return { fontSize: '1.25rem', fontWeight: '700', letterSpacing: '0', lineHeight: '1.45' };
-                  })()}
-                >
-                  {currentItem.word}
-                </h2>
-                  )}
-                  <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '选项' : '辨析题'}</div>
+                  <h2 className="idiom-word sentence-blank">
+                    {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                  </h2>
+                  <div className="card-hint">点击翻转查看选项</div>
                   {currentItem.status !== 'new' && (
-                <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
-                  上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
-                </div>
-              )}
-            </div>
-
-            {/* 卡片反面 */}
-            <div className="card-back">
-              <div className="card-back-inner" ref={cardBackInnerRef}>
-                <div className="group-tag">
-                  {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
-                </div>
-                <div className="card-back-content">
-                  {activeMode === 'quiz' ? (
-                    <div className="sentence-question">
-                      {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                    <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
+                      上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
                     </div>
-                  ) : (
-                    <h3>{currentItem.word}</h3>
                   )}
-                  <div className="quiz-title">请选择正确的{activeMode === 'quiz' ? '考点词' : '辨析释义'}：</div>
-                  <div className={`options-container ${activeMode === 'quiz' ? 'options-grid-2x2' : ''} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
-                    {shuffledOptions.map((opt, index) => {
-                      let btnClass = "option-btn";
-                      if (selectedOption !== null) {
-                        if (opt.isCorrect) {
-                          btnClass += " correct";
-                        } else if (selectedOption === index) {
-                          btnClass += " incorrect";
-                        }
-                        btnClass += " disabled";
-                      }
+                </div>
 
-                      return (
-                        <button
-                          key={index}
-                          className={btnClass}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            if (selectedOption === null) {
-                              setSelectedOption(index);
-                            }
-                          }}
-                          disabled={selectedOption !== null}
-                        >
-                          <span className="option-label">{['A', 'B', 'C', 'D'][index]}. </span>
-                          <span className={activeMode === 'quiz' ? 'option-text-word' : 'option-text'}>{opt.text}</span>
-                          {selectedOption !== null && opt.isCorrect && (
-                            <span className="option-status-icon correct-icon">✓</span>
-                          )}
-                          {selectedOption !== null && !opt.isCorrect && selectedOption === index && (
-                            <span className="option-status-icon incorrect-icon">✗</span>
-                          )}
-                        </button>
-                      );
-                    })}
-                  </div>
-
-                  {activeMode === 'quiz' && selectedOption !== null && (
-                    <div className="quiz-feedback-details">
-                      <div className="example-item highlighted-example">
-                        <strong>官方原文：</strong>
-                        <span>
-                          {(currentExample || currentItem.meaning).split(new RegExp(`(${currentItem.word})`, 'g')).map((part, i) => 
-                            part === currentItem.word ? <span key={i} className="filled-idiom">{part}</span> : part
-                          )}
-                        </span>
+                {/* 卡片反面 */}
+                <div className="card-back">
+                  <div className="card-back-inner" ref={cardBackInnerRef}>
+                    <div className="group-tag">
+                      {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
+                    </div>
+                    <div className="card-back-content">
+                      <div className="sentence-question">
+                        {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
                       </div>
-                      {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
-                        <div className="incorrect-choice-tip" style={{marginTop: '0.6rem', fontSize: '0.85rem', color: 'var(--danger)', padding: '0.4rem 0.75rem', background: 'rgba(239, 68, 68, 0.06)', borderRadius: '8px', border: '1px solid rgba(239, 68, 68, 0.2)'}}>
-                          ⚠️ 你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
+                      <div className="quiz-title">请选择正确的考点词：</div>
+                      <div className={`options-container options-grid-2x2 ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+                        {shuffledOptions.map((opt, index) => {
+                          let btnClass = "option-btn";
+                          if (selectedOption !== null) {
+                            if (opt.isCorrect) {
+                              btnClass += " correct";
+                            } else if (selectedOption === index) {
+                              btnClass += " incorrect";
+                            }
+                            btnClass += " disabled";
+                          }
+
+                          return (
+                            <button
+                              key={index}
+                              className={btnClass}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                if (selectedOption === null) {
+                                  setSelectedOption(index);
+                                }
+                              }}
+                              disabled={selectedOption !== null}
+                            >
+                              <span className="option-label">{['A', 'B', 'C', 'D'][index]}. </span>
+                              <span className="option-text-word">{opt.text}</span>
+                              {selectedOption !== null && opt.isCorrect && (
+                                <span className="option-status-icon correct-icon">✓</span>
+                              )}
+                              {selectedOption !== null && !opt.isCorrect && selectedOption === index && (
+                                <span className="option-status-icon incorrect-icon">✗</span>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      {selectedOption !== null && (
+                        <div className="quiz-feedback-details">
+                          <div className="example-item highlighted-example">
+                            <strong>官方原文：</strong>
+                            <span>
+                              {(currentExample || currentItem.meaning).split(new RegExp(`(${currentItem.word})`, 'g')).map((part, i) => 
+                                part === currentItem.word ? <span key={i} className="filled-idiom">{part}</span> : part
+                              )}
+                            </span>
+                          </div>
+                          {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
+                            <div className="incorrect-choice-tip" style={{marginTop: '0.6rem', fontSize: '0.85rem', color: 'var(--danger)', padding: '0.4rem 0.75rem', background: 'rgba(239, 68, 68, 0.06)', borderRadius: '8px', border: '1px solid rgba(239, 68, 68, 0.2)'}}>
+                              ⚠️ 你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>
-                  )}
-                  {activeMode === 'contrast' && selectedOption !== null && (
-                      <div className="contrast-explanation" style={{marginTop: '1rem', textAlign: 'left'}}>
-                        <div className="explanation-title" style={{fontSize: '0.9rem', marginBottom: '0.5rem'}}>📝 辨析解析：</div>
-                        <div className="explanation-item" style={{marginBottom: '0.4rem'}}>
-                          <span className="exp-word" style={{fontWeight: 'bold', color: 'var(--success)'}}>{currentItem.word}：</span>
-                          <span className="exp-meaning" style={{fontSize: '0.85rem', color: 'var(--text-secondary)'}}>{currentItem.meaning}</span>
-                        </div>
-                        {currentItem.distractors && currentItem.distractors.map((d, dIdx) => (
-                          <div key={dIdx} className="explanation-item distractor-exp" style={{marginBottom: '0.4rem', paddingLeft: '0.5rem', borderLeft: '2px solid #e2e8f0'}}>
-                            <span className="exp-word" style={{fontWeight: 'bold', color: '#64748b'}}>{d.word}：</span>
-                            <span className="exp-meaning" style={{fontSize: '0.85rem', color: '#94a3b8'}}>{d.meaning}</span>
-                          </div>
-                        ))}
-                      </div>
-                    )}
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* 底部操作按钮 */}
-          <div className={`action-buttons ${(!isFlipped || selectedOption === null) ? 'hidden' : ''}`}>
-            <button className="btn btn-prev" onClick={handlePrev} disabled={history.length === 0}>
-              上一题
-            </button>
-            <button className="btn btn-unknown" onClick={(e) => { e.stopPropagation(); handleNext('unknown'); }}>
-              不认识
-            </button>
-            <button className="btn btn-unsure" onClick={(e) => { e.stopPropagation(); handleNext('unsure'); }}>
-              模糊
-            </button>
-            <button className="btn btn-known" onClick={(e) => { e.stopPropagation(); handleNext('known'); }}>
-              认识
-            </button>
+            {/* 底部操作按钮 */}
+            <div className={`action-buttons ${(!isFlipped || selectedOption === null) ? 'hidden' : ''}`}>
+              <button className="btn btn-prev" onClick={handlePrev} disabled={history.length === 0}>
+                上一题
+              </button>
+              <button className="btn btn-unknown" onClick={(e) => { e.stopPropagation(); handleNext('unknown'); }}>
+                不认识
+              </button>
+              <button className="btn btn-unsure" onClick={(e) => { e.stopPropagation(); handleNext('unsure'); }}>
+                模糊
+              </button>
+              <button className="btn btn-known" onClick={(e) => { e.stopPropagation(); handleNext('known'); }}>
+                认识
+              </button>
+            </div>
+          </>
+        )}
+
+        {/* 模式二：易混辨析（经典横向对比清单） */}
+        {activeMode === 'contrast' && (
+          <div className="list-mode-container">
+            <div className="list-mode-header">
+              <h3>易混辨析 - {currentCategoryItems.length} 组对比</h3>
+            </div>
+            {currentCategoryItems.map((item, idx) => (
+              <div key={`${item.word}-${idx}`} className="contrast-item-card">
+                <div className="contrast-main-word">🎯 【{item.word}】</div>
+                <div className="contrast-main-meaning">{item.meaning}</div>
+                
+                <div className="contrast-vs-label">⚡ 易混淆项横向对比</div>
+                <div className="contrast-distractors-list">
+                  {item.distractors && item.distractors.map((d, dIdx) => (
+                    <div key={dIdx} className="contrast-distractor-item">
+                      <div className="contrast-distractor-word">📌 【{d.word}】</div>
+                      <div className="contrast-distractor-meaning">{d.meaning}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-        </>
         )}
 
         {/* 扩展模式：速览速记 */}
