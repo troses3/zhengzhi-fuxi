@@ -546,41 +546,55 @@ function App() {
                     <h3>{currentItem.word}</h3>
                   )}
                   <div className="quiz-title">请选择正确的{activeMode === 'quiz' ? '考点词' : '辨析释义'}：</div>
-                  <div className={`options-container ${activeMode === 'quiz' ? 'options-grid-2x2' : ''} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
-                    {shuffledOptions.map((opt, index) => {
-                      let btnClass = "option-btn";
-                      if (selectedOption !== null) {
-                        if (opt.isCorrect) {
-                          btnClass += " correct";
-                        } else if (selectedOption === index) {
-                          btnClass += " incorrect";
-                        }
-                        btnClass += " disabled";
-                      }
-                      return (
-                        <button
-                          key={index}
-                          className={btnClass}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            if (selectedOption === null) {
-                              setSelectedOption(index);
+                  {(() => {
+                    const hasLongOption = activeMode === 'quiz' && shuffledOptions.some(opt => (opt.text || '').length > 7);
+                    return (
+                      <div className={`options-container ${activeMode === 'quiz' ? (hasLongOption ? 'options-vertical-quiz' : 'options-grid-2x2') : ''} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+                        {shuffledOptions.map((opt, index) => {
+                          let btnClass = "option-btn";
+                          if (selectedOption !== null) {
+                            if (opt.isCorrect) {
+                              btnClass += " correct";
+                            } else if (selectedOption === index) {
+                              btnClass += " incorrect";
                             }
-                          }}
-                          disabled={selectedOption !== null}
-                        >
-                          <span className="option-label">{['A', 'B', 'C', 'D'][index]}. </span>
-                          <span className={activeMode === 'quiz' ? 'option-text-word' : 'option-text'}>{opt.text}</span>
-                          {selectedOption !== null && opt.isCorrect && (
-                            <span className="option-status-icon correct-icon">✓</span>
-                          )}
-                          {selectedOption !== null && !opt.isCorrect && selectedOption === index && (
-                            <span className="option-status-icon incorrect-icon">✗</span>
-                          )}
-                        </button>
-                      );
-                    })}
-                  </div>
+                            btnClass += " disabled";
+                          }
+                          const textLen = (opt.text || '').length;
+                          const dynamicStyle = activeMode === 'quiz' ? (
+                            textLen <= 4 ? { fontSize: '1.1rem' } :
+                            textLen <= 6 ? { fontSize: '0.98rem' } :
+                            textLen <= 9 ? { fontSize: '0.9rem', lineHeight: '1.35' } :
+                            { fontSize: '0.82rem', lineHeight: '1.35' }
+                          ) : {};
+
+                          return (
+                            <button
+                              key={index}
+                              className={btnClass}
+                              style={dynamicStyle}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                if (selectedOption === null) {
+                                  setSelectedOption(index);
+                                }
+                              }}
+                              disabled={selectedOption !== null}
+                            >
+                              <span className="option-label">{['A', 'B', 'C', 'D'][index]}. </span>
+                              <span className={activeMode === 'quiz' ? 'option-text-word' : 'option-text'}>{opt.text}</span>
+                              {selectedOption !== null && opt.isCorrect && (
+                                <span className="option-status-icon correct-icon">✓</span>
+                              )}
+                              {selectedOption !== null && !opt.isCorrect && selectedOption === index && (
+                                <span className="option-status-icon incorrect-icon">✗</span>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    );
+                  })()}
 
                   {selectedOption !== null && (() => {
                     const distractorOpts = shuffledOptions.filter(o => !o.isCorrect);

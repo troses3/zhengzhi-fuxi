@@ -617,6 +617,28 @@ body {
   flex: none; /* Disable grow to allow centering as a unified block */
 }
 
+.options-vertical-quiz {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.options-vertical-quiz.quiz-not-answered {
+  gap: 0.9rem;
+}
+
+.options-vertical-quiz .option-btn {
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.options-vertical-quiz .option-text-word {
+  flex: 1;
+  text-align: left;
+}
+
 .option-btn {
   width: 100%;
   padding: 0.7rem 1rem;
@@ -626,12 +648,16 @@ body {
   color: var(--text-primary);
   text-align: left;
   font-size: 0.9rem;
-  line-height: 1.6;
+  line-height: 1.5;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  box-sizing: border-box;
 }
 
 .option-btn:hover:not(.disabled) {
@@ -651,6 +677,10 @@ body {
 .option-text {
   flex: 1;
   text-align: left;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  min-width: 0;
 }
 
 .option-text-word {
@@ -658,7 +688,11 @@ body {
   text-align: center;
   font-size: inherit; /* Inherit from button (1.2rem on desktop, 1.1rem on mobile) */
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  min-width: 0;
 }
 
 .option-status-icon {
