@@ -81,7 +81,7 @@ function App() {
 
   // Load from local storage or initial
   useEffect(() => {
-    const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v11' : 'pt-tracker-v11-chaoge';
+    const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v12' : 'pt-tracker-v12-chaoge';
     const stored = localStorage.getItem(storageKey);
     let loadedItems = [];
     if (stored) {
@@ -92,8 +92,8 @@ function App() {
       }
     }
     
-    if (!loadedItems || loadedItems.length === 0) {
-      const sourceData = dataSource === 'huasheng' ? initialPoliticalTheory : chaogePoliticalTheory;
+    const sourceData = dataSource === 'huasheng' ? initialPoliticalTheory : chaogePoliticalTheory;
+    if (!loadedItems || loadedItems.length === 0 || loadedItems.length !== sourceData.length) {
       loadedItems = sourceData.map(item => ({
         ...item,
         status: 'new'
@@ -115,12 +115,15 @@ function App() {
         const randIndex = candidateIndices[Math.floor(Math.random() * candidateIndices.length)];
         setCurrentIndex(randIndex);
       } else {
+        const randIndex = Math.floor(Math.random() * loadedItems.length);
         setCurrentIndex(randIndex);
       }
     } else {
       setCurrentIndex(0);
     }
     
+    setSelectedCategory('all');
+    setFilter('all');
     setHistory([]);
     setIsFlipped(false);
     setSelectedOption(null);
@@ -133,7 +136,7 @@ function App() {
       const unsure = items.filter(i => i.status === 'unsure').length;
       const unknown = items.filter(i => i.status === 'unknown').length;
       setStats({ known, unsure, unknown });
-      const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v11' : 'pt-tracker-v11-chaoge';
+      const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v12' : 'pt-tracker-v12-chaoge';
       localStorage.setItem(storageKey, JSON.stringify(items));
     }
   }, [items, dataSource]);
@@ -418,7 +421,10 @@ function App() {
                 </button>
               )) : [
                 { key: 'all', label: '全部章节' },
-                { key: '超格精简版', label: '📚 超格精简' },
+                { key: '第一章 创新理论与新时代', label: '🌟 创新理论' },
+                { key: '第二章 改革发展与国家战略', label: '🚀 改革发展' },
+                { key: '第三章 五位一体与国家安全', label: '🛡️ 五位一体' },
+                { key: '第四章 强军外交与从严治党', label: '🚩 强军治党' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -658,7 +664,7 @@ function App() {
         <div className="controls">
           <button className="btn-text" onClick={() => {
             if(window.confirm(`确定要重置当前数据库（${dataSource === 'huasheng' ? '花生' : '超格'}）的学习进度吗？`)) {
-              const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v11' : 'pt-tracker-v11-chaoge';
+              const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v12' : 'pt-tracker-v12-chaoge';
               localStorage.removeItem(storageKey);
               window.location.reload();
             }
