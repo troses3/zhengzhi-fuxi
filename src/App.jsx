@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { initialPoliticalTheory } from './data/political_theory';
 import './App.css';
 
-const STORAGE_KEY = 'political-theory-tracker-v10';
+const STORAGE_KEY = 'pt-tracker-v11';
 
 const getShortMeaning = (meaning) => {
   if (!meaning) return "";
@@ -164,27 +164,27 @@ function App() {
         const sameGroupCandidates = currentCategoryItems.filter(i => i.group === currentItem.group && i.word !== currentItem.word);
         const shuffledGroupCandidates = [...sameGroupCandidates].sort(() => Math.random() - 0.5);
         const moreDistractors = shuffledGroupCandidates.slice(0, 3 - distractors.length);
-        distractors = [...distractors, ...moreDistractors.map(d => ({ word: d.word, meaning: d.meaning, hint: d.hint || d.meaning.slice(0, 40) }))];
+        distractors = [...distractors, ...moreDistractors.map(d => ({ word: d.word, meaning: d.meaning, hint: d.hint || d.meaning }))];
       }
 
       if (distractors.length < 3) {
         const otherCandidates = items.filter(i => i.word !== currentItem.word && !distractors.some(d => d.word === i.word));
         const shuffledOtherCandidates = [...otherCandidates].sort(() => Math.random() - 0.5);
         const needed = 3 - distractors.length;
-        distractors = [...distractors, ...shuffledOtherCandidates.slice(0, needed).map(d => ({ word: d.word, meaning: d.meaning, hint: d.hint || d.meaning.slice(0, 40) }))];
+        distractors = [...distractors, ...shuffledOtherCandidates.slice(0, needed).map(d => ({ word: d.word, meaning: d.meaning, hint: d.hint || d.meaning }))];
       }
 
       const opts = [
         { 
           // 知识模式(card)：用 hint（语境提示，不含答案词）
           // 挖空模式(quiz)：用 word（待填入的词）
-          text: activeMode === 'quiz' ? currentItem.word : (currentItem.hint || currentItem.meaning.slice(0, 50)), 
+          text: activeMode === 'quiz' ? currentItem.word : (currentItem.hint || currentItem.meaning), 
           fullText: currentItem.meaning,
           isCorrect: true,
           word: currentItem.word
         },
         ...distractors.slice(0, 3).map(d => ({
-          text: activeMode === 'quiz' ? d.word : (d.hint || d.meaning.slice(0, 50)),
+          text: activeMode === 'quiz' ? d.word : (d.hint || d.meaning),
           fullText: d.meaning,
           isCorrect: false,
           word: d.word
@@ -341,51 +341,64 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="header">
-        <h1>
-          <span>📚</span>
-          <span className="title-text">政治理论题库</span>
-        </h1>
-        <div className="progress-container">
-          <div className="progress-bar">
-            <div className="progress-fill" style={{ width: `${progress}%` }}></div>
-          </div>
-          <div className="stats">
-            <button 
-              className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
-              onClick={() => handleFilterClick('known')}
-              title="只复习已掌握"
-            >
-              <span className="dot dot-known"></span>
-              已掌握: <span className="stat-count">{stats.known}</span>
-            </button>
-            <button 
-              className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
-              onClick={() => handleFilterClick('unsure')}
-              title="只复习模糊"
-            >
-              <span className="dot dot-unsure"></span>
-              模糊: <span className="stat-count">{stats.unsure}</span>
-            </button>
-            <button 
-              className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
-              onClick={() => handleFilterClick('unknown')}
-              title="只复习生词"
-            >
-              <span className="dot dot-unknown"></span>
-              生词: <span className="stat-count">{stats.unknown}</span>
-            </button>
-            <button 
-              className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
-              onClick={() => setFilter('all')}
-              title="查看全部"
-            >
-              总计: <span className="stat-count">{total}</span>
-            </button>
+      <header className="app-header">
+        {/* 第一行：品牌标题 + 右侧紧凑操作与数据 */}
+        <div className="top-nav-bar">
+          <div className="brand-title">
+            <span className="brand-icon">📚</span>
+            <span className="brand-name">政治理论题库</span>
           </div>
 
-          {/* 五大章节筛选器 */}
-          <div className="cat-filter-row">
+          <div className="top-actions">
+            <button 
+              className={`order-toggle-btn ${isRandom ? 'is-random' : ''}`}
+              onClick={() => setIsRandom(!isRandom)}
+              title={isRandom ? "当前为随机出题（点击切为顺序）" : "当前为顺序出题（点击切为随机）"}
+            >
+              {isRandom ? '🔀 随机' : '🔁 顺序'}
+            </button>
+            <div className="stats-pill">
+              <button 
+                className={`mini-stat-btn ${filter === 'known' ? 'active-known' : ''}`}
+                onClick={() => handleFilterClick('known')}
+                title="已掌握"
+              >
+                <span className="dot dot-known"></span>{stats.known}
+              </button>
+              <button 
+                className={`mini-stat-btn ${filter === 'unsure' ? 'active-unsure' : ''}`}
+                onClick={() => handleFilterClick('unsure')}
+                title="模糊"
+              >
+                <span className="dot dot-unsure"></span>{stats.unsure}
+              </button>
+              <button 
+                className={`mini-stat-btn ${filter === 'unknown' ? 'active-unknown' : ''}`}
+                onClick={() => handleFilterClick('unknown')}
+                title="生词"
+              >
+                <span className="dot dot-unknown"></span>{stats.unknown}
+              </button>
+              <span className="pill-divider">/</span>
+              <button 
+                className={`mini-stat-btn total-btn ${filter === 'all' ? 'active-all' : ''}`}
+                onClick={() => setFilter('all')}
+                title="查看全部"
+              >
+                {total}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* 微型进度条 */}
+        <div className="mini-progress-bar">
+          <div className="mini-progress-fill" style={{ width: `${progress}%` }}></div>
+        </div>
+
+        {/* 第二行：分类筛选横向丝滑滑动栏 */}
+        <div className="category-scroll-container">
+          <div className="category-scroll-track">
             {[
               { key: 'all', label: '全部章节' },
               { key: '第一章 十五五规划专题', label: '🚩 十五五' },
@@ -396,22 +409,35 @@ function App() {
             ].map(cat => (
               <button
                 key={cat.key}
-                className={`cat-btn ${selectedCategory === cat.key ? 'active' : ''}`}
+                className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
                 onClick={() => setSelectedCategory(cat.key)}
               >
                 {cat.label}
               </button>
             ))}
           </div>
+        </div>
 
-          <div className="mode-toggle">
-            <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
-            <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
-            <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>
-            <span className="mode-divider"></span>
-            <button className={`mode-btn ${!isRandom ? 'active' : ''}`} onClick={() => setIsRandom(false)}>顺序</button>
-            <button className={`mode-btn ${isRandom ? 'active' : ''}`} onClick={() => setIsRandom(true)}>随机</button>
-          </div>
+        {/* 第三行：模式分段控制器（3等分，绝不折行） */}
+        <div className="mode-segmented-control">
+          <button 
+            className={`seg-btn ${activeMode === 'contrast' ? 'active' : ''}`} 
+            onClick={() => setActiveMode('contrast')}
+          >
+            易混辨析
+          </button>
+          <button 
+            className={`seg-btn ${activeMode === 'quiz' ? 'active' : ''}`} 
+            onClick={() => setActiveMode('quiz')}
+          >
+            挖空特训
+          </button>
+          <button 
+            className={`seg-btn ${activeMode === 'speed' ? 'active' : ''}`} 
+            onClick={() => setActiveMode('speed')}
+          >
+            速览速记
+          </button>
         </div>
       </header>
 

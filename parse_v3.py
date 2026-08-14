@@ -118,7 +118,7 @@ def generate_hint(word, meaning):
     SENTENCE_STOPS = set('。！？\n')
     SOFT_STOPS = set('，、；：')
 
-    def extract_clause_hint(text, w, left_ctx=25, right_ctx=25):
+    def extract_clause_hint(text, w, left_ctx=80, right_ctx=80):
         """从 text 中找到 w，截取周围子句，把 w 替换成 ______"""
         idx = text.find(w)
         if idx == -1:
@@ -126,29 +126,35 @@ def generate_hint(word, meaning):
 
         # 左边界
         start = idx
+        prefix_dots = ""
         for i in range(idx - 1, max(0, idx - left_ctx) - 1, -1):
             if text[i] in SENTENCE_STOPS:
                 start = i + 1
                 break
-            if text[i] in SOFT_STOPS and (idx - i) >= 6:
+            if text[i] in SOFT_STOPS and (idx - i) >= 20:
                 start = i + 1
+                prefix_dots = "..."
                 break
         else:
             start = max(0, idx - left_ctx)
+            if start > 0: prefix_dots = "..."
 
         # 右边界
         end = idx + len(w)
+        suffix_dots = ""
         for i in range(idx + len(w), min(len(text), idx + len(w) + right_ctx)):
             if text[i] in SENTENCE_STOPS:
                 end = i + 1
                 break
-            if text[i] in SOFT_STOPS and (i - idx - len(w)) >= 4:
+            if text[i] in SOFT_STOPS and (i - idx - len(w)) >= 20:
                 end = i
+                suffix_dots = "..."
                 break
         else:
             end = min(len(text), idx + len(w) + right_ctx)
+            if end < len(text): suffix_dots = "..."
 
-        clause = text[start:end].strip()
+        clause = prefix_dots + text[start:end].strip() + suffix_dots
         return clause.replace(w, '______')
 
     # 第一次尝试：精确匹配
