@@ -583,50 +583,23 @@ function App() {
                     })}
                   </div>
 
-                  {selectedOption !== null && (() => {
-                    const distractorOpts = shuffledOptions.filter(o => !o.isCorrect);
-                    return (
-                      <div className="quiz-feedback-details">
-                        <div className="full-definition-container">
-                          <strong>【{currentItem.word}】的权威表述</strong>
-                          <span className="full-definition-text">{currentItem.meaning}</span>
-                        </div>
-
-                        {distractorOpts.map((opt, idx) => {
-                          const isUserSelected = selectedOption !== null && shuffledOptions[selectedOption] === opt;
-                          return (
-                            <div key={idx} className={`full-definition-container distractor-definition ${isUserSelected ? 'user-selected-distractor' : ''}`}>
-                              <strong>
-                                【{opt.word}】的相关表述
-                                {isUserSelected && " - 你误选了此项"}
-                              </strong>
-                              <span className="full-definition-text">{opt.fullText}</span>
-                            </div>
-                          );
-                        })}
-
-                        {currentItem.examples && currentItem.examples.length > 0 && (
-                          <div className="examples-container">
-                            {currentItem.examples.map((ex, exIdx) => {
-                              const isCurrentExample = activeMode === 'quiz' && ex === currentExample;
-                              return (
-                                <div key={exIdx} className={`example-item ${isCurrentExample ? 'highlighted-example' : ''}`}>
-                                  <strong>官方原文：</strong>
-                                  {isCurrentExample ? (
-                                    <span>
-                                      {ex.split(new RegExp(`(${currentItem.word})`, 'g')).map((part, i) => 
-                                        part === currentItem.word ? <span key={i} className="filled-idiom">{part}</span> : part
-                                      )}
-                                    </span>
-                                  ) : ex}
-                                </div>
-                              );
-                            })}
-                          </div>
-                        )}
+                  {activeMode === 'quiz' && selectedOption !== null && (
+                    <div className="quiz-feedback-details">
+                      <div className="example-item highlighted-example">
+                        <strong>官方原文：</strong>
+                        <span>
+                          {(currentExample || currentItem.meaning).split(new RegExp(`(${currentItem.word})`, 'g')).map((part, i) => 
+                            part === currentItem.word ? <span key={i} className="filled-idiom">{part}</span> : part
+                          )}
+                        </span>
                       </div>
-                    );
-                  })()}
+                      {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
+                        <div className="incorrect-choice-tip" style={{marginTop: '0.6rem', fontSize: '0.85rem', color: 'var(--danger)', padding: '0.4rem 0.75rem', background: 'rgba(239, 68, 68, 0.06)', borderRadius: '8px', border: '1px solid rgba(239, 68, 68, 0.2)'}}>
+                          ⚠️ 你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
+                        </div>
+                      )}
+                    </div>
+                  )}
                   {activeMode === 'contrast' && selectedOption !== null && (
                       <div className="contrast-explanation" style={{marginTop: '1rem', textAlign: 'left'}}>
                         <div className="explanation-title" style={{fontSize: '0.9rem', marginBottom: '0.5rem'}}>📝 辨析解析：</div>
