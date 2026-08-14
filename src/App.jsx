@@ -413,38 +413,44 @@ function App() {
           <div className="progress-bar">
             <div className="progress-fill" style={{ width: `${progress}%` }}></div>
           </div>
-          <div className="stats">
-            <button 
-              className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
-              onClick={() => handleFilterClick('known')}
-              title="只复习已掌握"
-            >
-              <span className="dot dot-known"></span>
-              已掌握: <span className="stat-count">{stats.known}</span>
-            </button>
-            <button 
-              className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
-              onClick={() => handleFilterClick('unsure')}
-              title="只复习模糊"
-            >
-              <span className="dot dot-unsure"></span>
-              模糊: <span className="stat-count">{stats.unsure}</span>
-            </button>
-            <button 
-              className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
-              onClick={() => handleFilterClick('unknown')}
-              title="只复习生词"
-            >
-              <span className="dot dot-unknown"></span>
-              生词: <span className="stat-count">{stats.unknown}</span>
-            </button>
-            <button 
-              className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
-              onClick={() => setFilter('all')}
-              title="查看全部"
-            >
-              总计: <span className="stat-count">{total}</span>
-            </button>
+          <div className="stats-row">
+            <div className="db-toggle">
+              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
+              <button className={`db-btn ${dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge')}>📖 超格</button>
+            </div>
+            <div className="stats">
+              <button 
+                className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
+                onClick={() => handleFilterClick('known')}
+                title="只复习已掌握"
+              >
+                <span className="dot dot-known"></span>
+                已掌握: <span className="stat-count">{stats.known}</span>
+              </button>
+              <button 
+                className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
+                onClick={() => handleFilterClick('unsure')}
+                title="只复习模糊"
+              >
+                <span className="dot dot-unsure"></span>
+                模糊: <span className="stat-count">{stats.unsure}</span>
+              </button>
+              <button 
+                className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
+                onClick={() => handleFilterClick('unknown')}
+                title="只复习生词"
+              >
+                <span className="dot dot-unknown"></span>
+                生词: <span className="stat-count">{stats.unknown}</span>
+              </button>
+              <button 
+                className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
+                onClick={() => setFilter('all')}
+                title="查看全部"
+              >
+                总计: <span className="stat-count">{total}</span>
+              </button>
+            </div>
           </div>
 
           {/* 第一行修改：单行横向滑动章节栏 */}
@@ -485,9 +491,6 @@ function App() {
 
           {/* 第二行修改：原版胶囊UI（修复手机端折行与间距） */}
           <div className="mode-toggle">
-            <button className={`mode-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
-            <button className={`mode-btn ${dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge')}>📖 超格</button>
-            <span className="mode-divider"></span>
             <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
             <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
             <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>

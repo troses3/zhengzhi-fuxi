@@ -89,12 +89,49 @@ body {
   transition: width 0.4s ease-in-out;
 }
 
+.stats-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.db-toggle {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.2rem;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+.db-btn {
+  padding: 0.32rem 0.6rem;
+  border: none;
+  background: none;
+  border-radius: 15px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.db-btn.active {
+  background: #ffffff;
+  color: var(--accent-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  font-weight: 700;
+}
+
 .stats {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.35rem;
-  width: 100%;
+  gap: 0.25rem;
+  flex: 1;
 }
 
 .stat-item {
@@ -103,7 +140,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.25rem;
-  padding: 0.3rem 0.2rem;
+  padding: 0.32rem 0.2rem;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 20px;
@@ -562,14 +599,27 @@ body {
     padding: 0.75rem 0.5rem;
   }
 
+  .stats-row {
+    gap: 0.25rem;
+  }
+
+  .db-toggle {
+    padding: 0.15rem;
+  }
+
+  .db-btn {
+    padding: 0.25rem 0.4rem;
+    font-size: 0.7rem;
+  }
+
   .stats {
-    gap: 0.2rem;
+    gap: 0.15rem;
   }
 
   .stat-item {
-    padding: 0.3rem 0.2rem;
-    font-size: 0.72rem;
-    gap: 0.2rem;
+    padding: 0.25rem 0.12rem;
+    font-size: 0.68rem;
+    gap: 0.15rem;
   }
 
   .dot {
