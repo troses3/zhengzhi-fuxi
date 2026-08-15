@@ -239,15 +239,15 @@ function App() {
 
       const opts = [
         { 
-          // 知识模式(card)：用 hint（语境提示，不含答案词）
-          // 挖空模式(quiz)：用 word（待填入的词）
-          text: activeMode === 'quiz' ? currentItem.word : (currentItem.hint || currentItem.meaning), 
+          // 易混辨析(contrast)：用 meaning（完整权威论断，不带挖空，杜绝泄露答案）
+          // 挖空特训(quiz)：用 word（待填入的词）
+          text: activeMode === 'quiz' ? currentItem.word : currentItem.meaning, 
           fullText: currentItem.meaning,
           isCorrect: true,
           word: currentItem.word
         },
         ...distractors.slice(0, 3).map(d => ({
-          text: activeMode === 'quiz' ? d.word : (d.hint || d.meaning),
+          text: activeMode === 'quiz' ? d.word : d.meaning,
           fullText: d.meaning,
           isCorrect: false,
           word: d.word
