@@ -594,17 +594,8 @@ function App() {
                       {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
                     </h2>
                   ) : (
-                    <div>
-                      <h2 
-                        className="idiom-word"
-                        style={(() => {
-                          const titleText = currentItem.title || currentItem.word || '';
-                          const len = titleText.length;
-                          if (len <= 4) return { fontSize: '2.5rem', fontWeight: '800', letterSpacing: '0.08rem' };
-                          if (len <= 8) return { fontSize: '1.8rem', fontWeight: '700', letterSpacing: '0.03rem', lineHeight: '1.35' };
-                          return { fontSize: '1.35rem', fontWeight: '700', letterSpacing: '0', lineHeight: '1.4' };
-                        })()}
-                      >
+                    <div className="contrast-front-container">
+                      <h2 className="contrast-front-title">
                         {currentItem.title || currentItem.word}
                       </h2>
                       <div className="contrast-front-sub">
