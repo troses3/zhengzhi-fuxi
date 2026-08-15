@@ -68,19 +68,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“两个结合”是我们党在探索中国特色社会主义道路中得出的规律性认识，是我们取得成功的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "最大优势",
+        "meaning": "最大优势",
+        "hint": "最大优势"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "最大底气",
+        "meaning": "最大底气",
+        "hint": "最大底气"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "根本遵循",
+        "meaning": "根本遵循",
+        "hint": "根本遵循"
       }
     ],
     "examples": [
@@ -184,19 +184,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "习近平总书记强调，在五千多年中华文明深厚基础上开辟和发展中国特色社会主义，把马克思主义基本原理同中国具体实际、同中华优秀传统文化相结合是______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "关键一招",
+        "meaning": "关键一招",
+        "hint": "关键一招"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "本质要求",
+        "meaning": "本质要求",
+        "hint": "本质要求"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "重要抓手",
+        "meaning": "重要抓手",
+        "hint": "重要抓手"
       }
     ],
     "examples": [
@@ -242,19 +242,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第一，“结合”的前提是______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "互相成就",
+        "meaning": "互相成就",
+        "hint": "互相成就"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "各取所需",
+        "meaning": "各取所需",
+        "hint": "各取所需"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "单向融入",
+        "meaning": "单向融入",
+        "hint": "单向融入"
       }
     ],
     "examples": [
@@ -300,19 +300,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第二，“结合”的结果是______，造就了一个有机统一的新的文化生命体。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "彼此契合",
+        "meaning": "彼此契合",
+        "hint": "彼此契合"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "同频共振",
+        "meaning": "同频共振",
+        "hint": "同频共振"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "和合共生",
+        "meaning": "和合共生",
+        "hint": "和合共生"
       }
     ],
     "examples": [
@@ -329,19 +329,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“结合”不是“拼盘”，不是简单的“______”，而是深刻的“化学反应”，造就了一个有机统一的新的文化生命体。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "机械相加",
+        "meaning": "机械相加",
+        "hint": "机械相加"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "要素堆砌",
+        "meaning": "要素堆砌",
+        "hint": "要素堆砌"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "表面拼贴",
+        "meaning": "表面拼贴",
+        "hint": "表面拼贴"
       }
     ],
     "examples": [
@@ -358,19 +358,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“结合”不是“拼盘”，不是简单的“物理反应”，而是深刻的“______”，造就了一个有机统一的新的文化生命体。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "生物进化",
+        "meaning": "生物进化",
+        "hint": "生物进化"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质变升华",
+        "meaning": "质变升华",
+        "hint": "质变升华"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "形态重塑",
+        "meaning": "形态重塑",
+        "hint": "形态重塑"
       }
     ],
     "examples": [
@@ -387,19 +387,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第三，“结合”筑牢了______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "制度根基",
+        "meaning": "制度根基",
+        "hint": "制度根基"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "理论源泉",
+        "meaning": "理论源泉",
+        "hint": "理论源泉"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "实践依托",
+        "meaning": "实践依托",
+        "hint": "实践依托"
       }
     ],
     "examples": [
@@ -416,19 +416,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国式现代化之所以充满活力，关键就在于______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -445,19 +445,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国式现代化之所以充满活力，关键就在于中国特色。中国特色的关键就在于“______”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -474,19 +474,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国式现代化是中华民族的______，必将推动中华文明重焕荣光。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "文明复兴",
+        "meaning": "文明复兴",
+        "hint": "文明复兴"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "历史自觉",
+        "meaning": "历史自觉",
+        "hint": "历史自觉"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "时代使命",
+        "meaning": "时代使命",
+        "hint": "时代使命"
       }
     ],
     "examples": [
@@ -503,19 +503,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第四，“结合” 打开了______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "发展空间",
+        "meaning": "发展空间",
+        "hint": "发展空间"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "话语空间",
+        "meaning": "话语空间",
+        "hint": "话语空间"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "制度空间",
+        "meaning": "制度空间",
+        "hint": "制度空间"
       }
     ],
     "examples": [
@@ -822,19 +822,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确中国特色社会主义最本质的特征是中国共产党领导，中国特色社会主义制度的______是中国共产党领导，中国共产党是最高政治领导力量，全党必须增强“四个意识”、坚定“四个自信”、做到“两个维护”；",
     "distractors": [
       {
+        "word": "最大法宝",
+        "meaning": "最大法宝",
+        "hint": "最大法宝"
+      },
+      {
+        "word": "最大底气",
+        "meaning": "最大底气",
+        "hint": "最大底气"
+      },
+      {
         "word": "根本保证",
         "meaning": "根本保证",
         "hint": "根本保证"
-      },
-      {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
-      },
-      {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
       }
     ],
     "examples": [
@@ -1170,14 +1170,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确必须坚持和完善社会主义基本经济制度，使市场在资源配置中起决定性作用，更好发挥政府作用，把握新发展阶段，贯彻______的新发展理念，加快构建以国内大循环为主体、国内国际双循环相互促进的新发展格局，推动高质量发展，统筹发展和安全；",
     "distractors": [
       {
-        "word": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "meaning": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "hint": "经济建设、政治建设、文化建设、社会建设、生态文明建设"
+        "word": "创新、统筹、生态、合作、共赢",
+        "meaning": "创新、统筹、生态、合作、共赢",
+        "hint": "创新、统筹、生态、合作、共赢"
       },
       {
-        "word": "更为完善的制度保证、更为坚实的物质基础、更为主动的精神力量",
-        "meaning": "更为完善的制度保证、更为坚实的物质基础、更为主动的精神力量",
-        "hint": "更为完善的制度保证、更为坚实的物质基础、更为主动的精神力量"
+        "word": "改革、协同、低碳、共赢、普惠",
+        "meaning": "改革、协同、低碳、共赢、普惠",
+        "hint": "改革、协同、低碳、共赢、普惠"
+      },
+      {
+        "word": "协调、绿色、法治、富强、共享",
+        "meaning": "协调、绿色、法治、富强、共享",
+        "hint": "协调、绿色、法治、富强、共享"
       }
     ],
     "examples": [
@@ -1194,14 +1199,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确必须坚持和完善社会主义基本经济制度，使市场在资源配置中起决定性作用，更好发挥政府作用，把握新发展阶段，贯彻创新、协调、绿色、开放、共享的新发展理念，加快构建以______的新发展格局，推动高质量发展，统筹发展和安全；",
     "distractors": [
       {
-        "word": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "meaning": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "hint": "经济建设、政治建设、文化建设、社会建设、生态文明建设"
+        "word": "国际大循环为主体、国内国际双循环相互促进",
+        "meaning": "国际大循环为主体、国内国际双循环相互促进",
+        "hint": "国际大循环为主体、国内国际双循环相互促进"
       },
       {
-        "word": "更为完善的制度保证、更为坚实的物质基础、更为主动的精神力量",
-        "meaning": "更为完善的制度保证、更为坚实的物质基础、更为主动的精神力量",
-        "hint": "更为完善的制度保证、更为坚实的物质基础、更为主动的精神力量"
+        "word": "外贸出口为主导、国内消费为基础",
+        "meaning": "外贸出口为主导、国内消费为基础",
+        "hint": "外贸出口为主导、国内消费为基础"
+      },
+      {
+        "word": "内需拉动为主导、对外开放为辅助",
+        "meaning": "内需拉动为主导、对外开放为辅助",
+        "hint": "内需拉动为主导、对外开放为辅助"
       }
     ],
     "examples": [
@@ -1276,19 +1286,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确全面从严治党的战略方针，提出新时代党的建设总要求，全面推进党的政治建设、思想建设、组织建设、作风建设、纪律建设，把______贯穿其中，深入推进反腐败斗争，落实管党治党政治责任，以伟大自我革命引领伟大社会革命。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "文化建设",
+        "meaning": "文化建设",
+        "hint": "文化建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "阵地建设",
+        "meaning": "阵地建设",
+        "hint": "阵地建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "能力建设",
+        "meaning": "能力建设",
+        "hint": "能力建设"
       }
     ],
     "examples": [
@@ -1305,19 +1315,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确全面从严治党的战略方针，提出新时代党的建设总要求，全面推进党的政治建设、思想建设、组织建设、作风建设、纪律建设，把制度建设贯穿其中，深入推进反腐败斗争，落实管党治党政治责任，以伟大______引领伟大社会革命。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "社会革命",
+        "meaning": "社会革命",
+        "hint": "社会革命"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "自我净化",
+        "meaning": "自我净化",
+        "hint": "自我净化"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "自我革新",
+        "meaning": "自我革新",
+        "hint": "自我革新"
       }
     ],
     "examples": [
@@ -1334,19 +1344,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确全面从严治党的战略方针，提出新时代党的建设总要求，全面推进党的政治建设、思想建设、组织建设、作风建设、纪律建设，把制度建设贯穿其中，深入推进反腐败斗争，落实管党治党政治责任，以伟大自我革命引领伟大______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "技术革命",
+        "meaning": "技术革命",
+        "hint": "技术革命"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "产业革命",
+        "meaning": "产业革命",
+        "hint": "产业革命"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "制度变革",
+        "meaning": "制度变革",
+        "hint": "制度变革"
       }
     ],
     "examples": [
@@ -1537,19 +1547,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持自信自立是内在______，体现了客观规律性和主观能动性的有机结合；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "理论品格",
+        "meaning": "理论品格",
+        "hint": "理论品格"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "鲜明特征",
+        "meaning": "鲜明特征",
+        "hint": "鲜明特征"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "实践要求",
+        "meaning": "实践要求",
+        "hint": "实践要求"
       }
     ],
     "examples": [
@@ -1827,19 +1837,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "西方的东西要借鉴，但不能完全吃它这碗饭，不能______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "全盘西化",
+        "meaning": "全盘西化",
+        "hint": "全盘西化"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "盲目照搬",
+        "meaning": "盲目照搬",
+        "hint": "盲目照搬"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "生搬硬套",
+        "meaning": "生搬硬套",
+        "hint": "生搬硬套"
       }
     ],
     "examples": [
@@ -1856,19 +1866,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "对待马克思主义，不能来取______的态度，也不能来取实用主义的态度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "经验主义",
+        "meaning": "经验主义",
+        "hint": "经验主义"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "形式主义",
+        "meaning": "形式主义",
+        "hint": "形式主义"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "宗派主义",
+        "meaning": "宗派主义",
+        "hint": "宗派主义"
       }
     ],
     "examples": [
@@ -1885,19 +1895,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "对待马克思主义，不能来取教条主义的态度，也不能来取______的态度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "虚无主义",
+        "meaning": "虚无主义",
+        "hint": "虚无主义"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "主观主义",
+        "meaning": "主观主义",
+        "hint": "主观主义"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "宗派主义",
+        "meaning": "宗派主义",
+        "hint": "宗派主义"
       }
     ],
     "examples": [
@@ -1943,19 +1953,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "10年来，我们在认识上不断深化，创立了新时代中国特色社会主义思想，实现了马克思主义中国化时代化______，汐中国式现代化提供了根本遵循。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "根本转折",
+        "meaning": "根本转折",
+        "hint": "根本转折"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "重大突破",
+        "meaning": "重大突破",
+        "hint": "重大突破"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深刻变革",
+        "meaning": "深刻变革",
+        "hint": "深刻变革"
       }
     ],
     "examples": [
@@ -2030,19 +2040,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "习近平新时代中国特色社会主义思想是当代中国马克思主义、二十一世纪马克思主义，是中华文化和中国精神的时代精华，实现了马克思主义中国化时代化______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "根本转折",
+        "meaning": "根本转折",
+        "hint": "根本转折"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "重大突破",
+        "meaning": "重大突破",
+        "hint": "重大突破"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深刻变革",
+        "meaning": "深刻变革",
+        "hint": "深刻变革"
       }
     ],
     "examples": [
@@ -2291,19 +2301,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第一节 新时代坚持和发展中国特色社会主义中国特色社会主义是党和人民历经千辛万苦、付出巨大代价取得的根本成就，是改革开放以来党的全部理论和实践的主题，是实现中华民族伟大复兴的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "关键一招",
+        "meaning": "关键一招",
+        "hint": "关键一招"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "本质要求",
+        "meaning": "本质要求",
+        "hint": "本质要求"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "重要抓手",
+        "meaning": "重要抓手",
+        "hint": "重要抓手"
       }
     ],
     "examples": [
@@ -2349,19 +2359,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "其中，道路是实现途径，理论体系是______，制度是根本保障，文化是精神力量，四者统一于中国特色社会主义伟大实践。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -2407,19 +2417,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "其中，道路是实现途径，理论体系是行动指南，制度是根本保障，文化是______，四者统一于中国特色社会主义伟大实践。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -2668,19 +2678,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的______是国家的生命线、人民的幸福线。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -2697,19 +2707,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党在社会主义初级阶段的基本路线是：领导和团结全国各族人民，以______为中心，坚持四项基本原则，坚持改革开放，自力更生，艰苦创业，为把我国建设成为富强民主文明和谐美丽的社会主义现代化强国而奋斗。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -2755,19 +2765,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党在社会主义初级阶段的基本路线是：领导和团结全国各族人民，以经济建设为中心，坚持四项基本原则，坚持______，自力更生，艰苦创业，为把我国建设成为富强民主文明和谐美丽的社会主义现代化强国而奋斗。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3016,19 +3026,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2021年7月1日，习近平总书记在庆祝中国共产党成立100周年大会上庄严宣告：“经过全党全国各族人民持续奋斗，我们实现了第一个百年奋斗目标，在中华大地上全面建成了小康社会，历史性地解决了______问题，正在意气风发向着全面建成社会主义现代化强国的第二个百年奋斗目标迈进。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3219,19 +3229,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建成现代化经济体系，形成新发展格局，______新型工业化、信息化、城镇化、农业现代化；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3248,19 +3258,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______国家治理体系和治理能力现代化，全过程人民民主制度更加健全，基本建成法治国家、法治政府、法治社会；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3277,19 +3287,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "基本实现国家治理体系和治理能力现代化，全过程人民民主制度更加健全，______法治国家、法治政府、法治社会；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3364,19 +3374,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "广泛形成绿色生产生活方式，碳排放达峰后稳中有降，生态环境根本好转，美丽中国目标______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3393,19 +3403,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "国家安全体系和能力全面加强，______国防和军队现代化。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3422,19 +3432,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到那时，全体人民共同富裕______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3451,19 +3461,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "孙中山的《______》被称汐近代中国谋求现代化的第一份蓝图。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3625,19 +3635,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______直接关系中国式现代化的根本方向、前途命运、最终成败。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3683,19 +3693,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3741,19 +3751,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这是人类历史上规模最大的现代化，也是______的现代化。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3828,19 +3838,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这是中国式现代化的______，也是区别于西方现代化的显著标志。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3857,19 +3867,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这是中国式现代化的本质特征，也是区别于西方现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3915,19 +3925,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "既要物质富足、也要精神富有，是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -3973,19 +3983,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "尊重自然、顺应自然、保护自然，促进人与自然和谐共生，是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -4060,19 +4070,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推动构建人类命运共同体，是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -4263,19 +4273,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是中华民族精神之魂，是我们立党立国的重要原则。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -4379,19 +4389,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国式现代化是对西方式现代化理论和实践的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -4408,19 +4418,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国式现代化广大发展中国家提供了______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -4495,19 +4505,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第三节 坚持党的全面领导习近平总书记指出：“中国特色社会主义最本质的特征是中国共产党领导，中国特色社会主义制度的______是中国共产党领导，中国共产党是最高政治领导力量，坚持党中央集中统一领导是最高政治原则。",
     "distractors": [
       {
+        "word": "最大法宝",
+        "meaning": "最大法宝",
+        "hint": "最大法宝"
+      },
+      {
+        "word": "最大底气",
+        "meaning": "最大底气",
+        "hint": "最大底气"
+      },
+      {
         "word": "根本保证",
         "meaning": "根本保证",
         "hint": "根本保证"
-      },
-      {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
-      },
-      {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
       }
     ],
     "examples": [
@@ -4640,19 +4650,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的领导制度在我国国家政治制度体系中居于______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -4698,19 +4708,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国共产党领导是国家治理体系的核心，______制度是中国特色社会主义制度建设的",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -5017,19 +5027,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "实现人的自由全面发展是现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5046,19 +5056,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "人民是党执政的______，也是党执政最深厚的根基。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5162,19 +5172,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "习近平总书记指出：“______是我们党的生命线和根本工作路线，是我们党永葆青春活力和战斗力的重要传家宝。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5191,19 +5201,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "”______是获得真知灼见的源头活水，是贯彻群众路线的有效途径。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5394,19 +5404,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到本世纪中叶，全体人民共同富裕______，居民收入和实际消费水平差距缩小到合理区间。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5597,19 +5607,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第五节 全面深化改革开放改革开放是决定中国式现代化成败的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5655,19 +5665,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "改革开放是觉和人民大踏步赶上时代的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5858,19 +5868,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到二〇三五年，______高水平社会主义市场经济体制，中国特色社会主义制度更加完善，基本实现国家治理体系和治理能力现代化，基本实现社会主义现代化，为到本世纪中叶______社会主义现代化强国奠定坚实基础。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5887,19 +5897,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到二〇三五年，全面建成高水平社会主义市场经济体制，中国特色社会主义制度更加完善，______国家治理体系和治理能力现代化，______社会主义现代化，为到本世纪中叶全面建成社会主义现代化强国奠定坚实基础。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -5916,19 +5926,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "路线图（“七个聚焦”）：—聚焦构建______，充分发挥市场在资源配置中的决定性作用，更好发挥政府作用，坚持和完善社会主义基本经济制度，推进高水平科技自立自强，推进高水平对外开放，建成现代化经济体系，加快构建新发展格局，推动高质量发展。",
     "distractors": [
       {
-        "word": "国内大循环为主体、国内国际双循环相互促进",
-        "meaning": "国内大循环为主体、国内国际双循环相互促进",
-        "hint": "国内大循环为主体、国内国际双循环相互促进"
+        "word": "计划经济体制",
+        "meaning": "计划经济体制",
+        "hint": "计划经济体制"
       },
       {
-        "word": "创新、协调、绿色、开放、共享",
-        "meaning": "创新、协调、绿色、开放、共享",
-        "hint": "创新、协调、绿色、开放、共享"
+        "word": "自由放任市场体制",
+        "meaning": "自由放任市场体制",
+        "hint": "自由放任市场体制"
       },
       {
-        "word": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "meaning": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "hint": "经济建设、政治建设、文化建设、社会建设、生态文明建设"
+        "word": "传统市场经济体制",
+        "meaning": "传统市场经济体制",
+        "hint": "传统市场经济体制"
       }
     ],
     "examples": [
@@ -6003,19 +6013,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发展全过程人民民主，坚持______、人民当家作主、依法治国有机统一，推动人民当家作主制度更加健全、协商民主广泛多层制度化发展、中国特色社会主义法治体系更加完善，社会主义法治国家建设达到更高水平。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -6206,19 +6216,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建设美丽中国，加快经济社会发展全面绿色转型，健全生态环境治理体系，推进______、节约集约、绿色低碳发展，促进人与自然和谐共生。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -6670,19 +6680,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "”①解放思想，是开启改革开放事业的______，也是新时代全面深化改革开放的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -6902,19 +6912,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "，紧紧围绕推进中国式现代化进一步全面深化改革：高水平社会主义市场经济体制是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -6989,19 +6999,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "科学的宏观调控、有效的政府治理是发挥社会主义市场经济体制优势的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7018,19 +7028,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "城乡融合发展是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7047,19 +7057,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "开放是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7076,19 +7086,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "）发展全过程人民民主是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7105,19 +7115,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "法治是中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7163,19 +7173,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "国家安全是中国式现代化行稳致远的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7279,19 +7289,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持以______主线，更应突出破立并举、先立后破。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "政治建设",
+        "meaning": "政治建设",
+        "hint": "政治建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "思想建设",
+        "meaning": "思想建设",
+        "hint": "思想建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -7395,19 +7405,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "是新时代我国经济社会发展的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7424,19 +7434,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第一，高质量发展为全面建设社会主义现代化国家提供更坚实的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7482,19 +7492,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第三，高质量发展是维护国家长治久安的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7511,19 +7521,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "，是中国共产党带领人民迎来从站起来、富起来到强起来历史性跨越的新阶段，是全面建设社会主义现代化国家、向第二个百年奋斗目标进军的重要阶段。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7569,19 +7579,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国经济增长速度从高速转向中高速，发展方式从规模速度型转向______型，经济结构调整从增量扩能为主转向调整存量、做优增量并举，发展动力从主要依靠资源和低成本劳动力等要素投入转向创新驱动，经济社会发展向形态更高级、分工更优化、结构更合理的阶段演进。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7627,19 +7637,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国经济增长速度从高速转向中高速，发展方式从规模速度型转向质量效率型，经济结构调整从增量扩能为主转向调整存量、做优增量并举，发展动力从主要依靠资源和低成本劳动力等要素投入转向______，经济社会发展向形态更高级、分工更优化、结构更合理的阶段演进。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7830,19 +7840,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "协调是持续健康发展的______，协调发展注重的是解决发展不平衡问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7888,19 +7898,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "绿色是永续发展的______和人民对美好生活追求的重要体现，绿色发展注重的是解决人与自然和谐共生问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -7946,19 +7956,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "开放是国家繁荣发展的______，开放发展注重的是解决发展内外联动问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "关键一招",
+        "meaning": "关键一招",
+        "hint": "关键一招"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "本质要求",
+        "meaning": "本质要求",
+        "hint": "本质要求"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "重要抓手",
+        "meaning": "重要抓手",
+        "hint": "重要抓手"
       }
     ],
     "examples": [
@@ -8004,19 +8014,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "共享是中国特色社会主义的______，共享发展注重的是解决社会公平正义问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -8091,19 +8101,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "、国内国际双循环相互促进的新发展格局，是根据我国发展阶段、发展环境、条件变化，特别是基于我国比较优势变化，审时度势作出的重大决策，是推动高质量发展的______，是关系我国发展全局的重大战略任务。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -8207,19 +8217,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把握新发展阶段是贯彻新发展理念、构建新发展格局的______，贯彻新发展理念为把握新发展阶段、构建新发展格局提供了行动指南，构建新发展格局则是应对新发展阶段机遇和挑战、贯彻新发展理念的战略选择。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -8236,19 +8246,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把握新发展阶段是贯彻新发展理念、构建新发展格局的现实依据，贯彻新发展理念为把握新发展阶段、构建新发展格局提供了______，构建新发展格局则是应对新发展阶段机遇和挑战、贯彻新发展理念的战略选择。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -8265,19 +8275,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把握新发展阶段是贯彻新发展理念、构建新发展格局的现实依据，贯彻新发展理念为把握新发展阶段、构建新发展格局提供了行动指南，构建新发展格局则是应对新发展阶段机遇和挑战、贯彻新发展理念的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -8410,19 +8420,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "新性配置、产业深度转型升级而催生，以劳动者、劳动资料、劳动对象及其优化组合的跃升为______，以全要素生产率大幅提升为核心标志，特点是创新，关键在质优，本质是先进生产力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -8439,19 +8449,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "新性配置、产业深度转型升级而催生，以劳动者、劳动资料、劳动对象及其优化组合的跃升为基本内涵，以全要素生产率大幅提升为______，特点是创新，关键在质优，本质是先进生产力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -8613,19 +8623,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______能够催生新产业、新模式、新动能，是发展新质生产力的核心要素。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -8642,19 +8652,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是高质量发展的底色，新质生产力本身就是绿色生产力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "扩大有效需求",
+        "meaning": "扩大有效需求",
+        "hint": "扩大有效需求"
       }
     ],
     "examples": [
@@ -8758,19 +8768,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发展新质生产力不是忽视、放弃______，要防止一哄而上、泡沫化，也不要搞一种模式。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -9164,19 +9174,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，是社会主义市场经济的重要组成部分，是稳定经济的______，是国家税收的重要来源，是就业创业的重要领域，是技术创新的重要主体，是金融发展的重要依托，是经济持续健康发展的重要力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9193,19 +9203,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，是社会主义市场经济的重要组成部分，是稳定经济的重要基础，是国家税收的______，是就业创业的重要领域，是技术创新的重要主体，是金融发展的重要依托，是经济持续健康发展的重要力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9222,19 +9232,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，是社会主义市场经济的重要组成部分，是稳定经济的重要基础，是国家税收的重要来源，是就业创业的______，是技术创新的重要主体，是金融发展的重要依托，是经济持续健康发展的重要力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9251,19 +9261,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，是社会主义市场经济的重要组成部分，是稳定经济的重要基础，是国家税收的重要来源，是就业创业的重要领域，是技术创新的______，是金融发展的重要依托，是经济持续健康发展的重要力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9280,19 +9290,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，是社会主义市场经济的重要组成部分，是稳定经济的重要基础，是国家税收的重要来源，是就业创业的重要领域，是技术创新的重要主体，是金融发展的______，是经济持续健康发展的重要力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9309,19 +9319,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，是社会主义市场经济的重要组成部分，是稳定经济的重要基础，是国家税收的重要来源，是就业创业的重要领域，是技术创新的重要主体，是金融发展的重要依托，是经济持续健康发展的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9483,19 +9493,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "民营经济是非公有制经济的主要经济组织形式，是推进中国式现代化的生力军，是高质量发展的______，是推动我国全面建成社会主义现代化强国、实现第二个百年奋斗目标的重要力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -9512,19 +9522,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "民营经济是非公有制经济的主要经济组织形式，是推进中国式现代化的生力军，是高质量发展的重要基础，是推动我国全面建成社会主义现代化强国、实现第二个百年奋斗目标的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -9599,19 +9609,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "资源配置体制机制：构建高水平社会主义市场经济体制邓小平是社会主义市场经济理论的奠基人，社会主义市场经济的内涵：计划经济和市场经济______社会制度的标志。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9628,19 +9638,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "计划和市场都是______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -9744,19 +9754,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是党和国家治理经济的重要方式，体现了中国特色社会主义制度的独特优势。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "微观规制",
+        "meaning": "微观规制",
+        "hint": "微观规制"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "市场调节",
+        "meaning": "市场调节",
+        "hint": "市场调节"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "行政干预",
+        "meaning": "行政干预",
+        "hint": "行政干预"
       }
     ],
     "examples": [
@@ -10034,19 +10044,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "确保国家______作为现代农业建设的首要任务。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "能源安全",
+        "meaning": "能源安全",
+        "hint": "能源安全"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "产业安全",
+        "meaning": "产业安全",
+        "hint": "产业安全"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "生态安全",
+        "meaning": "生态安全",
+        "hint": "生态安全"
       }
     ],
     "examples": [
@@ -10295,19 +10305,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以提升乡村______水平、提升乡村建设水平、提升乡村治理水平沟重点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10440,19 +10450,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以农业关键核心技术攻关为引领，以______为导向，加快以种业为重点的农业科技创新，以发展农业新质生产力推进农业强国建设。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -10556,19 +10566,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全推动西部大开发形成新格局、东北______取得新突破、中部地区加快崛起、东部地区加快推进现代化的制度和政策体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10585,19 +10595,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全推动西部大开发形成新格局、东北全面振兴取得新突破、中部地区______、东部地区加快推进现代化的制度和政策体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10730,19 +10740,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "进入新发展阶段是我国经济发展的______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10788,19 +10798,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建新发展格局是我国经济发展的______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10817,19 +10827,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推动高质量发展是我国经济发展的______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -10846,19 +10856,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持和完善社会主义基本经济制度是我国经济发展的______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10962,19 +10972,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚定不移全面扩大开放是我国经济发展的______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -10991,19 +11001,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "统筹发展和安全是我国经济发展的______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -11223,19 +11233,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "县域义务教育______全面实现。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11310,19 +11320,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是发展教育的根本尺度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11484,19 +11494,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要把______作为基点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11513,19 +11523,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要把______作为龙头。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11571,19 +11581,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持______第一标准。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11716,19 +11726,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持“______”的战略导向，面向世界科技前沿、面向经济主战场、面向国家重大需求、面向人民生命健康，加强科技创新全链条部署、全领域布局。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11803,19 +11813,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "拥有强大的______（______是科技创新的源头，处于从研究到应用、再到生产的科研链条起始端）和原始创新能力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11832,19 +11842,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "、赢得国际竞争主动的战略资源。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -11919,19 +11929,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建立______。",
     "distractors": [
       {
-        "word": "国内大循环为主体、国内国际双循环相互促进",
-        "meaning": "国内大循环为主体、国内国际双循环相互促进",
-        "hint": "国内大循环为主体、国内国际双循环相互促进"
+        "word": "以考核为核心的人才评价机制",
+        "meaning": "以考核为核心的人才评价机制",
+        "hint": "以考核为核心的人才评价机制"
       },
       {
-        "word": "创新、协调、绿色、开放、共享",
-        "meaning": "创新、协调、绿色、开放、共享",
-        "hint": "创新、协调、绿色、开放、共享"
+        "word": "以竞争为导向的人才选拔机制",
+        "meaning": "以竞争为导向的人才选拔机制",
+        "hint": "以竞争为导向的人才选拔机制"
       },
       {
-        "word": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "meaning": "经济建设、政治建设、文化建设、社会建设、生态文明建设",
-        "hint": "经济建设、政治建设、文化建设、社会建设、生态文明建设"
+        "word": "以项目为载体的人才激励机制",
+        "meaning": "以项目为载体的人才激励机制",
+        "hint": "以项目为载体的人才激励机制"
       }
     ],
     "examples": [
@@ -12006,19 +12016,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第八节 发展全过程______二十大报告指出，______是社会主义的生命，是全面建设社会主义现代化国家的应有之义。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12035,19 +12045,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第八节 发展全过程人民民主二十大报告指出，人民民主是社会主义的生命，是全面建设社会主义现代化国家的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12238,19 +12248,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "、一个国家的最大优势。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12267,19 +12277,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚定中国特色社会主义制度自信，首先要坚定对中国特色社会主义______的自信，增强走中国特色社会主义政治发展道路的信心和决心。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12470,19 +12480,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的领导是人民当家作主和依法治国的根本保证，人民当家作主是社会主义民主政治的______，依法治国是党领导人民治理国家的基本方式，三者统一于我国社会主义民主政治伟大实践。",
     "distractors": [
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本途径",
-        "meaning": "根本途径",
-        "hint": "根本途径"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12499,19 +12509,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的领导是人民当家作主和依法治国的根本保证，人民当家作主是社会主义民主政治的本质特征，依法治国是党领导人民治理国家的______，三者统一于我国社会主义民主政治伟大实践。",
     "distractors": [
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本途径",
-        "meaning": "根本途径",
-        "hint": "根本途径"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12557,19 +12567,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "人民代表大会制度中国人民政治协商会议第一届全体会议通过具有临时宪法地位的《中国人民政治协商会议共同纲领》，______新中国实行人民代表大会制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12586,19 +12596,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第一届全国人民代表大会第一次会议通过《中华人民共和国宪法》，标志着人民代表大会制度这一国家根本政治制度______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12702,19 +12712,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "人民代表大会制度是我国的根本政治制度，是中国人民当家作主的根本途径和最高实现形式，是实现全过程人民民主的重要制度载体，是符合我国国情和实际、体现社会主义国家性质、保证人民当家作主、保障实现中华民族伟大复兴的好制度，是我们党领导人民在人类政治制度史上的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -12934,19 +12944,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "二十大报告指出，协商民主是实践全过程人民民主的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13021,19 +13031,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "人民政协要坚持党的领导、统一战线、协商民主有机结合，充分发挥______机构作用，为推进中国式现代化广泛凝聚人心、凝聚共识、凝聚智慧、凝聚力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13108,19 +13118,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "基层民主二十大报告指出，基层民主是全过程人民民主的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13311,19 +13321,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "统一战线统一战线是中国共产党夺取革命、建设、改革事业胜利的______，也是实现中华民族伟大复兴的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13340,19 +13350,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "不断巩固由中国共产党领导的、以______为基础的，包括全体社会主义劳动者、社会主义事业的建设者、拥护社会主义的爱国者、拥护祖国统一和致力于中华民族伟大复兴的爱国者的广泛的爱国统一战线。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13601,19 +13611,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "统战工作的关键是要坚持______，发扬“团结一批评一团结”的优良传统，在尊重多样性中寻求一致性，找到最大公约数、画出最大同心圆。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13659,19 +13669,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是统一战线最鲜明的特征，坚持觉的领导是统一战线最核心最根本的问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13717,19 +13727,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是我国各族人民的生命线，中华民族共同体意识是______之本。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13804,19 +13814,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各民族血脉相融，是中华民族共同体形成和发展的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13862,19 +13872,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "就多元一体文明格局的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13891,19 +13901,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各民族经济相依，是中华民族构建统一经济体的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -13920,19 +13930,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各民族情感相亲，是中华民族一家亲的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -14123,19 +14133,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "宗教工作本质上是______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -14210,19 +14220,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国特色社会主义法治道路的核心要义，就是要坚持______，坚持中国特色社会主义制度，贯彻中国特色社会主义法治理论。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -14384,19 +14394,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国特色社会主义法治理论是中国特色社会主义法治体系的理论指导和学理支撑，是全面推进依法治国的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "公正司法",
+        "meaning": "公正司法",
+        "hint": "公正司法"
       }
     ],
     "examples": [
@@ -14413,19 +14423,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的领导是中国特色社会主义______，是我们的法治同西方资本主义国家的法治最大的区别。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -14587,19 +14597,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -14645,19 +14655,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "进入新时代，党的十八届四中全会将建设中国特色社会主义______、建设社会主义法治国家确定为全面推进依法治国的总目标，将建设中国特色社会主义______确定为全面推进依法治国的总抓手。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "公正司法",
+        "meaning": "公正司法",
+        "hint": "公正司法"
       }
     ],
     "examples": [
@@ -14703,19 +14713,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把党内法规体系纳入中国特色社会主义法治体系，是我国法治区别于其他国家法治的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -14906,19 +14916,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "法治中国建设的总体目标到2035年，法治国家、法治政府、法治社会基本建成，中国特色社会主义法治体系______，人民平等参与、平等发展权利得到充分保障，国家治理体系和治理能力现代化基本实现。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -14935,19 +14945,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "法治中国建设的总体目标到2035年，法治国家、法治政府、法治社会基本建成，中国特色社会主义法治体系基本形成，人民平等参与、平等发展权利得到充分保障，国家治理体系和治理能力现代化______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -14993,19 +15003,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是新的历史条件下我们觉执政的基本方式。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "公正司法",
+        "meaning": "公正司法",
+        "hint": "公正司法"
       }
     ],
     "examples": [
@@ -15022,19 +15032,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是法治状态下政府行为的基本原则和基本方式，______的基本要求是合法行政。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "公正司法",
+        "meaning": "公正司法",
+        "hint": "公正司法"
       }
     ],
     "examples": [
@@ -15109,19 +15119,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "法治社会是构筑法治国家的基础。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -15254,19 +15264,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "（基础性保障）（11）坚持抓住______这个“关键少数”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -15283,19 +15293,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第十节 建设社会主义文化强国在新的起点上继续推动文化繁荣、建设文化强国、建设中华民族现代文明，是新时代新的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15341,19 +15351,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "、更广泛、更深厚的自信，是一个国家、一个民族发展中最基本、最深沉、最持久的力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15399,19 +15409,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "文化自信的依据和来源：（1）中华优秀传统文化是我们坚定文化自信的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15428,19 +15438,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党带领人民在伟大斗争中孕育的革命文化和社会主义先进文化是我们坚定文化自信的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15457,19 +15467,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国特色社会主义伟大实践是我们坚定文化自信的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15544,19 +15554,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这条道路最本质的特征，就是坚持______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15660,19 +15670,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "文化的生命力在于______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15718,19 +15728,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要落实党的二十届三中全会部署，坚持以人民为中心的创作导向，坚持把______放在首位、______和经济效益相统一，把激发创新创造活力作为深化文化体制机制改革的中心环节，加快完善文化管理体制和生产经营机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15834,19 +15844,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "，______工作是为国家立心、为民族立魂的工作。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15863,19 +15873,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______关乎旗帜、关乎道路、关乎国家政治安全，决定文化前进方向和发展道路。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -15892,19 +15902,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______工作处在意识形态斗争前沿，是治国理政、定国安邦的大事。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16414,19 +16424,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的统一性，从根本上决定了中华民族各民族文化______、即使遭遇重大挫折也牢固凝聚，决定了国土不可分、国家不可乱、民族不可散、文明不可断的共同信念，决定了国家统一永远是中国核心利益的核心，决定了一个坚强统一的国家是各族人民的命运所系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16472,19 +16482,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的统一性，从根本上决定了中华民族各民族文化融为一体、即使遭遇重大挫折也牢固凝聚，决定了国土不可分、国家不可乱、民族不可散、文明不可断的共同信念，决定了______永远是中国核心利益的核心，决定了一个坚强统一的国家是各族人民的命运所系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16501,19 +16511,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的统一性，从根本上决定了中华民族各民族文化融为一体、即使遭遇重大挫折也牢固凝聚，决定了国土不可分、国家不可乱、民族不可散、文明不可断的共同信念，决定了国家统一永远是中国核心利益的核心，决定了一个______的国家是各族人民的命运所系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16617,19 +16627,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的包容性，从根本上决定了中华民族交往交流交融的历史取向，决定了中国各宗教信仰______的和谐格局，决定了中华文化对世界文明兼收并蓄的开放胸怀。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16646,19 +16656,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的包容性，从根本上决定了中华民族交往交流交融的历史取向，决定了中国各宗教信仰多元并存的和谐格局，决定了中华文化对世界文明______的开放胸怀。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16762,19 +16772,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的和平性，从根本上决定了中国始终是世界和平的建设者、全球发展的贡献者、国际秩序的维护者，决定了中国不断追求文明交流互鉴而不搞文化霸权，决定了中国不会把自己的价值观念与政治体制______，决定了中国坚持合作、不搞对抗，决不搞“党同伐异”的小圈子。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16936,19 +16946,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发展是改善民生的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16965,19 +16975,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚守底线、突出重点、完善制度、引导预期，是保障和改善民生的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -16994,19 +17004,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "解决人民群众最关心最直接最现实的利益问题，是保障和改善民生的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -17023,19 +17033,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持尽力而为、量力而行，是保障和改善民生的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -17081,19 +17091,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "，是改善民生、实现发展成果由人民共享最重要最直接的方式。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -17110,19 +17120,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是促进共同富裕的基础性制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -17284,19 +17294,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建立健全第______机制，引导、支持有意愿有能力的企业、社会组织和个人积极参与公益慈善事业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -17313,19 +17323,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建立健全第三次分配机制，引导、支持有意愿有能力的企业、社会组织和个人积极参与______事业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -17371,19 +17381,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "解决好______，是民生改善的“温度计”，对国家长治久安具有重要支撑作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -18067,19 +18077,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善基本养老保险______制度，健全全国统一的社保公共服务平台。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -18270,19 +18280,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把以治病为中心转变为以______为中心，关注生命全周期、健康全过程。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -18502,19 +18512,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "基层治理是国家治理的基石，______是社会治理最基本的单元，是党和政府联系、服务居民群众的“最后一公里”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "依法治国",
+        "meaning": "依法治国",
+        "hint": "依法治国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "依法执政",
+        "meaning": "依法执政",
+        "hint": "依法执政"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依法行政",
+        "meaning": "依法行政",
+        "hint": "依法行政"
       }
     ],
     "examples": [
@@ -18589,19 +18599,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第十二节 建设社会主义生态文明把“生态文明建设”纳入“五位一体”______，把“坚持人与自然和谐共生”纳人新时代坚持和发展中国特色社会主义的基本方略，把“促进人与自然和谐共生”纳入中国式现代化的本质要求，把“美丽中国”纳入社会主义现代化强国目标，把“绿色”纳人新发展理念，把“污染防治”纳人决胜全面建成小康社会三大攻坚战。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -18647,19 +18657,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第十二节 建设社会主义生态文明把“生态文明建设”纳入“五位一体”总体布局，把“坚持人与自然和谐共生”纳人新时代坚持和发展中国特色社会主义的基本方略，把“促进人与自然和谐共生”纳入中国式现代化的______，把“美丽中国”纳入社会主义现代化强国目标，把“绿色”纳人新发展理念，把“污染防治”纳人决胜全面建成小康社会三大攻坚战。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -18792,19 +18802,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "尊重自然、顺应自然、保护自然，是全面建设社会主义现代化国家的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -19256,19 +19266,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "总体国家安全观强调，坚持以______为宗旨、以政治安全力根本、以经济安全为基础、以军事科技文化社会安全为保障、以促进国际安全依托，统筹发展和安全，统筹外部安全和内部安全、国土安全和国民安全、传统安全和非传统安全、自身安全和共同安全，统筹维护和塑造国家安全，以新安全格局保障新发展格局。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19285,19 +19295,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "总体国家安全观强调，坚持以人民安全为宗旨、以______力根本、以经济安全为基础、以军事科技文化社会安全为保障、以促进国际安全依托，统筹发展和安全，统筹外部安全和内部安全、国土安全和国民安全、传统安全和非传统安全、自身安全和共同安全，统筹维护和塑造国家安全，以新安全格局保障新发展格局。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19314,19 +19324,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "总体国家安全观强调，坚持以人民安全为宗旨、以政治安全力根本、以______为基础、以军事科技文化社会安全为保障、以促进国际安全依托，统筹发展和安全，统筹外部安全和内部安全、国土安全和国民安全、传统安全和非传统安全、自身安全和共同安全，统筹维护和塑造国家安全，以新安全格局保障新发展格局。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19372,19 +19382,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "总体国家安全观强调，坚持以人民安全为宗旨、以政治安全力根本、以经济安全为基础、以军事科技文化社会安全为保障、以促进______依托，统筹发展和安全，统筹外部安全和内部安全、国土安全和国民安全、传统安全和非传统安全、自身安全和共同安全，统筹维护和塑造国家安全，以新安全格局保障新发展格局。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19546,19 +19556,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "人民安全居于______，国家安全归根到底是保障人民利益。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19575,19 +19585,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持把______摆在首位，这是新时代中国国家安全的生命线。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19662,19 +19672,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "）坚守维护国家利益准则，这是新时代中国国家安全的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19720,19 +19730,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推进国际共同安全，这是新时代中国国家安全的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -19981,19 +19991,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "、预防为主，建立大安全大应急框架，完善公共安全体系，推动公共安全治理模式由以事后处置主向以______为主转型。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "事中监管",
+        "meaning": "事中监管",
+        "hint": "事中监管"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "事后处置",
+        "meaning": "事后处置",
+        "hint": "事后处置"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "应急响应",
+        "meaning": "应急响应",
+        "hint": "应急响应"
       }
     ],
     "examples": [
@@ -20039,19 +20049,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "：“我们捍卫和平、维护安全、慑止战争的手段和选择有多种多样，但______始终是保底手段。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20329,19 +20339,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确党在新时代的强军目标是建设一支______、能打胜仗、作风优良的人民军队；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20358,19 +20368,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确党在新时代的强军目标是建设一支听党指挥、______、作风优良的人民军队；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20387,19 +20397,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确党在新时代的强军目标是建设一支听党指挥、能打胜仗、______的人民军队；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20416,19 +20426,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确推进强军事业必须坚持______、改革强军、科技强军、人才强军、依法治军；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20445,19 +20455,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确推进强军事业必须坚持政治建军、______、科技强军、人才强军、依法治军；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20474,19 +20484,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确推进强军事业必须坚持政治建军、改革强军、______、人才强军、依法治军；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20503,19 +20513,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确推进强军事业必须坚持政治建军、改革强军、科技强军、______、依法治军；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20532,19 +20542,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确推进强军事业必须坚持政治建军、改革强军、科技强军、人才强军、______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20677,19 +20687,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持______是人民军队人才第一位的标准，坚持把能打仗、打胜仗作为人才工作出发，点和落脚点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20735,19 +20745,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确______是我们党建军治军基本方式；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20764,19 +20774,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确______发展是兴国之举、强军之策；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -20793,19 +20803,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确______是我军鲜明特色和政治优势。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -21025,19 +21035,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是最可靠、最稳定的治理。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21112,19 +21122,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "四是坚持______战略引领，在国际事务中日益发挥重要和建设性作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21199,19 +21209,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "，是我们不断深化对人类社会发展规律认识，对建设一个什么样的世界、怎样建设这个世界给出的中国方案，体现了中国共产党人的世界观、秩序观、价值观，顺应了各国人民的普遍愿望，指明了世界文明进步的方向，是新时代中国特色大国外交追求的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21228,19 +21238,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "、边界线长，周边是实现发展繁荣的______、维护国家安全的重点、运筹外交全局的首要、推动构建人类命运共同体的关键。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21315,19 +21325,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "觉的十八大以来，在以习近平同志为核心的党中央坚强领导下，我们提出______周边外交理念，倡导推动构建周边命运共同体，以元首外交引领，同周边国家深化全方位合作、加强各领域交流、共同维护和平稳定，形成务实高效的周边工作框架，推动周边工作取得历史性成就、发生历史性变革。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21344,19 +21354,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "觉的十八大以来，在以习近平同志为核心的党中央坚强领导下，我们提出亲诚惠容周边外交理念，倡导推动构建周边命运共同体，以______引领，同周边国家深化全方位合作、加强各领域交流、共同维护和平稳定，形成务实高效的周边工作框架，推动周边工作取得历史性成就、发生历史性变革。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21373,19 +21383,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "觉的十八大以来，在以习近平同志为核心的党中央坚强领导下，我们提出亲诚惠容周边外交理念，倡导推动构建周边命运共同体，以元首外交引领，同周边国家深化全方位合作、加强各领域交流、共同维护和平稳定，形成______的周边工作框架，推动周边工作取得历史性成就、发生历史性变革。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21779,19 +21789,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持以______为理念引领全球治理体系改革；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -21924,19 +21934,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国外交始终坚守______的宗旨，把为民服务、为民解忧作为重要职责，把人民的满意度作为重要标尺。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -22040,19 +22050,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "秉持______理念和正确义利观，加强同发展中国家团结合作。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -22301,19 +22311,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要把巡视作为全面从严治党的战略性制度安排，突出政治______作用，建立健全巡视巡察上下联动格局，使之成为国之利器、党之利器。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -22359,19 +22369,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要把巡视作为全面从严治党的战略性制度安排，突出政治巡视利剑作用，建立健全______上下联动格局，使之成为国之利器、党之利器。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -22504,19 +22514,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "必须抓好______这个基础。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "政治建设",
+        "meaning": "政治建设",
+        "hint": "政治建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "组织建设",
+        "meaning": "组织建设",
+        "hint": "组织建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -22533,19 +22543,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的十八大以来，我们坚持以______为主线，接续开展党内集中教育。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -22649,19 +22659,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "全面从严治党是全党的共同责任，必须______建立健全责任体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -22823,19 +22833,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党中央从制定和落实中央八项规定开局破题，牢牢抓住“______”，坚持从中央做起、从领导干部抓起，以上率下，展现了我们觉管党治觉的决心，推动全面从严治党不断深人。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -22997,19 +23007,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "经过百年奋斗特别是党的十八大以来新的实践，党又给出了第二个答案，这就是______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "社会革命",
+        "meaning": "社会革命",
+        "hint": "社会革命"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "自我净化",
+        "meaning": "自我净化",
+        "hint": "自我净化"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "自我革新",
+        "meaning": "自我革新",
+        "hint": "自我革新"
       }
     ],
     "examples": [
@@ -23287,19 +23297,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "勇于______是中国共产党区别于其他政党的显著标志，也是我们党最大的优势、最鲜明的品格。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "社会革命",
+        "meaning": "社会革命",
+        "hint": "社会革命"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "自我净化",
+        "meaning": "自我净化",
+        "hint": "自我净化"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "自我革新",
+        "meaning": "自我革新",
+        "hint": "自我革新"
       }
     ],
     "examples": [
@@ -23374,19 +23384,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的______决定党的建设方向和效果。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建设",
+        "meaning": "思想建设",
+        "hint": "思想建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "组织建设",
+        "meaning": "组织建设",
+        "hint": "组织建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -23403,19 +23413,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "党的______是党的根本性建设。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建设",
+        "meaning": "思想建设",
+        "hint": "思想建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "组织建设",
+        "meaning": "组织建设",
+        "hint": "组织建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -23432,19 +23442,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把______纳入党的建设总体布局并摆在首位，是新时代我们党对马克思主义党建理论的重大创新。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建设",
+        "meaning": "思想建设",
+        "hint": "思想建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "组织建设",
+        "meaning": "组织建设",
+        "hint": "组织建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -23490,19 +23500,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是党的生命，是党的力量所在。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -23519,19 +23529,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深入推进全面从严治党，必须把______作为基础性建设，______的首要任务是坚定理想信念。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "政治建设",
+        "meaning": "政治建设",
+        "hint": "政治建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "组织建设",
+        "meaning": "组织建设",
+        "hint": "组织建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -23809,19 +23819,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“十五五”时期，必须把因地制宜发展新质生产力摆在更加突出的战略位置，以______为引领、以实体经济为根基，坚持全面推进传统产业转型升级、积极发展新兴产业、超前布局未来产业并举，加快建设现代化产业体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -23896,19 +23906,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“十五五”时期，必须把因地制宜发展新质生产力摆在更加突出的战略位置，以科技创新为引领、以实体经济为根基，坚持全面推进传统产业转型升级、积极发展新兴产业、______未来产业并举，加快建设现代化产业体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -23925,19 +23935,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要完善国家创新体系，激发各类创新主体活力，瞄准世界科技前沿，在加强______、提高原始创新能力上持续用力，在突破关键核心技术、前沿技术上抓紧攻关。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -24012,19 +24022,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "谋划“十五五”时期经济社会发展，要不忘初心，把______作根本价值取向，坚持在发展中保障和改善民生，稳步推动共同富裕。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -24157,19 +24167,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是发展行动的先导，是管全局、管根本、管方向、管长远的东西，是发展思路、发展方向、发展着力点的集中体现。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -24824,19 +24834,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "天上，第一座中国空间站“天宫”全面建成运营，“______”实现全球第一次月球背面无人采样返回，第一次按照国际通行适航标准研制的国产大 飞机 C919实现商业飞行。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -24998,19 +25008,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“______最多，森林覆盖率提高到25%以上，新增森林面积相当于1个陕西省的面积，贡献了全球新增绿化面积的四分之一。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25056,19 +25066,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“增绿”全球最多，森林覆盖率提高到25%以上，新增森林面积相当于1个陕西省的面积，贡献了全球新增绿化面积的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25085,19 +25095,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“用能”更加清洁，新能源发电装机规模历史性超过煤电，建成了______清洁发电体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25172,19 +25182,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我们的网上零售连续12年______，我们的汽车销量也是______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25288,19 +25298,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "消费市场规模稳居______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25317,19 +25327,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "货物贸易稳居______，服务贸易规模稳居全球第二，去年首次超过1万亿美元。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25346,19 +25356,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "货物贸易稳居全球第一，服务贸易规模稳居______，去年首次超过1万亿美元。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25375,19 +25385,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "算力总规模位于______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -25984,19 +25994,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "重点要加紧修订出台新版市场准入______，让“非禁即入”落地生根。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -26013,19 +26023,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "重点要加紧修订出台新版市场准入负面清单，让“______”落地生根。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -26593,19 +26603,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国______比较健全的利用外资法规政策体系和工作体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -26883,19 +26893,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "对于在中国的外资企业，理应保障其______，做到法律适用上一致、地位待遇上平等。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -26912,19 +26922,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中美经贸关系本质是______，经贸摩擦应该通过平等对话磋商来妥善处理。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -27028,19 +27038,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以______核心的多边贸易体制是国际贸易的基石。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -27115,19 +27125,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2025年全国两会下团组讲话（2025.3）参加江苏代表团审议时的讲话看望參加政协会议的民盟民进教育界委员时的讲话______要挑大梁，江苏要把握好挑大梁的着力点，在推动科技创新和产业创新融合上打头阵，在推进深层次改革和高水平开放上勇争先，在落实国家重大发展战略上走在前，在促进全体人民共同富裕上作示范。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -27724,19 +27734,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持______，科学配置国防资源投向投量，提高经费使用精准度和效费比。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -27753,19 +27763,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持勤俭建军，______国防资源投向投量，提高经费使用精准度和效费比。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -27840,19 +27850,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要强化______，用好地方优势力量和资源，提高我军建设质量和效益。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -28130,19 +28140,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "实践充分证明，我国工人阶级不愧是中国共产党最坚实最可靠的______，不愧是我们社会主义国家的领导阶级，不愧是先进生产力和生产关系的代表，不愧是坚持和发展中国特色社会主义的主力军。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -28159,19 +28169,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "实践充分证明，我国工人阶级不愧是中国共产党最坚实最可靠的阶级基础，不愧是我们社会主义国家的______，不愧是先进生产力和生产关系的代表，不愧是坚持和发展中国特色社会主义的主力军。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -28536,19 +28546,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这一中心任务，就是我国工人运动的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -28652,19 +28662,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要着眼推进______，稳步增进广大职工和劳动群众福祉。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -28855,19 +28865,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "最早采取打击“______”多边行动。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29029,19 +29039,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "上海合作组织已经成长为26国参与、在50多个领域开展合作、经济总量接近30万亿美元的______区域组织，国际影响力和感召力日益增强。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29087,19 +29097,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是力量、是优势，求同存异是胸怀、是智慧。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29116,19 +29126,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "志同道合是力量、是优势，______是胸怀、是智慧。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29261,19 +29271,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "倡导______的世界多极化、普惠包容的经济全球化。",
     "distractors": [
       {
-        "word": "上海精神",
-        "meaning": "上海精神",
-        "hint": "上海精神"
+        "word": "公正合理",
+        "meaning": "公正合理",
+        "hint": "公正合理"
       },
       {
-        "word": "丝路精神",
-        "meaning": "丝路精神",
-        "hint": "丝路精神"
+        "word": "合作共赢",
+        "meaning": "合作共赢",
+        "hint": "合作共赢"
       },
       {
-        "word": "金砖精神",
-        "meaning": "金砖精神",
-        "hint": "金砖精神"
+        "word": "开放包容",
+        "meaning": "开放包容",
+        "hint": "开放包容"
       }
     ],
     "examples": [
@@ -29290,19 +29300,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "倡导平等有序的世界多极化、______的经济全球化。",
     "distractors": [
       {
-        "word": "上海精神",
-        "meaning": "上海精神",
-        "hint": "上海精神"
+        "word": "互利共赢",
+        "meaning": "互利共赢",
+        "hint": "互利共赢"
       },
       {
-        "word": "丝路精神",
-        "meaning": "丝路精神",
-        "hint": "丝路精神"
+        "word": "开放包容",
+        "meaning": "开放包容",
+        "hint": "开放包容"
       },
       {
-        "word": "金砖精神",
-        "meaning": "金砖精神",
-        "hint": "金砖精神"
+        "word": "合作共赢",
+        "meaning": "合作共赢",
+        "hint": "合作共赢"
       }
     ],
     "examples": [
@@ -29435,19 +29445,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "继全球发展倡议、全球安全倡议、全球文明倡议之后，国家主席习近平提出______，这是新时代中国向世界提供的又一重要公共产品。",
     "distractors": [
       {
-        "word": "“十个明确”",
-        "meaning": "“十个明确”",
-        "hint": "“十个明确”"
+        "word": "“一带一路”倡议",
+        "meaning": "“一带一路”倡议",
+        "hint": "“一带一路”倡议"
       },
       {
-        "word": "“十四个坚持”",
-        "meaning": "“十四个坚持”",
-        "hint": "“十四个坚持”"
+        "word": "人类命运共同体",
+        "meaning": "人类命运共同体",
+        "hint": "人类命运共同体"
       },
       {
-        "word": "“十三个方面成就”",
-        "meaning": "“十三个方面成就”",
-        "hint": "“十三个方面成就”"
+        "word": "国际经贸合作倡议",
+        "meaning": "国际经贸合作倡议",
+        "hint": "国际经贸合作倡议"
       }
     ],
     "examples": [
@@ -29493,19 +29503,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "全面、充分、完整遵守联合国宪章宗旨和原则等公认的国际关系基本准则，确保国际法和国际规则______适用，不搞“双标”，不将少数国家的“家规”强加于人。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29580,19 +29590,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "改革完善全球治理体系，保障各国人民共同参与全球治理、共享全球治理成果，更好应对人类社会面临的共同挑战，更好弥合______鸿沟，更好维护世界各国共同利益。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29638,19 +29648,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面对加速演进的世界百年未有之大变局，上海合作组织要发挥引领作用，为维护世界和平稳定贡献“______”，为推动全球开放合作展现“上合担当”，为弘扬全人类共同价值作出“上合示范”，为捍卫国际公平正义采取“上合行动”，当好践行全球治理倡议的表率。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29667,19 +29677,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面对加速演进的世界百年未有之大变局，上海合作组织要发挥引领作用，为维护世界和平稳定贡献“上合力量”，为推动全球开放合作展现“______”，为弘扬全人类共同价值作出“上合示范”，为捍卫国际公平正义采取“上合行动”，当好践行全球治理倡议的表率。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29696,19 +29706,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面对加速演进的世界百年未有之大变局，上海合作组织要发挥引领作用，为维护世界和平稳定贡献“上合力量”，为推动全球开放合作展现“上合担当”，为弘扬全人类共同价值作出“______”，为捍卫国际公平正义采取“上合行动”，当好践行全球治理倡议的表率。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29725,19 +29735,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面对加速演进的世界百年未有之大变局，上海合作组织要发挥引领作用，为维护世界和平稳定贡献“上合力量”，为推动全球开放合作展现“上合担当”，为弘扬全人类共同价值作出“上合示范”，为捍卫国际公平正义采取“______”，当好践行全球治理倡议的表率。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29870,19 +29880,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面对单边霸凌沉渣泛起，峰会以发表声明形式旗帜鲜明地支持以______为核心的多边贸易体制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -29928,19 +29938,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "上合组织将启动这一进程，______将增加一个多边合作的新平台。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -30392,19 +30402,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我提出______，旨在推动各国携手行动，构建更加公正合理的全球治理体系。",
     "distractors": [
       {
-        "word": "“十个明确”",
-        "meaning": "“十个明确”",
-        "hint": "“十个明确”"
+        "word": "全球发展倡议",
+        "meaning": "全球发展倡议",
+        "hint": "全球发展倡议"
       },
       {
-        "word": "“十四个坚持”",
-        "meaning": "“十四个坚持”",
-        "hint": "“十四个坚持”"
+        "word": "全球安全倡议",
+        "meaning": "全球安全倡议",
+        "hint": "全球安全倡议"
       },
       {
-        "word": "“十三个方面成就”",
-        "meaning": "“十三个方面成就”",
-        "hint": "“十三个方面成就”"
+        "word": "全球文明倡议",
+        "meaning": "全球文明倡议",
+        "hint": "全球文明倡议"
       }
     ],
     "examples": [
@@ -30566,19 +30576,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第二，坚持______，维护国际经贸秩序。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -30682,19 +30692,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要维护以世界贸易组织为核心的多边贸易体制，抵制一切形式的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -30711,19 +30721,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要倡导______的经济全球化，将发展置于国际议程的中心位置，让全球南方国家公平参与国际合作、共享发展成果。",
     "distractors": [
       {
-        "word": "上海精神",
-        "meaning": "上海精神",
-        "hint": "上海精神"
+        "word": "平等有序",
+        "meaning": "平等有序",
+        "hint": "平等有序"
       },
       {
-        "word": "丝路精神",
-        "meaning": "丝路精神",
-        "hint": "丝路精神"
+        "word": "合作共赢",
+        "meaning": "合作共赢",
+        "hint": "合作共赢"
       },
       {
-        "word": "金砖精神",
-        "meaning": "金砖精神",
-        "hint": "金砖精神"
+        "word": "开放包容",
+        "meaning": "开放包容",
+        "hint": "开放包容"
       }
     ],
     "examples": [
@@ -30769,19 +30779,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第三，坚持______，凝聚共同发展合力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -30856,19 +30866,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "金砖国家人口占世界近一半，经济总量约占世界30%，贸易总额占世界______，集聚“大富矿”、“大工厂”、“大市场”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -31233,19 +31243,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要充分发挥基层党组织的______作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -31436,19 +31446,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "脱贫攻坚战取得全面胜利，西藏彻底摆脱了千年来的______问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -31668,19 +31678,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "转型发展必须牢牢守住______底线。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -31697,19 +31707,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______的历史壮举，充分展现了我们党在全民族抗战中的中流砥柱作用，充分展现了党领导的人民战争的磅礴力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -31929,19 +31939,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "河南作为经济大省，要进一步夯实实体经济这个根基，以______为引领，因地制宜发展新质生产力，提升现代化产业体系对高质量发展的支撑能力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -31987,19 +31997,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要加强耕地保护和建设，扛牢______责任，延伸现代农业产业链条，以城乡融合发展带动乡村全面振兴，促进城乡共同富裕。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "能源安全",
+        "meaning": "能源安全",
+        "hint": "能源安全"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "产业安全",
+        "meaning": "产业安全",
+        "hint": "产业安全"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "生态安全",
+        "meaning": "生态安全",
+        "hint": "生态安全"
       }
     ],
     "examples": [
@@ -32103,19 +32113,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______技术加速迭代，正迎来爆发式发展，上海要总结好以大模型产业生态体系孵化______产业等成功经验，加大探索力度，力争在______发展和治理各方面走在前列，产生示范效应。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -32335,19 +32345,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "云南要以______为引领做强做优做大资源型产业，积极发展战略性新兴产业和未来产业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -32596,19 +32606,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "看一个地方党的领导和党的建设水平高不高，一个重要方面就是看______好不好。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -33118,19 +33128,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要因地制宜发展现代山地特色高效农业，培育具有持久市场竞争力的______产业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -33408,19 +33418,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "无论深化国资困企改革，还是促进民营经济发展，都要全面落实政策规定，注重______，既解决共性问题又解决个性问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -33756,19 +33766,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "东北全面振兴，归根到底靠______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -33930,19 +33940,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推进能源、铁路、电信、水利、公用事业等行业______环节独立运营和竞争性环节市场化改革，健全监管体制机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -34017,19 +34027,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强______监管，规范涉民营企业行政检查。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -34452,19 +34462,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以______提升引领传统产业优化升级，支持企业用数智技术、绿色技术改造提升传统产业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -34481,19 +34491,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以国家标准提升引领传统产业优化升级，支持企业用数智技术、绿色技术______传统产业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -34858,19 +34868,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建支持全面创新体制机制（1） 深化教育综合改革分类推进高校改革，建立科技发展、国家战略需求牵引的学科设置调整机制和人才培养模式，______急需学科专业，加强基础学科、新兴学科、交叉学科建设和拔尖人才培养。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -34916,19 +34926,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "优化区域教育资源配置，建立同______相协调的基本公共教育服务供给机制，完善义务教育优质均衡推进机制，探索逐步扩大免费教育范围。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -34945,19 +34955,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "优化区域教育资源配置，建立同人口变化相协调的基本公共教育服务供给机制，完善义务教育______推进机制，探索逐步扩大免费教育范围。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -35148,19 +35158,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "提高科技支出用于______比重，完善竞争性支持和稳定支持相结合的______投入机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -35467,19 +35477,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "允许更多符合条件的国有企业以______为导向，在科研人员中开展多种形式中长期激励。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -35525,19 +35535,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善______投早、投小、投长期、投硬科技的支持政策。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -35554,19 +35564,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化人才发展体制机制改革①强化人才激励机制，坚持向______授权、为人才松绑。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -35699,19 +35709,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "全面落实______原则，规范税收优惠政策，完善对重点领域和关键环节支持机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -36395,19 +36405,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善实施区域协调发展战略机制①健全推动西部大开发形成新格局、东北______取得新突破、中部地区加快崛起、东部地区加快推进现代化的制度和政策体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -36424,19 +36434,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善实施区域协调发展战略机制①健全推动西部大开发形成新格局、东北全面振兴取得新突破、中部地区______、东部地区加快推进现代化的制度和政策体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -36656,19 +36666,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建产权明晰、分配合理的运行机制，赋子农民更加充分的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -36714,19 +36724,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "统筹建立粮食产销区______利益补偿机制，在主产区利益补偿上迈出实质步伐。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -36772,19 +36782,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化土地制度改革①改革完善耕地______制度，各类耕地占用纳入统一管理。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -36946,19 +36956,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化外贸体制改革（3）深化外商投资和对外投资管理体制改革扩大鼓励外商投资产业目录，______外资准入负面清单，落实全面取消制造业领域外资准入限制措施，推动电信、互联网、教育、文化、医疗等领域有序扩大开放。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37004,19 +37014,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "优化区域开放布局①巩固______地区开放先导地位，提高中西部和东北地区开放水平，加快形成陆海内外联动、东西双向互济的全面开放格局。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37207,19 +37217,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发挥工会、共青团、妇联等______联系服务群众的桥梁纽带作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37352,19 +37362,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建设______的法律法规和规范性文件信息平台。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37642,19 +37652,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化文化领域行政审批备案制度改革，加强______监管。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37729,19 +37739,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全保障和改善民生制度体系（1）完善收入分配制度①构建初次分配、再分配、第三次分配协调配套的制度体系，提高______在国民收入分配中的比重，提高劳动报酬在初次分配中的比重。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37787,19 +37797,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善劳动者工资决定、合理增长、支付保障机制，健全按______政策制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37932,19 +37942,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全社会保障体系①完善基本养老保险______制度，健全全国统一的社保公共服务平台。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -37961,19 +37971,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______在就业地参保户籍限制，完善社保关系转移接续政策。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38019,19 +38029,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加快建立______的住房制度，加快构建房地产发展新模式。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38106,19 +38116,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化医药卫生体制改革①促进优质医疗资源扩容下沉和区域均衡布局，加快建设______体系，推进紧密型医联体建设，强化基层医疗卫生服务。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38193,19 +38203,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化以公益性为导向的公立医院改草，建立以______为主导的收费机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38396,19 +38406,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全生态环境治理体系①落实以排污许可制为核心的固定污染源监管制度，建立______协同治理和环境风险管控体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38425,19 +38435,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "全面推进以______为主体的自然保护地体系建设。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "自然保护区",
+        "meaning": "自然保护区",
+        "hint": "自然保护区"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "自然公园",
+        "meaning": "自然公园",
+        "hint": "自然公园"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "风景名胜区",
+        "meaning": "风景名胜区",
+        "hint": "风景名胜区"
       }
     ],
     "examples": [
@@ -38454,19 +38464,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实______管理制度，健全山水林田湖草沙一体化保护和系统治理机制，建设多元化生态保护修复投入机制。",
     "distractors": [
       {
-        "word": "“十个明确”",
-        "meaning": "“十个明确”",
-        "hint": "“十个明确”"
+        "word": "永久基本农田",
+        "meaning": "永久基本农田",
+        "hint": "永久基本农田"
       },
       {
-        "word": "“十四个坚持”",
-        "meaning": "“十四个坚持”",
-        "hint": "“十四个坚持”"
+        "word": "城镇开发边界",
+        "meaning": "城镇开发边界",
+        "hint": "城镇开发边界"
       },
       {
-        "word": "“十三个方面成就”",
-        "meaning": "“十三个方面成就”",
-        "hint": "“十三个方面成就”"
+        "word": "水资源管控线",
+        "meaning": "水资源管控线",
+        "hint": "水资源管控线"
       }
     ],
     "examples": [
@@ -38657,19 +38667,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建碳排统计核算体系、产品碳标识认证制度、产品碳足迹管理体系，健全碳市场交易制度、温室气体______交易制度，积极稳妥推进碳达峰碳中和。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38744,19 +38754,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全社会治理体系①坚持和发展新时代“______”，健全党组织领导的自治、法治、德治相结合的城乡基层治理体系，完善共建共治共享的社会治理制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38831,19 +38841,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "探索建立______的人口管理制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38918,19 +38928,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "持续深化国防和军队改革（1）完善人民军队领导管理体制机制①健全贯彻______负责制的制度机制，深入推进政治建军。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -38976,19 +38986,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化联合作战体系改革构建新型军兵种结构布局，加快发展战略威慑力量，大力发展______作战力量，统筹加强传统作战力量建设。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39063,19 +39073,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深入推进党风廉政建设和反腐败斗争①______面向基层的督查、检查、考核总量，提高调研质量，下大气力解决过频过繁问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39092,19 +39102,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全______工作体制机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39121,19 +39131,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国城镇化正从快速增长期转向______期，城市发展正从大规模增量扩张阶段转向存量提质增效为主的阶段。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39208,19 +39218,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "转变城市发展方式，更加注重______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39237,19 +39247,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "转变城市发展动力，更加注重______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39266,19 +39276,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "转变城市工作重心，更加注重______；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39295,19 +39305,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "转变城市工作方法，更加注重______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39614,19 +39624,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______超高层建筑，全面提升房屋安全保障水平；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39701,19 +39711,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要深刻把握我国城市发展所处历史方位，以______的视野做好城市工作。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39788,19 +39798,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深刻把握增强城市发展动力活力的内在要求，做好______大文章。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -39991,19 +40001,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "促进城市间定位______、设施互联互通、治理联动协作。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40049,19 +40059,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发展壮大现代化都市圈，支持有条件的地方推进同城化发展，建立健全同城化发展体制机制，深化经济区与行政区______改革。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40426,19 +40436,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "创新财政金融政策工具，吸引和规范社会资金参与，______公用事业价格改革。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40455,19 +40465,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加快融资平台改革转型，______新增地方政府隐性债务。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40542,19 +40552,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强高耗能高排放项目管控，推动______有序退出。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40571,19 +40581,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______超高层建筑，增强高空消防能力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40832,19 +40842,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“______是城市建设的龙头”、“建设中心城市，首先要编制好规划”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40890,19 +40900,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______在城市发展中起着重要引领作用，考察一个城市首先看规划，规划科学是最大的效益，规划失误是最大的浪费，规划折腾是最大的忌讳。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40919,19 +40929,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "城市规划在城市发展中起着重要引领作用，考察一个城市首先看规划，______是最大的效益，规划失误是最大的浪费，规划折腾是最大的忌讳。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -40948,19 +40958,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "城市规划在城市发展中起着重要引领作用，考察一个城市首先看规划，规划科学是最大的效益，______是最大的浪费，规划折腾是最大的忌讳。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -41093,19 +41103,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要充分发挥______工作的引领作用，坚持把用习近平新时代中国特色社会主义思想凝心铸魂放在首位，以理想信念教育为核心，紧密结合实际加强学习宣传教育，更好统一思想、凝聚共识、坚定信心、鼓舞斗志。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41180,19 +41190,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要加强和改进新形势下______工作，适应社会群体发展变化，增强工作针对性和实效性。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41209,19 +41219,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持和加强党对思想政治工作的______，党委（党组）要加强组织领导，抓好贯彻落实。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41238,19 +41248,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "全体党员特别是领导干部要加强______，以身作则开展思想政治工作，推动思想政治工作不断开创新局面。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41267,19 +41277,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要不断巩固各民族______的共同思想政治基础，始终坚持党的全面领导，坚定不移走中国特色解决民族问题的正确道路。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41296,19 +41306,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要不断巩固各民族团结奋斗的共同思想政治基础，始终坚持党的全面领导，坚定不移走______解决民族问题的正确道路。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41354,19 +41364,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要做好法律案制定出台和贯彻实施工作，不断提高______民族事务的能力和水平。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41412,19 +41422,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持以人民中心的发展思想，始终把人民群众生命安全放在第一位，牢牢守住发展不能以______为代价这条底线。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41673,19 +41683,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要落实落细______的财政政策和适度宽松的货币政策，充分释放政策效应。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41702,19 +41712,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要落实落细更加积极的财政政策和______的货币政策，充分释放政策效应。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41876,19 +41886,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "支持______发挥挑大梁作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41963,19 +41973,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深入实施______专项行动，在扩大商品消费的同时，培育服务消费新的增长点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -41992,19 +42002,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持以______引领新质生产力发展，加快培育具有国际竞争力的新兴支柱产业，推动______和产业创新深度融合发展。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42050,19 +42060,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "增强国内资本市场的吸引力和包容性，巩固资本市场______势头。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42079,19 +42089,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "突出______政策导向，促进高校毕业生、退役军人、农民工等重点群体就业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42137,19 +42147,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实好惠民政策，健全______社会救助体系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42166,19 +42176,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "夯实“三农”基础，推动粮食和重要农产品价格保持在______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42224,19 +42234,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是我们觉跳出治乱兴衰历史周期率的第二个答案，从抓作风入手推进全面从严治党是新时代党的______一条重要经验。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "社会革命",
+        "meaning": "社会革命",
+        "hint": "社会革命"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "自我净化",
+        "meaning": "自我净化",
+        "hint": "自我净化"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "自我革新",
+        "meaning": "自我革新",
+        "hint": "自我革新"
       }
     ],
     "examples": [
@@ -42543,19 +42553,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各级______作 “关键少数”，要坚决扛起管党治党责任。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42659,19 +42669,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要加紧实施______有为的宏观政策，用好用足______的财政政策和适度宽松的货币政策。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42688,19 +42698,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要加紧实施更加积极有为的宏观政策，用好用足更加积极的财政政策和______的货币政策。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42746,19 +42756,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "适时______，保持流动性充裕，加力支持实体经济。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42775,19 +42785,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要提高______群体收入，大力发展服务消费，增强消费对经济增长的拉动作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42804,19 +42814,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加大资金支持力度，扩围提质实施“______，加力实施“两重”建设。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42833,19 +42843,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加大资金支持力度，扩围提质实施“两新”政策，加力实施“______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42891,19 +42901,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面对新一代人工智能技术快速演进的新形势，要充分发挥新型举国体制优势，坚持自立自强，突出______，推动我国人工智能朝着有益、安全、公平方向健康有序发展。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42920,19 +42930,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要持续加强______，集中力量攻克高端芯片、基础软件等核心技术，构建自主可控、协同运行的人工智能基础软硬件系统。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -42978,19 +42988,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要综合运用知识产权、财政税收、政府采购、设施开放等政策，做好______文章。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿色金融",
+        "meaning": "绿色金融",
+        "hint": "绿色金融"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "普惠金融",
+        "meaning": "普惠金融",
+        "hint": "普惠金融"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "数字金融",
+        "meaning": "数字金融",
+        "hint": "数字金融"
       }
     ],
     "examples": [
@@ -43210,19 +43220,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2035年，我国______智能经济和智能社会发展新阶段，为基本实现社会主义现代化提供有力支撑。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -43297,19 +43307,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深入研究人工智能对人类认知判断、伦理规范等方面的深层次影响和作用机理，探索形成______理论体系，促进人工智能更好造福人类。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -43703,19 +43713,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "促进开源生态繁荣，支持人工智能______建设，促进模型、工具、数据集等汇聚开放，培育优质开源项目。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -43906,19 +43916,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要把捍卫国家______摆在首位，坚定维护国家政权安全、制度安全、意识形态安全。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -43935,19 +43945,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要完善公共安全体系，推动公共安全治理模式向______转型，加强防灾减灾救灾、安全生产、食品药品安全、网络安全、人工智能安全等方面工作。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "事后处置",
+        "meaning": "事后处置",
+        "hint": "事后处置"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "事中监管",
+        "meaning": "事中监管",
+        "hint": "事中监管"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "应急响应",
+        "meaning": "应急响应",
+        "hint": "应急响应"
       }
     ],
     "examples": [
@@ -43993,19 +44003,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持和发展新时代“______”，推进信访工作法治化，及时有效化解各种矛盾纠纷。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -44341,19 +44351,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要把______摆在党性修养的首位，从党的创新理论中汲取党性滋养，把学习遵守贯彻党章党规党纪作为党性修养的重要内容。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -44428,19 +44438,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______，就会拥有干事创业的充分自由和广阔空间。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -44457,19 +44467,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______为正确行使权力、防止以权谋私划出了底线、设置了禁区，是党员、干部保持清正廉洁的安全防护栏。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -44486,19 +44496,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建设______，不仅是构建新发展格局、推动高质量发展的需要，而且是赢得国际竞争主动权的需要。",
     "distractors": [
       {
-        "word": "新质生产力",
-        "meaning": "新质生产力",
-        "hint": "新质生产力"
+        "word": "区域分割市场",
+        "meaning": "区域分割市场",
+        "hint": "区域分割市场"
       },
       {
-        "word": "供给侧改革",
-        "meaning": "供给侧改革",
-        "hint": "供给侧改革"
+        "word": "地方保护市场",
+        "meaning": "地方保护市场",
+        "hint": "地方保护市场"
       },
       {
-        "word": "新型工业化",
-        "meaning": "新型工业化",
-        "hint": "新型工业化"
+        "word": "要素单一市场",
+        "meaning": "要素单一市场",
+        "hint": "要素单一市场"
       }
     ],
     "examples": [
@@ -44834,19 +44844,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "更好发挥行业协会自律作用，引导企业提升产品品质，实行______，反对低价劣质。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -44892,19 +44902,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推动______有序退出，实现市场动态出清。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -44950,19 +44960,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要制定______的地方招商引资行为清单，明确鼓励和禁止的具体行为。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -44979,19 +44989,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强招商引资______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -45095,19 +45105,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "持续开展规范______专项行动。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -45124,19 +45134,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推进中国式现代化必须推动海洋经济高质量发展，走出一条具有中国特色的______之路。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -45182,19 +45192,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推动海洋经济高质量发展，要加强顶层设计，加大政策支持力度，鼓励引导______积极参与发展海洋经济。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -45269,19 +45279,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要加强______发展规划研究，有序推进沿海港口群优化整合。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -45298,19 +45308,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要加强海洋生态环境保护，接续实施重点海域综合治理，积极推进海域______利用，探索开展海洋碳汇核算。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -45414,19 +45424,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "废止妨碍全国统一大市场建设和公平竞争的价格政策，防止政府对价格形成的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -45443,19 +45453,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "有效规范自然垄断企业经营范围，______垄断优势向上下游竞争性环节延伸。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -45646,19 +45656,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "防止经营者以______的价格开展恶性竞争。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -45762,19 +45772,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推进价格信用制度建设，完善价格______，依法依规实施失信联合惩戒。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -45994,19 +46004,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持社会主义市场经济改革方向，统筹高质量发展和高水平安全，以坚持和加强党的领导为根本，以产权清晰、权责明确、政企分开、管理科学力基础，以完善公司治理为重点，以______动力，弘扬企业家精神，加快建设更多世界一流企业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "深化体制改革",
+        "meaning": "深化体制改革",
+        "hint": "深化体制改革"
       }
     ],
     "examples": [
@@ -46023,19 +46033,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持以______促发展，破解体制机制障碍，推动公司治理结构和组织形态创新，完善企业制度，支持和引导各类企业提高资源要素利用效率和经营管理水平。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "政治建设",
+        "meaning": "政治建设",
+        "hint": "政治建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "思想建设",
+        "meaning": "思想建设",
+        "hint": "思想建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "作风建设",
+        "meaning": "作风建设",
+        "hint": "作风建设"
       }
     ],
     "examples": [
@@ -46052,19 +46062,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持______、统筹推进，根据企业规模、发展阶段、所有制性质等分类施策，培育更富活力、更具韧性、更有竞争力的现代企业。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46110,19 +46120,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "尊重企业______财产权，形成归属清晰、结构合理、流转顺畅的企业产权制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46139,19 +46149,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "国有企业要根据______逐步调整优化股权结构，形成股权结构多元、股东行规范、内部约束有效、运行高效灵活的经营机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46400,19 +46410,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "严格落实上市公司______制度，设置______占多数的审计委员会和______专门会议机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46458,19 +46468,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善上市公司治理领域______制度，促进提升决策管理的科学性。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46516,19 +46526,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "注重发挥工会等群团组织作用，积极推行工资______制度，建立符合企业实际、具备可操作性的______机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46574,19 +46584,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全企业信用承诺制度，推进根据信用状况实施______监管。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46748,19 +46758,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "统筹碳排放控制目标、行业发展阶段、历史排放情况等，优化碳排放配额分配方案，稳妥推行免费和有偿相结合的分配方式，有序提高______的比例。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46806,19 +46816,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强绿证与全国碳排放权交易市场、全国温室气体自愿减排交易市场的衔接，避免交易主体从绿证交易与全国温室气体自愿减排交易中______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -46864,19 +46874,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "理顺地方市场与全国市场的关系，______地方或区域碳排放权交易市场。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47038,19 +47048,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以______提升消费能力，以高质量供给创造有效需求，以优化消费环境增强消费意愿，针对性解决制约消费的突出矛盾问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47241,19 +47251,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强低收入人口动态监测和______救助帮扶，推动健全基本生活救助制度，提高专项救助水平，强化产业就业等开发式帮扶。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47328,19 +47338,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "鼓励发展社区嵌入式托育、______办托和托幼一体服务。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47444,19 +47454,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "因地制宜推进______，鼓励国内外优质商品和服务品牌开设首店、举办首发首秀首展。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47502,19 +47512,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "鼓励带薪年休假与小长假连休，实现______休假。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47705,19 +47715,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“一线”放开，就是将海南自贸港与我国关境外其他国家和地区之间作为“一线”，实施一系列______进出举措；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47821,19 +47831,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "岛内自由，就是在海南自贸港内，各类要素可以______流通。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -47850,19 +47860,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "封关______，而是进一步扩大开放，封关后海南与国际的联系将更加便捷。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -48111,19 +48121,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持以高水平开放引领、以______核心，坚持统筹发展和安全，主动对接国际高标准经贸规则，稳步扩大规则、规制、管理、标准等制度型开放。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48140,19 +48150,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持以高水平开放引领、以制度创新核心，坚持统筹发展和安全，______国际高标准经贸规则，稳步扩大规则、规制、管理、标准等制度型开放。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48227,19 +48237,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "探索建立生物医药企业进口研发用物品“白名单”制度，允许______进口药品通关单。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48285,19 +48295,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "探索建立进口食药物质“白名单”制度，允许食品用途的食药物质按______通关。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48459,19 +48469,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是社会主义现代化强国的根基。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "科技强国",
+        "meaning": "科技强国",
+        "hint": "科技强国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制造强国",
+        "meaning": "制造强国",
+        "hint": "制造强国"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "交通强国",
+        "meaning": "交通强国",
+        "hint": "交通强国"
       }
     ],
     "examples": [
@@ -48488,19 +48498,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "必须把加快建设______作 统领“三农”工作的战略总纲。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "科技强国",
+        "meaning": "科技强国",
+        "hint": "科技强国"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制造强国",
+        "meaning": "制造强国",
+        "hint": "制造强国"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "交通强国",
+        "meaning": "交通强国",
+        "hint": "交通强国"
       }
     ],
     "examples": [
@@ -48720,19 +48730,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中央预算内投资向粮食主产区倾斜，统筹建立粮食产销区______利益补偿机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48778,19 +48788,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以农业关键核心技术攻关为引领，以______为导向，加快以种业为重点的农业科技创新，推进重大农业科技突破，以发展农业新质生产力推进农业强国建设。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48865,19 +48875,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "巩固和完善农村基本经营制度，牢牢守住土地公有制性质不改变、耕地红线不突破、农民利益不受损的底线，发展农业______经营，促进农业经营主体高质量发展，为加快建设农业强国增活力添动能。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -48952,19 +48962,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善农村公共服务体系，提高农村教育质量，______的乡村小规模学校。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49097,19 +49107,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全以______为主的稳定的村级组织运转经费保障制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49155,19 +49165,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "筑牢“______”生态安全屏障。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49184,19 +49194,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "依法维护进城落户农民的土地承包权、宅基地使用权、集体收益分配权，探索建立______退出的办法。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49271,19 +49281,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______类村庄重点强化产业发展，改造提升基础设施；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49300,19 +49310,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______类村庄重点推动城乡一体化建设；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49329,19 +49339,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______类村庄重点改善基础设施和公共环境；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49358,19 +49368,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______类村庄有序实施______，解决好民生保障、就业增收和生态保护等问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49532,19 +49542,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加快完成______宅基地确权登记颁证，允许农户合法拥有的住房通过出租、入股、合作等方式盘活利用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49590,19 +49600,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "锚定推进乡村全面振兴、建设农业强国目标，以改革开放和科技创新动力，巩固和完善农村基本经营制度，深入学习运用“______”经验，确保国家粮食安全，确保不发生规模性返贫致贫，提升乡村产业发展水平、乡村建设水平、乡村治理水平，千方百计推动农业增效益、农村增活力、农民增收人，为推进中国式现代化提供基础支撑。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49619,19 +49629,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "锚定推进乡村全面振兴、建设农业强国目标，以改革开放和科技创新动力，巩固和完善农村基本经营制度，深入学习运用“千万工程”经验，确保国家______，确保不发生规模性返贫致贫，提升乡村产业发展水平、乡村建设水平、乡村治理水平，千方百计推动农业增效益、农村增活力、农民增收人，为推进中国式现代化提供基础支撑。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "能源安全",
+        "meaning": "能源安全",
+        "hint": "能源安全"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "产业安全",
+        "meaning": "产业安全",
+        "hint": "产业安全"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "生态安全",
+        "meaning": "生态安全",
+        "hint": "生态安全"
       }
     ],
     "examples": [
@@ -49677,19 +49687,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "稳定粮食______，主攻单产和品质提升，确保粮食稳产丰产。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -49764,19 +49774,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以______引领先进生产要素集聚，因地制宜发展农业新质生产力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -50054,19 +50064,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全承包地经营权流转管理服务制度，______下指标、定任务等方式推动土地流转。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -50257,19 +50267,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "优先在东北黑土地区、平原地区、具备水利灌溉条件地区以及粮食产量高和增产潜力大地区开展建设，______于永久基本农田。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -50402,19 +50412,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "永久基本农田划定落实到______，并向社会公告。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -50431,19 +50441,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "禁止在生态保护红线、城镇开发边界调整过程中，______永久基本农田保护红线。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -50721,19 +50731,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "依照本办法规定确需对永久基本农田布局进行正向优化调整的，应当按照“数量不减、质量不降、布局优化、生态改善”的原则优化调整并落实补划，逐步提高永久基本农田中______的比例。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -50866,19 +50876,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第四次全国农业普查的对象是在中华人民共和国境内的下列个人和单位：______，包括农村农业生产经营户和其他住户；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51011,19 +51021,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "第四次全国农业普查所需经费，按现行经费渠道由中央和地方各级人民政府______，列入相应年度财政预算，按时拨付，确保到位，保障普查工作顺利开展。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51301,19 +51311,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "申领人主要通过育儿补贴信息管理系统线上申请，______申请。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51359,19 +51369,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "按照强化普及普惠、稳妥有序推进、加大政府投入、经费合理分担的原则，______学前教育保育教育费，有效降低教育成本。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51388,19 +51398,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2025年秋季学期起，免除公办幼儿园______在园儿童保育教育费（不含伙食费、住宿费、杂费等）。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51475,19 +51485,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "对在教育部门批准设立的民办幼儿园就读的适龄儿童，参照当地同类型公办幼儿园免除水平，______保育教育费。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51533,19 +51543,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "对因免保育教育费导致幼儿园收人减少的部分，由______综合考虑免保育教育费在园儿童人数、所在地保育教育费生均实际收费水平等情况补助幼儿园。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51736,19 +51746,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2025年1月1日起，男职工和原法定退休年龄为五十五周岁的女职工，法定退休年龄______延迟一个月，分别逐步延迟至六十三周岁和五十八周岁；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51823,19 +51833,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "原法定退休年龄为______的女职工，法定退休年龄每二个月延迟一个月，逐步延迟至五十五周岁。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -51852,19 +51862,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "原法定退休年龄为五十周岁的女职工，法定退休年龄______延迟一个月，逐步延迟至五十五周岁。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -52258,19 +52268,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "三级养老服务网络：县级综合养老服务管理平台、乡镇（街道）区域养老服务能力建设、______）养老服务设施站点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -52983,19 +52993,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "社会信用制度是市场经济______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53012,19 +53022,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建覆盖______的社会信用体系：深化政务信用建设；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53273,19 +53283,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善统一的______制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53331,19 +53341,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以信用评价为基础实施______监管。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53447,19 +53457,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推动在市场准入、行政审批、政府采购、招商引资、资质审核等公共管理领域充分使用______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53534,19 +53544,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "在确保安全的前提下，依法依规推进信用信息数据跨境流通，有序开展______合作，推动信用评价、信用报告等信用产品跨境互认。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53563,19 +53573,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "在确保安全的前提下，依法依规推进信用信息数据跨境流通，有序开展跨境信用合作，推动信用评价、信用报告等信用产品______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -53969,19 +53979,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "鼓励行业主管部门通过本部门信息系统______证明材料。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54143,19 +54153,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "涉及不可移动文物、历史建筑等保护对象的，按照相关法律法规予以维护和使用，“______”提出改造方案。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54201,19 +54211,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "优先补齐______公共服务设施短板。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54230,19 +54240,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强公共消防设施建设，______建设防灾工程。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54520,19 +54530,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "强化______在社会保障体系中的主体作用，全面取消在就业地参加______的户籍限制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54549,19 +54559,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "强化社会保险在社会保障体系中的主体作用，______在就业地参加社会保险的户籍限制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54578,19 +54588,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "强化社会保险在社会保障体系中的主体作用，全面取消在就业地参加社会保险的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54781,19 +54791,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加快扩大优质普通高中招生______比例，主要依据学生规模分配到区域内初中学校，并向农村学校等倾斜。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54810,19 +54820,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加快扩大优质普通高中招生指标到校比例，主要依据学生规模分配到区域内初中学校，并向______等倾斜。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -54955,19 +54965,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______社区群众急需服务的经营主体在确保安全规范前提下租赁普通住宅设置服务网点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55013,19 +55023,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "上年末失业保险基金滚存结余备付期限在______的统筹地区，可对相关企业提高失业保险稳岗返还比例。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55100,19 +55110,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "相关企业生产经营确有困难的，可按规定申请阶段性缓缴养老保险、失业保险、工伤保险______部分，缓缴期间免收滞纳金。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55274,19 +55284,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "省级教育部门汇总并向本级人力资源社会保障部门提供尚未落实毕业去向的困难毕业生信息，建立“一对一”实名帮扶台账，有针对性地为每名困难毕业生推荐______优质岗位。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55593,19 +55603,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "把______作为全员全过程全方位育人的重要内容，与思想政治教育、专业教育深度融合。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55651,19 +55661,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实______政策，鼓励用人单位提供就业实习机会。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55738,19 +55748,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "按规定将______的离校未就业毕业生纳入最低生活保障等社会救助范围。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55796,19 +55806,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______开展高校毕业生就业工作综合评价。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55825,19 +55835,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "强化高校毕业生就业质量和工作评价结果使用，作为高校教育教学和学科建设评估、“双一流”建设成效评价等______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55941,19 +55951,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "鼓励食品生产经营者______附具承诺达标合格证的食用农产品。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -55999,19 +56009,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "依法建立散装液态食品运输______，明确运输散装液态食品车辆的食品安全准入条件和技术标准，核发食品准运证明，确保专车专用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -56028,19 +56038,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "依法建立散装液态食品运输准运制度，明确运输散装液态食品车辆的食品安全准入条件和技术标准，核发食品准运证明，确保______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -56115,19 +56125,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "明确______和个人全生命周期重点事项总体清单，围绕______从开办到注销、个人从出生到身后两个全生命周期，明确______和个人全生命周期重点事项总体清单，并根据经济社会发展情况和工作实际动态更新。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -56260,19 +56270,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2027年底前，实现总体清单内______全面落地实施，推动“高效办成一件事”从“能办”向“好办、易办”转变。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -56434,19 +56444,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各地区要更好统筹线上与线下，因地制宜______的线下服务渠道。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -56463,19 +56473,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______服务窗口、配备设施设备，通过预约分流、错峰服务、潮汐窗口等方式动态调配服务资源，避免窗口过多过杂、忙闲不均。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -56637,19 +56647,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "在党中央集中统一领导下，实行______、自治区、直辖市两级生态环境保护督察制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -56724,19 +56734,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "督察进驻结束后，督察组______督察报告，如实报告督察发现的重要情况和问题，并提出意见和建议。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -56811,19 +56821,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "被______是督察整改的责任主体，主要负责同志是督察整改的第一责任人。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -56927,19 +56937,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "四大转变：实现由重点整治到______的重大转变；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -57304,19 +57314,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "必须始终坚持用最严格制度最严密法治保护生态环境，保持常态化______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -57855,19 +57865,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持以水而定推进国土绿化，严禁______建设人工湖、人造水景观。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58319,19 +58329,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "稳妥推行免费和有偿相结合的碳排放配额分配方式，有序提高______比例。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58377,19 +58387,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持碳市场作为控制温室气体排放政策工具的基本定位，加快建设______的碳市场，建立定期评估和退出机制，不再新建地方或区域碳排放权交易市场。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58406,19 +58416,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持碳市场作为控制温室气体排放政策工具的基本定位，加快建设全国统一的碳市场，建立定期评估和退出机制，______地方或区域碳排放权交易市场。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58609,19 +58619,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持山水林田湖草沙一体化保护和系统治理，以______为主攻方向，以筑牢北方生态安全屏障为根本目标，大力弘扬“三北精神”，坚持保护优先、科学治理，系统观念、联防联治，质量先、绿色发展，量水而行、以水定绿，政府主导、全民参与，坚持扩绿兴绿护绿“三绿”并举，推动森林水库、钱库、粮库、碳库“四库”联动，更加注重“提质”、“兴业”、“利民”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58783,19 +58793,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "主攻方向：打好______标志性战役。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58812,19 +58822,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "主攻方向：______治理，建成保土蓄水屏障。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58841,19 +58851,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "主攻方向：打好______阻击战。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58870,19 +58880,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "实施______、拆违建绿、留白增绿、立体绿化，开展庭院、农村“四旁”（水旁、路旁、村旁、宅旁）及废弃闲置土地绿化。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -58986,19 +58996,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善天然林保护修复制度，坚持______为主、人工促进与______相结合，科学开展天然林修复，加快正向演替。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -59073,19 +59083,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化集体林权制度改革，建立健全生态产品价值实现机制，探索______导向的开发模式，引导因地制宜发展特色产业，提升工程“自我造血”能力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "绿水青山",
+        "meaning": "绿水青山",
+        "hint": "绿水青山"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "绿色低碳",
+        "meaning": "绿色低碳",
+        "hint": "绿色低碳"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "减污降碳",
+        "meaning": "减污降碳",
+        "hint": "减污降碳"
       }
     ],
     "examples": [
@@ -59131,19 +59141,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2025年全国两会后启动、______基本结束。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59160,19 +59170,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "以______新成效推动保持党的先进性纯洁性、不断赢得人民群众信任拥护。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "政治建设",
+        "meaning": "政治建设",
+        "hint": "政治建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "思想建设",
+        "meaning": "思想建设",
+        "hint": "思想建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "组织建设",
+        "meaning": "组织建设",
+        "hint": "组织建设"
       }
     ],
     "examples": [
@@ -59218,19 +59228,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "查摆问题要通过______查摆，集中整治要坚持有什么问题就解决什么问题，什么问题突出就重点整治什么问题，开门教育要注重群众参与，接受群众监督。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59276,19 +59286,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中央八项规定是觉中央______之举，是新时代管党治党的标志性措施。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59334,19 +59344,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实中央八项规定要从中央政治局抓起、______推动。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59363,19 +59373,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中央八项规定是______的切入口和动员令。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59392,19 +59402,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "作风问题本质上是______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59450,19 +59460,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "八项规定既不是最高标准，更不是最终目的，只是我们改进作风的第一步，是我们作为共产党人应该做到的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59537,19 +59547,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "新时代开展的历次党内集中教育，都以______打头。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59624,19 +59634,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要善于把______融入党的思想建设、组织建设、反腐倡廉建设、制度建设之中，使______随着党的建设各项工作推进而同步深化。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "文化建设",
+        "meaning": "文化建设",
+        "hint": "文化建设"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "能力建设",
+        "meaning": "能力建设",
+        "hint": "能力建设"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "队伍建设",
+        "meaning": "队伍建设",
+        "hint": "队伍建设"
       }
     ],
     "examples": [
@@ -59711,19 +59721,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______就是党的形象，关系人心向背，关系党的生死存亡。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59769,19 +59779,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要持续抓好中央八项规定精神贯彻落实，进一步下大气力把党建设好，打造一支______的队伍、纪律严明的队伍，使我们党始终不负人民，团结带领人民顺利完成所肩负的历史使命。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59798,19 +59808,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要持续抓好中央八项规定精神贯彻落实，进一步下大气力把党建设好，打造一支党性纯洁的队伍、______的队伍，使我们党始终不负人民，团结带领人民顺利完成所肩负的历史使命。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59885,19 +59895,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这次深入贯彻中央八项规定精神学习教育，坚持学查改一体推进，坚持从上到下一贯到底，坚持严的基调不动摇，坚持______组织实施，工作开展扎实，取得明显成效。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -59943,19 +59953,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "“四风”问题具有顽固性、反复性，必须以打攻坚战、持久战的决心和恒心，锲而不舍落实中央八项规定精神，推进作风建设常态化长效化，以______凝心聚力、真抓实干，不断开创事业发展新局面。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60059,19 +60069,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要强化______，抓实党组织日常监督，有效发挥群众监督作用，对顶风违纪的速查严处。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60088,19 +60098,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要强化监督执纪，抓实党组织______，有效发挥群众监督作用，对顶风违纪的速查严处。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60117,19 +60127,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要强化监督执纪，抓实党组织日常监督，有效发挥群众监督作用，对顶风违纪的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60146,19 +60156,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要落实作风建设______，严负其责、严管所辖，以铁规矩锻造好作风，推动党员干部干事创业、担当作为、为民造福。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60204,19 +60214,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "会议强调，要深入学习贯彻习近平总书记重要讲话和重要指示精神，以更高政治站位深化对作风建设的认识，牢固树立经常抓、深入抓、持久抓的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60233,19 +60243,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要以多种方式强化作风教育，引导党员干部加强______，筑牢思想堤坝，自觉养成严格遵守中央八项规定及其实施细则精神的好习惯。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60349,19 +60359,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要完善作风建设制度机制，狠抓______，切实把制度成果转化力治理效能。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60378,19 +60388,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要完善作风建设制度机制，狠抓制度执行，切实把制度成果转化力______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -60639,19 +60649,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "新时代新征程，必须坚持用改革精神和严的标准管觉治党，努力取得更大成效，确保党的二十大和二十届三中全会部署落地落实，确保党始终成为中国特色社会主义事业的坚强______，推动中国式现代化行稳致远。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61103,19 +61113,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各级党委特别是______要把整治群众身边不正之风和腐败问题作为重要任务常态化地抓，让老百姓可感可及。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61161,19 +61171,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要深化基层监督体制机制改革，把纪检监察同对______结合起来、同各方面监督统筹起来。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61335,19 +61345,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "国内差旅人员应当严格按照规定乘坐交通工具、住宿、用餐，费用由______承担。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61480,19 +61490,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "公务用车实行政府集中采购，______国产汽车，优先选用新能源汽车。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61509,19 +61519,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "公务用车实行政府集中采购，应当选用国产汽车，______新能源汽车。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61625,19 +61635,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______（行政学校）应当成为培训党的基层干部和普通党员的主渠道、主阵地。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61741,19 +61751,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______应当贯穿学员管理全过程。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "思想建党",
+        "meaning": "思想建党",
+        "hint": "思想建党"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "制度治党",
+        "meaning": "制度治党",
+        "hint": "制度治党"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "依规治党",
+        "meaning": "依规治党",
+        "hint": "依规治党"
       }
     ],
     "examples": [
@@ -61886,19 +61896,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实______教育理念，实施学生体质强健计划，中小学生每天综合体育活动时间不低于2小时。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -61944,19 +61954,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全与______相适应的基础教育资源统筹调配机制。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -61973,19 +61983,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "建立“______”的基础教育管理体制，因地制宜打通使用各学段教育资源。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62031,19 +62041,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "促进学前教育______和高中阶段学校多样化发展。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62089,19 +62099,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "强化______主阵地作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62118,19 +62128,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "着力加强创新能力培养，面向中小学生实施科学素养培育“______”；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62147,19 +62157,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "面向具有创新潜质的高中学生实施“______” 等。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62176,19 +62186,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______高校改革发展，按照研究型、应用型、技能型等基本办学定位。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62292,19 +62302,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实地方政府统筹发展职业教育主体责任，以______拓宽学生成长成才通道。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62321,19 +62331,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建以______为基础、以学分银行为平台、以学习成果认证为重点的终身学习制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62350,19 +62360,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "构建以资历框架为基础、以______为平台、以学习成果认证为重点的终身学习制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62437,19 +62447,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持______第一标准，健全______建设长效机制，严格落实师德失范“零容忍”。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62495,19 +62505,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "确保财政一般公共预算教育支出逐年______，确保按在校学生人数平均的一般公共预算教育支出逐年______，保证国家财政性教育经费支出占国内生产总值比例高于4%。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62524,19 +62534,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "确保财政一般公共预算教育支出逐年只增不减，确保按在校学生人数平均的一般公共预算教育支出逐年只增不减，保证国家财政性教育经费支出占国内生产总值比例______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62582,19 +62592,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持依法______行使审判权，以促进社会公平正义、增进人民福祉为出发点和落脚点，严格公正司法。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62640,19 +62650,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚决维护党中央权威和集中统一领导，完善党中央重大决策部署在审判机关落实机制，严格落实重大事项______制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62727,19 +62737,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持党管干部原则，把______作为选配领导干部的第一标准。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62756,19 +62766,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各级党委要支持人民法院依法______行使审判权，严格落实干预司法活动、插手具体案件处理的记录、通报和责任追究制度。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62843,19 +62853,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全以生态环境修复为导向的司法责任承担方式，严格落实生态环境______制度，推进生态综合补偿。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62872,19 +62882,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强行政争议______，发挥行政复议化解行政争议的主渠道作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -62901,19 +62911,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加强行政争议实质化解，发挥______化解行政争议的主渠道作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63104,19 +63114,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______面向基层的考核数量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63191,19 +63201,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "深化______改革，健全国家执行体制。",
     "distractors": [
       {
-        "word": "依宪治国",
-        "meaning": "依宪治国",
-        "hint": "依宪治国"
+        "word": "立法权和行政权分离",
+        "meaning": "立法权和行政权分离",
+        "hint": "立法权和行政权分离"
       },
       {
-        "word": "依宪执政",
-        "meaning": "依宪执政",
-        "hint": "依宪执政"
+        "word": "侦查权和公诉权分离",
+        "meaning": "侦查权和公诉权分离",
+        "hint": "侦查权和公诉权分离"
       },
       {
-        "word": "法治国家",
-        "meaning": "法治国家",
-        "hint": "法治国家"
+        "word": "决策权和监督权分离",
+        "meaning": "决策权和监督权分离",
+        "hint": "决策权和监督权分离"
       }
     ],
     "examples": [
@@ -63220,19 +63230,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "严控文件数量，地方和部门发文严格实行______、总量管控和发文立项制度，严格控制临时性、配套类、分工类发文。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63481,19 +63491,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "文件应当开门见山、直奔主题，着重提出贯彻落实的政策措施，一般不必阐述形势背景、重要意义、主要原则等内容，确需阐述的应当简明扼要，配套文件应当______具体落实措施，不得简单照搬照抄上位文件。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63597,19 +63607,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "未经同级党委主要负责同志批准，______召开直达基层的会议（含电视电话、网络视频会议），对已直接开到基层的，不再层层召开。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63742,19 +63752,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "严控对基层督查检查考核总量，不得向同一地方______督查检查事项，不得就同一事项层层对同一地方开展督查检查。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63829,19 +63839,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "不向______单位借调干部。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63858,19 +63868,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "严控向______单位借调干部。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -63974,19 +63984,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "各级党政机关以及群团组织、国有企事业单位、社会组织等______以乡镇（街道）、村（社区）、学校为对象的达标活动。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64119,19 +64129,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "政务数据需求部门提交的申请材料不全的，政务数据提供部门应当一次性告知其需要补充的材料，______予以拒绝。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64148,19 +64158,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "政务数据提供部门不同意共享的，______理由。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64206,19 +64216,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "政府部门通过共享获得政务数据的，______扩大使用范围以及用于或者变相用于其他目的，______将获得的政务数据提供给第三方。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64438,19 +64448,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______成为中国全民族抗战的开端，由此开辟了世界反法西斯战争的东方主战场。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64467,19 +64477,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国共产党的______作用是中国人民抗日战争胜利的关键。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64496,19 +64506,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国共产党坚持全面抗战路线，制定正确战略策略，开辟广大______，成为坚持抗战的中坚力量。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64554,19 +64564,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国人民抗日战争胜利是以______为核心的民族精神的伟大胜利。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64583,19 +64593,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是我们民族精神的核心，是中国人民和中华民族同心同德、自强不息的精神纽带。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64612,19 +64622,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国共产党和中国人民是在斗争中成长和壮大起来的，______贯穿于中国革命、建设、改革各个时期。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64641,19 +64651,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中国人民抗日战争是______的伟大战争。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64815,19 +64825,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______是我国经济社会发展的动力。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64873,19 +64883,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "不断扩大对外开放、提高对外开放水平，以开放促改革、促发展，是我国发展不断取得新成就的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64902,19 +64912,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "开放发展注重的是解决发展______问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64960,19 +64970,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "现在的问题不是要不要对外开放，而是______对外开放的质量和发展的内外联动性。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -64989,19 +64999,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "20年前甚至15年前，经济全球化的主要推手是美国等西方国家，今天反而是______为是世界上推动贸易和投资自由化便利化的最大旗手。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -65018,19 +65028,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "20年前甚至15年前，经济全球化的主要推手是美国等西方国家，今天反而是我们被认为是世界上推动贸易和投资自由化便利化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -65250,19 +65260,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "开放是人类文明进步的重要动力，是世界繁荣发展的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "关键一招",
+        "meaning": "关键一招",
+        "hint": "关键一招"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "本质要求",
+        "meaning": "本质要求",
+        "hint": "本质要求"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "重要抓手",
+        "meaning": "重要抓手",
+        "hint": "重要抓手"
       }
     ],
     "examples": [
@@ -65308,19 +65318,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持党的全面领导，坚持以高水平开放引领、以______核心，统筹发展和安全，高标准对接国际经贸规则，深入推进制度型开放，加强改革整体谋划和系统集成。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -65569,19 +65579,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______，这是一百年来中国共产党人、中国人民、中华民族锤炼铸就的宝贵精神品质。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -65714,19 +65724,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "五个必由之路：坚持党的全面领导是坚持和发展中国特色社会主义的必由之路，中国特色社会主义是实现中华民族伟大复兴的必由之路，______是中国人民创造历史伟业的必由之路，贯彻新发展理念是新时代我国发展壮大的必由之路，全面从严治党是党永葆生机活力、走好新的赶考之路的必由之路。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -66033,19 +66043,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "朝着建成科技强国的宏伟目标奋勇前进（2025年4月《求是》）坚持和落实“两个毫不动摇”（2025年3月《求是》）中国式现代化要靠科技现代化作支撑，实现高质量发展要靠______培育新动能。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -66323,19 +66333,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要坚持以______需求为牵引，优化高等学校学科设置，创新人才培养模式。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -66845,19 +66855,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要以______引领，大力培育壮大新兴产业和未来产业，占据国际竞争制高点，塑造经济发展新动能、新优势。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -66990,19 +67000,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "必须统筹好提升质量和做大总量的关系，夯实中国式现代化的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -67019,19 +67029,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我国人均国民收入______世界平均水平，发展不平衡不充分问题仍然突出。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -67222,19 +67232,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要树立“大人口观”，______是人口高质量发展的底线要求。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "守正创新",
+        "meaning": "守正创新",
+        "hint": "守正创新"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "稳中求进",
+        "meaning": "稳中求进",
+        "hint": "稳中求进"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "先立后破",
+        "meaning": "先立后破",
+        "hint": "先立后破"
       }
     ],
     "examples": [
@@ -67541,19 +67551,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "具体科学揭示的是自然、社会和思维某一______的规律；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -67628,19 +67638,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "具体科学是哲学的基础；",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -67715,19 +67725,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______唯物主义：作为世界本原或本质的是某一种或几种具体的物质形态或实物。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -67831,19 +67841,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "客观唯心主义：脱离物质世界，并在人之外而独立存在的“______”是世界的本原。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -67860,19 +67870,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "主观唯心主义：主张______是世界的本原。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -67976,19 +67986,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "所谓物质，就是不依赖于人类的意识而存在，并能为人类的意识所反映的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68063,19 +68073,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "运动是物质的根本属性（固有属性）和______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68092,19 +68102,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "否认物质的运动和运动的绝对性，必然导致______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68121,19 +68131,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "否认物质是运动的承担者或主体，必然导致______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68150,19 +68160,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "意识的本质是人脑对客观存在（客观世界）的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68295,19 +68305,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______和相对静止概念______相对靜止含义宇宙间一切事物、现象的变化和过程。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68324,19 +68334,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "绝对运动和______概念绝对运动相对靜止含义宇宙间一切事物、现象的变化和过程。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68498,19 +68508,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "方法论：用普遍联系的观点看问题，反对______的孤立观点。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68585,19 +68595,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______的功能及其变化甚至对整体的功能起决定作用。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68701,19 +68711,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "对立统一规律（1） 矛盾的基本属性概念表现示例同一性斗争性①矛盾双方______，互为存在的前提，并共处于一个统一体中。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "唯物史观",
+        "meaning": "唯物史观",
+        "hint": "唯物史观"
       }
     ],
     "examples": [
@@ -68730,19 +68740,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "矛盾双方______，在一定条件下可矛盾双方相互排斥、相互分离的性质和趋势。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -68875,19 +68885,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要求我们树立矛盾的观点，敢于______，正确分析矛盾，全面地看问题。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -69020,19 +69030,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "矛盾的普遍性和特殊性在一定条件下______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -69455,19 +69465,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "质变是量变的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -69658,19 +69668,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "否定之否定规律表明：事物发展的总方向、总趋势是前进的、上升的，事物发展的______又是曲折的、迂回的。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "唯物史观",
+        "meaning": "唯物史观",
+        "hint": "唯物史观"
       }
     ],
     "examples": [
@@ -69687,19 +69697,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "实践的含义及其基本特征含义：实践是指______地改造世界的社会性的客观物质活动。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -69716,19 +69726,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "实践的含义及其基本特征含义：实践是指人类能动地______的社会性的客观物质活动。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70006,19 +70016,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "绝对性与相对性：同一客观真理的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70180,19 +70190,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "社会意识的发展同经济发展的水平之间具有______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70296,19 +70306,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "概念生产力生产关系人们在物质生产过程中形成的不以人的内涵人们在生产过程中利用自然、改造自然的能力，表现的是______的关系。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70528,19 +70538,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______又称观念上层建筑。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70557,19 +70567,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "政治法律制度及设施和政治组织又称为政治______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70586,19 +70596,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "政治上层建筑居主导地位，______是核心。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "对立统一",
+        "meaning": "对立统一",
+        "hint": "对立统一"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "质量互变",
+        "meaning": "质量互变",
+        "hint": "质量互变"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "否定之否定",
+        "meaning": "否定之否定",
+        "hint": "否定之否定"
       }
     ],
     "examples": [
@@ -70673,19 +70683,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______：物的有用性，是构成社会财富的物质内容，是价值的物质承担者，是商品的自然属性。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -70731,19 +70741,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "使用价值和价值的对立统一关系二者统一关系表现为：商品必须______使用价值和价值二因素。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -70760,19 +70770,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "二者对立关系表现为：不论是买者还是卖者，使用价值和价值二者______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -70818,19 +70828,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "具体劳动形成商品的使用价值，是劳动的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
@@ -70847,19 +70857,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "这种无差别的人类劳动，在商品经济条件下创造出商品的价值实体，是劳动的______。",
     "distractors": [
       {
-        "word": "根本保证",
-        "meaning": "根本保证",
-        "hint": "根本保证"
+        "word": "高质量发展",
+        "meaning": "高质量发展",
+        "hint": "高质量发展"
       },
       {
-        "word": "根本目的",
-        "meaning": "根本目的",
-        "hint": "根本目的"
+        "word": "新质生产力",
+        "meaning": "新质生产力",
+        "hint": "新质生产力"
       },
       {
-        "word": "根本动力",
-        "meaning": "根本动力",
-        "hint": "根本动力"
+        "word": "供给侧改革",
+        "meaning": "供给侧改革",
+        "hint": "供给侧改革"
       }
     ],
     "examples": [
