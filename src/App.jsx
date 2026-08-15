@@ -41,6 +41,58 @@ const getShortMeaning = (meaning) => {
   return meaning;
 };
 
+const escapeRegExp = (str) => {
+  if (!str) return '';
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+};
+
+const renderSentenceWithBlank = (sentence, word) => {
+  if (!sentence) return '（暂无例句）';
+  if (!word) return sentence;
+
+  const escaped = escapeRegExp(word);
+  const regex = new RegExp(escaped, 'g');
+  if (regex.test(sentence)) {
+    return sentence.replace(regex, '______');
+  }
+
+  const cleanWord = word.replace(/[“”"''《》【】]/g, '');
+  if (cleanWord && cleanWord !== word) {
+    const cleanEscaped = escapeRegExp(cleanWord);
+    const cleanRegex = new RegExp(`[“"《]?${cleanEscaped}[”"》]?`, 'g');
+    if (cleanRegex.test(sentence)) {
+      return sentence.replace(cleanRegex, '______');
+    }
+  }
+
+  return sentence;
+};
+
+const renderHighlightedSentence = (sentence, word) => {
+  if (!sentence) return null;
+  if (!word) return <span>{sentence}</span>;
+
+  const escaped = escapeRegExp(word);
+  let regex = new RegExp(`(${escaped})`, 'g');
+  if (!regex.test(sentence)) {
+    const cleanWord = word.replace(/[“”"''《》【】]/g, '');
+    if (cleanWord && cleanWord !== word) {
+      const cleanEscaped = escapeRegExp(cleanWord);
+      regex = new RegExp(`([“"《]?${cleanEscaped}[”"》]?)`, 'g');
+    }
+  }
+
+  const parts = sentence.split(regex);
+  return parts.map((part, i) => {
+    const isTarget = part === word || part.replace(/[“”"''《》【】]/g, '') === word.replace(/[“”"''《》【】]/g, '');
+    return isTarget ? (
+      <span key={i} className="filled-idiom">{part}</span>
+    ) : (
+      part
+    );
+  });
+};
+
 function SpeedItemCard({ item, idx, globalMasked }) {
   const [isRevealed, setIsRevealed] = useState(!globalMasked);
 
@@ -49,7 +101,16 @@ function SpeedItemCard({ item, idx, globalMasked }) {
   }, [globalMasked]);
 
   const displayEx = item.examples && item.examples.length > 0 ? item.examples[0] : item.meaning;
-  const parts = displayEx ? displayEx.split(new RegExp(`(${item.word})`, 'g')) : [item.meaning];
+  const escaped = escapeRegExp(item.word);
+  let regex = new RegExp(`(${escaped})`, 'g');
+  if (!regex.test(displayEx)) {
+    const cleanWord = item.word.replace(/[“”"''《》【】]/g, '');
+    if (cleanWord && cleanWord !== item.word) {
+      const cleanEscaped = escapeRegExp(cleanWord);
+      regex = new RegExp(`([“"《]?${cleanEscaped}[”"》]?)`, 'g');
+    }
+  }
+  const parts = displayEx ? displayEx.split(regex) : [item.meaning];
 
   const toggleReveal = (e) => {
     e.stopPropagation();
@@ -69,8 +130,9 @@ function SpeedItemCard({ item, idx, globalMasked }) {
         </span>
       </div>
       <div className="speed-meaning">
-        {parts.map((part, i) => 
-          part === item.word ? (
+        {parts.map((part, i) => {
+          const isTarget = part === item.word || part.replace(/[“”"''《》【】]/g, '') === item.word.replace(/[“”"''《》【】]/g, '');
+          return isTarget ? (
             <span 
               key={i} 
               className={`speed-inline-blank ${!isRevealed ? 'masked' : 'revealed'}`}
@@ -80,8 +142,8 @@ function SpeedItemCard({ item, idx, globalMasked }) {
             </span>
           ) : (
             <span key={i}>{part}</span>
-          )
-        )}
+          );
+        })}
       </div>
     </div>
   );
@@ -528,7 +590,7 @@ function App() {
                 <div className="card-front">
                   {activeMode === 'quiz' ? (
                     <h2 className="idiom-word sentence-blank">
-                      {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                      {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
                     </h2>
                   ) : (
                     <div>
@@ -564,7 +626,7 @@ function App() {
                       {activeMode === 'quiz' ? (
                         <>
                           <div className="sentence-question">
-                            {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                            {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
                           </div>
                           <div className="quiz-title">请选择正确的考点词：</div>
                         </>
@@ -616,9 +678,7 @@ function App() {
                           <div className="example-item highlighted-example">
                             <strong>官方原文：</strong>
                             <span>
-                              {(currentExample || currentItem.meaning).split(new RegExp(`(${currentItem.word})`, 'g')).map((part, i) => 
-                                part === currentItem.word ? <span key={i} className="filled-idiom">{part}</span> : part
-                              )}
+                              {renderHighlightedSentence(currentExample || currentItem.meaning, currentItem.word)}
                             </span>
                           </div>
                           {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
