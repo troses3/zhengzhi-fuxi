@@ -585,7 +585,7 @@ function App() {
             </div>
           </div>
 
-          {/* 第一行修改：单行横向滑动章节栏 */}
+          {/* 第一行修改：单行横向滑动章节栏（根据当前数据库动态渲染官方章节） */}
           <div className="category-scroll-container">
             <div className="category-scroll-track">
               {dataSource === 'huasheng' ? [
@@ -595,6 +595,19 @@ function App() {
                 { key: '第三章 习近平新时代思想', label: '🌟 习近平新思想' },
                 { key: '第四章 最新重要方针政策', label: '🚀 方针政策' },
                 { key: '第五章 2026新法典与时政考察', label: '⚖️ 2026新法典' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.key)}
+                >
+                  {cat.label}
+                </button>
+              )) : (dataSource === 'chaoge26' || dataSource === 'chaoge') ? [
+                { key: 'all', label: '全部章节' },
+                { key: '第一章 习近平新时代思想', label: '🌟 习近平新时代思想' },
+                { key: '第二章 时政理论与重大部署', label: '🚀 时政与重大部署' },
+                { key: '第三章 马克思主义基本原理', label: '🧠 马克思主义原理' },
               ].map(cat => (
                 <button
                   key={cat.key}
