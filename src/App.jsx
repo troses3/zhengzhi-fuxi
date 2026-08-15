@@ -203,8 +203,8 @@ function App() {
         sourceData = chaogeContrastItems;
       } else {
         storageKey = 'pt-tracker-v16-chaoge26-cloze';
-        oldKey = 'pt-tracker-v15-chaoge-cloze';
-        sourceData = chaogePoliticalTheory;
+        oldKey = 'pt-tracker-v15-chaoge26-cloze';
+        sourceData = chaoge27PoliticalTheory; // 2026年政治理论背诵手册 159页全量 (2,293题)
       }
     } else if (dataSource === 'chaoge27') {
       if (activeMode === 'contrast') {
@@ -213,8 +213,8 @@ function App() {
         sourceData = chaogeContrastItems;
       } else {
         storageKey = 'pt-tracker-v16-chaoge27-cloze';
-        oldKey = 'pt-tracker-v15-chaoge27-cloze';
-        sourceData = chaoge27PoliticalTheory;
+        oldKey = 'pt-tracker-v15-chaoge-cloze';
+        sourceData = chaogePoliticalTheory; // 2027 纯享精选版 (137题)
       }
     }
 
