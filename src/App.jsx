@@ -318,15 +318,16 @@ function App() {
         distractors = [...distractors, ...shuffledOtherCandidates.slice(0, needed).map(d => ({ word: d.word, meaning: d.meaning, hint: d.hint || d.meaning }))];
       }
 
+      const isWordOption = activeMode === 'quiz' || currentItem.questionType === 'word';
       const opts = [
         { 
-          text: activeMode === 'quiz' ? currentItem.word : currentItem.meaning, 
+          text: isWordOption ? currentItem.word : currentItem.meaning, 
           fullText: currentItem.meaning,
           isCorrect: true,
           word: currentItem.word
         },
         ...distractors.slice(0, 3).map(d => ({
-          text: activeMode === 'quiz' ? d.word : d.meaning,
+          text: isWordOption ? d.word : d.meaning,
           fullText: d.meaning,
           isCorrect: false,
           word: d.word
@@ -597,15 +598,18 @@ function App() {
                       <h2 
                         className="idiom-word"
                         style={(() => {
-                          const len = (currentItem.word || '').length;
+                          const titleText = currentItem.title || currentItem.word || '';
+                          const len = titleText.length;
                           if (len <= 4) return { fontSize: '2.5rem', fontWeight: '800', letterSpacing: '0.08rem' };
                           if (len <= 8) return { fontSize: '1.8rem', fontWeight: '700', letterSpacing: '0.03rem', lineHeight: '1.35' };
                           return { fontSize: '1.35rem', fontWeight: '700', letterSpacing: '0', lineHeight: '1.4' };
                         })()}
                       >
-                        {currentItem.word}
+                        {currentItem.title || currentItem.word}
                       </h2>
-                      <div className="contrast-front-sub">请辨析【{currentItem.word}】的科学定位与对应官方论断</div>
+                      <div className="contrast-front-sub">
+                        {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
+                      </div>
                     </div>
                   )}
                   <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
@@ -632,14 +636,14 @@ function App() {
                         </>
                       ) : (
                         <>
-                          <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>🎯 【{currentItem.word}】</h3>
+                          <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>🎯 【{currentItem.title || currentItem.word}】</h3>
                           <div className="sentence-question contrast-question-title" style={{ fontSize: '0.98rem', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'left', lineHeight: '1.45' }}>
                             {currentItem.question || `请选择与【${currentItem.word}】严格对应的科学论断：`}
                           </div>
                         </>
                       )}
 
-                      <div className={`options-container ${activeMode === 'quiz' ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+                      <div className={`options-container ${(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
                         {shuffledOptions.map((opt, index) => {
                           let btnClass = "option-btn";
                           if (selectedOption !== null) {
@@ -666,7 +670,7 @@ function App() {
                               <span className="option-label">
                                 {selectedOption !== null && opt.isCorrect ? '✓ ' : selectedOption !== null && selectedOption === index ? '✗ ' : `${['A', 'B', 'C', 'D'][index]}. `}
                               </span>
-                              <span className={activeMode === 'quiz' ? 'option-text-word' : 'option-text'}>{opt.text}</span>
+                              <span className={(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
                             </button>
                           );
                         })}
