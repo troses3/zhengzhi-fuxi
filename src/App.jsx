@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { initialPoliticalTheory } from './data/political_theory';
-import { chaogePoliticalTheory } from './data/political_theory_chaoge';
+import { chaogePoliticalTheory, chaogeContrastItems } from './data/political_theory_chaoge';
 import './App.css';
 
 const getShortMeaning = (meaning) => {
@@ -127,7 +127,19 @@ function App() {
 
   // Load from local storage or initial
   useEffect(() => {
-    const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v13' : 'pt-tracker-v13-chaoge';
+    let storageKey = 'pt-tracker-v14-huasheng';
+    let sourceData = initialPoliticalTheory;
+
+    if (dataSource === 'chaoge') {
+      if (activeMode === 'contrast') {
+        storageKey = 'pt-tracker-v14-chaoge-contrast';
+        sourceData = chaogeContrastItems;
+      } else {
+        storageKey = 'pt-tracker-v14-chaoge-cloze';
+        sourceData = chaogePoliticalTheory;
+      }
+    }
+
     const stored = localStorage.getItem(storageKey);
     let loadedItems = [];
     if (stored) {
@@ -138,7 +150,6 @@ function App() {
       }
     }
     
-    const sourceData = dataSource === 'huasheng' ? initialPoliticalTheory : chaogePoliticalTheory;
     if (!loadedItems || loadedItems.length === 0 || loadedItems.length !== sourceData.length) {
       loadedItems = sourceData.map(item => ({
         ...item,
@@ -173,7 +184,7 @@ function App() {
     setHistory([]);
     setIsFlipped(false);
     setSelectedOption(null);
-  }, [dataSource]);
+  }, [dataSource, activeMode]);
 
   // Update stats
   useEffect(() => {
@@ -182,10 +193,18 @@ function App() {
       const unsure = items.filter(i => i.status === 'unsure').length;
       const unknown = items.filter(i => i.status === 'unknown').length;
       setStats({ known, unsure, unknown });
-      const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v13' : 'pt-tracker-v13-chaoge';
+      
+      let storageKey = 'pt-tracker-v14-huasheng';
+      if (dataSource === 'chaoge') {
+        if (activeMode === 'contrast') {
+          storageKey = 'pt-tracker-v14-chaoge-contrast';
+        } else {
+          storageKey = 'pt-tracker-v14-chaoge-cloze';
+        }
+      }
       localStorage.setItem(storageKey, JSON.stringify(items));
     }
-  }, [items, dataSource]);
+  }, [items, dataSource, activeMode]);
 
   // Filtered by chapter
   const currentCategoryItems = items.filter(item => {
@@ -197,7 +216,7 @@ function App() {
 
   // Category switch
   useEffect(() => {
-    if (currentCategoryItems.length === 0) return; // Prevent overwriting during initial load
+    if (currentCategoryItems.length === 0) return;
     
     if (isRandom) {
       setCurrentIndex(Math.floor(Math.random() * currentCategoryItems.length));
@@ -206,7 +225,7 @@ function App() {
     }
     setIsFlipped(false);
     setSelectedOption(null);
-  }, [selectedCategory, isRandom]); // Re-run when switching between random/sequential modes too
+  }, [selectedCategory, isRandom]);
 
   // Dynamic Height
   useEffect(() => {
@@ -239,8 +258,6 @@ function App() {
 
       const opts = [
         { 
-          // 易混辨析(contrast)：用 meaning（完整权威论断，不带挖空，杜绝泄露答案）
-          // 挖空特训(quiz)：用 word（待填入的词）
           text: activeMode === 'quiz' ? currentItem.word : currentItem.meaning, 
           fullText: currentItem.meaning,
           isCorrect: true,
@@ -545,16 +562,20 @@ function App() {
                     </div>
                     <div className="card-back-content">
                       {activeMode === 'quiz' ? (
-                        <div className="sentence-question">
-                          {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
-                        </div>
+                        <>
+                          <div className="sentence-question">
+                            {currentExample ? currentExample.replace(new RegExp(currentItem.word, 'g'), '______') : '（暂无例句）'}
+                          </div>
+                          <div className="quiz-title">请选择正确的考点词：</div>
+                        </>
                       ) : (
-                        <h3>🎯 【{currentItem.word}】</h3>
+                        <>
+                          <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>🎯 【{currentItem.word}】</h3>
+                          <div className="sentence-question contrast-question-title" style={{ fontSize: '0.98rem', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'left', lineHeight: '1.45' }}>
+                            {currentItem.question || `请选择与【${currentItem.word}】严格对应的科学论断：`}
+                          </div>
+                        </>
                       )}
-                      
-                      <div className="quiz-title">
-                        {activeMode === 'quiz' ? '请选择正确的考点词：' : `请选择与【${currentItem.word}】严格对应的科学论断：`}
-                      </div>
 
                       <div className={`options-container ${activeMode === 'quiz' ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
                         {shuffledOptions.map((opt, index) => {
