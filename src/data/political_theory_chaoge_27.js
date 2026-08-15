@@ -5317,19 +5317,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______，全体人民共同富裕取得更为明显的实质性进展，基本公共服务实现均等化。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "到2025年",
+        "meaning": "到2025年",
+        "hint": "到2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "到2030年",
+        "meaning": "到2030年",
+        "hint": "到2030年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "到2050年",
+        "meaning": "到2050年",
+        "hint": "到2050年"
       }
     ],
     "examples": [
@@ -14887,19 +14887,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "法治中国建设的总体目标______，法治国家、法治政府、法治社会基本建成，中国特色社会主义法治体系基本形成，人民平等参与、平等发展权利得到充分保障，国家治理体系和治理能力现代化基本实现。",
     "distractors": [
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "到2025年",
+        "meaning": "到2025年",
+        "hint": "到2025年"
       },
       {
-        "word": "协商民主",
-        "meaning": "协商民主",
-        "hint": "协商民主"
+        "word": "到2030年",
+        "meaning": "到2030年",
+        "hint": "到2030年"
       },
       {
-        "word": "基层民主",
-        "meaning": "基层民主",
-        "hint": "基层民主"
+        "word": "到2050年",
+        "meaning": "到2050年",
+        "hint": "到2050年"
       }
     ],
     "examples": [
@@ -15496,19 +15496,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______的战略目标，坚持马克思主义这一根本指导思想，植根博大精深的中华文明，顺应信息技术发展潮流，不断发展具有强大思想引领力、精神凝聚力、价值感召力、国际影响力的新时代中国特色社会主义文化，不断增强人民精神力量，筑牢强国建设、民族复兴的文化根基。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "2025年",
+        "meaning": "2025年",
+        "hint": "2025年"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "2030年",
+        "meaning": "2030年",
+        "hint": "2030年"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "2050年",
+        "meaning": "2050年",
+        "hint": "2050年"
       }
     ],
     "examples": [
@@ -16627,19 +16627,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "中华文明的包容性，从根本上决定了中华民族交往交流交融的历史取向，决定了中国各宗教信仰______的和谐格局，决定了中华文化对世界文明兼收并蓄的开放胸怀。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -18367,19 +18367,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "，要坚持在党的领导下，以政府主导，以______与为基础，以维护人民群众根本利益为核心。",
     "distractors": [
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "协商民主",
-        "meaning": "协商民主",
-        "hint": "协商民主"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "基层民主",
-        "meaning": "基层民主",
-        "hint": "基层民主"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -19005,19 +19005,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2020年9月，中国明确提出 ______。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "2025年",
+        "meaning": "2025年",
+        "hint": "2025年"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "2035年",
+        "meaning": "2035年",
+        "hint": "2035年"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "2035年",
+        "meaning": "2035年",
+        "hint": "2035年"
       }
     ],
     "examples": [
@@ -21122,19 +21122,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "四是坚持______战略引领，在国际事务中日益发挥重要和建设性作用。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -21354,19 +21354,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "觉的十八大以来，在以习近平同志为核心的党中央坚强领导下，我们提出亲诚惠容周边外交理念，倡导推动构建周边命运共同体，以______引领，同周边国家深化全方位合作、加强各领域交流、共同维护和平稳定，形成务实高效的周边工作框架，推动周边工作取得历史性成就、发生历史性变革。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -22485,19 +22485,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "要健全______的教育体系。",
     "distractors": [
       {
-        "word": "全面从严治党",
-        "meaning": "全面从严治党",
-        "hint": "全面从严治党"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "党的自我革命",
-        "meaning": "党的自我革命",
-        "hint": "党的自我革命"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -24660,19 +24660,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "我们对世界经济增长的贡献率一直保持在______。",
     "distractors": [
       {
-        "word": "有效市场",
-        "meaning": "有效市场",
-        "hint": "有效市场"
+        "word": "10%",
+        "meaning": "10%",
+        "hint": "10%"
       },
       {
-        "word": "有为政府",
-        "meaning": "有为政府",
-        "hint": "有为政府"
+        "word": "40%",
+        "meaning": "40%",
+        "hint": "40%"
       },
       {
-        "word": "计划调节",
-        "meaning": "计划调节",
-        "hint": "计划调节"
+        "word": "20%",
+        "meaning": "20%",
+        "hint": "20%"
       }
     ],
     "examples": [
@@ -30837,19 +30837,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "金砖国家人口占世界近一半，经济总量约占世界______，贸易总额占世界五分之一，集聚“大富矿”、“大工厂”、“大市场”。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "10%",
+        "meaning": "10%",
+        "hint": "10%"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "40%",
+        "meaning": "40%",
+        "hint": "40%"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "20%",
+        "meaning": "20%",
+        "hint": "20%"
       }
     ],
     "examples": [
@@ -31301,19 +31301,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "西藏自治区始终把维护社会稳定作为第一位的政治任务，各族群众的安全感满意度持续保持在______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "79%",
+        "meaning": "79%",
+        "hint": "79%"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "95%",
+        "meaning": "95%",
+        "hint": "95%"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "89%",
+        "meaning": "89%",
+        "hint": "89%"
       }
     ],
     "examples": [
@@ -31359,19 +31359,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "保持制造业比重基本稳定。（考点：______）",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "10%",
+        "meaning": "10%",
+        "hint": "10%"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "19%",
+        "meaning": "19%",
+        "hint": "19%"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "5%",
+        "meaning": "5%",
+        "hint": "5%"
       }
     ],
     "examples": [
@@ -36260,19 +36260,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发展______股权融资，加快多层次债券市场发展，提高直接融资比重。",
     "distractors": [
       {
-        "word": "创新",
-        "meaning": "创新",
-        "hint": "创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "协调",
-        "meaning": "协调",
-        "hint": "协调"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "绿色",
-        "meaning": "绿色",
-        "hint": "绿色"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -36695,19 +36695,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "完善强农惠农富农支持制度①壮大县域富民产业，构建______食物供给体系，培育乡村新产业新业态。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -38522,19 +38522,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "落实生态保护红线管理制度，健全山水林田湖草沙一体化保护和系统治理机制，建设______生态保护修复投入机制。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -39827,19 +39827,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "主要目标是：______，现代化人民城市建设取得重要进展，适应城市高质量发展的政策制度不断完善，新旧动能加快转换，人居品质明显提升，绿色转型深入推进，安全基础有力夯实，文化魅力充分彰显，治理水平大幅提高；",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "到2025年",
+        "meaning": "到2025年",
+        "hint": "到2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "到2035年",
+        "meaning": "到2035年",
+        "hint": "到2035年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "到2035年",
+        "meaning": "到2035年",
+        "hint": "到2035年"
       }
     ],
     "examples": [
@@ -39856,19 +39856,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "到2025年",
+        "meaning": "到2025年",
+        "hint": "到2025年"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "到2030年",
+        "meaning": "到2030年",
+        "hint": "到2030年"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "到2050年",
+        "meaning": "到2050年",
+        "hint": "到2050年"
       }
     ],
     "examples": [
@@ -42321,19 +42321,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推进自我革命，必须______。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -43046,19 +43046,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______，率先实现人工智能与6大重点领域（“人工智能＋”科学技术、“人工智能＋”产业发展、“人工智能＋”消费提质、“人工智能＋”民生福祉、“人工智能＋”治理能力、“人工智能＋”全球合作）广泛深度融合，新一代智能终端、智能体等应用普及率超 70%，智能经济核心产业规模快速增长，人工智能在公共治理中的作用明显增强，人工智能开放合作体系不断完善。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "到2025年",
+        "meaning": "到2025年",
+        "hint": "到2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "到2030年",
+        "meaning": "到2030年",
+        "hint": "到2030年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "到2035年",
+        "meaning": "到2035年",
+        "hint": "到2035年"
       }
     ],
     "examples": [
@@ -43104,19 +43104,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到2027年，率先实现人工智能与6大重点领域（“人工智能＋”科学技术、“人工智能＋”产业发展、“人工智能＋”消费提质、“人工智能＋”民生福祉、“人工智能＋”治理能力、“人工智能＋”全球合作）广泛深度融合，新一代智能终端、智能体等应用普及率超 ______，智能经济核心产业规模快速增长，人工智能在公共治理中的作用明显增强，人工智能开放合作体系不断完善。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "50%",
+        "meaning": "50%",
+        "hint": "50%"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "80%",
+        "meaning": "80%",
+        "hint": "80%"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "60%",
+        "meaning": "60%",
+        "hint": "60%"
       }
     ],
     "examples": [
@@ -43133,19 +43133,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______，我国人工智能全面赋能高质量发展，新一代智能终端、智能体等应用普及率超90%，智能经济成为我国经济发展的重要增长极，推动技术普惠和成果共享。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "到2025年",
+        "meaning": "到2025年",
+        "hint": "到2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "到2035年",
+        "meaning": "到2035年",
+        "hint": "到2035年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "到2035年",
+        "meaning": "到2035年",
+        "hint": "到2035年"
       }
     ],
     "examples": [
@@ -43162,19 +43162,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到2030年，我国人工智能全面赋能高质量发展，新一代智能终端、智能体等应用普及率超______，智能经济成为我国经济发展的重要增长极，推动技术普惠和成果共享。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "70%",
+        "meaning": "70%",
+        "hint": "70%"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "95%",
+        "meaning": "95%",
+        "hint": "95%"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "80%",
+        "meaning": "80%",
+        "hint": "80%"
       }
     ],
     "examples": [
@@ -43191,19 +43191,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "______，我国全面步入智能经济和智能社会发展新阶段，为基本实现社会主义现代化提供有力支撑。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "2025年",
+        "meaning": "2025年",
+        "hint": "2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2030年",
+        "meaning": "2030年",
+        "hint": "2030年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "2050年",
+        "meaning": "2050年",
+        "hint": "2050年"
       }
     ],
     "examples": [
@@ -43249,19 +43249,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "加快探索人工智能驱动的新型科研范式，加速“从______”重大科学发现进程。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1到10",
+        "meaning": "1到10",
+        "hint": "1到10"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "1到N",
+        "meaning": "1到N",
+        "hint": "1到N"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "0到100",
+        "meaning": "0到100",
+        "hint": "0到100"
       }
     ],
     "examples": [
@@ -43278,19 +43278,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "推动人工智能驱动的技术研发、工程实现、产品落地一体化协同发展，加速“从______”技术落地和迭代突破，促进创新成果高效转化。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "0到1",
+        "meaning": "0到1",
+        "hint": "0到1"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "1到10",
+        "meaning": "1到10",
+        "hint": "1到10"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "0到N",
+        "meaning": "0到N",
+        "hint": "0到N"
       }
     ],
     "examples": [
@@ -45366,19 +45366,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持社会主义市场经济改革方向，能由______的都交给市场。",
     "distractors": [
       {
-        "word": "有效市场",
-        "meaning": "有效市场",
-        "hint": "有效市场"
+        "word": "政府统一定价",
+        "meaning": "政府统一定价",
+        "hint": "政府统一定价"
       },
       {
-        "word": "有为政府",
-        "meaning": "有为政府",
-        "hint": "有为政府"
+        "word": "行业协商定价",
+        "meaning": "行业协商定价",
+        "hint": "行业协商定价"
       },
       {
-        "word": "计划调节",
-        "meaning": "计划调节",
-        "hint": "计划调节"
+        "word": "成本加成定价",
+        "meaning": "成本加成定价",
+        "hint": "成本加成定价"
       }
     ],
     "examples": [
@@ -45656,19 +45656,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "防止经营者以______的价格开展恶性竞争。",
     "distractors": [
       {
-        "word": "有效市场",
-        "meaning": "有效市场",
-        "hint": "有效市场"
+        "word": "高于成本",
+        "meaning": "高于成本",
+        "hint": "高于成本"
       },
       {
-        "word": "有为政府",
-        "meaning": "有为政府",
-        "hint": "有为政府"
+        "word": "等于成本",
+        "meaning": "等于成本",
+        "hint": "等于成本"
       },
       {
-        "word": "计划调节",
-        "meaning": "计划调节",
-        "hint": "计划调节"
+        "word": "按市场指导价",
+        "meaning": "按市场指导价",
+        "hint": "按市场指导价"
       }
     ],
     "examples": [
@@ -46178,19 +46178,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "国有企业要根据功能定位逐步调整优化股权结构，形成______、股东行规范、内部约束有效、运行高效灵活的经营机制。",
     "distractors": [
       {
-        "word": "有效市场",
-        "meaning": "有效市场",
-        "hint": "有效市场"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "有为政府",
-        "meaning": "有为政府",
-        "hint": "有为政府"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "计划调节",
-        "meaning": "计划调节",
-        "hint": "计划调节"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -46381,19 +46381,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "强化控股股东对公司的诚信义务，支持上市公司引入______的机构投资者作为积极股东。",
     "distractors": [
       {
-        "word": "新质生产力",
-        "meaning": "新质生产力",
-        "hint": "新质生产力"
+        "word": "10%",
+        "meaning": "10%",
+        "hint": "10%"
       },
       {
-        "word": "高质量发展",
-        "meaning": "高质量发展",
-        "hint": "高质量发展"
+        "word": "15%",
+        "meaning": "15%",
+        "hint": "15%"
       },
       {
-        "word": "传统生产力",
-        "meaning": "传统生产力",
-        "hint": "传统生产力"
+        "word": "5%",
+        "meaning": "5%",
+        "hint": "5%"
       }
     ],
     "examples": [
@@ -48585,19 +48585,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "到本世纪中叶，______，乡村全面振兴，农业农村现代化全面实现。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "科技强国全面建成",
+        "meaning": "科技强国全面建成",
+        "hint": "科技强国全面建成"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "制造强国全面建成",
+        "meaning": "制造强国全面建成",
+        "hint": "制造强国全面建成"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "交通强国全面建成",
+        "meaning": "交通强国全面建成",
+        "hint": "交通强国全面建成"
       }
     ],
     "examples": [
@@ -48904,19 +48904,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "有序推进第二轮土地承包到期后再延长 ______试点，健全延包配套制度。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "15年",
+        "meaning": "15年",
+        "hint": "15年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "20年",
+        "meaning": "20年",
+        "hint": "20年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "50年",
+        "meaning": "50年",
+        "hint": "50年"
       }
     ],
     "examples": [
@@ -49600,19 +49600,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "锚定推进乡村全面振兴、建设农业强国目标，以改革开放和科技创新动力，巩固和完善农村基本经营制度，深入学习运用“______”经验，确保国家粮食安全，确保不发生规模性返贫致贫，提升乡村产业发展水平、乡村建设水平、乡村治理水平，千方百计推动农业增效益、农村增活力、农民增收人，为推进中国式现代化提供基础支撑。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "百县千镇万村工程",
+        "meaning": "百县千镇万村工程",
+        "hint": "百县千镇万村工程"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "乡村振兴工程",
+        "meaning": "乡村振兴工程",
+        "hint": "乡村振兴工程"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "美丽乡村工程",
+        "meaning": "美丽乡村工程",
+        "hint": "美丽乡村工程"
       }
     ],
     "examples": [
@@ -50035,19 +50035,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "坚持“大稳定、小调整”，有序推进第二轮土地承包到期后再延长______试点，扩大整省试点范围，确保绝大多数农户承包地总体顺延、保持稳定。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "十五年",
+        "meaning": "十五年",
+        "hint": "十五年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "二十年",
+        "meaning": "二十年",
+        "hint": "二十年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "五十年",
+        "meaning": "五十年",
+        "hint": "五十年"
       }
     ],
     "examples": [
@@ -50963,19 +50963,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "普查的标准时点为______12月31日24时，时期资料为______国务院关于开展第四次全国农业普查的通知（2025.6）年度资料。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "2025年",
+        "meaning": "2025年",
+        "hint": "2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2030年",
+        "meaning": "2030年",
+        "hint": "2030年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "2035年",
+        "meaning": "2035年",
+        "hint": "2035年"
       }
     ],
     "examples": [
@@ -51166,19 +51166,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2025年1月1日起，对符合法律法规规定生育的______婴幼儿发放补贴，至其年满3周岁。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1周岁以下",
+        "meaning": "1周岁以下",
+        "hint": "1周岁以下"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2周岁以下",
+        "meaning": "2周岁以下",
+        "hint": "2周岁以下"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "6周岁以下",
+        "meaning": "6周岁以下",
+        "hint": "6周岁以下"
       }
     ],
     "examples": [
@@ -51195,19 +51195,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "育儿补贴按年发放，现阶段国家基础标准力每孩______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年1200元",
+        "meaning": "每年1200元",
+        "hint": "每年1200元"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年2400元",
+        "meaning": "每年2400元",
+        "hint": "每年2400元"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每年4800元",
+        "meaning": "每年4800元",
+        "hint": "每年4800元"
       }
     ],
     "examples": [
@@ -51398,19 +51398,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2025年秋季学期起，免除公办幼儿园______在园儿童保育教育费（不含伙食费、住宿费、杂费等）。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "学前两年",
+        "meaning": "学前两年",
+        "hint": "学前两年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "学前三年",
+        "meaning": "学前三年",
+        "hint": "学前三年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "义务教育阶段",
+        "meaning": "义务教育阶段",
+        "hint": "义务教育阶段"
       }
     ],
     "examples": [
@@ -51659,19 +51659,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从______起，男职工和原法定退休年龄为五十五周岁的女职工，法定退休年龄每四个月延迟一个月，分别逐步延迟至六十三周岁和五十八周岁；",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "2030年",
+        "meaning": "2030年",
+        "hint": "2030年"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "2030年",
+        "meaning": "2030年",
+        "hint": "2030年"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "2035年",
+        "meaning": "2035年",
+        "hint": "2035年"
       }
     ],
     "examples": [
@@ -51717,19 +51717,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2025年1月1日起，男职工和原法定退休年龄为______的女职工，法定退休年龄每四个月延迟一个月，分别逐步延迟至六十三周岁和五十八周岁；",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1周岁以下",
+        "meaning": "1周岁以下",
+        "hint": "1周岁以下"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2周岁以下",
+        "meaning": "2周岁以下",
+        "hint": "2周岁以下"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "6周岁以下",
+        "meaning": "6周岁以下",
+        "hint": "6周岁以下"
       }
     ],
     "examples": [
@@ -51746,19 +51746,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2025年1月1日起，男职工和原法定退休年龄为五十五周岁的女职工，法定退休年龄______延迟一个月，分别逐步延迟至六十三周岁和五十八周岁；",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每二个月",
+        "meaning": "每二个月",
+        "hint": "每二个月"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每三个月",
+        "meaning": "每三个月",
+        "hint": "每三个月"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每六个月",
+        "meaning": "每六个月",
+        "hint": "每六个月"
       }
     ],
     "examples": [
@@ -51833,19 +51833,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "原法定退休年龄为______的女职工，法定退休年龄每二个月延迟一个月，逐步延迟至五十五周岁。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1周岁以下",
+        "meaning": "1周岁以下",
+        "hint": "1周岁以下"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2周岁以下",
+        "meaning": "2周岁以下",
+        "hint": "2周岁以下"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "6周岁以下",
+        "meaning": "6周岁以下",
+        "hint": "6周岁以下"
       }
     ],
     "examples": [
@@ -51862,19 +51862,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "原法定退休年龄为五十周岁的女职工，法定退休年龄______延迟一个月，逐步延迟至五十五周岁。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每一个月",
+        "meaning": "每一个月",
+        "hint": "每一个月"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每三个月",
+        "meaning": "每三个月",
+        "hint": "每三个月"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每四个月",
+        "meaning": "每四个月",
+        "hint": "每四个月"
       }
     ],
     "examples": [
@@ -51891,19 +51891,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "原法定退休年龄为五十周岁的女职工，法定退休年龄每二个月延迟一个月，逐步延迟至______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1周岁以下",
+        "meaning": "1周岁以下",
+        "hint": "1周岁以下"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2周岁以下",
+        "meaning": "2周岁以下",
+        "hint": "2周岁以下"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "6周岁以下",
+        "meaning": "6周岁以下",
+        "hint": "6周岁以下"
       }
     ],
     "examples": [
@@ -51920,19 +51920,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从______起，将职工按月领取基本养老金最低缴费年限由十五年逐步提高至二十年，每年提高六个月。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "2025年",
+        "meaning": "2025年",
+        "hint": "2025年"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "2035年",
+        "meaning": "2035年",
+        "hint": "2035年"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "2035年",
+        "meaning": "2035年",
+        "hint": "2035年"
       }
     ],
     "examples": [
@@ -51949,19 +51949,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2030年1月1日起，将职工按月领取基本养老金最低缴费年限由十五年逐步提高至______，每年提高六个月。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "十五年",
+        "meaning": "十五年",
+        "hint": "十五年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "十八年",
+        "meaning": "十八年",
+        "hint": "十八年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "二十五年",
+        "meaning": "二十五年",
+        "hint": "二十五年"
       }
     ],
     "examples": [
@@ -51978,19 +51978,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从2030年1月1日起，将职工按月领取基本养老金最低缴费年限由十五年逐步提高至二十年，每年提高______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "三个月",
+        "meaning": "三个月",
+        "hint": "三个月"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "九个月",
+        "meaning": "九个月",
+        "hint": "九个月"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "一年",
+        "meaning": "一年",
+        "hint": "一年"
       }
     ],
     "examples": [
@@ -52036,19 +52036,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "职工达到最低缴费年限，可以自愿选择弹性提前退休，提前时间最长______，且退休年龄不得低于女职工五十周岁、五十五周岁及男职工六十周岁的原法定退休年龄。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "不超过一年",
+        "meaning": "不超过一年",
+        "hint": "不超过一年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "不超过两年",
+        "meaning": "不超过两年",
+        "hint": "不超过两年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "不超过五年",
+        "meaning": "不超过五年",
+        "hint": "不超过五年"
       }
     ],
     "examples": [
@@ -52065,19 +52065,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "职工达到法定退休年龄，所在单位与职工协商一致的，可以弹性延迟退休，延迟时间最长______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "不超过一年",
+        "meaning": "不超过一年",
+        "hint": "不超过一年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "不超过两年",
+        "meaning": "不超过两年",
+        "hint": "不超过两年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "不超过五年",
+        "meaning": "不超过五年",
+        "hint": "不超过五年"
       }
     ],
     "examples": [
@@ -52732,19 +52732,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "按照社会危害程度、影响范围等因素，自然灾害、事故灾难、公共卫生事件分为______级。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "特大、重大、一般3级",
+        "meaning": "特大、重大、一般3级",
+        "hint": "特大、重大、一般3级"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "一级、二级、三级、四级",
+        "meaning": "一级、二级、三级、四级",
+        "hint": "一级、二级、三级、四级"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "严重、较重、轻微3级",
+        "meaning": "严重、较重、轻微3级",
+        "hint": "严重、较重、轻微3级"
       }
     ],
     "examples": [
@@ -52761,19 +52761,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "初判发生______突发事件的，原则上由事发地省级党委和政府组织指挥应对工作；",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "特大、重大、一般3级",
+        "meaning": "特大、重大、一般3级",
+        "hint": "特大、重大、一般3级"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "一级、二级、三级、四级",
+        "meaning": "一级、二级、三级、四级",
+        "hint": "一级、二级、三级、四级"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "严重、较重、轻微3级",
+        "meaning": "严重、较重、轻微3级",
+        "hint": "严重、较重、轻微3级"
       }
     ],
     "examples": [
@@ -52877,19 +52877,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "事件可能演化为______突发事件的，应当立即报告，不受突发事件分级标准限制。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "特大、重大、一般3级",
+        "meaning": "特大、重大、一般3级",
+        "hint": "特大、重大、一般3级"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "一级、二级、三级、四级",
+        "meaning": "一级、二级、三级、四级",
+        "hint": "一级、二级、三级、四级"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "严重、较重、轻微3级",
+        "meaning": "严重、较重、轻微3级",
+        "hint": "严重、较重、轻微3级"
       }
     ],
     "examples": [
@@ -52935,19 +52935,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发生______突发事件，造成重大人员伤亡或者社会影响较大的，一般情况下，有关方面应当在24小时内举行首场新闻发布会。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "特大、重大、一般3级",
+        "meaning": "特大、重大、一般3级",
+        "hint": "特大、重大、一般3级"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "一级、二级、三级、四级",
+        "meaning": "一级、二级、三级、四级",
+        "hint": "一级、二级、三级、四级"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "严重、较重、轻微3级",
+        "meaning": "严重、较重、轻微3级",
+        "hint": "严重、较重、轻微3级"
       }
     ],
     "examples": [
@@ -52964,19 +52964,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "发生特别重大、重大突发事件，造成重大人员伤亡或者社会影响较大的，一般情况下，有关方面应当在______举行首场新闻发布会。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "12小时内",
+        "meaning": "12小时内",
+        "hint": "12小时内"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "48小时内",
+        "meaning": "48小时内",
+        "hint": "48小时内"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "72小时内",
+        "meaning": "72小时内",
+        "hint": "72小时内"
       }
     ],
     "examples": [
@@ -53747,19 +53747,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "轻微失信信息可以不予公示或法定责任义务履行完毕即可申请修复，确有必要公示的，公示期______；",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1个月",
+        "meaning": "1个月",
+        "hint": "1个月"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "6个月",
+        "meaning": "6个月",
+        "hint": "6个月"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "12个月",
+        "meaning": "12个月",
+        "hint": "12个月"
       }
     ],
     "examples": [
@@ -53776,19 +53776,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "一般失信信息公示期最短为______，最长为1年；",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1个月",
+        "meaning": "1个月",
+        "hint": "1个月"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "6个月",
+        "meaning": "6个月",
+        "hint": "6个月"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "12个月",
+        "meaning": "12个月",
+        "hint": "12个月"
       }
     ],
     "examples": [
@@ -53805,19 +53805,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "失业保险基金滚存结余备付期限在______的统筹地区。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "6个月以上",
+        "meaning": "6个月以上",
+        "hint": "6个月以上"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2年以上",
+        "meaning": "2年以上",
+        "hint": "2年以上"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "3年以上",
+        "meaning": "3年以上",
+        "hint": "3年以上"
       }
     ],
     "examples": [
@@ -53834,19 +53834,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "失业保险基金滚存结余备付期限在______的统筹地区。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "6个月以上",
+        "meaning": "6个月以上",
+        "hint": "6个月以上"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2年以上",
+        "meaning": "2年以上",
+        "hint": "2年以上"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "3年以上",
+        "meaning": "3年以上",
+        "hint": "3年以上"
       }
     ],
     "examples": [
@@ -53863,19 +53863,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "在______落实相关支持政策。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1年内",
+        "meaning": "1年内",
+        "hint": "1年内"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2年内",
+        "meaning": "2年内",
+        "hint": "2年内"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "5年内",
+        "meaning": "5年内",
+        "hint": "5年内"
       }
     ],
     "examples": [
@@ -55023,19 +55023,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "上年末失业保险基金滚存结余备付期限在______的统筹地区，可对相关企业提高失业保险稳岗返还比例。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "6个月以上",
+        "meaning": "6个月以上",
+        "hint": "6个月以上"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2年以上",
+        "meaning": "2年以上",
+        "hint": "2年以上"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "3年以上",
+        "meaning": "3年以上",
+        "hint": "3年以上"
       }
     ],
     "examples": [
@@ -55284,19 +55284,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "省级教育部门汇总并向本级人力资源社会保障部门提供尚未落实毕业去向的困难毕业生信息，建立“一对一”实名帮扶台账，有针对性地为每名困难毕业生推荐______优质岗位。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "2个以上",
+        "meaning": "2个以上",
+        "hint": "2个以上"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "5个以上",
+        "meaning": "5个以上",
+        "hint": "5个以上"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "10个以上",
+        "meaning": "10个以上",
+        "hint": "10个以上"
       }
     ],
     "examples": [
@@ -55632,19 +55632,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "健全就业实习制度，推动大学生利用寒暑假______就业实习，强化实习责任保险保障。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "至少开展2次",
+        "meaning": "至少开展2次",
+        "hint": "至少开展2次"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "至少开展3次",
+        "meaning": "至少开展3次",
+        "hint": "至少开展3次"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每季度1次",
+        "meaning": "每季度1次",
+        "hint": "每季度1次"
       }
     ],
     "examples": [
@@ -55777,19 +55777,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "丰富就业进展监测渠道，推进多部门大数据比对验证分析，持续监测离校______高校毕业生就业状况。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "1年内",
+        "meaning": "1年内",
+        "hint": "1年内"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "3年内",
+        "meaning": "3年内",
+        "hint": "3年内"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "5年内",
+        "meaning": "5年内",
+        "hint": "5年内"
       }
     ],
     "examples": [
@@ -59141,19 +59141,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "2025年全国两会后启动、______基本结束。",
     "distractors": [
       {
-        "word": "教育约束",
-        "meaning": "教育约束",
-        "hint": "教育约束"
+        "word": "6月底前",
+        "meaning": "6月底前",
+        "hint": "6月底前"
       },
       {
-        "word": "保障激励",
-        "meaning": "保障激励",
-        "hint": "保障激励"
+        "word": "8月底前",
+        "meaning": "8月底前",
+        "hint": "8月底前"
       },
       {
-        "word": "惩戒震慑",
-        "meaning": "惩戒震慑",
-        "hint": "惩戒震慑"
+        "word": "12月底前",
+        "meaning": "12月底前",
+        "hint": "12月底前"
       }
     ],
     "examples": [
@@ -62534,19 +62534,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "确保财政一般公共预算教育支出逐年只增不减，确保按在校学生人数平均的一般公共预算教育支出逐年只增不减，保证国家财政性教育经费支出占国内生产总值比例______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "低于4%",
+        "meaning": "低于4%",
+        "hint": "低于4%"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "高于3%",
+        "meaning": "高于3%",
+        "hint": "高于3%"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "高于5%",
+        "meaning": "高于5%",
+        "hint": "高于5%"
       }
     ],
     "examples": [
@@ -63404,19 +63404,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "提升文件质量，坚持“短实新”文风，除部署综合性工作外，地方和部门文件______，部署专项工作或者具体任务的文件一般不超过4000字。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "一般不超过3000字",
+        "meaning": "一般不超过3000字",
+        "hint": "一般不超过3000字"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "一般不超过4000字",
+        "meaning": "一般不超过4000字",
+        "hint": "一般不超过4000字"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "一般不超过6000字",
+        "meaning": "一般不超过6000字",
+        "hint": "一般不超过6000字"
       }
     ],
     "examples": [
@@ -63433,19 +63433,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "提升文件质量，坚持“短实新”文风，除部署综合性工作外，地方和部门文件一般不超过5000字，部署专项工作或者具体任务的文件______。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "一般不超过3000字",
+        "meaning": "一般不超过3000字",
+        "hint": "一般不超过3000字"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "一般不超过5000字",
+        "meaning": "一般不超过5000字",
+        "hint": "一般不超过5000字"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "一般不超过6000字",
+        "meaning": "一般不超过6000字",
+        "hint": "一般不超过6000字"
       }
     ],
     "examples": [
@@ -63578,19 +63578,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "本系统本领域综合性工作会议，原则上______，各级部门召开的业务工作会议能合并的合并、能精简的精简。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "每年不超过2次",
+        "meaning": "每年不超过2次",
+        "hint": "每年不超过2次"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "每年不超过3次",
+        "meaning": "每年不超过3次",
+        "hint": "每年不超过3次"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "每半年不超过1次",
+        "meaning": "每半年不超过1次",
+        "hint": "每半年不超过1次"
       }
     ],
     "examples": [
@@ -63665,19 +63665,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "从严落实开短会、讲短话要求，地方党政主要负责同志同时参加的会议一般不同时讲话，主要负责同志讲话或者会议主报告______。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "不超过半小时",
+        "meaning": "不超过半小时",
+        "hint": "不超过半小时"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "不超过2小时",
+        "meaning": "不超过2小时",
+        "hint": "不超过2小时"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "不超过3小时",
+        "meaning": "不超过3小时",
+        "hint": "不超过3小时"
       }
     ],
     "examples": [
@@ -63694,19 +63694,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "安排分组讨论的会议，会期原则上不超过______，其他会议一般安排半天以内。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "半天",
+        "meaning": "半天",
+        "hint": "半天"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "1天",
+        "meaning": "1天",
+        "hint": "1天"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "2天",
+        "meaning": "2天",
+        "hint": "2天"
       }
     ],
     "examples": [
@@ -63897,19 +63897,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "借调时间______，特殊情况需要延期的，延长时间______，并应当提前征得派出单位和本人同意。",
     "distractors": [
       {
-        "word": "高水平科技自立自强",
-        "meaning": "高水平科技自立自强",
-        "hint": "高水平科技自立自强"
+        "word": "一般不超过3个月",
+        "meaning": "一般不超过3个月",
+        "hint": "一般不超过3个月"
       },
       {
-        "word": "全过程人民民主",
-        "meaning": "全过程人民民主",
-        "hint": "全过程人民民主"
+        "word": "一般不超过1年",
+        "meaning": "一般不超过1年",
+        "hint": "一般不超过1年"
       },
       {
-        "word": "社会主义核心价值观",
-        "meaning": "社会主义核心价值观",
-        "hint": "社会主义核心价值观"
+        "word": "一般不超过2年",
+        "meaning": "一般不超过2年",
+        "hint": "一般不超过2年"
       }
     ],
     "examples": [
@@ -64767,19 +64767,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "80年前，中国人民经过______浴血奋战，彻底打败日本军国主义侵略者，宣告世界反法西斯战争的完全胜利。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "8年",
+        "meaning": "8年",
+        "hint": "8年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "10年",
+        "meaning": "10年",
+        "hint": "10年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "12年",
+        "meaning": "12年",
+        "hint": "12年"
       }
     ],
     "examples": [
@@ -66101,19 +66101,19 @@ export const chaoge27PoliticalTheory = [
     "hint": "必须充分认识科技的战略先导地位和根本支撑作用，锚定 ______建成科技强国的战略目标，加强顶层设计和统筹谋划，加快实现高水平科技自立自强。",
     "distractors": [
       {
-        "word": "守正创新",
-        "meaning": "守正创新",
-        "hint": "守正创新"
+        "word": "2025年",
+        "meaning": "2025年",
+        "hint": "2025年"
       },
       {
-        "word": "稳中求进",
-        "meaning": "稳中求进",
-        "hint": "稳中求进"
+        "word": "2030年",
+        "meaning": "2030年",
+        "hint": "2030年"
       },
       {
-        "word": "先立后破",
-        "meaning": "先立后破",
-        "hint": "先立后破"
+        "word": "2050年",
+        "meaning": "2050年",
+        "hint": "2050年"
       }
     ],
     "examples": [
