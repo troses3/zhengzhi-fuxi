@@ -189,18 +189,18 @@ function App() {
 
   // Load from local storage or initial with automatic schema synchronization
   useEffect(() => {
-    let storageKey = 'pt-tracker-v15-huasheng';
-    let oldKey = 'pt-tracker-v14-huasheng';
+    let storageKey = 'pt-tracker-v16-huasheng';
+    let oldKey = 'pt-tracker-v15-huasheng';
     let sourceData = initialPoliticalTheory;
 
     if (dataSource === 'chaoge') {
       if (activeMode === 'contrast') {
-        storageKey = 'pt-tracker-v15-chaoge-contrast';
-        oldKey = 'pt-tracker-v14-chaoge-contrast';
+        storageKey = 'pt-tracker-v16-chaoge-contrast';
+        oldKey = 'pt-tracker-v15-chaoge-contrast';
         sourceData = chaogeContrastItems;
       } else {
-        storageKey = 'pt-tracker-v15-chaoge-cloze';
-        oldKey = 'pt-tracker-v14-chaoge-cloze';
+        storageKey = 'pt-tracker-v16-chaoge-cloze';
+        oldKey = 'pt-tracker-v15-chaoge-cloze';
         sourceData = chaogePoliticalTheory;
       }
     }
@@ -266,12 +266,12 @@ function App() {
       const unknown = items.filter(i => i.status === 'unknown').length;
       setStats({ known, unsure, unknown });
       
-      let storageKey = 'pt-tracker-v15-huasheng';
+      let storageKey = 'pt-tracker-v16-huasheng';
       if (dataSource === 'chaoge') {
         if (activeMode === 'contrast') {
-          storageKey = 'pt-tracker-v15-chaoge-contrast';
+          storageKey = 'pt-tracker-v16-chaoge-contrast';
         } else {
-          storageKey = 'pt-tracker-v15-chaoge-cloze';
+          storageKey = 'pt-tracker-v16-chaoge-cloze';
         }
       }
       localStorage.setItem(storageKey, JSON.stringify(items));
