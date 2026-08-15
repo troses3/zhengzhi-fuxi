@@ -187,39 +187,49 @@ function App() {
     localStorage.setItem('pt-tracker-datasource', dataSource);
   }, [dataSource]);
 
-  // Load from local storage or initial
+  // Load from local storage or initial with automatic schema synchronization
   useEffect(() => {
-    let storageKey = 'pt-tracker-v14-huasheng';
+    let storageKey = 'pt-tracker-v15-huasheng';
+    let oldKey = 'pt-tracker-v14-huasheng';
     let sourceData = initialPoliticalTheory;
 
     if (dataSource === 'chaoge') {
       if (activeMode === 'contrast') {
-        storageKey = 'pt-tracker-v14-chaoge-contrast';
+        storageKey = 'pt-tracker-v15-chaoge-contrast';
+        oldKey = 'pt-tracker-v14-chaoge-contrast';
         sourceData = chaogeContrastItems;
       } else {
-        storageKey = 'pt-tracker-v14-chaoge-cloze';
+        storageKey = 'pt-tracker-v15-chaoge-cloze';
+        oldKey = 'pt-tracker-v14-chaoge-cloze';
         sourceData = chaogePoliticalTheory;
       }
     }
 
-    const stored = localStorage.getItem(storageKey);
-    let loadedItems = [];
+    const stored = localStorage.getItem(storageKey) || localStorage.getItem(oldKey);
+    let statusMap = {};
     if (stored) {
       try {
-        loadedItems = JSON.parse(stored);
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) {
+          parsed.forEach(i => {
+            if (i.word && i.status) {
+              statusMap[i.word] = i.status;
+            }
+          });
+        }
       } catch (e) {
-        loadedItems = [];
+        statusMap = {};
       }
     }
     
-    if (!loadedItems || loadedItems.length === 0 || loadedItems.length !== sourceData.length) {
-      loadedItems = sourceData.map(item => ({
-        ...item,
-        status: 'new'
-      }));
-      localStorage.setItem(storageKey, JSON.stringify(loadedItems));
-    }
+    // Always keep latest dataset definition and chapter taxonomy, preserving user's learning status
+    const loadedItems = sourceData.map(item => ({
+      ...item,
+      status: statusMap[item.word] || 'new'
+    }));
+
     setItems(loadedItems);
+    localStorage.setItem(storageKey, JSON.stringify(loadedItems));
 
     const isRandomStored = localStorage.getItem('pt-tracker-random') === 'true';
     if (isRandomStored && loadedItems.length > 0) {
@@ -256,12 +266,12 @@ function App() {
       const unknown = items.filter(i => i.status === 'unknown').length;
       setStats({ known, unsure, unknown });
       
-      let storageKey = 'pt-tracker-v14-huasheng';
+      let storageKey = 'pt-tracker-v15-huasheng';
       if (dataSource === 'chaoge') {
         if (activeMode === 'contrast') {
-          storageKey = 'pt-tracker-v14-chaoge-contrast';
+          storageKey = 'pt-tracker-v15-chaoge-contrast';
         } else {
-          storageKey = 'pt-tracker-v14-chaoge-cloze';
+          storageKey = 'pt-tracker-v15-chaoge-cloze';
         }
       }
       localStorage.setItem(storageKey, JSON.stringify(items));
