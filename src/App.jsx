@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { initialPoliticalTheory } from './data/political_theory';
 import { chaogePoliticalTheory, chaogeContrastItems } from './data/political_theory_chaoge';
+import { chaoge27PoliticalTheory } from './data/political_theory_chaoge_27';
 import './App.css';
 
 const getShortMeaning = (meaning) => {
@@ -163,8 +164,10 @@ function App() {
     return localStorage.getItem('pt-tracker-active-mode') || 'contrast';
   }); // 'quiz', 'speed', 'contrast'
   const [dataSource, setDataSource] = useState(() => {
-    return localStorage.getItem('pt-tracker-datasource') || 'huasheng';
-  }); // 'huasheng', 'chaoge'
+    const saved = localStorage.getItem('pt-tracker-datasource');
+    if (saved === 'chaoge') return 'chaoge26';
+    return saved || 'huasheng';
+  }); // 'huasheng', 'chaoge26', 'chaoge27'
   const [hideBlanksInSpeedMode, setHideBlanksInSpeedMode] = useState(true);
   const [currentExample, setCurrentExample] = useState('');
   const [history, setHistory] = useState([]);
@@ -193,15 +196,25 @@ function App() {
     let oldKey = 'pt-tracker-v15-huasheng';
     let sourceData = initialPoliticalTheory;
 
-    if (dataSource === 'chaoge') {
+    if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
       if (activeMode === 'contrast') {
-        storageKey = 'pt-tracker-v16-chaoge-contrast';
+        storageKey = 'pt-tracker-v16-chaoge26-contrast';
         oldKey = 'pt-tracker-v15-chaoge-contrast';
         sourceData = chaogeContrastItems;
       } else {
-        storageKey = 'pt-tracker-v16-chaoge-cloze';
+        storageKey = 'pt-tracker-v16-chaoge26-cloze';
         oldKey = 'pt-tracker-v15-chaoge-cloze';
         sourceData = chaogePoliticalTheory;
+      }
+    } else if (dataSource === 'chaoge27') {
+      if (activeMode === 'contrast') {
+        storageKey = 'pt-tracker-v16-chaoge27-contrast';
+        oldKey = 'pt-tracker-v15-chaoge-contrast';
+        sourceData = chaogeContrastItems;
+      } else {
+        storageKey = 'pt-tracker-v16-chaoge27-cloze';
+        oldKey = 'pt-tracker-v15-chaoge27-cloze';
+        sourceData = chaoge27PoliticalTheory;
       }
     }
 
@@ -267,11 +280,17 @@ function App() {
       setStats({ known, unsure, unknown });
       
       let storageKey = 'pt-tracker-v16-huasheng';
-      if (dataSource === 'chaoge') {
+      if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
         if (activeMode === 'contrast') {
-          storageKey = 'pt-tracker-v16-chaoge-contrast';
+          storageKey = 'pt-tracker-v16-chaoge26-contrast';
         } else {
-          storageKey = 'pt-tracker-v16-chaoge-cloze';
+          storageKey = 'pt-tracker-v16-chaoge26-cloze';
+        }
+      } else if (dataSource === 'chaoge27') {
+        if (activeMode === 'contrast') {
+          storageKey = 'pt-tracker-v16-chaoge27-contrast';
+        } else {
+          storageKey = 'pt-tracker-v16-chaoge27-cloze';
         }
       }
       localStorage.setItem(storageKey, JSON.stringify(items));
@@ -507,7 +526,8 @@ function App() {
           <div className="stats-row">
             <div className="db-toggle">
               <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
-              <button className={`db-btn ${dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge')}>📖 超格</button>
+              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>📖 超格(26)</button>
+              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>📚 超格(27)</button>
             </div>
             <div className="stats">
               <button 
@@ -764,8 +784,14 @@ function App() {
         {/* 重置进度 */}
         <div className="controls">
           <button className="btn-text" onClick={() => {
-            if(window.confirm(`确定要重置当前数据库（${dataSource === 'huasheng' ? '花生' : '超格'}）的学习进度吗？`)) {
-              const storageKey = dataSource === 'huasheng' ? 'pt-tracker-v13' : 'pt-tracker-v13-chaoge';
+            const dbName = dataSource === 'huasheng' ? '花生' : (dataSource === 'chaoge27' ? '超格(27)' : '超格(26)');
+            if(window.confirm(`确定要重置当前数据库（${dbName}）的学习进度吗？`)) {
+              let storageKey = 'pt-tracker-v16-huasheng';
+              if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
+                storageKey = activeMode === 'contrast' ? 'pt-tracker-v16-chaoge26-contrast' : 'pt-tracker-v16-chaoge26-cloze';
+              } else if (dataSource === 'chaoge27') {
+                storageKey = activeMode === 'contrast' ? 'pt-tracker-v16-chaoge27-contrast' : 'pt-tracker-v16-chaoge27-cloze';
+              }
               localStorage.removeItem(storageKey);
               window.location.reload();
             }
