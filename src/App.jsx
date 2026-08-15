@@ -544,12 +544,15 @@ function App() {
           <div className="progress-bar">
             <div className="progress-fill" style={{ width: `${progress}%` }}></div>
           </div>
-          <div className="stats-row">
+          <div className="db-toggle-row">
             <div className="db-toggle">
               <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
               <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>📖 超格(26)</button>
               <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>📚 超格(27)</button>
             </div>
+          </div>
+
+          <div className="stats-row">
             <div className="stats">
               <button 
                 className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
@@ -557,7 +560,7 @@ function App() {
                 title="只复习已掌握"
               >
                 <span className="dot dot-known"></span>
-                已掌握: <span className="stat-count">{stats.known}</span>
+                掌握: <span className="stat-count">{stats.known}</span>
               </button>
               <button 
                 className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
