@@ -541,9 +541,6 @@ function App() {
           <span className="title-text">政治理论题库</span>
         </h1>
         <div className="progress-container">
-          <div className="progress-bar">
-            <div className="progress-fill" style={{ width: `${progress}%` }}></div>
-          </div>
           <div className="db-toggle-row">
             <div className="db-toggle">
               <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
