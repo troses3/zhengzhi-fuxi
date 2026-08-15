@@ -178,47 +178,60 @@ function App() {
   const cardBackInnerRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
 
+  // Safe LocalStorage helpers
+  const safeStorage = {
+    get: (key) => {
+      try { return localStorage.getItem(key); } catch (e) { return null; }
+    },
+    set: (key, val) => {
+      try { localStorage.setItem(key, val); } catch (e) { console.warn('LocalStorage save failed:', e); }
+    },
+    remove: (key) => {
+      try { localStorage.removeItem(key); } catch (e) {}
+    }
+  };
+
   useEffect(() => {
-    localStorage.setItem('pt-tracker-random', isRandom);
+    safeStorage.set('pt-tracker-random', String(isRandom));
   }, [isRandom]);
 
   useEffect(() => {
-    localStorage.setItem('pt-tracker-active-mode', activeMode);
+    safeStorage.set('pt-tracker-active-mode', activeMode);
   }, [activeMode]);
 
   useEffect(() => {
-    localStorage.setItem('pt-tracker-datasource', dataSource);
+    safeStorage.set('pt-tracker-datasource', dataSource);
   }, [dataSource]);
 
   // Load from local storage or initial with automatic schema synchronization
   useEffect(() => {
-    let storageKey = 'pt-tracker-v16-huasheng';
-    let oldKey = 'pt-tracker-v15-huasheng';
+    let storageKey = 'pt-tracker-v17-huasheng';
+    let oldKey = 'pt-tracker-v16-huasheng';
     let sourceData = initialPoliticalTheory;
 
     if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
       if (activeMode === 'contrast') {
-        storageKey = 'pt-tracker-v16-chaoge26-contrast';
-        oldKey = 'pt-tracker-v15-chaoge-contrast';
+        storageKey = 'pt-tracker-v17-chaoge26-contrast';
+        oldKey = 'pt-tracker-v16-chaoge26-contrast';
         sourceData = chaogeContrastItems;
       } else {
-        storageKey = 'pt-tracker-v16-chaoge26-cloze';
-        oldKey = 'pt-tracker-v15-chaoge26-cloze';
-        sourceData = chaoge27PoliticalTheory; // 2026年政治理论背诵手册 159页全量 (2,293题)
+        storageKey = 'pt-tracker-v17-chaoge26-cloze';
+        oldKey = 'pt-tracker-v16-chaoge26-cloze';
+        sourceData = chaoge27PoliticalTheory; // 2026年政治理论背诵手册 159页全量 (2,163题)
       }
     } else if (dataSource === 'chaoge27') {
       if (activeMode === 'contrast') {
-        storageKey = 'pt-tracker-v16-chaoge27-contrast';
-        oldKey = 'pt-tracker-v15-chaoge-contrast';
+        storageKey = 'pt-tracker-v17-chaoge27-contrast';
+        oldKey = 'pt-tracker-v16-chaoge27-contrast';
         sourceData = chaogeContrastItems;
       } else {
-        storageKey = 'pt-tracker-v16-chaoge27-cloze';
-        oldKey = 'pt-tracker-v15-chaoge-cloze';
+        storageKey = 'pt-tracker-v17-chaoge27-cloze';
+        oldKey = 'pt-tracker-v16-chaoge27-cloze';
         sourceData = chaogePoliticalTheory; // 2027 纯享精选版 (137题)
       }
     }
 
-    const stored = localStorage.getItem(storageKey) || localStorage.getItem(oldKey);
+    const stored = safeStorage.get(storageKey) || safeStorage.get(oldKey);
     let statusMap = {};
     if (stored) {
       try {
@@ -229,6 +242,8 @@ function App() {
               statusMap[i.word] = i.status;
             }
           });
+        } else if (typeof parsed === 'object' && parsed !== null) {
+          statusMap = parsed;
         }
       } catch (e) {
         statusMap = {};
@@ -242,9 +257,8 @@ function App() {
     }));
 
     setItems(loadedItems);
-    localStorage.setItem(storageKey, JSON.stringify(loadedItems));
 
-    const isRandomStored = localStorage.getItem('pt-tracker-random') === 'true';
+    const isRandomStored = safeStorage.get('pt-tracker-random') === 'true';
     if (isRandomStored && loadedItems.length > 0) {
       const candidateIndices = [];
       loadedItems.forEach((item, index) => {
@@ -271,7 +285,7 @@ function App() {
     setSelectedOption(null);
   }, [dataSource, activeMode]);
 
-  // Update stats
+  // Update stats & save status map only (super lightweight, 0 quota issues)
   useEffect(() => {
     if (items.length > 0) {
       const known = items.filter(i => i.status === 'known').length;
@@ -279,21 +293,28 @@ function App() {
       const unknown = items.filter(i => i.status === 'unknown').length;
       setStats({ known, unsure, unknown });
       
-      let storageKey = 'pt-tracker-v16-huasheng';
+      let storageKey = 'pt-tracker-v17-huasheng';
       if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
         if (activeMode === 'contrast') {
-          storageKey = 'pt-tracker-v16-chaoge26-contrast';
+          storageKey = 'pt-tracker-v17-chaoge26-contrast';
         } else {
-          storageKey = 'pt-tracker-v16-chaoge26-cloze';
+          storageKey = 'pt-tracker-v17-chaoge26-cloze';
         }
       } else if (dataSource === 'chaoge27') {
         if (activeMode === 'contrast') {
-          storageKey = 'pt-tracker-v16-chaoge27-contrast';
+          storageKey = 'pt-tracker-v17-chaoge27-contrast';
         } else {
-          storageKey = 'pt-tracker-v16-chaoge27-cloze';
+          storageKey = 'pt-tracker-v17-chaoge27-cloze';
         }
       }
-      localStorage.setItem(storageKey, JSON.stringify(items));
+      
+      const statusMap = {};
+      items.forEach(i => {
+        if (i.status && i.status !== 'new') {
+          statusMap[i.word] = i.status;
+        }
+      });
+      safeStorage.set(storageKey, JSON.stringify(statusMap));
     }
   }, [items, dataSource, activeMode]);
 
