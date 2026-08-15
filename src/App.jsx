@@ -274,7 +274,8 @@ function App() {
     return item.chapter === selectedCategory;
   });
 
-  const currentItem = currentCategoryItems[currentIndex] || null;
+  const safeIndex = (currentCategoryItems.length > 0 && currentIndex >= currentCategoryItems.length) ? 0 : currentIndex;
+  const currentItem = currentCategoryItems[safeIndex] || (currentCategoryItems.length > 0 ? currentCategoryItems[0] : null);
 
   // Category switch
   useEffect(() => {
@@ -287,7 +288,7 @@ function App() {
     }
     setIsFlipped(false);
     setSelectedOption(null);
-  }, [selectedCategory, isRandom]);
+  }, [selectedCategory]);
 
   // Dynamic Height
   useEffect(() => {
@@ -477,7 +478,7 @@ function App() {
     }
   };
 
-  if (!currentItem) return <div className="loading">加载政治理论题库中...</div>;
+  if (items.length === 0) return <div className="loading">加载政治理论题库中...</div>;
 
   const total = items.length;
   const progress = ((stats.known) / (total || 1)) * 100;

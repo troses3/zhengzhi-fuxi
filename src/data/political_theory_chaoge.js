@@ -4289,8 +4289,8 @@ export const chaogeContrastItems = [
     "question": "在科教兴国战略体系中，被明确定义为引领高质量发展的“第一动力”的是：",
     "questionType": "word",
     "meaning": "坚持创新是引领发展的第一动力",
-    "group": "第八节 现代化产业体系",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第八节 教育、科技、人才战略",
+    "chapter": "第二章 改革发展与国家战略",
     "distractors": [
       {
         "word": "科技",
@@ -4313,8 +4313,8 @@ export const chaogeContrastItems = [
     "question": "在科教兴国战略体系中，被明确定义为“第一生产力”的是：",
     "questionType": "word",
     "meaning": "坚持科技是第一生产力",
-    "group": "第八节 现代化产业体系",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第八节 教育、科技、人才战略",
+    "chapter": "第二章 改革发展与国家战略",
     "distractors": [
       {
         "word": "创新",
@@ -4337,8 +4337,8 @@ export const chaogeContrastItems = [
     "question": "在科教兴国战略体系中，被明确定义为“第一资源”的是：",
     "questionType": "word",
     "meaning": "坚持人才是第一资源",
-    "group": "第八节 现代化产业体系",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第八节 教育、科技、人才战略",
+    "chapter": "第二章 改革发展与国家战略",
     "distractors": [
       {
         "word": "科技",
@@ -4361,7 +4361,7 @@ export const chaogeContrastItems = [
     "question": "在统揽“四个伟大”的有机整体中，“党的建设新的伟大工程”所起的关键作用是：",
     "questionType": "definition",
     "meaning": "起决定性作用，为其他伟大提供坚强政治和组织保证",
-    "group": "第二节 新时代中国特色社会主义",
+    "group": "第二节 新时代坚持和发展中国特色社会主义",
     "chapter": "第一章 创新理论与新时代",
     "distractors": [
       {
@@ -4385,7 +4385,7 @@ export const chaogeContrastItems = [
     "question": "在统揽“四个伟大”的有机整体中，“中国特色社会主义伟大事业”所处的定位是：",
     "questionType": "definition",
     "meaning": "作为全部理论和实践的主题，贯穿现代化建设全过程",
-    "group": "第二节 新时代中国特色社会主义",
+    "group": "第二节 新时代坚持和发展中国特色社会主义",
     "chapter": "第一章 创新理论与新时代",
     "distractors": [
       {
@@ -4409,8 +4409,8 @@ export const chaogeContrastItems = [
     "question": "党的十一届三中全会在党史和国家发展中的里程碑意义是：",
     "questionType": "definition",
     "meaning": "开启了改革开放和社会主义现代化建设新时期",
-    "group": "第二节 新时代中国特色社会主义",
-    "chapter": "第一章 创新理论与新时代",
+    "group": "第五节 全面深化改革开放",
+    "chapter": "第二章 改革发展与国家战略",
     "distractors": [
       {
         "word": "十二大",
@@ -4433,7 +4433,7 @@ export const chaogeContrastItems = [
     "question": "党的十二大在马克思主义中国化进程中的历史性贡献是：",
     "questionType": "definition",
     "meaning": "首次明确提出“走自己的道路，建设有中国特色的社会主义”",
-    "group": "第二节 新时代中国特色社会主义",
+    "group": "第二节 新时代坚持和发展中国特色社会主义",
     "chapter": "第一章 创新理论与新时代",
     "distractors": [
       {
@@ -4457,7 +4457,7 @@ export const chaogeContrastItems = [
     "question": "党的十三大在社会主义理论探索中的重大历史贡献是：",
     "questionType": "definition",
     "meaning": "系统阐述社会主义初级阶段理论并制定党的基本路线",
-    "group": "第二节 新时代中国特色社会主义",
+    "group": "第二节 新时代坚持和发展中国特色社会主义",
     "chapter": "第一章 创新理论与新时代",
     "distractors": [
       {
@@ -4481,7 +4481,7 @@ export const chaogeContrastItems = [
     "question": "党的十八大在党和国家历史发展方位中的历史性标志是：",
     "questionType": "definition",
     "meaning": "宣告中国特色社会主义进入了新时代，标定了发展新方位",
-    "group": "第二节 新时代中国特色社会主义",
+    "group": "第二节 新时代坚持和发展中国特色社会主义",
     "chapter": "第一章 创新理论与新时代",
     "distractors": [
       {
@@ -4505,7 +4505,7 @@ export const chaogeContrastItems = [
     "question": "“中国共产党领导”在我国根本性质和制度体系中的最高论断是：",
     "questionType": "definition",
     "meaning": "中国特色社会主义最本质特征与中国特色社会主义制度的最大优势",
-    "group": "第三节 中国式现代化",
+    "group": "第四节 领导核心与依靠力量",
     "chapter": "第一章 创新理论与新时代",
     "distractors": [
       {
@@ -4529,8 +4529,8 @@ export const chaogeContrastItems = [
     "question": "党的十八届三中全会确立的“全面深化改革总目标”具体表述为：",
     "questionType": "definition",
     "meaning": "完善和发展中国特色社会主义制度、推进国家治理体系和治理能力现代化",
-    "group": "第四节 改革开放",
-    "chapter": "第一章 创新理论与新时代",
+    "group": "第五节 全面深化改革开放",
+    "chapter": "第二章 改革发展与国家战略",
     "distractors": [
       {
         "word": "全面推进依法治国总目标",
@@ -4553,8 +4553,8 @@ export const chaogeContrastItems = [
     "question": "党的十八届四中全会确立的“全面推进依法治国总目标”具体表述为：",
     "questionType": "definition",
     "meaning": "建设中国特色社会主义法治体系、建设社会主义法治国家",
-    "group": "第四节 改革开放",
-    "chapter": "第一章 创新理论与新时代",
+    "group": "第九节 政治建设",
+    "chapter": "第三章 五位一体与国家安全",
     "distractors": [
       {
         "word": "全面深化改革总目标",
@@ -4577,8 +4577,8 @@ export const chaogeContrastItems = [
     "question": "在总体国家安全观战略布局中，被明确作为国家安全“根本”的是：",
     "questionType": "word",
     "meaning": "坚持以政治安全为根本，坚决维护国家政权安全、制度安全、意识形态安全",
-    "group": "第十一节 国家安全",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十三节 国家安全",
+    "chapter": "第三章 五位一体与国家安全",
     "distractors": [
       {
         "word": "人民安全",
@@ -4601,8 +4601,8 @@ export const chaogeContrastItems = [
     "question": "在总体国家安全观战略布局中，被明确作为国家安全“宗旨”的是：",
     "questionType": "word",
     "meaning": "坚持以人民安全为宗旨，国家安全一切为了人民、一切依靠人民",
-    "group": "第十一节 国家安全",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十三节 国家安全",
+    "chapter": "第三章 五位一体与国家安全",
     "distractors": [
       {
         "word": "政治安全",
@@ -4625,8 +4625,8 @@ export const chaogeContrastItems = [
     "question": "在党在新时代的强军目标中，决定军队建设政治方向、作为人民军队“灵魂”的是：",
     "questionType": "word",
     "meaning": "坚持把听党指挥作为军队建设的灵魂，确保绝对忠诚、绝对纯洁、绝对可靠",
-    "group": "第十二节 国防和军队建设",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十四节 国防和军队建设",
+    "chapter": "第四章 强军外交与从严治党",
     "distractors": [
       {
         "word": "能打胜仗",
@@ -4649,8 +4649,8 @@ export const chaogeContrastItems = [
     "question": "在党在新时代的强军目标中，反映军队根本职能、作为军队建设“核心”的是：",
     "questionType": "word",
     "meaning": "坚持把能打胜仗作为军队建设的核心，全部心思向打仗聚焦",
-    "group": "第十二节 国防和军队建设",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十四节 国防和军队建设",
+    "chapter": "第四章 强军外交与从严治党",
     "distractors": [
       {
         "word": "听党指挥",
@@ -4673,8 +4673,8 @@ export const chaogeContrastItems = [
     "question": "我国在发展同周边国家关系、深化睦邻友好中所始终秉持的外交理念是：",
     "questionType": "word",
     "meaning": "坚持亲诚惠容理念和与邻为善、以邻为伴的周边外交方针",
-    "group": "第十三节 港澳台与外交",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十六节 中国特色大国外交",
+    "chapter": "第四章 强军外交与从严治党",
     "distractors": [
       {
         "word": "真实亲诚",
@@ -4697,8 +4697,8 @@ export const chaogeContrastItems = [
     "question": "党面临的“执政考验、改革开放考验、市场经济考验、外部环境考验”，统称为：",
     "questionType": "word",
     "meaning": "执政考验、改革开放考验、市场经济考验、外部环境考验",
-    "group": "第十四节 全面从严治党",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十七节 全面从严治党",
+    "chapter": "第四章 强军外交与从严治党",
     "distractors": [
       {
         "word": "四大危险",
@@ -4721,8 +4721,8 @@ export const chaogeContrastItems = [
     "question": "党面临的“精神懈怠危险、能力不足危险、脱离群众危险、消极腐败危险”，统称为：",
     "questionType": "word",
     "meaning": "精神懈怠危险、能力不足危险、脱离群众危险、消极腐败危险",
-    "group": "第十四节 全面从严治党",
-    "chapter": "第二章 高质量发展与经济布局",
+    "group": "第十七节 全面从严治党",
+    "chapter": "第四章 强军外交与从严治党",
     "distractors": [
       {
         "word": "四大考验",
