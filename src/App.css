@@ -1156,51 +1156,55 @@ body {
 }
 
 .speed-blank {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--accent-color);
   padding: 0.25rem 0.75rem;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
   user-select: none;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.4;
 }
 
 .speed-blank.masked {
   background: #cbd5e1;
-  color: transparent;
+  color: transparent !important;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
 }
+
 .speed-blank.revealed {
   background: rgba(59, 130, 246, 0.1);
   color: var(--accent-color);
+  box-shadow: none;
 }
 
 .speed-inline-blank {
   font-weight: 700;
-  display: inline;
-  padding: 0.1rem 0.35rem;
-  margin: 0 0.15rem;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0.05rem 0.4rem;
+  margin: 0 0.2rem;
   border-radius: 6px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: color 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
   user-select: none;
+  vertical-align: baseline;
+  line-height: 1.35;
 }
 
 .speed-inline-blank.masked {
   background: #cbd5e1;
-  color: transparent;
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
-  display: inline-block;
-  min-width: 3.2rem;
-  height: 1.25em;
-  vertical-align: -2px;
+  color: transparent !important;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
 }
 
 .speed-inline-blank.revealed {
   background: rgba(59, 130, 246, 0.12);
   color: var(--accent-color);
-  display: inline;
+  box-shadow: none;
 }
 /* 辨析卡片 */
 .contrast-item-card {
