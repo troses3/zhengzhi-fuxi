@@ -430,18 +430,25 @@ function App() {
         const contentHeight = cardBackInnerRef.current.scrollHeight;
         setCardHeight(`${Math.max(340, contentHeight)}px`);
       }
-    }, 50);
+    }, 40);
 
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
-      const scrollTimer = setTimeout(() => {
+      const doScroll = () => {
         if (actionButtonsRef.current) {
-          actionButtonsRef.current.scrollIntoView({
-            behavior: 'smooth',
-            block: 'nearest'
-          });
+          const rect = actionButtonsRef.current.getBoundingClientRect();
+          const safetyZone = 75; // floating bar + breathing gap
+          const diff = rect.bottom - (window.innerHeight - safetyZone);
+          if (diff > 0) {
+            window.scrollBy({ top: diff + 12, behavior: 'smooth' });
+          }
         }
-      }, 160);
-      return () => clearTimeout(scrollTimer);
+      };
+      const timer1 = setTimeout(doScroll, 80);
+      const timer2 = setTimeout(doScroll, 220);
+      return () => {
+        clearTimeout(timer1);
+        clearTimeout(timer2);
+      };
     }
   }, [selectedOption, currentItem, isFlipped, activeMode]);
 

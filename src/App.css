@@ -32,10 +32,10 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  padding: 1rem 1rem calc(6.5rem + env(safe-area-inset-bottom)) 1rem;
+  padding: 0.85rem 1rem calc(4.8rem + env(safe-area-inset-bottom)) 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.65rem;
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -637,7 +637,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.65rem;
   perspective: 1000px;
 }
 
@@ -646,7 +646,7 @@ body {
   height: 340px; /* Short card by default */
   cursor: pointer;
   position: relative;
-  transition: height 0.4s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth height transition when answered */
+  transition: height 0.25s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth height transition when answered */
 }
 .card-container.expanded {
   /* Height is now managed dynamically by React inline styles */
@@ -758,20 +758,42 @@ body {
 
 .idiom-details {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 1rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
   width: 100%;
 }
 
-.idiom-details h3 {
-  font-size: 2rem;
-  font-weight: 700;
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  width: 60px;
+}
+
+.value {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.pinyin {
+  font-family: monospace;
+  color: var(--accent-color);
+  font-weight: 600;
 }
 
 .color-tag, .freq-tag {
-  padding: 0.3rem 0.8rem;
-  border-radius: 12px;
-  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
   font-weight: 600;
 }
 
@@ -792,11 +814,11 @@ body {
 
 .action-buttons {
   display: flex;
-  gap: 0.65rem;
+  gap: 0.5rem;
   width: 100%;
-  margin-top: 0.35rem;
-  padding-bottom: 0.5rem;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  margin-top: 0;
+  padding-bottom: 0.1rem;
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .action-buttons.hidden {
@@ -807,15 +829,15 @@ body {
 
 .btn {
   flex: 1;
-  padding: 0.7rem 1rem;
+  padding: 0.65rem 0.5rem;
   border: none;
   border-radius: 12px;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-weight: 600;
   cursor: pointer;
   color: white;
   transition: all 0.2s ease;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .btn:active:not(:disabled) {
