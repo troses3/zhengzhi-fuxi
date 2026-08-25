@@ -446,8 +446,11 @@ function App() {
           // 严格以“卡片底到按钮顶”的真实上间距为基准
           const topGap = Math.max(6, btnRect.top - cardRect.bottom);
           
-          // 目标：让按钮底部距离悬浮栏顶部正好等于 topGap
-          const diff = btnRect.bottom - (floatingRect.top - topGap);
+          // 视觉感知补偿：悬浮栏带有圆角与内边距，下间距相应收紧，达到视觉上的真正 1:1 匀称
+          const visualAdjustedGap = Math.max(4, topGap - 5);
+          
+          // 目标：让按钮底部距离悬浮栏顶部视觉上严格对齐上间距
+          const diff = btnRect.bottom - (floatingRect.top - visualAdjustedGap);
           
           if (Math.abs(diff) > 2) {
             window.scrollBy({
