@@ -435,16 +435,22 @@ function App() {
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
       const doScroll = () => {
         if (actionButtonsRef.current) {
-          const rect = actionButtonsRef.current.getBoundingClientRect();
-          const safetyZone = 58; // snug fit above floating bar
-          const diff = rect.bottom - (window.innerHeight - safetyZone);
+          const btnRect = actionButtonsRef.current.getBoundingClientRect();
+          const floatingBar = document.querySelector('.floating-mode-bar');
+          const floatingBarTop = floatingBar 
+            ? floatingBar.getBoundingClientRect().top 
+            : (window.innerHeight - 80);
+          
+          // 保留与悬浮栏之间 16px 舒适安全呼吸距离
+          const targetBottom = floatingBarTop - 16;
+          const diff = btnRect.bottom - targetBottom;
           if (diff > 0) {
-            window.scrollBy({ top: diff + 6, behavior: 'smooth' });
+            window.scrollBy({ top: diff, behavior: 'smooth' });
           }
         }
       };
       const timer1 = setTimeout(doScroll, 80);
-      const timer2 = setTimeout(doScroll, 220);
+      const timer2 = setTimeout(doScroll, 240);
       return () => {
         clearTimeout(timer1);
         clearTimeout(timer2);
