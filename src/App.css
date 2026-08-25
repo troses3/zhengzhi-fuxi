@@ -128,36 +128,56 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0.3rem;
   width: 100%;
+  padding: 0 0.15rem;
 }
 
 .stat-item {
-  flex: 1;
-  min-width: 0;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.25rem;
-  padding: 0.38rem 0.25rem;
-  background: rgba(0, 0, 0, 0.035);
+  gap: 0.3rem;
+  padding: 0.32rem 0.45rem;
+  background: transparent;
   border: 1px solid transparent;
   border-radius: 100px;
-  font-size: 0.78rem;
-  font-weight: 600;
+  font-size: 0.84rem;
+  font-weight: 650;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   white-space: nowrap;
-  color: var(--text-secondary);
+}
+
+.stat-item.stat-known {
+  color: #059669;
+}
+
+.stat-item.stat-unsure {
+  color: #d97706;
+}
+
+.stat-item.stat-unknown {
+  color: #dc2626;
+}
+
+.stat-item.stat-total {
+  color: #334155;
 }
 
 .stat-item:hover {
-  background: rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.stat-item.active {
+  background: rgba(226, 232, 240, 0.65);
+  border: 1px solid rgba(203, 213, 225, 0.9);
+  padding: 0.32rem 0.72rem;
+  box-shadow: none;
 }
 
 .dot {
-  width: 6px;
-  height: 6px;
+  width: 6.5px;
+  height: 6.5px;
   border-radius: 50%;
   display: inline-block;
   flex-shrink: 0;
@@ -166,39 +186,6 @@ body {
 .dot-known { background: #10b981; }
 .dot-unsure { background: #f59e0b; }
 .dot-unknown { background: #ef4444; }
-
-/* Active Filter styles - 统一为纯白底色 + 精致描边胶囊 */
-.stat-item.active-known {
-  background: #ffffff;
-  border-color: rgba(16, 185, 129, 0.45);
-  color: #059669;
-  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08);
-  font-weight: 750;
-}
-
-.stat-item.active-unsure {
-  background: #ffffff;
-  border-color: rgba(245, 158, 11, 0.45);
-  color: #d97706;
-  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.08);
-  font-weight: 750;
-}
-
-.stat-item.active-unknown {
-  background: #ffffff;
-  border-color: rgba(239, 68, 68, 0.45);
-  color: #dc2626;
-  box-shadow: 0 2px 8px rgba(239, 68, 68, 0.08);
-  font-weight: 750;
-}
-
-.stat-item.active-all {
-  background: #ffffff;
-  border-color: rgba(59, 130, 246, 0.35);
-  color: var(--accent-color);
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.08);
-  font-weight: 750;
-}
 
 /* 🔍 搜索输入栏（内置于控制面板，极简设计） */
 .search-bar-box {

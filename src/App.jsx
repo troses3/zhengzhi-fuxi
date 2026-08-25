@@ -645,35 +645,35 @@ function App() {
           <div className="stats-row">
             <div className="stats">
               <button 
-                className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
+                className={`stat-item stat-known ${filter === 'known' ? 'active' : ''}`}
                 onClick={() => handleFilterClick('known')}
                 title="只复习已掌握"
               >
                 <span className="dot dot-known"></span>
-                掌握 {stats.known}
+                已掌握: {stats.known}
               </button>
               <button 
-                className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
+                className={`stat-item stat-unsure ${filter === 'unsure' ? 'active' : ''}`}
                 onClick={() => handleFilterClick('unsure')}
                 title="只复习模糊"
               >
                 <span className="dot dot-unsure"></span>
-                模糊 {stats.unsure}
+                模糊: {stats.unsure}
               </button>
               <button 
-                className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
+                className={`stat-item stat-unknown ${filter === 'unknown' ? 'active' : ''}`}
                 onClick={() => handleFilterClick('unknown')}
                 title="只复习生词"
               >
                 <span className="dot dot-unknown"></span>
-                生词 {stats.unknown}
+                生词: {stats.unknown}
               </button>
               <button 
-                className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
+                className={`stat-item stat-total ${filter === 'all' ? 'active' : ''}`}
                 onClick={() => setFilter('all')}
                 title="查看全部"
               >
-                总计 {total}
+                总计: {total}
               </button>
             </div>
           </div>
