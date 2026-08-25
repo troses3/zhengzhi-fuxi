@@ -533,16 +533,16 @@ body {
 }
 
 .mode-btn {
-  padding: 0.42rem 0.68rem;
+  padding: 0.38rem 0.72rem;
   margin: 0;
-  border: none;
+  border: 1px solid transparent;
   background: transparent;
   border-radius: 100px;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  color: #64748b;
+  color: var(--text-secondary);
   cursor: pointer;
-  transition: all 0.18s ease;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   white-space: nowrap;
   display: flex;
   align-items: center;
@@ -550,16 +550,15 @@ body {
 }
 
 .mode-btn:hover {
-  color: #1e293b;
-  background: rgba(0, 0, 0, 0.03);
+  background: rgba(0, 0, 0, 0.04);
 }
 
 .mode-btn.active {
-  background: rgba(59, 130, 246, 0.12);
-  color: #2563eb;
-  font-weight: 750;
-  box-shadow: none;
-  transform: none;
+  background: #ffffff;
+  border-color: rgba(59, 130, 246, 0.35);
+  color: var(--accent-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  font-weight: 700;
 }
 
 .mode-divider {
