@@ -206,6 +206,7 @@ function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   
   const cardBackInnerRef = useRef(null);
+  const actionButtonsRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
 
   // Safe LocalStorage helpers
@@ -422,7 +423,7 @@ function App() {
     setSelectedOption(null);
   }, [selectedCategory]);
 
-  // Dynamic Height
+  // Dynamic Height & Auto Scroll into view
   useEffect(() => {
     setTimeout(() => {
       if (cardBackInnerRef.current) {
@@ -430,6 +431,18 @@ function App() {
         setCardHeight(`${Math.max(340, contentHeight)}px`);
       }
     }, 50);
+
+    if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
+      const scrollTimer = setTimeout(() => {
+        if (actionButtonsRef.current) {
+          actionButtonsRef.current.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest'
+          });
+        }
+      }, 160);
+      return () => clearTimeout(scrollTimer);
+    }
   }, [selectedOption, currentItem, isFlipped, activeMode]);
 
   // Shuffle options
@@ -996,7 +1009,10 @@ function App() {
                 </div>
 
                 {/* 底部操作按钮 */}
-                <div className={`action-buttons ${(!isFlipped || selectedOption === null) ? 'hidden' : ''}`}>
+                <div 
+                  ref={actionButtonsRef}
+                  className={`action-buttons ${(!isFlipped || selectedOption === null) ? 'hidden' : ''}`}
+                >
                   <button className="btn btn-prev" onClick={handlePrev} disabled={history.length === 0}>
                     上一题
                   </button>
