@@ -439,8 +439,8 @@ function App() {
           const btnRect = actionBtnEl.getBoundingClientRect();
           const floatingRect = floatingBarEl.getBoundingClientRect();
           
-          // 目标下间距再缩小 10% -> 9.7px
-          const targetGap = 9.7;
+          // 目标下间距再缩小 10% -> 8.7px
+          const targetGap = 8.7;
           const diff = btnRect.bottom - (floatingRect.top - targetGap);
           
           if (diff > 1) {
