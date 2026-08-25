@@ -203,6 +203,7 @@ function App() {
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   
   const cardBackInnerRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
@@ -629,9 +630,109 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>
-          <span className="title-text">📚 政治理论题库</span>
-        </h1>
+        <div className="header-nav-bar">
+          {/* 左上角：重置当前题库进度 */}
+          <button 
+            className="header-icon-btn reset-header-btn" 
+            title="重置当前题库进度"
+            onClick={() => {
+              const dbName = dataSource === 'huasheng' ? '花生' : (dataSource === 'chaoge27' ? '超格(27)' : '超格(26)');
+              if(window.confirm(`确定要重置当前数据库（${dbName}）的学习进度吗？`)) {
+                let storageKey = 'pt-tracker-v17-huasheng';
+                if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
+                  storageKey = activeMode === 'contrast' ? 'pt-tracker-v17-chaoge26-contrast' : 'pt-tracker-v17-chaoge26-cloze';
+                } else if (dataSource === 'chaoge27') {
+                  storageKey = activeMode === 'contrast' ? 'pt-tracker-v17-chaoge27-contrast' : 'pt-tracker-v17-chaoge27-cloze';
+                }
+                localStorage.removeItem(storageKey);
+                window.location.reload();
+              }
+            }}
+          >
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/>
+              <path d="M21 3v5h-5"/>
+            </svg>
+          </button>
+
+          {/* 中间：标题（Emoji独立于渐变，色彩清晰饱满） */}
+          <h1 className="header-title">
+            <span className="title-emoji">📚</span>
+            <span className="title-text">政治理论题库</span>
+          </h1>
+
+          {/* 右上角：搜索按钮 */}
+          <button 
+            className={`header-icon-btn search-header-btn ${(isSearchOpen || searchQuery) ? 'active' : ''}`}
+            title="搜索考点原句"
+            onClick={() => setIsSearchOpen(prev => !prev)}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </div>
+
+        {/* 顶部展开式搜索栏 */}
+        {(isSearchOpen || searchQuery.trim() !== '') && (
+          <form 
+            className="search-bar-box"
+            onSubmit={(e) => {
+              e.preventDefault();
+              e.target.querySelector('input')?.blur();
+            }}
+          >
+            <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="search"
+              enterKeyHint="search"
+              autoFocus
+              className="search-box-input"
+              placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentIndex(0);
+                setIsFlipped(false);
+                setSelectedOption(null);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.target.blur();
+                }
+              }}
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                className="search-box-clear"
+                onPointerDown={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                  setIsFlipped(false);
+                  setSelectedOption(null);
+                }}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                  setIsFlipped(false);
+                  setSelectedOption(null);
+                }}
+                title="清空搜索"
+              >
+                ✕
+              </button>
+            )}
+          </form>
+        )}
 
         <div className="progress-container">
           <div className="db-toggle-row">
@@ -680,63 +781,6 @@ function App() {
               </button>
             </div>
           </div>
-
-          {/* 搜索栏（置于控制面板内，回车自动收起软键盘） */}
-          <form 
-            className="search-bar-box"
-            onSubmit={(e) => {
-              e.preventDefault();
-              e.target.querySelector('input')?.blur();
-            }}
-          >
-            <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input
-              type="search"
-              enterKeyHint="search"
-              className="search-box-input"
-              placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                setCurrentIndex(0);
-                setIsFlipped(false);
-                setSelectedOption(null);
-              }}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  e.target.blur();
-                }
-              }}
-            />
-            {searchQuery && (
-              <button
-                type="button"
-                className="search-box-clear"
-                onPointerDown={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                  setIsFlipped(false);
-                  setSelectedOption(null);
-                }}
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                  setIsFlipped(false);
-                  setSelectedOption(null);
-                }}
-                title="清空搜索"
-              >
-                ✕
-              </button>
-            )}
-          </form>
 
           {/* 单行横向滑动章节栏 */}
           <div className="category-scroll-container">
@@ -990,29 +1034,6 @@ function App() {
             )}
           </>
         )}
-
-        {/* 重置进度 */}
-        <div className="controls">
-          <button className="btn-text" onClick={() => {
-            const dbName = dataSource === 'huasheng' ? '花生' : (dataSource === 'chaoge27' ? '超格(27)' : '超格(26)');
-            if(window.confirm(`确定要重置当前数据库（${dbName}）的学习进度吗？`)) {
-              let storageKey = 'pt-tracker-v16-huasheng';
-              if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
-                storageKey = activeMode === 'contrast' ? 'pt-tracker-v16-chaoge26-contrast' : 'pt-tracker-v16-chaoge26-cloze';
-              } else if (dataSource === 'chaoge27') {
-                storageKey = activeMode === 'contrast' ? 'pt-tracker-v16-chaoge27-contrast' : 'pt-tracker-v16-chaoge27-cloze';
-              }
-              localStorage.removeItem(storageKey);
-              window.location.reload();
-            }
-          }}>
-            <svg className="reset-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/>
-              <path d="M21 3v5h-5"/>
-            </svg>
-            <span className="reset-text">重置进度</span>
-          </button>
-        </div>
       </main>
 
       {/* 底部悬浮模式栏（极简单层设计，无多层套娃） */}
