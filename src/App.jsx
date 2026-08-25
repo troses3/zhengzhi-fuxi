@@ -655,6 +655,15 @@ function App() {
     }
   }, [dataSource]);
 
+  useEffect(() => {
+    if (chapterList.length > 0 && selectedCategory !== 'all') {
+      const exists = chapterList.some(c => c.key === selectedCategory);
+      if (!exists) {
+        setSelectedCategory('all');
+      }
+    }
+  }, [dataSource, chapterList, selectedCategory]);
+
   return (
     <div className="app-container">
       {/* 🍏 iOS 极简毛玻璃顶栏 */}
@@ -827,57 +836,66 @@ function App() {
           <>
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
-              <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
-                  <div className={`card ${isFlipped ? 'flipped' : ''}`}>
-                    {/* 卡片正面 */}
-                    <div className="card-front">
-                      {activeMode === 'quiz' ? (
-                        <h2 className="idiom-word sentence-blank">
-                          {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
-                        </h2>
-                      ) : (
-                        <div className="contrast-front-container">
-                          <h2 className="contrast-front-title">
-                            {currentItem.title || currentItem.word}
+              !currentItem ? (
+                <div className="empty-state-card">
+                  <h3>当前分类暂无考点</h3>
+                  <p>请点击下方按钮查看全部章节与考点</p>
+                  <button className="empty-state-btn" onClick={() => { setSelectedCategory('all'); setFilter('all'); }}>
+                    查看全部章节
+                  </button>
+                </div>
+              ) : (
+                <>
+                  <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
+                    <div className={`card ${isFlipped ? 'flipped' : ''}`}>
+                      {/* 卡片正面 */}
+                      <div className="card-front">
+                        {activeMode === 'quiz' ? (
+                          <h2 className="idiom-word sentence-blank">
+                            {renderSentenceWithBlank(currentExample || currentItem?.meaning || '', currentItem?.word || '')}
                           </h2>
-                          <div className="contrast-front-sub">
-                            {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
+                        ) : (
+                          <div className="contrast-front-container">
+                            <h2 className="contrast-front-title">
+                              {currentItem?.title || currentItem?.word || ''}
+                            </h2>
+                            <div className="contrast-front-sub">
+                              {currentItem?.subtitle || `请辨析【${currentItem?.word || ''}】的科学定位与对应官方论断`}
+                            </div>
                           </div>
-                        </div>
-                      )}
-                      <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
-                      {currentItem.status !== 'new' && (
-                        <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
-                          上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
-                        </div>
-                      )}
-                    </div>
+                        )}
+                        <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
+                        {currentItem?.status && currentItem.status !== 'new' && (
+                          <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
+                            上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
+                          </div>
+                        )}
+                      </div>
 
                     {/* 卡片反面 */}
                     <div className="card-back">
                       <div className="card-back-inner" ref={cardBackInnerRef}>
                         <div className="group-tag">
-                          {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
+                          {currentItem?.group || ''} {currentItem?.subcategory ? `· ${currentItem.subcategory}` : ''}
                         </div>
                         <div className="card-back-content">
                           {activeMode === 'quiz' ? (
                             <>
                               <div className="sentence-question">
-                                {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
+                                {renderSentenceWithBlank(currentExample || currentItem?.meaning || '', currentItem?.word || '')}
                               </div>
                               <div className="quiz-title">请选择正确的考点词：</div>
                             </>
                           ) : (
                             <>
-                              <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>【{currentItem.title || currentItem.word}】</h3>
+                              <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>【{currentItem?.title || currentItem?.word || ''}】</h3>
                               <div className="sentence-question contrast-question-title" style={{ fontSize: '0.98rem', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'left', lineHeight: '1.45' }}>
-                                {currentItem.question || `请选择与【${currentItem.word}】严格对应的科学论断：`}
+                                {currentItem?.question || `请选择与【${currentItem?.word || ''}】严格对应的科学论断：`}
                               </div>
                             </>
                           )}
 
-                          <div className={`options-container ${(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+                          <div className={`options-container ${(activeMode === 'quiz' || currentItem?.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
                             {shuffledOptions.map((opt, index) => {
                               let btnClass = "option-btn";
                               if (selectedOption !== null) {
@@ -904,7 +922,7 @@ function App() {
                                   <span className="option-label">
                                     {selectedOption !== null && opt.isCorrect ? '✓ ' : selectedOption !== null && selectedOption === index ? '✗ ' : `${['A', 'B', 'C', 'D'][index]}. `}
                                   </span>
-                                  <span className={(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
+                                  <span className={(activeMode === 'quiz' || currentItem?.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
                                 </button>
                               );
                             })}
@@ -916,12 +934,12 @@ function App() {
                               <div className="example-item highlighted-example">
                                 <strong>官方原文：</strong>
                                 <span>
-                                  {renderHighlightedSentence(currentExample || currentItem.meaning, currentItem.word)}
+                                  {renderHighlightedSentence(currentExample || currentItem?.meaning || '', currentItem?.word || '')}
                                 </span>
                               </div>
                               {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
                                 <div className="incorrect-choice-tip">
-                                  你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
+                                  你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem?.word || ''}】</strong>
                                 </div>
                               )}
                             </div>
@@ -934,10 +952,10 @@ function App() {
                               <div className="contrast-explanation-list">
                                 <div className="contrast-exp-item main-exp">
                                   <span className="exp-badge correct-badge">正确项</span>
-                                  <strong className="exp-word">【{currentItem.word}】</strong>：
-                                  <span className="exp-meaning">{currentItem.meaning}</span>
+                                  <strong className="exp-word">【{currentItem?.word || ''}】</strong>：
+                                  <span className="exp-meaning">{currentItem?.meaning || ''}</span>
                                 </div>
-                                {currentItem.distractors && currentItem.distractors.map((d, dIdx) => (
+                                {currentItem?.distractors && currentItem.distractors.map((d, dIdx) => (
                                   <div key={dIdx} className="contrast-exp-item distractor-exp">
                                     <span className="exp-badge dist-badge">易混项</span>
                                     <strong className="exp-word">【{d.word}】</strong>：
@@ -969,7 +987,7 @@ function App() {
                   </button>
                 </div>
               </>
-            )}
+            ))}
 
             {/* 扩展模式：速览速记 */}
             {activeMode === 'speed' && (
