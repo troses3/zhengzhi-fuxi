@@ -195,26 +195,6 @@ function KnowledgeCard({ item, searchQuery, onPracticeItem }) {
             {highlightMatch(item.meaning || item.title, searchQuery)}
           </div>
         </div>
-
-        {item.hint && (
-          <div className="knowledge-field">
-            <div className="field-label">真题挖空</div>
-            <div className="field-text text-hint">
-              {item.hint}
-            </div>
-          </div>
-        )}
-
-        {item.distractors && item.distractors.length > 0 && (
-          <div className="knowledge-field">
-            <div className="field-label">干扰辨析</div>
-            <div className="distractors-wrap">
-              {item.distractors.map((d, i) => (
-                <span key={i} className="distractor-chip">{d.word}</span>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
 
       <div className="knowledge-card-footer">
@@ -397,18 +377,15 @@ function App() {
 
   // Filtered by chapter & search query
   const currentCategoryItems = items.filter(item => {
-    // 🔍 实时多维度匹配当前题库
+    // 🔍 实时多维度匹配当前题库考点与原句（不匹配章节名称，防止泛滥匹配）
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
       const w = (item.word || '').toLowerCase();
       const m = (item.meaning || '').toLowerCase();
       const h = (item.hint || '').toLowerCase();
-      const g = (item.group || '').toLowerCase();
-      const c = (item.chapter || '').toLowerCase();
       const t = (item.title || '').toLowerCase();
       const s = (item.subtitle || '').toLowerCase();
-      const d = (item.distractors || []).map(x => x.word || '').join(' ').toLowerCase();
-      const matchesSearch = w.includes(q) || m.includes(q) || h.includes(q) || g.includes(q) || c.includes(q) || t.includes(q) || s.includes(q) || d.includes(q);
+      const matchesSearch = w.includes(q) || m.includes(q) || h.includes(q) || t.includes(q) || s.includes(q);
       if (!matchesSearch) return false;
     }
 
