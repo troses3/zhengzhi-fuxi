@@ -649,7 +649,8 @@ body {
   position: relative;
 }
 .card-container.expanded {
-  /* Height is now managed dynamically by React inline styles */
+  height: auto;
+  min-height: calc(100dvh - 290px);
 }
 
 .card {
