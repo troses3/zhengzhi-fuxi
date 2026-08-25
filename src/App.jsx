@@ -150,6 +150,166 @@ function SpeedItemCard({ item, idx, globalMasked }) {
   );
 }
 
+function SearchModal({ 
+  isOpen, 
+  onClose, 
+  items, 
+  dataSource, 
+  onSelectItem, 
+  searchQuery, 
+  setSearchQuery,
+  onApplySearchFilter 
+}) {
+  const searchInputRef = useRef(null);
+
+  useEffect(() => {
+    if (isOpen && searchInputRef.current) {
+      setTimeout(() => searchInputRef.current?.focus(), 150);
+    }
+  }, [isOpen]);
+
+  if (!isOpen) return null;
+
+  const hotKeywords = [
+    '新质生产力', '两个结合', '四个伟大', '自我革命', '绿水青山', '全过程人民民主', '高质量发展', '总体国家安全观'
+  ];
+
+  const filteredItems = searchQuery.trim() ? items.filter(item => {
+    const q = searchQuery.trim().toLowerCase();
+    const w = (item.word || '').toLowerCase();
+    const m = (item.meaning || '').toLowerCase();
+    const h = (item.hint || '').toLowerCase();
+    const g = (item.group || '').toLowerCase();
+    const c = (item.chapter || '').toLowerCase();
+    const t = (item.title || '').toLowerCase();
+    const s = (item.subtitle || '').toLowerCase();
+    return w.includes(q) || m.includes(q) || h.includes(q) || g.includes(q) || c.includes(q) || t.includes(q) || s.includes(q);
+  }) : [];
+
+  const highlightMatch = (text, query) => {
+    if (!query || !text) return text;
+    const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escaped})`, 'gi');
+    const parts = text.split(regex);
+    return parts.map((part, i) => 
+      part.toLowerCase() === query.toLowerCase() ? 
+        <mark key={i} className="search-highlight">{part}</mark> : part
+    );
+  };
+
+  const getStatusBadge = (status) => {
+    if (status === 'known') return <span className="search-badge badge-known">🟢 认识</span>;
+    if (status === 'unsure') return <span className="search-badge badge-unsure">🟡 模糊</span>;
+    if (status === 'unknown') return <span className="search-badge badge-unknown">🔴 不认识</span>;
+    return <span className="search-badge badge-new">⚪ 未做</span>;
+  };
+
+  return (
+    <div className="search-modal-backdrop" onClick={onClose}>
+      <div className="search-modal-sheet" onClick={(e) => e.stopPropagation()}>
+        {/* 顶部指示条 */}
+        <div className="search-modal-handle-bar">
+          <div className="search-modal-handle"></div>
+        </div>
+
+        {/* 搜索输入栏 */}
+        <div className="search-modal-header">
+          <div className="search-modal-input-box">
+            <span className="search-modal-icon">🔍</span>
+            <input
+              ref={searchInputRef}
+              type="text"
+              className="search-modal-input"
+              placeholder={`搜索考点词 / 原句 / 章节专题...`}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            {searchQuery && (
+              <button className="search-modal-clear" onClick={() => setSearchQuery('')}>✕</button>
+            )}
+          </div>
+          <button className="search-modal-close-btn" onClick={onClose}>取消</button>
+        </div>
+
+        {/* 搜索范围 */}
+        <div className="search-scope-bar">
+          <span className="scope-tag">当前题库：<strong>{dataSource === 'huasheng' ? '🥜 花生' : (dataSource === 'chaoge27' ? '📚 超格(27)' : '📖 超格(26)')}</strong></span>
+          <span className="scope-count">总题量 {items.length} 题</span>
+        </div>
+
+        {/* 热门高频考点速查（未输入关键词时展示） */}
+        {!searchQuery.trim() && (
+          <div className="search-modal-empty-intro">
+            <div className="hot-tags-title">🔥 核心高频考点速查：</div>
+            <div className="hot-tags-list">
+              {hotKeywords.map(kw => (
+                <button key={kw} className="hot-tag-chip" onClick={() => setSearchQuery(kw)}>
+                  {kw}
+                </button>
+              ))}
+            </div>
+            <div className="search-scope-tip">
+              💡 输入关键词可实时检索考点释义、题干挖空及专题出处，点击任意考点直接跳转练习。
+            </div>
+          </div>
+        )}
+
+        {/* 搜索结果列表展示 */}
+        {searchQuery.trim() !== '' && (
+          <div className="search-results-wrapper">
+            <div className="search-results-summary">
+              <span>找到 <strong>{filteredItems.length}</strong> 个考点</span>
+              {filteredItems.length > 0 && (
+                <button 
+                  className="search-apply-filter-btn"
+                  onClick={() => {
+                    onApplySearchFilter(searchQuery);
+                    onClose();
+                  }}
+                >
+                  🎯 开启本组（{filteredItems.length}题）特训
+                </button>
+              )}
+            </div>
+
+            <div className="search-results-list">
+              {filteredItems.length === 0 ? (
+                <div className="search-no-results">
+                  <div className="no-res-icon">🔍</div>
+                  <div className="no-res-title">未找到与 “{searchQuery}” 相关的考点</div>
+                  <div className="no-res-desc">请尝试缩短检索词或更换关键词</div>
+                </div>
+              ) : (
+                filteredItems.map((item, idx) => (
+                  <div 
+                    key={`${item.word}-${idx}`} 
+                    className="search-result-card"
+                    onClick={() => {
+                      onSelectItem(item);
+                      onClose();
+                    }}
+                  >
+                    <div className="res-card-top">
+                      <span className="res-chapter-tag">{item.chapter} {item.group ? `· ${item.group}` : ''}</span>
+                      {getStatusBadge(item.status)}
+                    </div>
+                    <div className="res-card-word">
+                      【{highlightMatch(item.word, searchQuery)}】
+                    </div>
+                    <div className="res-card-meaning">
+                      {highlightMatch(item.meaning || item.hint, searchQuery)}
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function App() {
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -175,6 +335,7 @@ function App() {
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
   
   const cardBackInnerRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
@@ -535,6 +696,27 @@ function App() {
     }
   };
 
+  const handleSelectSearchItem = (targetItem) => {
+    const targetIndex = items.findIndex(i => i.word === targetItem.word && i.group === targetItem.group);
+    if (targetIndex !== -1) {
+      setSelectedCategory('all');
+      setFilter('all');
+      setSearchQuery('');
+      setCurrentIndex(targetIndex);
+      setIsFlipped(false);
+      setSelectedOption(null);
+    }
+  };
+
+  const handleApplySearchFilter = (query) => {
+    setSearchQuery(query);
+    setSelectedCategory('all');
+    setFilter('all');
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    setSelectedOption(null);
+  };
+
   const getStatusColor = (status) => {
     switch(status) {
       case 'known': return 'rgba(16, 185, 129, 0.8)';
@@ -552,10 +734,34 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>
-          <span>📚</span>
-          <span className="title-text">政治理论题库</span>
-        </h1>
+        <div className="header-top-row">
+          <h1>
+            <span>📚</span>
+            <span className="title-text">政治理论题库</span>
+          </h1>
+          <button 
+            className={`search-trigger-pill ${searchQuery ? 'has-query' : ''}`} 
+            onClick={() => setIsSearchModalOpen(true)}
+            title="搜索考点"
+          >
+            <span className="search-trigger-icon">🔍</span>
+            <span className="search-trigger-text">{searchQuery ? `搜: "${searchQuery}"` : '搜索考点'}</span>
+            {searchQuery && (
+              <span 
+                className="search-trigger-clear" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                }}
+                title="清空搜索"
+              >
+                ✕
+              </span>
+            )}
+          </button>
+        </div>
+
         <div className="progress-container">
           <div className="db-toggle-row">
             <div className="db-toggle">
@@ -599,44 +805,6 @@ function App() {
                 总计 {total}
               </button>
             </div>
-          </div>
-
-          {/* 🔍 全局题库实时搜索栏 */}
-          <div className="search-bar-container">
-            <div className="search-input-box">
-              <span className="search-icon">🔍</span>
-              <input
-                type="text"
-                className="search-input"
-                placeholder={`在当前【${dataSource === 'huasheng' ? '花生' : dataSource === 'chaoge27' ? '超格(27)' : '超格(26)'}】题库搜索考点/原句/章节 (${items.length} 题)...`}
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value);
-                  setCurrentIndex(0);
-                  setIsFlipped(false);
-                  setSelectedOption(null);
-                }}
-              />
-              {searchQuery && (
-                <button
-                  className="search-clear-btn"
-                  onClick={() => {
-                    setSearchQuery('');
-                    setCurrentIndex(0);
-                    setIsFlipped(false);
-                    setSelectedOption(null);
-                  }}
-                  title="清除搜索"
-                >
-                  ✕
-                </button>
-              )}
-            </div>
-            {searchQuery && (
-              <div className="search-result-pill">
-                🔍 匹配到 <strong>{currentCategoryItems.length}</strong> 个考点
-              </div>
-            )}
           </div>
 
           {/* 第一行修改：单行横向滑动章节栏（根据当前数据库动态渲染官方章节） */}
@@ -911,6 +1079,17 @@ function App() {
           </button>
         </div>
       </main>
+
+      <SearchModal
+        isOpen={isSearchModalOpen}
+        onClose={() => setIsSearchModalOpen(false)}
+        items={items}
+        dataSource={dataSource}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+        onSelectItem={handleSelectSearchItem}
+        onApplySearchFilter={handleApplySearchFilter}
+      />
     </div>
   );
 }
