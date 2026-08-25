@@ -203,7 +203,6 @@ function App() {
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [isDbMenuOpen, setIsDbMenuOpen] = useState(false);
   
   const cardBackInnerRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
@@ -232,43 +231,6 @@ function App() {
   useEffect(() => {
     safeStorage.set('pt-tracker-datasource', dataSource);
   }, [dataSource]);
-
-  const chapterList = useMemo(() => {
-    if (dataSource === 'huasheng') {
-      return [
-        { key: 'all', label: '全部' },
-        { key: '第一章 十五五规划专题', label: '十五五规划' },
-        { key: '第二章 马克思主义基本原理', label: '马原政经' },
-        { key: '第三章 习近平新时代思想', label: '习近平新时代思想' },
-        { key: '第四章 最新重要方针政策', label: '重大方针政策' },
-        { key: '第五章 2026新法典与时政考察', label: '新法典与时政' },
-      ];
-    } else if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
-      return [
-        { key: 'all', label: '全部' },
-        { key: '第一章 习近平新时代思想', label: '习近平新时代思想' },
-        { key: '第二章 时政理论与重大部署', label: '时政理论与重大部署' },
-        { key: '第三章 马克思主义基本原理', label: '马克思主义原理' },
-      ];
-    } else {
-      return [
-        { key: 'all', label: '全部' },
-        { key: '第一章 创新理论与新时代', label: '创新理论与新时代' },
-        { key: '第二章 改革发展与国家战略', label: '改革发展与国家战略' },
-        { key: '第三章 五位一体与国家安全', label: '五位一体与国家安全' },
-        { key: '第四章 强军外交与从严治党', label: '强军外交与从严治党' },
-      ];
-    }
-  }, [dataSource]);
-
-  useEffect(() => {
-    if (chapterList.length > 0 && selectedCategory !== 'all') {
-      const exists = chapterList.some(c => c.key === selectedCategory);
-      if (!exists) {
-        setSelectedCategory('all');
-      }
-    }
-  }, [dataSource, chapterList, selectedCategory]);
 
   // Load from local storage or initial with automatic schema synchronization
   useEffect(() => {
@@ -659,170 +621,167 @@ function App() {
     }
   };
 
-  if (items.length === 0) {
-    return (
-      <div className="app-container">
-        <div style={{ textAlign: 'center', padding: '4rem 1rem', color: '#64748b' }}>
-          加载政治理论题库中...
-        </div>
-      </div>
-    );
-  }
+  if (items.length === 0) return <div className="loading">加载政治理论题库中...</div>;
 
   const total = items.length;
   const progress = ((stats.known) / (total || 1)) * 100;
 
   return (
     <div className="app-container">
-      {/* 🍏 iOS 极简毛玻璃顶栏 */}
-      <header className="ios-nav-header">
-        <div className="ios-header-top">
-          {/* 左侧：题库下拉切换器 */}
-          <div className="db-selector-wrapper">
-            <button 
-              className="db-selector-btn" 
-              onClick={() => setIsDbMenuOpen(!isDbMenuOpen)}
-            >
-              <span className="app-title-prefix">政治理论</span>
-              <span className="db-divider">·</span>
-              <span className="current-db-name">
-                {dataSource === 'huasheng' ? '花生' : dataSource === 'chaoge27' ? '超格(27)' : '超格(26)'}
-              </span>
-              <svg className={`chevron-icon ${isDbMenuOpen ? 'open' : ''}`} width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </button>
+      <header className="header">
+        <h1>
+          <span className="title-text">政治理论题库</span>
+        </h1>
 
-            {/* 下拉菜单 */}
-            {isDbMenuOpen && (
-              <>
-                <div className="ios-menu-backdrop" onClick={() => setIsDbMenuOpen(false)}></div>
-                <div className="ios-db-menu">
-                  <button 
-                    className={`db-menu-item ${dataSource === 'huasheng' ? 'active' : ''}`}
-                    onClick={() => { setDataSource('huasheng'); setIsDbMenuOpen(false); }}
-                  >
-                    <span className="db-menu-title">花生精选版</span>
-                    <span className="db-menu-badge">56 题</span>
-                  </button>
-                  <button 
-                    className={`db-menu-item ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`}
-                    onClick={() => { setDataSource('chaoge26'); setIsDbMenuOpen(false); }}
-                  >
-                    <span className="db-menu-title">超格 (26全量版)</span>
-                    <span className="db-menu-badge">2459 题</span>
-                  </button>
-                  <button 
-                    className={`db-menu-item ${dataSource === 'chaoge27' ? 'active' : ''}`}
-                    onClick={() => { setDataSource('chaoge27'); setIsDbMenuOpen(false); }}
-                  >
-                    <span className="db-menu-title">超格 (27纯享版)</span>
-                    <span className="db-menu-badge">421 题</span>
-                  </button>
-                </div>
-              </>
-            )}
+        <div className="progress-container">
+          <div className="db-toggle-row">
+            <div className="db-toggle">
+              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>花生</button>
+              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>超格(26)</button>
+              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>超格(27)</button>
+            </div>
           </div>
 
-          {/* 右侧：极简掌握度徽章（点击可循环筛选：全部/掌握/模糊/生词） */}
-          <button 
-            className="ios-stats-badge"
-            onClick={() => {
-              if (filter === 'all') setFilter('known');
-              else if (filter === 'known') setFilter('unsure');
-              else if (filter === 'unsure') setFilter('unknown');
-              else setFilter('all');
-            }}
-            title="点击循环切换状态筛选"
-          >
-            <span className={`stats-indicator-dot dot-${filter}`}></span>
-            <span className="stats-summary-text">
-              {filter === 'known' ? `掌握 ${stats.known}` :
-               filter === 'unsure' ? `模糊 ${stats.unsure}` :
-               filter === 'unknown' ? `生词 ${stats.unknown}` :
-               `${stats.known}/${total} (${Math.round(progress)}%)`}
-            </span>
-          </button>
-        </div>
-
-        {/* 极简无边框搜索栏 */}
-        <form 
-          className="ios-search-bar"
-          onSubmit={(e) => {
-            e.preventDefault();
-            e.target.querySelector('input')?.blur();
-          }}
-        >
-          <svg className="ios-search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-          <input
-            type="search"
-            enterKeyHint="search"
-            className="ios-search-input"
-            placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
-            value={searchQuery}
-            onInput={(e) => setSearchQuery(e.target.value)}
-            onChange={(e) => {
-              setSearchQuery(e.target.value);
-              setCurrentIndex(0);
-              setIsFlipped(false);
-              setSelectedOption(null);
-            }}
-            onSearch={(e) => {
-              if (!e.target.value) {
-                setSearchQuery('');
-                setCurrentIndex(0);
-                setIsFlipped(false);
-                setSelectedOption(null);
-              }
-            }}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter') {
-                e.target.blur();
-              }
-            }}
-          />
-          {searchQuery && (
-            <button
-              type="button"
-              className="ios-search-clear"
-              onPointerDown={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                setSearchQuery('');
-                setCurrentIndex(0);
-                setIsFlipped(false);
-                setSelectedOption(null);
-              }}
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                setSearchQuery('');
-                setCurrentIndex(0);
-                setIsFlipped(false);
-                setSelectedOption(null);
-              }}
-              title="清空搜索"
-            >
-              ✕
-            </button>
-          )}
-        </form>
-
-        {/* 纯文字横向滑动频道栏 */}
-        <div className="ios-channel-scroll">
-          <div className="ios-channel-track">
-            {chapterList.map(cat => (
-              <button
-                key={cat.key}
-                className={`ios-channel-tab ${selectedCategory === cat.key ? 'active' : ''}`}
-                onClick={() => setSelectedCategory(cat.key)}
+          <div className="stats-row">
+            <div className="stats">
+              <button 
+                className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
+                onClick={() => handleFilterClick('known')}
+                title="只复习已掌握"
               >
-                {cat.label}
+                <span className="dot dot-known"></span>
+                掌握 {stats.known}
               </button>
-            ))}
+              <button 
+                className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
+                onClick={() => handleFilterClick('unsure')}
+                title="只复习模糊"
+              >
+                <span className="dot dot-unsure"></span>
+                模糊 {stats.unsure}
+              </button>
+              <button 
+                className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
+                onClick={() => handleFilterClick('unknown')}
+                title="只复习生词"
+              >
+                <span className="dot dot-unknown"></span>
+                生词 {stats.unknown}
+              </button>
+              <button 
+                className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
+                onClick={() => setFilter('all')}
+                title="查看全部"
+              >
+                总计 {total}
+              </button>
+            </div>
+          </div>
+
+          {/* 搜索栏（置于控制面板内，回车自动收起软键盘） */}
+          <form 
+            className="search-bar-box"
+            onSubmit={(e) => {
+              e.preventDefault();
+              e.target.querySelector('input')?.blur();
+            }}
+          >
+            <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="search"
+              enterKeyHint="search"
+              className="search-box-input"
+              placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentIndex(0);
+                setIsFlipped(false);
+                setSelectedOption(null);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.target.blur();
+                }
+              }}
+            />
+            {searchQuery && (
+              <button
+                type="button"
+                className="search-box-clear"
+                onClick={() => {
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                  setIsFlipped(false);
+                  setSelectedOption(null);
+                }}
+                title="清空搜索"
+              >
+                ✕
+              </button>
+            )}
+          </form>
+
+          {/* 单行横向滑动章节栏（无emoji纯净文字） */}
+          <div className="category-scroll-container">
+            <div className="category-scroll-track">
+              {dataSource === 'huasheng' ? [
+                { key: 'all', label: '全部章节' },
+                { key: '第一章 十五五规划专题', label: '十五五规划' },
+                { key: '第二章 马克思主义基本原理', label: '马原政经' },
+                { key: '第三章 习近平新时代思想', label: '习近平新时代思想' },
+                { key: '第四章 最新重要方针政策', label: '重大方针政策' },
+                { key: '第五章 2026新法典与时政考察', label: '新法典与时政' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.key)}
+                >
+                  {cat.label}
+                </button>
+              )) : (dataSource === 'chaoge26' || dataSource === 'chaoge') ? [
+                { key: 'all', label: '全部章节' },
+                { key: '第一章 习近平新时代思想', label: '习近平新时代思想' },
+                { key: '第二章 时政理论与重大部署', label: '时政理论与重大部署' },
+                { key: '第三章 马克思主义基本原理', label: '马克思主义原理' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.key)}
+                >
+                  {cat.label}
+                </button>
+              )) : [
+                { key: 'all', label: '全部章节' },
+                { key: '第一章 创新理论与新时代', label: '创新理论与新时代' },
+                { key: '第二章 改革发展与国家战略', label: '改革发展与国家战略' },
+                { key: '第三章 五位一体与国家安全', label: '五位一体与国家安全' },
+                { key: '第四章 强军外交与从严治党', label: '强军外交与从严治党' },
+              ].map(cat => (
+                <button
+                  key={cat.key}
+                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                  onClick={() => setSelectedCategory(cat.key)}
+                >
+                  {cat.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* 模式胶囊 */}
+          <div className="mode-toggle">
+            <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
+            <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
+            <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>
+            <span className="mode-divider"></span>
+            <button className={`mode-btn ${!isRandom ? 'active' : ''}`} onClick={() => setIsRandom(false)}>顺序</button>
+            <button className={`mode-btn ${isRandom ? 'active' : ''}`} onClick={() => setIsRandom(true)}>随机</button>
           </div>
         </div>
       </header>
@@ -834,19 +793,7 @@ function App() {
               <span className="search-count-text">
                 共匹配到 <strong>{searchMatchedSentences.length}</strong> 条官方原句
               </span>
-              <button 
-                type="button"
-                className="search-clear-action-btn" 
-                onPointerDown={(e) => {
-                  e.preventDefault();
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                }}
-                onClick={() => {
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                }}
-              >
+              <button className="search-clear-action-btn" onClick={() => setSearchQuery('')}>
                 清空搜索
               </button>
             </div>
@@ -855,19 +802,7 @@ function App() {
               <div className="empty-state-card">
                 <h3>未找到匹配原句</h3>
                 <p>请尝试缩短关键词，或切换上方全部章节与题库</p>
-                <button 
-                  type="button"
-                  className="empty-state-btn" 
-                  onPointerDown={(e) => {
-                    e.preventDefault();
-                    setSearchQuery('');
-                    setCurrentIndex(0);
-                  }}
-                  onClick={() => {
-                    setSearchQuery('');
-                    setCurrentIndex(0);
-                  }}
-                >
+                <button className="empty-state-btn" onClick={() => setSearchQuery('')}>
                   清空搜索
                 </button>
               </div>
@@ -887,66 +822,57 @@ function App() {
           <>
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
-              !currentItem ? (
-                <div className="empty-state-card">
-                  <h3>当前分类暂无考点</h3>
-                  <p>请点击下方按钮查看全部章节与考点</p>
-                  <button className="empty-state-btn" onClick={() => { setSelectedCategory('all'); setFilter('all'); }}>
-                    查看全部章节
-                  </button>
-                </div>
-              ) : (
-                <>
-                  <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
-                    <div className={`card ${isFlipped ? 'flipped' : ''}`}>
-                      {/* 卡片正面 */}
-                      <div className="card-front">
-                        {activeMode === 'quiz' ? (
-                          <h2 className="idiom-word sentence-blank">
-                            {renderSentenceWithBlank(currentExample || currentItem?.meaning || '', currentItem?.word || '')}
+              <>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
+                  <div className={`card ${isFlipped ? 'flipped' : ''}`}>
+                    {/* 卡片正面 */}
+                    <div className="card-front">
+                      {activeMode === 'quiz' ? (
+                        <h2 className="idiom-word sentence-blank">
+                          {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
+                        </h2>
+                      ) : (
+                        <div className="contrast-front-container">
+                          <h2 className="contrast-front-title">
+                            {currentItem.title || currentItem.word}
                           </h2>
-                        ) : (
-                          <div className="contrast-front-container">
-                            <h2 className="contrast-front-title">
-                              {currentItem?.title || currentItem?.word || ''}
-                            </h2>
-                            <div className="contrast-front-sub">
-                              {currentItem?.subtitle || `请辨析【${currentItem?.word || ''}】的科学定位与对应官方论断`}
-                            </div>
+                          <div className="contrast-front-sub">
+                            {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
                           </div>
-                        )}
-                        <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
-                        {currentItem?.status && currentItem.status !== 'new' && (
-                          <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
-                            上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
-                          </div>
-                        )}
-                      </div>
+                        </div>
+                      )}
+                      <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
+                      {currentItem.status !== 'new' && (
+                        <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
+                          上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
+                        </div>
+                      )}
+                    </div>
 
                     {/* 卡片反面 */}
                     <div className="card-back">
                       <div className="card-back-inner" ref={cardBackInnerRef}>
                         <div className="group-tag">
-                          {currentItem?.group || ''} {currentItem?.subcategory ? `· ${currentItem.subcategory}` : ''}
+                          {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
                         </div>
                         <div className="card-back-content">
                           {activeMode === 'quiz' ? (
                             <>
                               <div className="sentence-question">
-                                {renderSentenceWithBlank(currentExample || currentItem?.meaning || '', currentItem?.word || '')}
+                                {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
                               </div>
                               <div className="quiz-title">请选择正确的考点词：</div>
                             </>
                           ) : (
                             <>
-                              <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>【{currentItem?.title || currentItem?.word || ''}】</h3>
+                              <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>【{currentItem.title || currentItem.word}】</h3>
                               <div className="sentence-question contrast-question-title" style={{ fontSize: '0.98rem', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'left', lineHeight: '1.45' }}>
-                                {currentItem?.question || `请选择与【${currentItem?.word || ''}】严格对应的科学论断：`}
+                                {currentItem.question || `请选择与【${currentItem.word}】严格对应的科学论断：`}
                               </div>
                             </>
                           )}
 
-                          <div className={`options-container ${(activeMode === 'quiz' || currentItem?.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+                          <div className={`options-container ${(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
                             {shuffledOptions.map((opt, index) => {
                               let btnClass = "option-btn";
                               if (selectedOption !== null) {
@@ -973,7 +899,7 @@ function App() {
                                   <span className="option-label">
                                     {selectedOption !== null && opt.isCorrect ? '✓ ' : selectedOption !== null && selectedOption === index ? '✗ ' : `${['A', 'B', 'C', 'D'][index]}. `}
                                   </span>
-                                  <span className={(activeMode === 'quiz' || currentItem?.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
+                                  <span className={(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
                                 </button>
                               );
                             })}
@@ -985,12 +911,12 @@ function App() {
                               <div className="example-item highlighted-example">
                                 <strong>官方原文：</strong>
                                 <span>
-                                  {renderHighlightedSentence(currentExample || currentItem?.meaning || '', currentItem?.word || '')}
+                                  {renderHighlightedSentence(currentExample || currentItem.meaning, currentItem.word)}
                                 </span>
                               </div>
                               {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
                                 <div className="incorrect-choice-tip">
-                                  你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem?.word || ''}】</strong>
+                                  你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
                                 </div>
                               )}
                             </div>
@@ -1003,10 +929,10 @@ function App() {
                               <div className="contrast-explanation-list">
                                 <div className="contrast-exp-item main-exp">
                                   <span className="exp-badge correct-badge">正确项</span>
-                                  <strong className="exp-word">【{currentItem?.word || ''}】</strong>：
-                                  <span className="exp-meaning">{currentItem?.meaning || ''}</span>
+                                  <strong className="exp-word">【{currentItem.word}】</strong>：
+                                  <span className="exp-meaning">{currentItem.meaning}</span>
                                 </div>
-                                {currentItem?.distractors && currentItem.distractors.map((d, dIdx) => (
+                                {currentItem.distractors && currentItem.distractors.map((d, dIdx) => (
                                   <div key={dIdx} className="contrast-exp-item distractor-exp">
                                     <span className="exp-badge dist-badge">易混项</span>
                                     <strong className="exp-word">【{d.word}】</strong>：
@@ -1038,7 +964,7 @@ function App() {
                   </button>
                 </div>
               </>
-            ))}
+            )}
 
             {/* 扩展模式：速览速记 */}
             {activeMode === 'speed' && (
@@ -1085,49 +1011,6 @@ function App() {
           </button>
         </div>
       </main>
-
-      {/* 🍏 iOS 悬浮毛玻璃底部模式栏 */}
-      <nav className="ios-floating-bottom-bar">
-        <div className="ios-mode-pill-group">
-          <button 
-            className={`ios-mode-pill ${activeMode === 'quiz' ? 'active' : ''}`}
-            onClick={() => {
-              setActiveMode('quiz');
-              setSearchQuery('');
-            }}
-          >
-            挖空特训
-          </button>
-          <button 
-            className={`ios-mode-pill ${activeMode === 'contrast' ? 'active' : ''}`}
-            onClick={() => {
-              setActiveMode('contrast');
-              setSearchQuery('');
-            }}
-          >
-            易混辨析
-          </button>
-          <button 
-            className={`ios-mode-pill ${activeMode === 'speed' ? 'active' : ''}`}
-            onClick={() => {
-              setActiveMode('speed');
-              setSearchQuery('');
-            }}
-          >
-            速记
-          </button>
-        </div>
-
-        <span className="ios-bottom-divider"></span>
-
-        <button 
-          className={`ios-random-pill ${isRandom ? 'active' : ''}`}
-          onClick={() => setIsRandom(!isRandom)}
-          title={isRandom ? '当前为随机题目' : '当前为顺序题目'}
-        >
-          {isRandom ? '随机' : '顺序'}
-        </button>
-      </nav>
     </div>
   );
 }
