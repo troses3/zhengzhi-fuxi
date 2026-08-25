@@ -898,7 +898,7 @@ function App() {
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
-                      <div className="card-top-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: '0.85rem' }}>
+                      <div className="card-top-bar">
                         <div className="group-tag" style={{ margin: 0 }}>
                           {currentItem.group && currentItem.subcategory && currentItem.group !== currentItem.subcategory 
                             ? `${currentItem.group} · ${currentItem.subcategory}` 
@@ -910,22 +910,25 @@ function App() {
                           </div>
                         )}
                       </div>
-                      {activeMode === 'quiz' ? (
-                        <h2 className="idiom-word sentence-blank" style={{ margin: 0, width: '100%', textAlign: 'justify', lineHeight: '1.65' }}>
-                          {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
-                        </h2>
-                      ) : (
-                        <div className="contrast-front-container" style={{ width: '100%' }}>
-                          <h2 className="contrast-front-title">
-                            {currentItem.title || currentItem.word}
+                      
+                      <div className="card-front-center-content">
+                        {activeMode === 'quiz' ? (
+                          <h2 className="idiom-word sentence-blank" style={{ margin: 0, width: '100%', textAlign: 'justify', lineHeight: '1.65' }}>
+                            {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
                           </h2>
-                          <div className="contrast-front-sub">
-                            {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
+                        ) : (
+                          <div className="contrast-front-container" style={{ width: '100%' }}>
+                            <h2 className="contrast-front-title">
+                              {currentItem.title || currentItem.word}
+                            </h2>
+                            <div className="contrast-front-sub">
+                              {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
+                            </div>
                           </div>
+                        )}
+                        <div className="card-hint" style={{ marginTop: '1.25rem', width: '100%', textAlign: 'center' }}>
+                          点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}
                         </div>
-                      )}
-                      <div className="card-hint" style={{ marginTop: '1rem', width: '100%', textAlign: 'center' }}>
-                        点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}
                       </div>
                     </div>
 
