@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { initialPoliticalTheory } from './data/political_theory';
 import { chaogePoliticalTheory, chaogeContrastItems } from './data/political_theory_chaoge';
 import { chaoge27PoliticalTheory } from './data/political_theory_chaoge_27';
@@ -150,7 +150,7 @@ function SpeedItemCard({ item, idx, globalMasked }) {
   );
 }
 
-function KnowledgeCard({ item, searchQuery, onPracticeItem }) {
+function KnowledgeSentenceCard({ sentenceItem, searchQuery }) {
   const highlightMatch = (text, query) => {
     if (!query || !text) return text;
     const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -162,45 +162,26 @@ function KnowledgeCard({ item, searchQuery, onPracticeItem }) {
     );
   };
 
-  const getStatusText = (status) => {
-    if (status === 'known') return { label: '已掌握', className: 'status-tag-known' };
-    if (status === 'unsure') return { label: '模糊', className: 'status-tag-unsure' };
-    if (status === 'unknown') return { label: '生词', className: 'status-tag-unknown' };
-    return { label: '未学习', className: 'status-tag-new' };
-  };
-
-  const statusInfo = getStatusText(item.status);
+  const sentenceText = sentenceItem.meaning || sentenceItem.title || '';
 
   return (
-    <div className="knowledge-card">
+    <div className="knowledge-sentence-card">
       <div className="knowledge-card-top">
         <div className="knowledge-chapter-wrap">
-          <span className="knowledge-chapter-name">{item.chapter}</span>
-          {item.group && <span className="knowledge-group-name">· {item.group}</span>}
+          <span className="knowledge-chapter-name">{sentenceItem.chapter}</span>
+          {sentenceItem.group && <span className="knowledge-group-name">· {sentenceItem.group}</span>}
         </div>
-        <span className={`knowledge-status-tag ${statusInfo.className}`}>
-          {statusInfo.label}
-        </span>
-      </div>
-
-      <div className="knowledge-card-concept">
-        <span className="concept-label">核心考点</span>
-        <h3 className="concept-title">{highlightMatch(item.word, searchQuery)}</h3>
-      </div>
-
-      <div className="knowledge-card-body">
-        <div className="knowledge-field">
-          <div className="field-label">官方原句</div>
-          <div className="field-text text-meaning">
-            {highlightMatch(item.meaning || item.title, searchQuery)}
+        {sentenceItem.words && sentenceItem.words.length > 0 && (
+          <div className="sentence-words-wrap">
+            {sentenceItem.words.map((w, i) => (
+              <span key={i} className="sentence-word-pill">{w}</span>
+            ))}
           </div>
-        </div>
+        )}
       </div>
 
-      <div className="knowledge-card-footer">
-        <button className="knowledge-practice-btn" onClick={() => onPracticeItem(item)}>
-          做这道题 ➔
-        </button>
+      <div className="knowledge-sentence-text">
+        {highlightMatch(sentenceText, searchQuery)}
       </div>
     </div>
   );
@@ -392,6 +373,46 @@ function App() {
     if (selectedCategory === 'all') return true;
     return item.chapter === selectedCategory;
   });
+
+  // 🔍 搜索结果按官方权威原句聚合去重（避免同一个原句因不同挖空词重复出现多张卡片）
+  const searchMatchedSentences = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    const q = searchQuery.trim().toLowerCase();
+    const map = new Map();
+
+    const targetList = items.filter(item => {
+      if (selectedCategory === 'all') return true;
+      return item.chapter === selectedCategory;
+    });
+
+    for (const item of targetList) {
+      const w = (item.word || '').toLowerCase();
+      const m = (item.meaning || '').toLowerCase();
+      const h = (item.hint || '').toLowerCase();
+      const t = (item.title || '').toLowerCase();
+      const s = (item.subtitle || '').toLowerCase();
+      
+      const matches = w.includes(q) || m.includes(q) || h.includes(q) || t.includes(q) || s.includes(q);
+      if (matches) {
+        const sentenceKey = (item.meaning || item.title || item.word || '').trim();
+        if (!map.has(sentenceKey)) {
+          map.set(sentenceKey, {
+            id: sentenceKey,
+            chapter: item.chapter,
+            group: item.group,
+            meaning: item.meaning || item.title,
+            words: item.word ? [item.word] : [],
+          });
+        } else {
+          const existing = map.get(sentenceKey);
+          if (item.word && !existing.words.includes(item.word)) {
+            existing.words.push(item.word);
+          }
+        }
+      }
+    }
+    return Array.from(map.values());
+  }, [items, searchQuery, selectedCategory]);
 
   const safeIndex = (currentCategoryItems.length > 0 && currentIndex >= currentCategoryItems.length) ? 0 : currentIndex;
   const currentItem = currentCategoryItems[safeIndex] || (currentCategoryItems.length > 0 ? currentCategoryItems[0] : null);
@@ -766,16 +787,16 @@ function App() {
           <div className="search-knowledge-view">
             <div className="search-results-bar">
               <span className="search-count-text">
-                共匹配到 <strong>{currentCategoryItems.length}</strong> 个考点知识点
+                共匹配到 <strong>{searchMatchedSentences.length}</strong> 条官方原句
               </span>
               <button className="search-clear-action-btn" onClick={() => setSearchQuery('')}>
                 清空搜索
               </button>
             </div>
 
-            {currentCategoryItems.length === 0 ? (
+            {searchMatchedSentences.length === 0 ? (
               <div className="empty-state-card">
-                <h3>未找到匹配考点</h3>
+                <h3>未找到匹配原句</h3>
                 <p>请尝试缩短关键词，或切换上方全部章节与题库</p>
                 <button className="empty-state-btn" onClick={() => setSearchQuery('')}>
                   清空搜索
@@ -783,23 +804,11 @@ function App() {
               </div>
             ) : (
               <div className="knowledge-cards-list">
-                {currentCategoryItems.map((item, idx) => (
-                  <KnowledgeCard
-                    key={`${item.word}-${idx}`}
-                    item={item}
+                {searchMatchedSentences.map((sent, idx) => (
+                  <KnowledgeSentenceCard
+                    key={`${sent.id}-${idx}`}
+                    sentenceItem={sent}
                     searchQuery={searchQuery}
-                    onPracticeItem={(targetItem) => {
-                      const targetIndex = items.findIndex(i => i.word === targetItem.word && i.group === targetItem.group);
-                      if (targetIndex !== -1) {
-                        setSearchQuery('');
-                        setSelectedCategory('all');
-                        setFilter('all');
-                        setCurrentIndex(targetIndex);
-                        setIsFlipped(false);
-                        setSelectedOption(null);
-                        setActiveMode('quiz');
-                      }
-                    }}
                   />
                 ))}
               </div>

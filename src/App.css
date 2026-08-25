@@ -365,73 +365,52 @@ body {
 .status-tag-unknown { background: #fee2e2; color: #991b1b; }
 .status-tag-new { background: #f1f5f9; color: #475569; }
 
-.knowledge-card-concept {
+.knowledge-sentence-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.025);
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.65rem;
+  text-align: left;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.concept-label {
-  font-size: 0.7rem;
-  color: #94a3b8;
+.knowledge-sentence-card:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.06);
+}
+
+.sentence-words-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: flex-end;
+}
+
+.sentence-word-pill {
+  font-size: 0.68rem;
   font-weight: 600;
-  text-transform: uppercase;
+  color: #3b82f6;
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+  border-radius: 6px;
+  padding: 0.1rem 0.4rem;
+  white-space: nowrap;
 }
 
-.concept-title {
-  font-size: 1.15rem;
-  font-weight: 750;
-  color: var(--text-primary);
-  margin: 0;
-  line-height: 1.35;
-}
-
-.knowledge-card-body {
-  background: #f8fafc;
-  border-radius: 12px;
-  padding: 0.8rem 0.9rem;
-  border-left: 3.5px solid var(--accent-color);
-}
-
-.knowledge-field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.field-label {
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: #64748b;
-}
-
-.field-text {
-  font-size: 0.9rem;
-  line-height: 1.55;
+.knowledge-sentence-text {
+  font-size: 0.98rem;
+  line-height: 1.65;
   color: #1e293b;
   font-weight: 500;
-}
-
-.knowledge-card-footer {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0.2rem;
-}
-
-.knowledge-practice-btn {
-  background: var(--accent-color);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 0.38rem 0.85rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: opacity 0.15s;
-}
-
-.knowledge-practice-btn:hover {
-  opacity: 0.9;
+  letter-spacing: 0.01em;
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 0.75rem 0.85rem;
+  border-left: 3.5px solid var(--accent-color);
 }
 
 .search-highlight {
