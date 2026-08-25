@@ -629,101 +629,106 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>
-          <span className="title-text">政治理论题库</span>
-        </h1>
-
-        <div className="progress-container">
-          <div className="db-toggle-row">
-            <div className="db-toggle">
-              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>花生</button>
-              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>超格(26)</button>
-              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>超格(27)</button>
-            </div>
+        <div className="header-top-row">
+          <h1 className="header-title">政治理论</h1>
+          <div className="db-toggle">
+            <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>花生</button>
+            <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>超格(26)</button>
+            <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>超格(27)</button>
           </div>
+        </div>
 
-          <div className="stats-row">
-            <div className="stats">
-              <button 
-                className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
-                onClick={() => handleFilterClick('known')}
-                title="只复习已掌握"
-              >
-                <span className="dot dot-known"></span>
-                掌握 {stats.known}
-              </button>
-              <button 
-                className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
-                onClick={() => handleFilterClick('unsure')}
-                title="只复习模糊"
-              >
-                <span className="dot dot-unsure"></span>
-                模糊 {stats.unsure}
-              </button>
-              <button 
-                className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
-                onClick={() => handleFilterClick('unknown')}
-                title="只复习生词"
-              >
-                <span className="dot dot-unknown"></span>
-                生词 {stats.unknown}
-              </button>
-              <button 
-                className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
-                onClick={() => setFilter('all')}
-                title="查看全部"
-              >
-                总计 {total}
-              </button>
-            </div>
-          </div>
-
-          {/* 搜索栏（置于控制面板内，回车自动收起软键盘） */}
-          <form 
-            className="search-bar-box"
-            onSubmit={(e) => {
-              e.preventDefault();
-              e.target.querySelector('input')?.blur();
+        {/* 搜索栏（独立纯白卡片，回车自动收起软键盘） */}
+        <form 
+          className="search-bar-box"
+          onSubmit={(e) => {
+            e.preventDefault();
+            e.target.querySelector('input')?.blur();
+          }}
+        >
+          <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="search"
+            enterKeyHint="search"
+            className="search-box-input"
+            placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
+            value={searchQuery}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              setCurrentIndex(0);
+              setIsFlipped(false);
+              setSelectedOption(null);
             }}
-          >
-            <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <input
-              type="search"
-              enterKeyHint="search"
-              className="search-box-input"
-              placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
-              value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                e.target.blur();
+              }
+            }}
+          />
+          {searchQuery && (
+            <button
+              type="button"
+              className="search-box-clear"
+              onPointerDown={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setSearchQuery('');
                 setCurrentIndex(0);
                 setIsFlipped(false);
                 setSelectedOption(null);
               }}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter') {
-                  e.target.blur();
-                }
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setSearchQuery('');
+                setCurrentIndex(0);
+                setIsFlipped(false);
+                setSelectedOption(null);
               }}
-            />
-            {searchQuery && (
-              <button
-                type="button"
-                className="search-box-clear"
-                onClick={() => {
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                  setIsFlipped(false);
-                  setSelectedOption(null);
-                }}
-                title="清空搜索"
-              >
-                ✕
-              </button>
-            )}
-          </form>
+              title="清空搜索"
+            >
+              ✕
+            </button>
+          )}
+        </form>
+
+        {/* 单行精炼统计指标 */}
+        <div className="stats-inline-bar">
+          <button 
+            className={`stat-inline-item ${filter === 'known' ? 'active-known' : ''}`}
+            onClick={() => handleFilterClick('known')}
+            title="只复习已掌握"
+          >
+            <span className="dot dot-known"></span>
+            掌握 {stats.known}
+          </button>
+          <button 
+            className={`stat-inline-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
+            onClick={() => handleFilterClick('unsure')}
+            title="只复习模糊"
+          >
+            <span className="dot dot-unsure"></span>
+            模糊 {stats.unsure}
+          </button>
+          <button 
+            className={`stat-inline-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
+            onClick={() => handleFilterClick('unknown')}
+            title="只复习生词"
+          >
+            <span className="dot dot-unknown"></span>
+            生词 {stats.unknown}
+          </button>
+          <button 
+            className={`stat-inline-item ${filter === 'all' ? 'active-all' : ''}`}
+            onClick={() => setFilter('all')}
+            title="查看全部"
+          >
+            总计 {total}
+          </button>
+        </div>
 
           {/* 单行横向滑动章节栏（无emoji纯净文字） */}
           <div className="category-scroll-container">
@@ -773,7 +778,6 @@ function App() {
               ))}
             </div>
           </div>
-        </div>
       </header>
 
       <main className="main-content">
