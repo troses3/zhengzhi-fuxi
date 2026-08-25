@@ -436,10 +436,10 @@ function App() {
       const doScroll = () => {
         if (actionButtonsRef.current) {
           const rect = actionButtonsRef.current.getBoundingClientRect();
-          const safetyZone = 75; // floating bar + breathing gap
+          const safetyZone = 58; // snug fit above floating bar
           const diff = rect.bottom - (window.innerHeight - safetyZone);
           if (diff > 0) {
-            window.scrollBy({ top: diff + 12, behavior: 'smooth' });
+            window.scrollBy({ top: diff + 6, behavior: 'smooth' });
           }
         }
       };
