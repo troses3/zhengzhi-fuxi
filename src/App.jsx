@@ -443,13 +443,13 @@ function App() {
           
           const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
           
-          // 绝对文档高度坐标
+          // 绝对文档高度坐标与紧凑对称间距
           const btnAbsBottom = currentScrollY + btnRect.bottom;
-          const topGap = Math.max(8, btnRect.top - cardRect.bottom);
+          const targetGap = Math.min(8, Math.max(6, btnRect.top - cardRect.bottom));
           
-          // 目标 ScrollTop：精准让悬浮栏上方间隙与卡片下方间隙 1:1 绝对相等
+          // 目标 ScrollTop：让悬浮栏上方间隙紧凑贴合，严格与上间距对齐
           const floatingBarHeightFromBottom = window.innerHeight - floatingRect.top;
-          const targetScrollY = btnAbsBottom + topGap + floatingBarHeightFromBottom - window.innerHeight;
+          const targetScrollY = btnAbsBottom + targetGap + floatingBarHeightFromBottom - window.innerHeight;
           
           if (targetScrollY > currentScrollY + 2) {
             window.scrollTo({
