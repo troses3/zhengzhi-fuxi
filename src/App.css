@@ -511,30 +511,32 @@ body {
   font-weight: 700;
 }
 
-/* 底部悬浮模式胶囊（极简单层，告别多层套娃） */
+/* 底部悬浮模式胶囊（与上方卡片宽度及两侧边距 100% 对齐） */
 .floating-mode-bar {
   position: fixed;
   bottom: calc(1rem + env(safe-area-inset-bottom));
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  width: calc(100% - 2rem);
+  max-width: calc(600px - 2rem);
   background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  padding: 0.28rem 0.35rem;
+  padding: 0.3rem 0.35rem;
   border-radius: 100px;
   border: 1px solid rgba(226, 232, 240, 0.85);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.04);
   display: flex;
   align-items: center;
-  gap: 0.15rem;
-  white-space: nowrap;
-  max-width: calc(100vw - 1.2rem);
+  justify-content: space-between;
   box-sizing: border-box;
 }
 
 .mode-btn {
-  padding: 0.38rem 0.52rem;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0.44rem 0.15rem;
   margin: 0;
   border: 1px solid transparent;
   background: transparent;
@@ -548,7 +550,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
+  text-align: center;
 }
 
 .mode-btn:hover {
@@ -567,7 +569,7 @@ body {
   width: 1px;
   height: 16px;
   background-color: #e2e8f0;
-  margin: 0 0.1rem;
+  margin: 0 0.2rem;
   flex-shrink: 0;
 }
 
