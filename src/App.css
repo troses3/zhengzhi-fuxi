@@ -383,22 +383,21 @@ body {
   box-shadow: 0 6px 20px rgba(59, 130, 246, 0.06);
 }
 
-.sentence-words-wrap {
+.knowledge-card-top {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
-.sentence-word-pill {
-  font-size: 0.68rem;
-  font-weight: 600;
-  color: #3b82f6;
-  background: #eff6ff;
-  border: 1px solid #dbeafe;
-  border-radius: 6px;
-  padding: 0.1rem 0.4rem;
-  white-space: nowrap;
+.knowledge-chapter-name {
+  color: var(--accent-color);
+}
+
+.knowledge-group-name {
+  color: #64748b;
+  margin-left: 0.25rem;
 }
 
 .knowledge-sentence-text {

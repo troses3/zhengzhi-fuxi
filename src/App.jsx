@@ -167,17 +167,8 @@ function KnowledgeSentenceCard({ sentenceItem, searchQuery }) {
   return (
     <div className="knowledge-sentence-card">
       <div className="knowledge-card-top">
-        <div className="knowledge-chapter-wrap">
-          <span className="knowledge-chapter-name">{sentenceItem.chapter}</span>
-          {sentenceItem.group && <span className="knowledge-group-name">· {sentenceItem.group}</span>}
-        </div>
-        {sentenceItem.words && sentenceItem.words.length > 0 && (
-          <div className="sentence-words-wrap">
-            {sentenceItem.words.map((w, i) => (
-              <span key={i} className="sentence-word-pill">{w}</span>
-            ))}
-          </div>
-        )}
+        <span className="knowledge-chapter-name">{sentenceItem.chapter}</span>
+        {sentenceItem.group && <span className="knowledge-group-name">· {sentenceItem.group}</span>}
       </div>
 
       <div className="knowledge-sentence-text">
@@ -687,16 +678,23 @@ function App() {
             </div>
           </div>
 
-          {/* 搜索栏（置于控制面板内，极简无emoji设计） */}
-          <div className="search-bar-box">
+          {/* 搜索栏（置于控制面板内，回车自动收起软键盘） */}
+          <form 
+            className="search-bar-box"
+            onSubmit={(e) => {
+              e.preventDefault();
+              e.target.querySelector('input')?.blur();
+            }}
+          >
             <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
             <input
-              type="text"
+              type="search"
+              enterKeyHint="search"
               className="search-box-input"
-              placeholder={`在当前【${dataSource === 'huasheng' ? '花生' : dataSource === 'chaoge27' ? '超格(27)' : '超格(26)'}】题库中搜索考点词、原句、章节 (${items.length} 题)...`}
+              placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
@@ -704,9 +702,15 @@ function App() {
                 setIsFlipped(false);
                 setSelectedOption(null);
               }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  e.target.blur();
+                }
+              }}
             />
             {searchQuery && (
               <button
+                type="button"
                 className="search-box-clear"
                 onClick={() => {
                   setSearchQuery('');
@@ -719,7 +723,7 @@ function App() {
                 ✕
               </button>
             )}
-          </div>
+          </form>
 
           {/* 单行横向滑动章节栏（无emoji纯净文字） */}
           <div className="category-scroll-container">
