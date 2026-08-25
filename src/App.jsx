@@ -150,42 +150,7 @@ function SpeedItemCard({ item, idx, globalMasked }) {
   );
 }
 
-function SearchModal({ 
-  isOpen, 
-  onClose, 
-  items, 
-  dataSource, 
-  onSelectItem, 
-  searchQuery, 
-  setSearchQuery,
-  onApplySearchFilter 
-}) {
-  const searchInputRef = useRef(null);
-
-  useEffect(() => {
-    if (isOpen && searchInputRef.current) {
-      setTimeout(() => searchInputRef.current?.focus(), 150);
-    }
-  }, [isOpen]);
-
-  if (!isOpen) return null;
-
-  const hotKeywords = [
-    '新质生产力', '两个结合', '四个伟大', '自我革命', '绿水青山', '全过程人民民主', '高质量发展', '总体国家安全观'
-  ];
-
-  const filteredItems = searchQuery.trim() ? items.filter(item => {
-    const q = searchQuery.trim().toLowerCase();
-    const w = (item.word || '').toLowerCase();
-    const m = (item.meaning || '').toLowerCase();
-    const h = (item.hint || '').toLowerCase();
-    const g = (item.group || '').toLowerCase();
-    const c = (item.chapter || '').toLowerCase();
-    const t = (item.title || '').toLowerCase();
-    const s = (item.subtitle || '').toLowerCase();
-    return w.includes(q) || m.includes(q) || h.includes(q) || g.includes(q) || c.includes(q) || t.includes(q) || s.includes(q);
-  }) : [];
-
+function KnowledgeCard({ item, searchQuery, onPracticeItem }) {
   const highlightMatch = (text, query) => {
     if (!query || !text) return text;
     const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -197,114 +162,65 @@ function SearchModal({
     );
   };
 
-  const getStatusBadge = (status) => {
-    if (status === 'known') return <span className="search-badge badge-known">🟢 认识</span>;
-    if (status === 'unsure') return <span className="search-badge badge-unsure">🟡 模糊</span>;
-    if (status === 'unknown') return <span className="search-badge badge-unknown">🔴 不认识</span>;
-    return <span className="search-badge badge-new">⚪ 未做</span>;
+  const getStatusText = (status) => {
+    if (status === 'known') return { label: '已掌握', className: 'status-tag-known' };
+    if (status === 'unsure') return { label: '模糊', className: 'status-tag-unsure' };
+    if (status === 'unknown') return { label: '生词', className: 'status-tag-unknown' };
+    return { label: '未学习', className: 'status-tag-new' };
   };
 
+  const statusInfo = getStatusText(item.status);
+
   return (
-    <div className="search-modal-backdrop" onClick={onClose}>
-      <div className="search-modal-sheet" onClick={(e) => e.stopPropagation()}>
-        {/* 顶部指示条 */}
-        <div className="search-modal-handle-bar">
-          <div className="search-modal-handle"></div>
+    <div className="knowledge-card">
+      <div className="knowledge-card-top">
+        <div className="knowledge-chapter-wrap">
+          <span className="knowledge-chapter-name">{item.chapter}</span>
+          {item.group && <span className="knowledge-group-name">· {item.group}</span>}
         </div>
+        <span className={`knowledge-status-tag ${statusInfo.className}`}>
+          {statusInfo.label}
+        </span>
+      </div>
 
-        {/* 搜索输入栏 */}
-        <div className="search-modal-header">
-          <div className="search-modal-input-box">
-            <span className="search-modal-icon">🔍</span>
-            <input
-              ref={searchInputRef}
-              type="text"
-              className="search-modal-input"
-              placeholder={`搜索考点词 / 原句 / 章节专题...`}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            {searchQuery && (
-              <button className="search-modal-clear" onClick={() => setSearchQuery('')}>✕</button>
-            )}
+      <div className="knowledge-card-concept">
+        <span className="concept-label">核心考点</span>
+        <h3 className="concept-title">{highlightMatch(item.word, searchQuery)}</h3>
+      </div>
+
+      <div className="knowledge-card-body">
+        <div className="knowledge-field">
+          <div className="field-label">官方原句</div>
+          <div className="field-text text-meaning">
+            {highlightMatch(item.meaning || item.title, searchQuery)}
           </div>
-          <button className="search-modal-close-btn" onClick={onClose}>取消</button>
         </div>
 
-        {/* 搜索范围 */}
-        <div className="search-scope-bar">
-          <span className="scope-tag">当前题库：<strong>{dataSource === 'huasheng' ? '🥜 花生' : (dataSource === 'chaoge27' ? '📚 超格(27)' : '📖 超格(26)')}</strong></span>
-          <span className="scope-count">总题量 {items.length} 题</span>
-        </div>
+        {item.hint && (
+          <div className="knowledge-field">
+            <div className="field-label">真题挖空</div>
+            <div className="field-text text-hint">
+              {item.hint}
+            </div>
+          </div>
+        )}
 
-        {/* 热门高频考点速查（未输入关键词时展示） */}
-        {!searchQuery.trim() && (
-          <div className="search-modal-empty-intro">
-            <div className="hot-tags-title">🔥 核心高频考点速查：</div>
-            <div className="hot-tags-list">
-              {hotKeywords.map(kw => (
-                <button key={kw} className="hot-tag-chip" onClick={() => setSearchQuery(kw)}>
-                  {kw}
-                </button>
+        {item.distractors && item.distractors.length > 0 && (
+          <div className="knowledge-field">
+            <div className="field-label">干扰辨析</div>
+            <div className="distractors-wrap">
+              {item.distractors.map((d, i) => (
+                <span key={i} className="distractor-chip">{d.word}</span>
               ))}
             </div>
-            <div className="search-scope-tip">
-              💡 输入关键词可实时检索考点释义、题干挖空及专题出处，点击任意考点直接跳转练习。
-            </div>
           </div>
         )}
+      </div>
 
-        {/* 搜索结果列表展示 */}
-        {searchQuery.trim() !== '' && (
-          <div className="search-results-wrapper">
-            <div className="search-results-summary">
-              <span>找到 <strong>{filteredItems.length}</strong> 个考点</span>
-              {filteredItems.length > 0 && (
-                <button 
-                  className="search-apply-filter-btn"
-                  onClick={() => {
-                    onApplySearchFilter(searchQuery);
-                    onClose();
-                  }}
-                >
-                  🎯 开启本组（{filteredItems.length}题）特训
-                </button>
-              )}
-            </div>
-
-            <div className="search-results-list">
-              {filteredItems.length === 0 ? (
-                <div className="search-no-results">
-                  <div className="no-res-icon">🔍</div>
-                  <div className="no-res-title">未找到与 “{searchQuery}” 相关的考点</div>
-                  <div className="no-res-desc">请尝试缩短检索词或更换关键词</div>
-                </div>
-              ) : (
-                filteredItems.map((item, idx) => (
-                  <div 
-                    key={`${item.word}-${idx}`} 
-                    className="search-result-card"
-                    onClick={() => {
-                      onSelectItem(item);
-                      onClose();
-                    }}
-                  >
-                    <div className="res-card-top">
-                      <span className="res-chapter-tag">{item.chapter} {item.group ? `· ${item.group}` : ''}</span>
-                      {getStatusBadge(item.status)}
-                    </div>
-                    <div className="res-card-word">
-                      【{highlightMatch(item.word, searchQuery)}】
-                    </div>
-                    <div className="res-card-meaning">
-                      {highlightMatch(item.meaning || item.hint, searchQuery)}
-                    </div>
-                  </div>
-                ))
-              )}
-            </div>
-          </div>
-        )}
+      <div className="knowledge-card-footer">
+        <button className="knowledge-practice-btn" onClick={() => onPracticeItem(item)}>
+          做这道题 ➔
+        </button>
       </div>
     </div>
   );
@@ -335,7 +251,6 @@ function App() {
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
   
   const cardBackInnerRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
@@ -708,15 +623,6 @@ function App() {
     }
   };
 
-  const handleApplySearchFilter = (query) => {
-    setSearchQuery(query);
-    setSelectedCategory('all');
-    setFilter('all');
-    setCurrentIndex(0);
-    setIsFlipped(false);
-    setSelectedOption(null);
-  };
-
   const getStatusColor = (status) => {
     switch(status) {
       case 'known': return 'rgba(16, 185, 129, 0.8)';
@@ -734,40 +640,16 @@ function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <div className="header-top-row">
-          <h1>
-            <span>📚</span>
-            <span className="title-text">政治理论题库</span>
-          </h1>
-          <button 
-            className={`search-trigger-pill ${searchQuery ? 'has-query' : ''}`} 
-            onClick={() => setIsSearchModalOpen(true)}
-            title="搜索考点"
-          >
-            <span className="search-trigger-icon">🔍</span>
-            <span className="search-trigger-text">{searchQuery ? `搜: "${searchQuery}"` : '搜索考点'}</span>
-            {searchQuery && (
-              <span 
-                className="search-trigger-clear" 
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                }}
-                title="清空搜索"
-              >
-                ✕
-              </span>
-            )}
-          </button>
-        </div>
+        <h1>
+          <span className="title-text">政治理论题库</span>
+        </h1>
 
         <div className="progress-container">
           <div className="db-toggle-row">
             <div className="db-toggle">
-              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
-              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>📖 超格(26)</button>
-              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>📚 超格(27)</button>
+              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>花生</button>
+              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>超格(26)</button>
+              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>超格(27)</button>
             </div>
           </div>
 
@@ -807,16 +689,50 @@ function App() {
             </div>
           </div>
 
-          {/* 第一行修改：单行横向滑动章节栏（根据当前数据库动态渲染官方章节） */}
+          {/* 搜索栏（置于控制面板内，极简无emoji设计） */}
+          <div className="search-bar-box">
+            <svg className="search-box-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="text"
+              className="search-box-input"
+              placeholder={`在当前【${dataSource === 'huasheng' ? '花生' : dataSource === 'chaoge27' ? '超格(27)' : '超格(26)'}】题库中搜索考点词、原句、章节 (${items.length} 题)...`}
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentIndex(0);
+                setIsFlipped(false);
+                setSelectedOption(null);
+              }}
+            />
+            {searchQuery && (
+              <button
+                className="search-box-clear"
+                onClick={() => {
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                  setIsFlipped(false);
+                  setSelectedOption(null);
+                }}
+                title="清空搜索"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+
+          {/* 单行横向滑动章节栏（无emoji纯净文字） */}
           <div className="category-scroll-container">
             <div className="category-scroll-track">
               {dataSource === 'huasheng' ? [
                 { key: 'all', label: '全部章节' },
-                { key: '第一章 十五五规划专题', label: '🚩 十五五' },
-                { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
-                { key: '第三章 习近平新时代思想', label: '🌟 习近平新思想' },
-                { key: '第四章 最新重要方针政策', label: '🚀 方针政策' },
-                { key: '第五章 2026新法典与时政考察', label: '⚖️ 2026新法典' },
+                { key: '第一章 十五五规划专题', label: '十五五规划' },
+                { key: '第二章 马克思主义基本原理', label: '马原政经' },
+                { key: '第三章 习近平新时代思想', label: '习近平新时代思想' },
+                { key: '第四章 最新重要方针政策', label: '重大方针政策' },
+                { key: '第五章 2026新法典与时政考察', label: '新法典与时政' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -827,9 +743,9 @@ function App() {
                 </button>
               )) : (dataSource === 'chaoge26' || dataSource === 'chaoge') ? [
                 { key: 'all', label: '全部章节' },
-                { key: '第一章 习近平新时代思想', label: '🌟 习近平新时代思想' },
-                { key: '第二章 时政理论与重大部署', label: '🚀 时政与重大部署' },
-                { key: '第三章 马克思主义基本原理', label: '🧠 马克思主义原理' },
+                { key: '第一章 习近平新时代思想', label: '习近平新时代思想' },
+                { key: '第二章 时政理论与重大部署', label: '时政理论与重大部署' },
+                { key: '第三章 马克思主义基本原理', label: '马克思主义原理' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -840,10 +756,10 @@ function App() {
                 </button>
               )) : [
                 { key: 'all', label: '全部章节' },
-                { key: '第一章 创新理论与新时代', label: '🌟 创新理论' },
-                { key: '第二章 改革发展与国家战略', label: '🚀 改革发展' },
-                { key: '第三章 五位一体与国家安全', label: '🛡️ 五位一体' },
-                { key: '第四章 强军外交与从严治党', label: '🚩 强军治党' },
+                { key: '第一章 创新理论与新时代', label: '创新理论与新时代' },
+                { key: '第二章 改革发展与国家战略', label: '改革发展与国家战略' },
+                { key: '第三章 五位一体与国家安全', label: '五位一体与国家安全' },
+                { key: '第四章 强军外交与从严治党', label: '强军外交与从严治党' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -856,7 +772,7 @@ function App() {
             </div>
           </div>
 
-          {/* 第二行修改：原版胶囊UI（修复手机端折行与间距） */}
+          {/* 模式胶囊 */}
           <div className="mode-toggle">
             <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
             <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
@@ -869,20 +785,48 @@ function App() {
       </header>
 
       <main className="main-content">
-        {currentCategoryItems.length === 0 ? (
-          <div className="empty-state-card">
-            <div className="empty-state-icon">🔍</div>
-            <h3>未找到与 “{searchQuery}” 相关的考点</h3>
-            <p>您可以尝试缩短关键词，或切换上方全部章节与题库</p>
-            <button 
-              className="empty-state-btn" 
-              onClick={() => {
-                setSearchQuery('');
-                setSelectedCategory('all');
-              }}
-            >
-              清空搜索与筛选
-            </button>
+        {searchQuery.trim() !== '' ? (
+          <div className="search-knowledge-view">
+            <div className="search-results-bar">
+              <span className="search-count-text">
+                共匹配到 <strong>{currentCategoryItems.length}</strong> 个考点知识点
+              </span>
+              <button className="search-clear-action-btn" onClick={() => setSearchQuery('')}>
+                清空搜索
+              </button>
+            </div>
+
+            {currentCategoryItems.length === 0 ? (
+              <div className="empty-state-card">
+                <h3>未找到匹配考点</h3>
+                <p>请尝试缩短关键词，或切换上方全部章节与题库</p>
+                <button className="empty-state-btn" onClick={() => setSearchQuery('')}>
+                  清空搜索
+                </button>
+              </div>
+            ) : (
+              <div className="knowledge-cards-list">
+                {currentCategoryItems.map((item, idx) => (
+                  <KnowledgeCard
+                    key={`${item.word}-${idx}`}
+                    item={item}
+                    searchQuery={searchQuery}
+                    onPracticeItem={(targetItem) => {
+                      const targetIndex = items.findIndex(i => i.word === targetItem.word && i.group === targetItem.group);
+                      if (targetIndex !== -1) {
+                        setSearchQuery('');
+                        setSelectedCategory('all');
+                        setFilter('all');
+                        setCurrentIndex(targetIndex);
+                        setIsFlipped(false);
+                        setSelectedOption(null);
+                        setActiveMode('quiz');
+                      }
+                    }}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         ) : (
           <>
@@ -907,155 +851,153 @@ function App() {
                           </div>
                         </div>
                       )}
-                  <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
-                  {currentItem.status !== 'new' && (
-                    <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
-                      上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
-                    </div>
-                  )}
-                </div>
-
-                {/* 卡片反面 */}
-                <div className="card-back">
-                  <div className="card-back-inner" ref={cardBackInnerRef}>
-                    <div className="group-tag">
-                      {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
-                    </div>
-                    <div className="card-back-content">
-                      {activeMode === 'quiz' ? (
-                        <>
-                          <div className="sentence-question">
-                            {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
-                          </div>
-                          <div className="quiz-title">请选择正确的考点词：</div>
-                        </>
-                      ) : (
-                        <>
-                          <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>🎯 【{currentItem.title || currentItem.word}】</h3>
-                          <div className="sentence-question contrast-question-title" style={{ fontSize: '0.98rem', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'left', lineHeight: '1.45' }}>
-                            {currentItem.question || `请选择与【${currentItem.word}】严格对应的科学论断：`}
-                          </div>
-                        </>
+                      <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
+                      {currentItem.status !== 'new' && (
+                        <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
+                          上次标记: {currentItem.status === 'known' ? '认识' : currentItem.status === 'unsure' ? '模糊' : '不认识'}
+                        </div>
                       )}
+                    </div>
 
-                      <div className={`options-container ${(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
-                        {shuffledOptions.map((opt, index) => {
-                          let btnClass = "option-btn";
-                          if (selectedOption !== null) {
-                            if (opt.isCorrect) {
-                              btnClass += " correct";
-                            } else if (selectedOption === index) {
-                              btnClass += " incorrect";
-                            }
-                            btnClass += " disabled";
-                          }
+                    {/* 卡片反面 */}
+                    <div className="card-back">
+                      <div className="card-back-inner" ref={cardBackInnerRef}>
+                        <div className="group-tag">
+                          {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
+                        </div>
+                        <div className="card-back-content">
+                          {activeMode === 'quiz' ? (
+                            <>
+                              <div className="sentence-question">
+                                {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
+                              </div>
+                              <div className="quiz-title">请选择正确的考点词：</div>
+                            </>
+                          ) : (
+                            <>
+                              <h3 style={{ marginBottom: '0.4rem', color: 'var(--text-primary)' }}>【{currentItem.title || currentItem.word}】</h3>
+                              <div className="sentence-question contrast-question-title" style={{ fontSize: '0.98rem', fontWeight: '600', color: 'var(--text-secondary)', marginBottom: '1rem', textAlign: 'left', lineHeight: '1.45' }}>
+                                {currentItem.question || `请选择与【${currentItem.word}】严格对应的科学论断：`}
+                              </div>
+                            </>
+                          )}
 
-                          return (
-                            <button
-                              key={index}
-                              className={btnClass}
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                if (selectedOption === null) {
-                                  setSelectedOption(index);
+                          <div className={`options-container ${(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'options-grid-2x2' : 'options-vertical-contrast'} ${selectedOption === null ? 'quiz-not-answered' : ''}`}>
+                            {shuffledOptions.map((opt, index) => {
+                              let btnClass = "option-btn";
+                              if (selectedOption !== null) {
+                                if (opt.isCorrect) {
+                                  btnClass += " correct";
+                                } else if (selectedOption === index) {
+                                  btnClass += " incorrect";
                                 }
-                              }}
-                              disabled={selectedOption !== null}
-                            >
-                              <span className="option-label">
-                                {selectedOption !== null && opt.isCorrect ? '✓ ' : selectedOption !== null && selectedOption === index ? '✗ ' : `${['A', 'B', 'C', 'D'][index]}. `}
-                              </span>
-                              <span className={(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
-                            </button>
-                          );
-                        })}
-                      </div>
+                                btnClass += " disabled";
+                              }
 
-                      {/* 挖空特训作答反馈 */}
-                      {activeMode === 'quiz' && selectedOption !== null && (
-                        <div className="quiz-feedback-details">
-                          <div className="example-item highlighted-example">
-                            <strong>官方原文：</strong>
-                            <span>
-                              {renderHighlightedSentence(currentExample || currentItem.meaning, currentItem.word)}
-                            </span>
+                              return (
+                                <button
+                                  key={index}
+                                  className={btnClass}
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    if (selectedOption === null) {
+                                      setSelectedOption(index);
+                                    }
+                                  }}
+                                  disabled={selectedOption !== null}
+                                >
+                                  <span className="option-label">
+                                    {selectedOption !== null && opt.isCorrect ? '✓ ' : selectedOption !== null && selectedOption === index ? '✗ ' : `${['A', 'B', 'C', 'D'][index]}. `}
+                                  </span>
+                                  <span className={(activeMode === 'quiz' || currentItem.questionType === 'word') ? 'option-text-word' : 'option-text'}>{opt.text}</span>
+                                </button>
+                              );
+                            })}
                           </div>
-                          {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
-                            <div className="incorrect-choice-tip">
-                              ⚠️ 你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
+
+                          {/* 挖空特训作答反馈 */}
+                          {activeMode === 'quiz' && selectedOption !== null && (
+                            <div className="quiz-feedback-details">
+                              <div className="example-item highlighted-example">
+                                <strong>官方原文：</strong>
+                                <span>
+                                  {renderHighlightedSentence(currentExample || currentItem.meaning, currentItem.word)}
+                                </span>
+                              </div>
+                              {selectedOption !== null && !shuffledOptions[selectedOption]?.isCorrect && (
+                                <div className="incorrect-choice-tip">
+                                  你误选了 <strong>【{shuffledOptions[selectedOption]?.word}】</strong>，正确考点应为 <strong>【{currentItem.word}】</strong>
+                                </div>
+                              )}
+                            </div>
+                          )}
+
+                          {/* 易混辨析作答反馈：权威对照解析 */}
+                          {activeMode === 'contrast' && selectedOption !== null && (
+                            <div className="contrast-feedback-details">
+                              <div className="explanation-title">易混考点权威辨析：</div>
+                              <div className="contrast-explanation-list">
+                                <div className="contrast-exp-item main-exp">
+                                  <span className="exp-badge correct-badge">正确项</span>
+                                  <strong className="exp-word">【{currentItem.word}】</strong>：
+                                  <span className="exp-meaning">{currentItem.meaning}</span>
+                                </div>
+                                {currentItem.distractors && currentItem.distractors.map((d, dIdx) => (
+                                  <div key={dIdx} className="contrast-exp-item distractor-exp">
+                                    <span className="exp-badge dist-badge">易混项</span>
+                                    <strong className="exp-word">【{d.word}】</strong>：
+                                    <span className="exp-meaning">{d.meaning}</span>
+                                  </div>
+                                ))}
+                              </div>
                             </div>
                           )}
                         </div>
-                      )}
-
-                      {/* 易混辨析作答反馈：权威对照解析 */}
-                      {activeMode === 'contrast' && selectedOption !== null && (
-                        <div className="contrast-feedback-details">
-                          <div className="explanation-title">📝 易混考点权威辨析：</div>
-                          <div className="contrast-explanation-list">
-                            <div className="contrast-exp-item main-exp">
-                              <span className="exp-badge correct-badge">✅ 正确项</span>
-                              <strong className="exp-word">【{currentItem.word}】</strong>：
-                              <span className="exp-meaning">{currentItem.meaning}</span>
-                            </div>
-                            {currentItem.distractors && currentItem.distractors.map((d, dIdx) => (
-                              <div key={dIdx} className="contrast-exp-item distractor-exp">
-                                <span className="exp-badge dist-badge">📌 易混项</span>
-                                <strong className="exp-word">【{d.word}】</strong>：
-                                <span className="exp-meaning">{d.meaning}</span>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
+                      </div>
                     </div>
                   </div>
                 </div>
+
+                {/* 底部操作按钮 */}
+                <div className={`action-buttons ${(!isFlipped || selectedOption === null) ? 'hidden' : ''}`}>
+                  <button className="btn btn-prev" onClick={handlePrev} disabled={history.length === 0}>
+                    上一题
+                  </button>
+                  <button className="btn btn-unknown" onClick={(e) => { e.stopPropagation(); handleNext('unknown'); }}>
+                    不认识
+                  </button>
+                  <button className="btn btn-unsure" onClick={(e) => { e.stopPropagation(); handleNext('unsure'); }}>
+                    模糊
+                  </button>
+                  <button className="btn btn-known" onClick={(e) => { e.stopPropagation(); handleNext('known'); }}>
+                    认识
+                  </button>
+                </div>
+              </>
+            )}
+
+            {/* 扩展模式：速览速记 */}
+            {activeMode === 'speed' && (
+              <div className="list-mode-container">
+                <div className="list-mode-header">
+                  <h3>速览速记 - {currentCategoryItems.length} 个考点</h3>
+                  <button className="toggle-mask-btn" onClick={() => setHideBlanksInSpeedMode(!hideBlanksInSpeedMode)}>
+                    {hideBlanksInSpeedMode ? '揭晓全部' : '遮挡考点'}
+                  </button>
+                </div>
+                {currentCategoryItems.map((item, idx) => (
+                  <SpeedItemCard 
+                    key={`${item.word}-${idx}`} 
+                    item={item} 
+                    idx={idx} 
+                    globalMasked={hideBlanksInSpeedMode} 
+                  />
+                ))}
               </div>
-            </div>
-
-            {/* 底部操作按钮 */}
-            <div className={`action-buttons ${(!isFlipped || selectedOption === null) ? 'hidden' : ''}`}>
-              <button className="btn btn-prev" onClick={handlePrev} disabled={history.length === 0}>
-                上一题
-              </button>
-              <button className="btn btn-unknown" onClick={(e) => { e.stopPropagation(); handleNext('unknown'); }}>
-                不认识
-              </button>
-              <button className="btn btn-unsure" onClick={(e) => { e.stopPropagation(); handleNext('unsure'); }}>
-                模糊
-              </button>
-              <button className="btn btn-known" onClick={(e) => { e.stopPropagation(); handleNext('known'); }}>
-                认识
-              </button>
-            </div>
+            )}
           </>
         )}
 
-        {/* 扩展模式：速览速记 */}
-        {activeMode === 'speed' && (
-          <div className="list-mode-container">
-            <div className="list-mode-header">
-              <h3>速览速记 - {currentCategoryItems.length} 个考点 {searchQuery && <span className="speed-search-tag">（搜索：“{searchQuery}”）</span>}</h3>
-              <button className="toggle-mask-btn" onClick={() => setHideBlanksInSpeedMode(!hideBlanksInSpeedMode)}>
-                {hideBlanksInSpeedMode ? '👀 揭晓全部' : '🙈 遮挡考点'}
-              </button>
-            </div>
-            {currentCategoryItems.map((item, idx) => (
-              <SpeedItemCard 
-                key={`${item.word}-${idx}`} 
-                item={item} 
-                idx={idx} 
-                globalMasked={hideBlanksInSpeedMode} 
-              />
-            ))}
-          </div>
-        )}
-          </>
-        )}
-
-
-        
         {/* 重置进度 */}
         <div className="controls">
           <button className="btn-text" onClick={() => {
@@ -1079,17 +1021,6 @@ function App() {
           </button>
         </div>
       </main>
-
-      <SearchModal
-        isOpen={isSearchModalOpen}
-        onClose={() => setIsSearchModalOpen(false)}
-        items={items}
-        dataSource={dataSource}
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        onSelectItem={handleSelectSearchItem}
-        onApplySearchFilter={handleApplySearchFilter}
-      />
     </div>
   );
 }
