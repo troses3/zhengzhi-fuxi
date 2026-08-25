@@ -894,11 +894,11 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '280px' }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '220px' }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
-                      <div className="card-top-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: '0.65rem' }}>
+                      <div className="card-top-bar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', marginBottom: '0.85rem' }}>
                         <div className="group-tag" style={{ margin: 0 }}>
                           {currentItem.group && currentItem.subcategory && currentItem.group !== currentItem.subcategory 
                             ? `${currentItem.group} · ${currentItem.subcategory}` 
@@ -911,7 +911,7 @@ function App() {
                         )}
                       </div>
                       {activeMode === 'quiz' ? (
-                        <h2 className="idiom-word sentence-blank" style={{ margin: 0, width: '100%', textAlign: 'justify' }}>
+                        <h2 className="idiom-word sentence-blank" style={{ margin: 0, width: '100%', textAlign: 'justify', lineHeight: '1.65' }}>
                           {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
                         </h2>
                       ) : (
@@ -924,7 +924,7 @@ function App() {
                           </div>
                         </div>
                       )}
-                      <div className="card-hint" style={{ marginTop: 'auto', paddingTop: '0.75rem', width: '100%', textAlign: 'center' }}>
+                      <div className="card-hint" style={{ marginTop: '1rem', width: '100%', textAlign: 'center' }}>
                         点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}
                       </div>
                     </div>
