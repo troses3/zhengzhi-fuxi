@@ -433,33 +433,24 @@ function App() {
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
       const scrollTimer = setTimeout(() => {
         const actionBtnEl = actionButtonsRef.current;
-        const cardEl = document.querySelector('.card-container');
         const floatingBarEl = document.querySelector('.floating-mode-bar');
 
-        if (actionBtnEl && cardEl && floatingBarEl) {
-          const cardRect = cardEl.getBoundingClientRect();
+        if (actionBtnEl && floatingBarEl) {
           const btnRect = actionBtnEl.getBoundingClientRect();
           const floatingRect = floatingBarEl.getBoundingClientRect();
           
-          const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+          // 目标下间距严格保持 0.75rem (~12px)
+          const targetGap = 12;
+          const diff = btnRect.bottom - (floatingRect.top - targetGap);
           
-          // 严格以“卡片底到按钮顶”的真实上间距为基准
-          const topGap = Math.max(6, btnRect.top - cardRect.bottom);
-          
-          // 视觉感知补偿：悬浮栏带有圆角与内边距，下间距相应收紧，达到视觉上的真正 1:1 匀称
-          const visualAdjustedGap = Math.max(4, topGap - 5);
-          
-          // 目标：让按钮底部距离悬浮栏顶部视觉上严格对齐上间距
-          const diff = btnRect.bottom - (floatingRect.top - visualAdjustedGap);
-          
-          if (Math.abs(diff) > 2) {
+          if (diff > 1) {
             window.scrollBy({
               top: diff,
               behavior: 'smooth'
             });
           }
         }
-      }, 30);
+      }, 40);
 
       return () => clearTimeout(scrollTimer);
     }
@@ -903,7 +894,7 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ minHeight: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
