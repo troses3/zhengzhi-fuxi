@@ -32,13 +32,12 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  padding: 1rem 1rem calc(1.5rem + env(safe-area-inset-bottom)) 1rem;
+  padding: 1rem 1rem calc(4.8rem + env(safe-area-inset-bottom)) 1rem;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
   min-height: 100vh;
   box-sizing: border-box;
-  justify-content: center; /* Center the layout vertically on desktop viewports */
 }
 
 .header {
@@ -512,30 +511,48 @@ body {
   font-weight: 700;
 }
 
-/* 经典模式胶囊（第二行优化：自适应单行排版，杜绝换行） */
-.mode-toggle {
+/* 底部悬浮模式胶囊 */
+.floating-mode-bar {
+  position: fixed;
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: calc(100% - 2rem);
+  max-width: 480px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 0.3rem;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+}
+
+.floating-mode-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(0, 0, 0, 0.05);
-  padding: 0.25rem 0.35rem;
-  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 0.2rem 0.25rem;
+  border-radius: 100px;
   width: 100%;
   box-sizing: border-box;
 }
 
 .mode-btn {
   flex: 1 1 auto;
-  padding: 0.42rem 0.2rem;
+  padding: 0.44rem 0.2rem;
   margin: 0;
   border: none;
   background: none;
-  border-radius: 15px;
+  border-radius: 100px;
   font-size: 0.78rem;
   font-weight: 600;
   color: var(--text-secondary);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   white-space: nowrap;
   text-align: center;
 }
@@ -543,8 +560,9 @@ body {
 .mode-btn.active {
   background: #ffffff;
   color: var(--accent-color);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
-  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  font-weight: 750;
+  transform: translateY(-0.5px);
 }
 
 .mode-divider {

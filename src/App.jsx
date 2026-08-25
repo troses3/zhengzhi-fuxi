@@ -773,16 +773,6 @@ function App() {
               ))}
             </div>
           </div>
-
-          {/* 模式胶囊 */}
-          <div className="mode-toggle">
-            <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
-            <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
-            <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>
-            <span className="mode-divider"></span>
-            <button className={`mode-btn ${!isRandom ? 'active' : ''}`} onClick={() => setIsRandom(false)}>顺序</button>
-            <button className={`mode-btn ${isRandom ? 'active' : ''}`} onClick={() => setIsRandom(true)}>随机</button>
-          </div>
         </div>
       </header>
 
@@ -1011,6 +1001,18 @@ function App() {
           </button>
         </div>
       </main>
+
+      {/* 底部悬浮模式栏 */}
+      <nav className="floating-mode-bar">
+        <div className="floating-mode-inner">
+          <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>易混辨析</button>
+          <button className={`mode-btn ${activeMode === 'quiz' ? 'active' : ''}`} onClick={() => setActiveMode('quiz')}>挖空特训</button>
+          <button className={`mode-btn ${activeMode === 'speed' ? 'active' : ''}`} onClick={() => setActiveMode('speed')}>速览速记</button>
+          <span className="mode-divider"></span>
+          <button className={`mode-btn ${!isRandom ? 'active' : ''}`} onClick={() => setIsRandom(false)}>顺序</button>
+          <button className={`mode-btn ${isRandom ? 'active' : ''}`} onClick={() => setIsRandom(true)}>随机</button>
+        </div>
+      </nav>
     </div>
   );
 }
