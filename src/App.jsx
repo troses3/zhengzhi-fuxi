@@ -898,11 +898,6 @@ function App() {
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
-                      <div className="group-tag">
-                        {currentItem.group && currentItem.subcategory && currentItem.group !== currentItem.subcategory 
-                          ? `${currentItem.group} · ${currentItem.subcategory}` 
-                          : (currentItem.group || currentItem.subcategory || currentItem.chapter || '')}
-                      </div>
                       {activeMode === 'quiz' ? (
                         <h2 className="idiom-word sentence-blank">
                           {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
