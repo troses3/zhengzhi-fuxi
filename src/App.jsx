@@ -755,11 +755,20 @@ function App() {
             className="ios-search-input"
             placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
             value={searchQuery}
+            onInput={(e) => setSearchQuery(e.target.value)}
             onChange={(e) => {
               setSearchQuery(e.target.value);
               setCurrentIndex(0);
               setIsFlipped(false);
               setSelectedOption(null);
+            }}
+            onSearch={(e) => {
+              if (!e.target.value) {
+                setSearchQuery('');
+                setCurrentIndex(0);
+                setIsFlipped(false);
+                setSelectedOption(null);
+              }
             }}
             onKeyDown={(e) => {
               if (e.key === 'Enter') {
@@ -771,7 +780,17 @@ function App() {
             <button
               type="button"
               className="ios-search-clear"
-              onClick={() => {
+              onPointerDown={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                setSearchQuery('');
+                setCurrentIndex(0);
+                setIsFlipped(false);
+                setSelectedOption(null);
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
                 setSearchQuery('');
                 setCurrentIndex(0);
                 setIsFlipped(false);
@@ -807,7 +826,19 @@ function App() {
               <span className="search-count-text">
                 共匹配到 <strong>{searchMatchedSentences.length}</strong> 条官方原句
               </span>
-              <button className="search-clear-action-btn" onClick={() => setSearchQuery('')}>
+              <button 
+                type="button"
+                className="search-clear-action-btn" 
+                onPointerDown={(e) => {
+                  e.preventDefault();
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                }}
+                onClick={() => {
+                  setSearchQuery('');
+                  setCurrentIndex(0);
+                }}
+              >
                 清空搜索
               </button>
             </div>
@@ -816,7 +847,19 @@ function App() {
               <div className="empty-state-card">
                 <h3>未找到匹配原句</h3>
                 <p>请尝试缩短关键词，或切换上方全部章节与题库</p>
-                <button className="empty-state-btn" onClick={() => setSearchQuery('')}>
+                <button 
+                  type="button"
+                  className="empty-state-btn" 
+                  onPointerDown={(e) => {
+                    e.preventDefault();
+                    setSearchQuery('');
+                    setCurrentIndex(0);
+                  }}
+                  onClick={() => {
+                    setSearchQuery('');
+                    setCurrentIndex(0);
+                  }}
+                >
                   清空搜索
                 </button>
               </div>

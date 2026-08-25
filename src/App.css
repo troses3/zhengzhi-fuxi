@@ -234,27 +234,39 @@ body {
   min-width: 0;
 }
 
-.ios-search-input::placeholder {
-  color: #94a3b8;
-  font-size: 0.82rem;
+.ios-search-input::-webkit-search-decoration,
+.ios-search-input::-webkit-search-cancel-button,
+.ios-search-input::-webkit-search-results-button,
+.ios-search-input::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  display: none;
 }
 
 .ios-search-clear {
   background: #cbd5e1;
   border: none;
   color: #334155;
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   padding: 0;
-  margin-left: 0.35rem;
+  margin-left: 0.4rem;
   flex-shrink: 0;
+  transition: all 0.15s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ios-search-clear:active {
+  background: #94a3b8;
+  color: #ffffff;
+  transform: scale(0.92);
 }
 
 /* 纯文字横向滑动频道栏 */
