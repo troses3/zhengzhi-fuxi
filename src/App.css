@@ -193,6 +193,148 @@ body {
   color: var(--text-secondary);
 }
 
+/* 🔍 搜索栏样式 */
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+  margin: 0.35rem 0 0.15rem 0;
+}
+
+.search-input-box {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.035);
+  border: 1.5px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 0.42rem 0.75rem;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.search-input-box:focus-within {
+  background: #ffffff;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+.search-icon {
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+  opacity: 0.6;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.86rem;
+  color: var(--text-primary);
+  font-family: inherit;
+  min-width: 0;
+}
+
+.search-input::placeholder {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.search-clear-btn {
+  background: #cbd5e1;
+  border: none;
+  color: #475569;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0.4rem;
+  transition: background 0.15s;
+}
+
+.search-clear-btn:hover {
+  background: #94a3b8;
+  color: white;
+}
+
+.search-result-pill {
+  font-size: 0.75rem;
+  color: var(--accent-color);
+  background: rgba(59, 130, 246, 0.08);
+  padding: 0.15rem 0.55rem;
+  border-radius: 6px;
+  width: fit-content;
+  align-self: flex-start;
+  font-weight: 600;
+}
+
+.speed-search-tag {
+  font-size: 0.85rem;
+  color: var(--accent-color);
+  font-weight: normal;
+}
+
+/* 空状态卡片 */
+.empty-state-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+
+.empty-state-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.empty-state-card h3 {
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  font-weight: 700;
+  margin: 0;
+}
+
+.empty-state-card p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  max-width: 280px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.empty-state-btn {
+  margin-top: 0.5rem;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.45rem 1.2rem;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.empty-state-btn:hover {
+  opacity: 0.9;
+}
+
 /* 分类横向滑动条（第一行优化） */
 .category-scroll-container {
   width: 100%;

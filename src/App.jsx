@@ -174,6 +174,7 @@ function App() {
 
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
   
   const cardBackInnerRef = useRef(null);
   const [cardHeight, setCardHeight] = useState('340px');
@@ -227,7 +228,7 @@ function App() {
       } else {
         storageKey = 'pt-tracker-v17-chaoge27-cloze';
         oldKey = 'pt-tracker-v16-chaoge27-cloze';
-        sourceData = chaogePoliticalTheory; // 2027 纯享精选版 (137题)
+        sourceData = chaogePoliticalTheory; // 2027 纯享精选版 (137/421题)
       }
     }
 
@@ -318,8 +319,23 @@ function App() {
     }
   }, [items, dataSource, activeMode]);
 
-  // Filtered by chapter
+  // Filtered by chapter & search query
   const currentCategoryItems = items.filter(item => {
+    // 🔍 实时多维度匹配当前题库
+    if (searchQuery.trim()) {
+      const q = searchQuery.trim().toLowerCase();
+      const w = (item.word || '').toLowerCase();
+      const m = (item.meaning || '').toLowerCase();
+      const h = (item.hint || '').toLowerCase();
+      const g = (item.group || '').toLowerCase();
+      const c = (item.chapter || '').toLowerCase();
+      const t = (item.title || '').toLowerCase();
+      const s = (item.subtitle || '').toLowerCase();
+      const d = (item.distractors || []).map(x => x.word || '').join(' ').toLowerCase();
+      const matchesSearch = w.includes(q) || m.includes(q) || h.includes(q) || g.includes(q) || c.includes(q) || t.includes(q) || s.includes(q) || d.includes(q);
+      if (!matchesSearch) return false;
+    }
+
     if (selectedCategory === 'all') return true;
     return item.chapter === selectedCategory;
   });
@@ -585,6 +601,44 @@ function App() {
             </div>
           </div>
 
+          {/* 🔍 全局题库实时搜索栏 */}
+          <div className="search-bar-container">
+            <div className="search-input-box">
+              <span className="search-icon">🔍</span>
+              <input
+                type="text"
+                className="search-input"
+                placeholder={`在当前【${dataSource === 'huasheng' ? '花生' : dataSource === 'chaoge27' ? '超格(27)' : '超格(26)'}】题库搜索考点/原句/章节 (${items.length} 题)...`}
+                value={searchQuery}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value);
+                  setCurrentIndex(0);
+                  setIsFlipped(false);
+                  setSelectedOption(null);
+                }}
+              />
+              {searchQuery && (
+                <button
+                  className="search-clear-btn"
+                  onClick={() => {
+                    setSearchQuery('');
+                    setCurrentIndex(0);
+                    setIsFlipped(false);
+                    setSelectedOption(null);
+                  }}
+                  title="清除搜索"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+            {searchQuery && (
+              <div className="search-result-pill">
+                🔍 匹配到 <strong>{currentCategoryItems.length}</strong> 个考点
+              </div>
+            )}
+          </div>
+
           {/* 第一行修改：单行横向滑动章节栏（根据当前数据库动态渲染官方章节） */}
           <div className="category-scroll-container">
             <div className="category-scroll-track">
@@ -647,27 +701,44 @@ function App() {
       </header>
 
       <main className="main-content">
-        {/* 卡片模式：挖空特训 & 易混辨析 */}
-        {(activeMode === 'quiz' || activeMode === 'contrast') && (
+        {currentCategoryItems.length === 0 ? (
+          <div className="empty-state-card">
+            <div className="empty-state-icon">🔍</div>
+            <h3>未找到与 “{searchQuery}” 相关的考点</h3>
+            <p>您可以尝试缩短关键词，或切换上方全部章节与题库</p>
+            <button 
+              className="empty-state-btn" 
+              onClick={() => {
+                setSearchQuery('');
+                setSelectedCategory('all');
+              }}
+            >
+              清空搜索与筛选
+            </button>
+          </div>
+        ) : (
           <>
-            <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
-              <div className={`card ${isFlipped ? 'flipped' : ''}`}>
-                {/* 卡片正面 */}
-                <div className="card-front">
-                  {activeMode === 'quiz' ? (
-                    <h2 className="idiom-word sentence-blank">
-                      {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
-                    </h2>
-                  ) : (
-                    <div className="contrast-front-container">
-                      <h2 className="contrast-front-title">
-                        {currentItem.title || currentItem.word}
-                      </h2>
-                      <div className="contrast-front-sub">
-                        {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
-                      </div>
-                    </div>
-                  )}
+            {/* 卡片模式：挖空特训 & 易混辨析 */}
+            {(activeMode === 'quiz' || activeMode === 'contrast') && (
+              <>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: cardHeight }} onClick={() => setIsFlipped(!isFlipped)}>
+                  <div className={`card ${isFlipped ? 'flipped' : ''}`}>
+                    {/* 卡片正面 */}
+                    <div className="card-front">
+                      {activeMode === 'quiz' ? (
+                        <h2 className="idiom-word sentence-blank">
+                          {renderSentenceWithBlank(currentExample || currentItem.meaning, currentItem.word)}
+                        </h2>
+                      ) : (
+                        <div className="contrast-front-container">
+                          <h2 className="contrast-front-title">
+                            {currentItem.title || currentItem.word}
+                          </h2>
+                          <div className="contrast-front-sub">
+                            {currentItem.subtitle || `请辨析【${currentItem.word}】的科学定位与对应官方论断`}
+                          </div>
+                        </div>
+                      )}
                   <div className="card-hint">点击翻转查看{activeMode === 'quiz' ? '备选考点词' : '辨析选项'}</div>
                   {currentItem.status !== 'new' && (
                     <div className="status-badge" style={{backgroundColor: getStatusColor(currentItem.status)}}>
@@ -797,7 +868,7 @@ function App() {
         {activeMode === 'speed' && (
           <div className="list-mode-container">
             <div className="list-mode-header">
-              <h3>速览速记 - {currentCategoryItems.length} 个考点</h3>
+              <h3>速览速记 - {currentCategoryItems.length} 个考点 {searchQuery && <span className="speed-search-tag">（搜索：“{searchQuery}”）</span>}</h3>
               <button className="toggle-mask-btn" onClick={() => setHideBlanksInSpeedMode(!hideBlanksInSpeedMode)}>
                 {hideBlanksInSpeedMode ? '👀 揭晓全部' : '🙈 遮挡考点'}
               </button>
@@ -811,6 +882,8 @@ function App() {
               />
             ))}
           </div>
+        )}
+          </>
         )}
 
 
