@@ -436,16 +436,23 @@ function App() {
       const doScroll = () => {
         if (actionButtonsRef.current) {
           const btnRect = actionButtonsRef.current.getBoundingClientRect();
+          const cardContainer = document.querySelector('.card-container');
           const floatingBar = document.querySelector('.floating-mode-bar');
-          const floatingBarTop = floatingBar 
-            ? floatingBar.getBoundingClientRect().top 
-            : (window.innerHeight - 80);
           
-          // 保留与悬浮栏之间 16px 舒适安全呼吸距离
-          const targetBottom = floatingBarTop - 16;
-          const diff = btnRect.bottom - targetBottom;
-          if (diff > 0) {
-            window.scrollBy({ top: diff, behavior: 'smooth' });
+          if (cardContainer && floatingBar) {
+            const cardRect = cardContainer.getBoundingClientRect();
+            const floatingBarRect = floatingBar.getBoundingClientRect();
+            
+            // 严格以“卡片底部到评级按钮顶部”的真实上间距为基准
+            const topGap = Math.max(0, btnRect.top - cardRect.bottom);
+            
+            // 目标位置：悬浮栏顶部减去完全相同的上间距
+            const targetBottom = floatingBarRect.top - topGap;
+            const diff = btnRect.bottom - targetBottom;
+            
+            if (Math.abs(diff) > 1) {
+              window.scrollBy({ top: diff, behavior: 'smooth' });
+            }
           }
         }
       };
@@ -926,7 +933,9 @@ function App() {
                     <div className="card-back">
                       <div className="card-back-inner" ref={cardBackInnerRef}>
                         <div className="group-tag">
-                          {currentItem.group} {currentItem.subcategory ? `· ${currentItem.subcategory}` : ''}
+                          {currentItem.group && currentItem.subcategory && currentItem.group !== currentItem.subcategory 
+                            ? `${currentItem.group} · ${currentItem.subcategory}` 
+                            : (currentItem.group || currentItem.subcategory || currentItem.chapter || '')}
                         </div>
                         <div className="card-back-content">
                           {activeMode === 'quiz' ? (
