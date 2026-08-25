@@ -645,35 +645,38 @@ function App() {
           <div className="stats-row">
             <div className="stats">
               <button 
-                className={`stat-item stat-known ${filter === 'known' ? 'active' : ''}`}
+                className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
                 onClick={() => handleFilterClick('known')}
                 title="只复习已掌握"
               >
                 <span className="dot dot-known"></span>
-                已掌握: {stats.known}
+                已掌握: <span className="stat-count">{stats.known}</span>
               </button>
+
               <button 
-                className={`stat-item stat-unsure ${filter === 'unsure' ? 'active' : ''}`}
+                className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
                 onClick={() => handleFilterClick('unsure')}
                 title="只复习模糊"
               >
                 <span className="dot dot-unsure"></span>
-                模糊: {stats.unsure}
+                模糊: <span className="stat-count">{stats.unsure}</span>
               </button>
+
               <button 
-                className={`stat-item stat-unknown ${filter === 'unknown' ? 'active' : ''}`}
+                className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
                 onClick={() => handleFilterClick('unknown')}
                 title="只复习生词"
               >
                 <span className="dot dot-unknown"></span>
-                生词: {stats.unknown}
+                生词: <span className="stat-count">{stats.unknown}</span>
               </button>
+
               <button 
-                className={`stat-item stat-total ${filter === 'all' ? 'active' : ''}`}
+                className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
                 onClick={() => setFilter('all')}
                 title="查看全部"
               >
-                总计: {total}
+                总计: <span className="stat-count">{total}</span>
               </button>
             </div>
           </div>

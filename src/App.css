@@ -128,64 +128,71 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
   width: 100%;
-  padding: 0 0.15rem;
 }
 
 .stat-item {
-  display: inline-flex;
+  flex: 1;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
-  padding: 0.32rem 0.45rem;
+  gap: 0.35rem;
+  padding: 0.4rem 0.5rem;
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 100px;
-  font-size: 0.84rem;
-  font-weight: 650;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s ease;
   white-space: nowrap;
-}
-
-.stat-item.stat-known {
-  color: #059669;
-}
-
-.stat-item.stat-unsure {
-  color: #d97706;
-}
-
-.stat-item.stat-unknown {
-  color: #dc2626;
-}
-
-.stat-item.stat-total {
-  color: #334155;
+  color: var(--text-secondary);
 }
 
 .stat-item:hover {
-  background: rgba(0, 0, 0, 0.04);
-}
-
-.stat-item.active {
-  background: rgba(226, 232, 240, 0.65);
-  border: 1px solid rgba(203, 213, 225, 0.9);
-  padding: 0.32rem 0.72rem;
-  box-shadow: none;
+  background: rgba(0, 0, 0, 0.03);
 }
 
 .dot {
-  width: 6.5px;
-  height: 6.5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   display: inline-block;
-  flex-shrink: 0;
 }
 
 .dot-known { background: #10b981; }
 .dot-unsure { background: #f59e0b; }
 .dot-unknown { background: #ef4444; }
+
+/* Active Filter styles */
+.stat-item.active-known {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.25);
+  color: #10b981;
+}
+
+.stat-item.active-unsure {
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.25);
+  color: #f59e0b;
+}
+
+.stat-item.active-unknown {
+  background: rgba(239, 68, 68, 0.12);
+  border-color: rgba(239, 68, 68, 0.25);
+  color: #ef4444;
+}
+
+.stat-item.active-all {
+  background: rgba(100, 116, 139, 0.12);
+  border-color: rgba(100, 116, 139, 0.25);
+  color: var(--text-secondary);
+}
+
+.stat-count {
+  font-weight: 700;
+}
 
 /* 🔍 搜索输入栏（内置于控制面板，极简设计） */
 .search-bar-box {
