@@ -233,6 +233,43 @@ function App() {
     safeStorage.set('pt-tracker-datasource', dataSource);
   }, [dataSource]);
 
+  const chapterList = useMemo(() => {
+    if (dataSource === 'huasheng') {
+      return [
+        { key: 'all', label: '全部' },
+        { key: '第一章 十五五规划专题', label: '十五五规划' },
+        { key: '第二章 马克思主义基本原理', label: '马原政经' },
+        { key: '第三章 习近平新时代思想', label: '习近平新时代思想' },
+        { key: '第四章 最新重要方针政策', label: '重大方针政策' },
+        { key: '第五章 2026新法典与时政考察', label: '新法典与时政' },
+      ];
+    } else if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
+      return [
+        { key: 'all', label: '全部' },
+        { key: '第一章 习近平新时代思想', label: '习近平新时代思想' },
+        { key: '第二章 时政理论与重大部署', label: '时政理论与重大部署' },
+        { key: '第三章 马克思主义基本原理', label: '马克思主义原理' },
+      ];
+    } else {
+      return [
+        { key: 'all', label: '全部' },
+        { key: '第一章 创新理论与新时代', label: '创新理论与新时代' },
+        { key: '第二章 改革发展与国家战略', label: '改革发展与国家战略' },
+        { key: '第三章 五位一体与国家安全', label: '五位一体与国家安全' },
+        { key: '第四章 强军外交与从严治党', label: '强军外交与从严治党' },
+      ];
+    }
+  }, [dataSource]);
+
+  useEffect(() => {
+    if (chapterList.length > 0 && selectedCategory !== 'all') {
+      const exists = chapterList.some(c => c.key === selectedCategory);
+      if (!exists) {
+        setSelectedCategory('all');
+      }
+    }
+  }, [dataSource, chapterList, selectedCategory]);
+
   // Load from local storage or initial with automatic schema synchronization
   useEffect(() => {
     let storageKey = 'pt-tracker-v17-huasheng';
@@ -622,47 +659,18 @@ function App() {
     }
   };
 
-  if (items.length === 0) return <div className="loading">加载政治理论题库中...</div>;
+  if (items.length === 0) {
+    return (
+      <div className="app-container">
+        <div style={{ textAlign: 'center', padding: '4rem 1rem', color: '#64748b' }}>
+          加载政治理论题库中...
+        </div>
+      </div>
+    );
+  }
 
   const total = items.length;
   const progress = ((stats.known) / (total || 1)) * 100;
-
-  const chapterList = useMemo(() => {
-    if (dataSource === 'huasheng') {
-      return [
-        { key: 'all', label: '全部' },
-        { key: '第一章 十五五规划专题', label: '十五五规划' },
-        { key: '第二章 马克思主义基本原理', label: '马原政经' },
-        { key: '第三章 习近平新时代思想', label: '习近平新时代思想' },
-        { key: '第四章 最新重要方针政策', label: '重大方针政策' },
-        { key: '第五章 2026新法典与时政考察', label: '新法典与时政' },
-      ];
-    } else if (dataSource === 'chaoge26' || dataSource === 'chaoge') {
-      return [
-        { key: 'all', label: '全部' },
-        { key: '第一章 习近平新时代思想', label: '习近平新时代思想' },
-        { key: '第二章 时政理论与重大部署', label: '时政理论与重大部署' },
-        { key: '第三章 马克思主义基本原理', label: '马克思主义原理' },
-      ];
-    } else {
-      return [
-        { key: 'all', label: '全部' },
-        { key: '第一章 创新理论与新时代', label: '创新理论与新时代' },
-        { key: '第二章 改革发展与国家战略', label: '改革发展与国家战略' },
-        { key: '第三章 五位一体与国家安全', label: '五位一体与国家安全' },
-        { key: '第四章 强军外交与从严治党', label: '强军外交与从严治党' },
-      ];
-    }
-  }, [dataSource]);
-
-  useEffect(() => {
-    if (chapterList.length > 0 && selectedCategory !== 'all') {
-      const exists = chapterList.some(c => c.key === selectedCategory);
-      if (!exists) {
-        setSelectedCategory('all');
-      }
-    }
-  }, [dataSource, chapterList, selectedCategory]);
 
   return (
     <div className="app-container">
