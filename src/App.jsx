@@ -425,43 +425,42 @@ function App() {
 
   // Dynamic Height & Auto Scroll into view
   useEffect(() => {
-    setTimeout(() => {
-      if (cardBackInnerRef.current) {
-        const contentHeight = cardBackInnerRef.current.scrollHeight;
-        setCardHeight(`${Math.max(340, contentHeight)}px`);
-      }
-    }, 40);
+    if (cardBackInnerRef.current) {
+      const contentHeight = cardBackInnerRef.current.scrollHeight;
+      setCardHeight(`${Math.max(340, contentHeight)}px`);
+    }
 
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
-      const doScroll = () => {
-        if (actionButtonsRef.current) {
-          const btnRect = actionButtonsRef.current.getBoundingClientRect();
-          const cardContainer = document.querySelector('.card-container');
-          const floatingBar = document.querySelector('.floating-mode-bar');
+      const scrollTimer = setTimeout(() => {
+        const actionBtnEl = actionButtonsRef.current;
+        const cardEl = document.querySelector('.card-container');
+        const floatingBarEl = document.querySelector('.floating-mode-bar');
+
+        if (actionBtnEl && cardEl && floatingBarEl) {
+          const cardRect = cardEl.getBoundingClientRect();
+          const btnRect = actionBtnEl.getBoundingClientRect();
+          const floatingRect = floatingBarEl.getBoundingClientRect();
           
-          if (cardContainer && floatingBar) {
-            const cardRect = cardContainer.getBoundingClientRect();
-            const floatingBarRect = floatingBar.getBoundingClientRect();
-            
-            // 严格以“卡片底部到评级按钮顶部”的真实上间距为基准
-            const topGap = Math.max(0, btnRect.top - cardRect.bottom);
-            
-            // 目标位置：悬浮栏顶部减去完全相同的上间距
-            const targetBottom = floatingBarRect.top - topGap;
-            const diff = btnRect.bottom - targetBottom;
-            
-            if (Math.abs(diff) > 1) {
-              window.scrollBy({ top: diff, behavior: 'smooth' });
-            }
+          const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+          
+          // 绝对文档高度坐标
+          const btnAbsBottom = currentScrollY + btnRect.bottom;
+          const topGap = Math.max(8, btnRect.top - cardRect.bottom);
+          
+          // 目标 ScrollTop：精准让悬浮栏上方间隙与卡片下方间隙 1:1 绝对相等
+          const floatingBarHeightFromBottom = window.innerHeight - floatingRect.top;
+          const targetScrollY = btnAbsBottom + topGap + floatingBarHeightFromBottom - window.innerHeight;
+          
+          if (targetScrollY > currentScrollY + 2) {
+            window.scrollTo({
+              top: Math.ceil(targetScrollY),
+              behavior: 'smooth'
+            });
           }
         }
-      };
-      const timer1 = setTimeout(doScroll, 80);
-      const timer2 = setTimeout(doScroll, 240);
-      return () => {
-        clearTimeout(timer1);
-        clearTimeout(timer2);
-      };
+      }, 30);
+
+      return () => clearTimeout(scrollTimer);
     }
   }, [selectedOption, currentItem, isFlipped, activeMode]);
 

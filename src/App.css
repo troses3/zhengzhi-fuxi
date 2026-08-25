@@ -646,7 +646,6 @@ body {
   height: 340px; /* Short card by default */
   cursor: pointer;
   position: relative;
-  transition: height 0.25s cubic-bezier(0.4, 0, 0.2, 1); /* Smooth height transition when answered */
 }
 .card-container.expanded {
   /* Height is now managed dynamically by React inline styles */
