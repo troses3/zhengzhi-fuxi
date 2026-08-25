@@ -443,17 +443,15 @@ function App() {
           
           const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
           
-          // 绝对文档高度坐标与紧凑对称间距
-          const btnAbsBottom = currentScrollY + btnRect.bottom;
-          const targetGap = Math.min(8, Math.max(6, btnRect.top - cardRect.bottom));
+          // 严格以“卡片底到按钮顶”的真实上间距为基准
+          const topGap = Math.max(6, btnRect.top - cardRect.bottom);
           
-          // 目标 ScrollTop：让悬浮栏上方间隙紧凑贴合，严格与上间距对齐
-          const floatingBarHeightFromBottom = window.innerHeight - floatingRect.top;
-          const targetScrollY = btnAbsBottom + targetGap + floatingBarHeightFromBottom - window.innerHeight;
+          // 目标：让按钮底部距离悬浮栏顶部正好等于 topGap
+          const diff = btnRect.bottom - (floatingRect.top - topGap);
           
-          if (targetScrollY > currentScrollY + 2) {
-            window.scrollTo({
-              top: Math.ceil(targetScrollY),
+          if (Math.abs(diff) > 2) {
+            window.scrollBy({
+              top: diff,
               behavior: 'smooth'
             });
           }
