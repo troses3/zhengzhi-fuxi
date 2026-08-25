@@ -630,15 +630,15 @@ function App() {
     <div className="app-container">
       <header className="header">
         <h1>
-          <span className="title-text">政治理论题库</span>
+          <span className="title-text">📚 政治理论题库</span>
         </h1>
 
         <div className="progress-container">
           <div className="db-toggle-row">
             <div className="db-toggle">
-              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>花生</button>
-              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>超格(26)</button>
-              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>超格(27)</button>
+              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
+              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>📖 超格(26)</button>
+              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>📖 超格(27)</button>
             </div>
           </div>
 
@@ -735,16 +735,16 @@ function App() {
             )}
           </form>
 
-          {/* 单行横向滑动章节栏（无emoji纯净文字） */}
+          {/* 单行横向滑动章节栏 */}
           <div className="category-scroll-container">
             <div className="category-scroll-track">
               {dataSource === 'huasheng' ? [
                 { key: 'all', label: '全部章节' },
-                { key: '第一章 十五五规划专题', label: '十五五规划' },
-                { key: '第二章 马克思主义基本原理', label: '马原政经' },
-                { key: '第三章 习近平新时代思想', label: '习近平新时代思想' },
-                { key: '第四章 最新重要方针政策', label: '重大方针政策' },
-                { key: '第五章 2026新法典与时政考察', label: '新法典与时政' },
+                { key: '第一章 十五五规划专题', label: '🚩 十五五规划' },
+                { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
+                { key: '第三章 习近平新时代思想', label: '🌟 习近平新时代思想' },
+                { key: '第四章 最新重要方针政策', label: '🚀 重大方针政策' },
+                { key: '第五章 2026新法典与时政考察', label: '🛡️ 新法典与时政' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -755,9 +755,9 @@ function App() {
                 </button>
               )) : (dataSource === 'chaoge26' || dataSource === 'chaoge') ? [
                 { key: 'all', label: '全部章节' },
-                { key: '第一章 习近平新时代思想', label: '习近平新时代思想' },
-                { key: '第二章 时政理论与重大部署', label: '时政理论与重大部署' },
-                { key: '第三章 马克思主义基本原理', label: '马克思主义原理' },
+                { key: '第一章 习近平新时代思想', label: '🌟 习近平新时代思想' },
+                { key: '第二章 时政理论与重大部署', label: '🚀 时政理论与重大部署' },
+                { key: '第三章 马克思主义基本原理', label: '🧠 马克思主义原理' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -768,10 +768,10 @@ function App() {
                 </button>
               )) : [
                 { key: 'all', label: '全部章节' },
-                { key: '第一章 创新理论与新时代', label: '创新理论与新时代' },
-                { key: '第二章 改革发展与国家战略', label: '改革发展与国家战略' },
-                { key: '第三章 五位一体与国家安全', label: '五位一体与国家安全' },
-                { key: '第四章 强军外交与从严治党', label: '强军外交与从严治党' },
+                { key: '第一章 创新理论与新时代', label: '🌟 创新理论与新时代' },
+                { key: '第二章 改革发展与国家战略', label: '🚀 改革发展与国家战略' },
+                { key: '第三章 五位一体与国家安全', label: '🛡️ 五位一体与国家安全' },
+                { key: '第四章 强军外交与从严治党', label: '🎖️ 强军外交与从严治党' },
               ].map(cat => (
                 <button
                   key={cat.key}
@@ -909,7 +909,7 @@ function App() {
                           {activeMode === 'quiz' && selectedOption !== null && (
                             <div className="quiz-feedback-details">
                               <div className="example-item highlighted-example">
-                                <strong>官方原文：</strong>
+                                <strong>🎯 官方原文：</strong>
                                 <span>
                                   {renderHighlightedSentence(currentExample || currentItem.meaning, currentItem.word)}
                                 </span>
@@ -925,7 +925,7 @@ function App() {
                           {/* 易混辨析作答反馈：权威对照解析 */}
                           {activeMode === 'contrast' && selectedOption !== null && (
                             <div className="contrast-feedback-details">
-                              <div className="explanation-title">易混考点权威辨析：</div>
+                              <div className="explanation-title">💡 易混考点权威辨析：</div>
                               <div className="contrast-explanation-list">
                                 <div className="contrast-exp-item main-exp">
                                   <span className="exp-badge correct-badge">正确项</span>
