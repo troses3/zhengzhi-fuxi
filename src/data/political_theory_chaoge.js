@@ -1668,9 +1668,9 @@ export const chaogePoliticalTheory = [
         "hint": "【理论基础】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "战略举措",
+        "meaning": "【战略举措】",
+        "hint": "【战略举措】"
       }
     ]
   },
@@ -2128,14 +2128,14 @@ export const chaogePoliticalTheory = [
         "hint": "【最大优势】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "战略举措",
+        "meaning": "【战略举措】",
+        "hint": "【战略举措】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "重要支柱",
+        "meaning": "【重要支柱】",
+        "hint": "【重要支柱】"
       }
     ]
   },
@@ -2159,14 +2159,14 @@ export const chaogePoliticalTheory = [
         "hint": "【最大优势】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "战略举措",
+        "meaning": "【战略举措】",
+        "hint": "【战略举措】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "重要支柱",
+        "meaning": "【重要支柱】",
+        "hint": "【重要支柱】"
       }
     ]
   },
@@ -2464,11 +2464,6 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "第二位",
-        "meaning": "【第二位】",
-        "hint": "【第二位】"
-      },
-      {
         "word": "根本性",
         "meaning": "【根本性】",
         "hint": "【根本性】"
@@ -2477,6 +2472,11 @@ export const chaogePoliticalTheory = [
         "word": "基础性",
         "meaning": "【基础性】",
         "hint": "【基础性】"
+      },
+      {
+        "word": "关键性",
+        "meaning": "【关键性】",
+        "hint": "【关键性】"
       }
     ]
   },
@@ -2805,19 +2805,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -2836,19 +2836,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -2867,19 +2867,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -2898,19 +2898,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -2929,19 +2929,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "中国特色社会主义伟大事业",
-        "meaning": "【中国特色社会主义伟大事业】",
-        "hint": "【中国特色社会主义伟大事业】"
+        "word": "中国特色社会主义伟大实践",
+        "meaning": "【中国特色社会主义伟大实践】",
+        "hint": "【中国特色社会主义伟大实践】"
       },
       {
-        "word": "具有许多新的历史特点的伟大斗争",
-        "meaning": "【具有许多新的历史特点的伟大斗争】",
-        "hint": "【具有许多新的历史特点的伟大斗争】"
+        "word": "具有许多新的历史特点的伟大探索",
+        "meaning": "【具有许多新的历史特点的伟大探索】",
+        "hint": "【具有许多新的历史特点的伟大探索】"
       },
       {
-        "word": "中华民族伟大复兴的伟大梦想",
-        "meaning": "【中华民族伟大复兴的伟大梦想】",
-        "hint": "【中华民族伟大复兴的伟大梦想】"
+        "word": "中华民族伟大复兴的宏伟蓝图",
+        "meaning": "【中华民族伟大复兴的宏伟蓝图】",
+        "hint": "【中华民族伟大复兴的宏伟蓝图】"
       }
     ]
   },
@@ -2991,19 +2991,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -3022,19 +3022,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -3053,19 +3053,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -3084,19 +3084,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "伟大实践",
+        "meaning": "【伟大实践】",
+        "hint": "【伟大实践】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "伟大探索",
+        "meaning": "【伟大探索】",
+        "hint": "【伟大探索】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "伟大创造",
+        "meaning": "【伟大创造】",
+        "hint": "【伟大创造】"
       }
     ]
   },
@@ -3611,19 +3611,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "封闭僵化",
-        "meaning": "【封闭僵化】",
-        "hint": "【封闭僵化】"
+        "word": "创新驱动",
+        "meaning": "【创新驱动】",
+        "hint": "【创新驱动】"
       },
       {
-        "word": "因循守旧",
-        "meaning": "【因循守旧】",
-        "hint": "【因循守旧】"
+        "word": "依法治国",
+        "meaning": "【依法治国】",
+        "hint": "【依法治国】"
       },
       {
-        "word": "照抄照搬",
-        "meaning": "【照抄照搬】",
-        "hint": "【照抄照搬】"
+        "word": "科教兴国",
+        "meaning": "【科教兴国】",
+        "hint": "【科教兴国】"
       }
     ]
   },
@@ -4076,19 +4076,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "最大优势",
-        "meaning": "【最大优势】",
-        "hint": "【最大优势】"
-      },
-      {
         "word": "核心要求",
         "meaning": "【核心要求】",
         "hint": "【核心要求】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "最大优势",
+        "meaning": "【最大优势】",
+        "hint": "【最大优势】"
+      },
+      {
+        "word": "根本标志",
+        "meaning": "【根本标志】",
+        "hint": "【根本标志】"
       }
     ]
   },
@@ -4458,9 +4458,9 @@ export const chaogePoliticalTheory = [
         "hint": "【根本保证】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "核心要求",
+        "meaning": "【核心要求】",
+        "hint": "【核心要求】"
       }
     ]
   },
@@ -4489,9 +4489,9 @@ export const chaogePoliticalTheory = [
         "hint": "【根本保证】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "坚实依托",
+        "meaning": "【坚实依托】",
+        "hint": "【坚实依托】"
       }
     ]
   },
@@ -4758,19 +4758,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "封闭僵化",
-        "meaning": "【封闭僵化】",
-        "hint": "【封闭僵化】"
+        "word": "创新驱动",
+        "meaning": "【创新驱动】",
+        "hint": "【创新驱动】"
       },
       {
-        "word": "因循守旧",
-        "meaning": "【因循守旧】",
-        "hint": "【因循守旧】"
+        "word": "依法治国",
+        "meaning": "【依法治国】",
+        "hint": "【依法治国】"
       },
       {
-        "word": "照抄照搬",
-        "meaning": "【照抄照搬】",
-        "hint": "【照抄照搬】"
+        "word": "科教兴国",
+        "meaning": "【科教兴国】",
+        "hint": "【科教兴国】"
       }
     ]
   },
@@ -4820,19 +4820,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "封闭僵化",
-        "meaning": "【封闭僵化】",
-        "hint": "【封闭僵化】"
+        "word": "创新驱动",
+        "meaning": "【创新驱动】",
+        "hint": "【创新驱动】"
       },
       {
-        "word": "因循守旧",
-        "meaning": "【因循守旧】",
-        "hint": "【因循守旧】"
+        "word": "依法治国",
+        "meaning": "【依法治国】",
+        "hint": "【依法治国】"
       },
       {
-        "word": "照抄照搬",
-        "meaning": "【照抄照搬】",
-        "hint": "【照抄照搬】"
+        "word": "科教兴国",
+        "meaning": "【科教兴国】",
+        "hint": "【科教兴国】"
       }
     ]
   },
@@ -4913,19 +4913,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "封闭僵化",
-        "meaning": "【封闭僵化】",
-        "hint": "【封闭僵化】"
+        "word": "创新驱动",
+        "meaning": "【创新驱动】",
+        "hint": "【创新驱动】"
       },
       {
-        "word": "因循守旧",
-        "meaning": "【因循守旧】",
-        "hint": "【因循守旧】"
+        "word": "依法治国",
+        "meaning": "【依法治国】",
+        "hint": "【依法治国】"
       },
       {
-        "word": "照抄照搬",
-        "meaning": "【照抄照搬】",
-        "hint": "【照抄照搬】"
+        "word": "科教兴国",
+        "meaning": "【科教兴国】",
+        "hint": "【科教兴国】"
       }
     ]
   },
@@ -6752,9 +6752,9 @@ export const chaogePoliticalTheory = [
         "hint": "【第一要务】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "关键一招",
+        "meaning": "【关键一招】",
+        "hint": "【关键一招】"
       }
     ]
   },
@@ -7088,14 +7088,14 @@ export const chaogePoliticalTheory = [
         "hint": "【最大政治优势】"
       },
       {
-        "word": "最根本原则",
-        "meaning": "【最根本原则】",
-        "hint": "【最根本原则】"
+        "word": "最根本保证",
+        "meaning": "【最根本保证】",
+        "hint": "【最根本保证】"
       },
       {
-        "word": "最高准则",
-        "meaning": "【最高准则】",
-        "hint": "【最高准则】"
+        "word": "最高原则",
+        "meaning": "【最高原则】",
+        "hint": "【最高原则】"
       }
     ]
   },
@@ -9501,19 +9501,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "开发优先",
-        "meaning": "【开发优先】",
-        "hint": "【开发优先】"
+        "word": "预防为主",
+        "meaning": "【预防为主】",
+        "hint": "【预防为主】"
       },
       {
-        "word": "利用为主",
-        "meaning": "【利用为主】",
-        "hint": "【利用为主】"
+        "word": "安全第一",
+        "meaning": "【安全第一】",
+        "hint": "【安全第一】"
       },
       {
-        "word": "经济第一",
-        "meaning": "【经济第一】",
-        "hint": "【经济第一】"
+        "word": "质量第一",
+        "meaning": "【质量第一】",
+        "hint": "【质量第一】"
       }
     ]
   },
@@ -9532,19 +9532,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "全面开发",
-        "meaning": "【全面开发】",
-        "hint": "【全面开发】"
+        "word": "科学利用",
+        "meaning": "【科学利用】",
+        "hint": "【科学利用】"
       },
       {
-        "word": "过度商业化",
-        "meaning": "【过度商业化】",
-        "hint": "【过度商业化】"
+        "word": "适度利用",
+        "meaning": "【适度利用】",
+        "hint": "【适度利用】"
       },
       {
-        "word": "封闭保存",
-        "meaning": "【封闭保存】",
-        "hint": "【封闭保存】"
+        "word": "综合利用",
+        "meaning": "【综合利用】",
+        "hint": "【综合利用】"
       }
     ]
   },
@@ -9563,19 +9563,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "原貌复原",
-        "meaning": "【原貌复原】",
-        "hint": "【原貌复原】"
+        "word": "适度干预",
+        "meaning": "【适度干预】",
+        "hint": "【适度干预】"
       },
       {
-        "word": "深度重构",
-        "meaning": "【深度重构】",
-        "hint": "【深度重构】"
+        "word": "分类施策",
+        "meaning": "【分类施策】",
+        "hint": "【分类施策】"
       },
       {
-        "word": "全面更新",
-        "meaning": "【全面更新】",
-        "hint": "【全面更新】"
+        "word": "精准保护",
+        "meaning": "【精准保护】",
+        "hint": "【精准保护】"
       }
     ]
   },
@@ -10069,9 +10069,9 @@ export const chaogePoliticalTheory = [
         "hint": "【最重要的发展条件】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "根本原则",
+        "meaning": "【根本原则】",
+        "hint": "【根本原则】"
       }
     ]
   },
@@ -10100,9 +10100,9 @@ export const chaogePoliticalTheory = [
         "hint": "【最直接的获得感】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "根本原则",
+        "meaning": "【根本原则】",
+        "hint": "【根本原则】"
       }
     ]
   },
@@ -10152,19 +10152,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "节约优先保护优先",
-        "meaning": "【节约优先保护优先】",
-        "hint": "【节约优先保护优先】"
+        "word": "良好生态是最普惠民生",
+        "meaning": "【良好生态是最普惠民生】",
+        "hint": "【良好生态是最普惠民生】"
       },
       {
-        "word": "人与自然和谐共生",
-        "meaning": "【人与自然和谐共生】",
-        "hint": "【人与自然和谐共生】"
+        "word": "人与自然是生命共同体",
+        "meaning": "【人与自然是生命共同体】",
+        "hint": "【人与自然是生命共同体】"
       },
       {
-        "word": "良好生态最普惠福祉",
-        "meaning": "【良好生态最普惠福祉】",
-        "hint": "【良好生态最普惠福祉】"
+        "word": "山水林田湖草沙一体化",
+        "meaning": "【山水林田湖草沙一体化】",
+        "hint": "【山水林田湖草沙一体化】"
       }
     ]
   },
@@ -10183,19 +10183,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "人工干预为主",
-        "meaning": "【人工干预为主】",
-        "hint": "【人工干预为主】"
+        "word": "系统治理为主",
+        "meaning": "【系统治理为主】",
+        "hint": "【系统治理为主】"
       },
       {
-        "word": "工程治理为主",
-        "meaning": "【工程治理为主】",
-        "hint": "【工程治理为主】"
+        "word": "源头防控为主",
+        "meaning": "【源头防控为主】",
+        "hint": "【源头防控为主】"
       },
       {
-        "word": "被动治理为主",
-        "meaning": "【被动治理为主】",
-        "hint": "【被动治理为主】"
+        "word": "综合施策为主",
+        "meaning": "【综合施策为主】",
+        "hint": "【综合施策为主】"
       }
     ]
   },
@@ -10214,19 +10214,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "开发优先",
-        "meaning": "【开发优先】",
-        "hint": "【开发优先】"
+        "word": "预防为主",
+        "meaning": "【预防为主】",
+        "hint": "【预防为主】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "综合治理",
+        "meaning": "【综合治理】",
+        "hint": "【综合治理】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "生态优先",
+        "meaning": "【生态优先】",
+        "hint": "【生态优先】"
       }
     ]
   },
@@ -10245,19 +10245,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "效率优先",
-        "meaning": "【效率优先】",
-        "hint": "【效率优先】"
+        "word": "防范为主",
+        "meaning": "【防范为主】",
+        "hint": "【防范为主】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "综合治理",
+        "meaning": "【综合治理】",
+        "hint": "【综合治理】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "空间均衡",
+        "meaning": "【空间均衡】",
+        "hint": "【空间均衡】"
       }
     ]
   },
@@ -10493,19 +10493,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "生态安全",
+        "meaning": "【生态安全】",
+        "hint": "【生态安全】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "网络安全",
+        "meaning": "【网络安全】",
+        "hint": "【网络安全】"
       },
       {
-        "word": "攻坚克难",
-        "meaning": "【攻坚克难】",
-        "hint": "【攻坚克难】"
+        "word": "文化安全",
+        "meaning": "【文化安全】",
+        "hint": "【文化安全】"
       }
     ]
   },
@@ -10529,14 +10529,14 @@ export const chaogePoliticalTheory = [
         "hint": "【军事安全】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "文化安全",
+        "meaning": "【文化安全】",
+        "hint": "【文化安全】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "网络安全",
+        "meaning": "【网络安全】",
+        "hint": "【网络安全】"
       }
     ]
   },
@@ -10560,14 +10560,14 @@ export const chaogePoliticalTheory = [
         "hint": "【科技安全】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "金融安全",
+        "meaning": "【金融安全】",
+        "hint": "【金融安全】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "网络安全",
+        "meaning": "【网络安全】",
+        "hint": "【网络安全】"
       }
     ]
   },
@@ -10808,14 +10808,14 @@ export const chaogePoliticalTheory = [
         "hint": "【社会安全】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "生态安全",
+        "meaning": "【生态安全】",
+        "hint": "【生态安全】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "网络安全",
+        "meaning": "【网络安全】",
+        "hint": "【网络安全】"
       }
     ]
   },
@@ -10839,14 +10839,14 @@ export const chaogePoliticalTheory = [
         "hint": "【军事安全】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "文化安全",
+        "meaning": "【文化安全】",
+        "hint": "【文化安全】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "社会安全",
+        "meaning": "【社会安全】",
+        "hint": "【社会安全】"
       }
     ]
   },
@@ -10870,14 +10870,14 @@ export const chaogePoliticalTheory = [
         "hint": "【科技安全】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "金融安全",
+        "meaning": "【金融安全】",
+        "hint": "【金融安全】"
       },
       {
-        "word": "求真务实",
-        "meaning": "【求真务实】",
-        "hint": "【求真务实】"
+        "word": "网络安全",
+        "meaning": "【网络安全】",
+        "hint": "【网络安全】"
       }
     ]
   },
@@ -11030,9 +11030,9 @@ export const chaogePoliticalTheory = [
         "hint": "【应急响应】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "战略举措",
+        "meaning": "【战略举措】",
+        "hint": "【战略举措】"
       }
     ]
   },
@@ -11061,9 +11061,9 @@ export const chaogePoliticalTheory = [
         "hint": "【被动应对】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "战略举措",
+        "meaning": "【战略举措】",
+        "hint": "【战略举措】"
       }
     ]
   },
@@ -11929,9 +11929,9 @@ export const chaogePoliticalTheory = [
         "hint": "【共商共建共享】"
       },
       {
-        "word": "改革创新",
-        "meaning": "【改革创新】",
-        "hint": "【改革创新】"
+        "word": "战略举措",
+        "meaning": "【战略举措】",
+        "hint": "【战略举措】"
       }
     ]
   },
@@ -11991,9 +11991,9 @@ export const chaogePoliticalTheory = [
         "hint": "【社会治理考验】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "深化转型考验",
+        "meaning": "【深化转型考验】",
+        "hint": "【深化转型考验】"
       }
     ]
   },
@@ -12022,9 +12022,9 @@ export const chaogePoliticalTheory = [
         "hint": "【金融风险考验】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "产业竞争考验",
+        "meaning": "【产业竞争考验】",
+        "hint": "【产业竞争考验】"
       }
     ]
   },
@@ -12074,19 +12074,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "封闭僵化",
-        "meaning": "【封闭僵化】",
-        "hint": "【封闭僵化】"
+        "word": "创新驱动",
+        "meaning": "【创新驱动】",
+        "hint": "【创新驱动】"
       },
       {
-        "word": "因循守旧",
-        "meaning": "【因循守旧】",
-        "hint": "【因循守旧】"
+        "word": "依法治国",
+        "meaning": "【依法治国】",
+        "hint": "【依法治国】"
       },
       {
-        "word": "照抄照搬",
-        "meaning": "【照抄照搬】",
-        "hint": "【照抄照搬】"
+        "word": "科教兴国",
+        "meaning": "【科教兴国】",
+        "hint": "【科教兴国】"
       }
     ]
   },
@@ -12115,9 +12115,9 @@ export const chaogePoliticalTheory = [
         "hint": "【三大攻坚战】"
       },
       {
-        "word": "四风问题",
-        "meaning": "【四风问题】",
-        "hint": "【四风问题】"
+        "word": "四项纪律",
+        "meaning": "【四项纪律】",
+        "hint": "【四项纪律】"
       }
     ]
   },
@@ -12136,19 +12136,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "能力不足考验",
-        "meaning": "【能力不足考验】",
-        "hint": "【能力不足考验】"
+        "word": "内部管理考验",
+        "meaning": "【内部管理考验】",
+        "hint": "【内部管理考验】"
       },
       {
-        "word": "精神懈怠考验",
-        "meaning": "【精神懈怠考验】",
-        "hint": "【精神懈怠考验】"
+        "word": "社会治理考验",
+        "meaning": "【社会治理考验】",
+        "hint": "【社会治理考验】"
       },
       {
-        "word": "消极腐败考验",
-        "meaning": "【消极腐败考验】",
-        "hint": "【消极腐败考验】"
+        "word": "意识形态考验",
+        "meaning": "【意识形态考验】",
+        "hint": "【意识形态考验】"
       }
     ]
   },
@@ -12167,19 +12167,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "作风漂浮危险",
+        "meaning": "【作风漂浮危险】",
+        "hint": "【作风漂浮危险】"
       },
       {
-        "word": "基本原则",
-        "meaning": "【基本原则】",
-        "hint": "【基本原则】"
+        "word": "本领恐慌危险",
+        "meaning": "【本领恐慌危险】",
+        "hint": "【本领恐慌危险】"
       },
       {
-        "word": "战略支点",
-        "meaning": "【战略支点】",
-        "hint": "【战略支点】"
+        "word": "思想僵化危险",
+        "meaning": "【思想僵化危险】",
+        "hint": "【思想僵化危险】"
       }
     ]
   },
@@ -12203,14 +12203,14 @@ export const chaogePoliticalTheory = [
         "hint": "【本领恐慌危险】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
+        "word": "思想僵化危险",
+        "meaning": "【思想僵化危险】",
+        "hint": "【思想僵化危险】"
       },
       {
-        "word": "基本原则",
-        "meaning": "【基本原则】",
-        "hint": "【基本原则】"
+        "word": "作风漂浮危险",
+        "meaning": "【作风漂浮危险】",
+        "hint": "【作风漂浮危险】"
       }
     ]
   },
@@ -12229,19 +12229,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
+        "word": "作风漂浮危险",
+        "meaning": "【作风漂浮危险】",
+        "hint": "【作风漂浮危险】"
+      },
+      {
+        "word": "特权享受危险",
+        "meaning": "【特权享受危险】",
+        "hint": "【特权享受危险】"
+      },
+      {
         "word": "官僚主义危险",
         "meaning": "【官僚主义危险】",
         "hint": "【官僚主义危险】"
-      },
-      {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
-      },
-      {
-        "word": "基本原则",
-        "meaning": "【基本原则】",
-        "hint": "【基本原则】"
       }
     ]
   },
@@ -12260,19 +12260,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
+        "word": "特权享受危险",
+        "meaning": "【特权享受危险】",
+        "hint": "【特权享受危险】"
+      },
+      {
         "word": "作风不良危险",
         "meaning": "【作风不良危险】",
         "hint": "【作风不良危险】"
       },
       {
-        "word": "首要任务",
-        "meaning": "【首要任务】",
-        "hint": "【首要任务】"
-      },
-      {
-        "word": "基本原则",
-        "meaning": "【基本原则】",
-        "hint": "【基本原则】"
+        "word": "思想蜕变危险",
+        "meaning": "【思想蜕变危险】",
+        "hint": "【思想蜕变危险】"
       }
     ]
   },
@@ -12301,9 +12301,9 @@ export const chaogePoliticalTheory = [
         "hint": "【三大攻坚战】"
       },
       {
-        "word": "四项纪律",
-        "meaning": "【四项纪律】",
-        "hint": "【四项纪律】"
+        "word": "四项原则",
+        "meaning": "【四项原则】",
+        "hint": "【四项原则】"
       }
     ]
   },
@@ -12363,9 +12363,9 @@ export const chaogePoliticalTheory = [
         "hint": "【技术革命】"
       },
       {
-        "word": "制度革命",
-        "meaning": "【制度革命】",
-        "hint": "【制度革命】"
+        "word": "制度变革",
+        "meaning": "【制度变革】",
+        "hint": "【制度变革】"
       }
     ]
   },
@@ -12389,14 +12389,14 @@ export const chaogePoliticalTheory = [
         "hint": "【本质特征】"
       },
       {
-        "word": "最大优势",
-        "meaning": "【最大优势】",
-        "hint": "【最大优势】"
-      },
-      {
         "word": "核心要求",
         "meaning": "【核心要求】",
         "hint": "【核心要求】"
+      },
+      {
+        "word": "最大优势",
+        "meaning": "【最大优势】",
+        "hint": "【最大优势】"
       }
     ]
   },
@@ -12725,19 +12725,19 @@ export const chaogePoliticalTheory = [
     "color": "重点",
     "distractors": [
       {
-        "word": "基本路线",
-        "meaning": "【基本路线】",
-        "hint": "【基本路线】"
+        "word": "政治建设",
+        "meaning": "【政治建设】",
+        "hint": "【政治建设】"
       },
       {
-        "word": "基本方略",
-        "meaning": "【基本方略】",
-        "hint": "【基本方略】"
+        "word": "思想建设",
+        "meaning": "【思想建设】",
+        "hint": "【思想建设】"
       },
       {
-        "word": "基本原则",
-        "meaning": "【基本原则】",
-        "hint": "【基本原则】"
+        "word": "作风建设",
+        "meaning": "【作风建设】",
+        "hint": "【作风建设】"
       }
     ]
   },
@@ -12983,9 +12983,9 @@ export const chaogePoliticalTheory = [
         "hint": "【技术革命】"
       },
       {
-        "word": "制度革命",
-        "meaning": "【制度革命】",
-        "hint": "【制度革命】"
+        "word": "制度变革",
+        "meaning": "【制度变革】",
+        "hint": "【制度变革】"
       }
     ]
   },
