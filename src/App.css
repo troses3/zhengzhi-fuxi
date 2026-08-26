@@ -700,6 +700,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
+}
+
+.card-top-bar .group-tag {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-front-center-content {
@@ -718,6 +728,8 @@ body {
   font-weight: 600;
   color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .card-front:hover {
