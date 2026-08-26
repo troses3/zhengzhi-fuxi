@@ -651,7 +651,7 @@ body {
   position: relative;
 }
 .card-container:not(.expanded) {
-  margin-top: 5vh;
+  margin-top: 4.5vh;
 }
 .card-container.expanded {
   /* Height is managed dynamically by React inline style */
