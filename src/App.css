@@ -32,10 +32,10 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-  padding: 0.45rem 1rem calc(5.25rem + env(safe-area-inset-bottom)) 1rem;
+  padding: 0.45rem 1rem calc(4.5rem + env(safe-area-inset-bottom)) 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.45rem;
   box-sizing: border-box;
   min-height: 100dvh;
 }
@@ -649,6 +649,9 @@ body {
   height: 340px;
   cursor: pointer;
   position: relative;
+}
+.card-container:not(.expanded) {
+  margin-top: 5vh;
 }
 .card-container.expanded {
   /* Height is managed dynamically by React inline style */

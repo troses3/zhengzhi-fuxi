@@ -179,36 +179,6 @@ function KnowledgeSentenceCard({ sentenceItem, searchQuery }) {
 }
 
 function App() {
-  const headerRef = useRef(null);
-  const modeBarRef = useRef(null);
-  const [calculatedMarginTop, setCalculatedMarginTop] = useState(0);
-
-  useEffect(() => {
-    const calcMargin = () => {
-      if (headerRef.current && modeBarRef.current) {
-        const headerBottom = headerRef.current.getBoundingClientRect().bottom;
-        const modeBarTop = modeBarRef.current.getBoundingClientRect().top;
-        const space = modeBarTop - headerBottom;
-        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-        const gapPx = 0.75 * rem;
-        let margin = (space - 340) / 2 - gapPx;
-        setCalculatedMarginTop(Math.max(0, margin));
-      }
-    };
-    
-    // Slight delay to ensure DOM is fully rendered
-    setTimeout(calcMargin, 50);
-    window.addEventListener('resize', calcMargin);
-    
-    const observer = new ResizeObserver(calcMargin);
-    if (headerRef.current) observer.observe(headerRef.current);
-    if (modeBarRef.current) observer.observe(modeBarRef.current);
-    
-    return () => {
-      window.removeEventListener('resize', calcMargin);
-      observer.disconnect();
-    };
-  }, []);
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -683,7 +653,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="header" ref={headerRef}>
+      <header className="header">
         <div className="header-nav-bar">
           {/* 左上角：重置当前题库进度 */}
           <button 
@@ -924,7 +894,7 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: !isFlipped ? `${calculatedMarginTop}px` : undefined }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px' }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
@@ -1108,7 +1078,7 @@ function App() {
       </main>
 
       {/* 底部悬浮模式栏（极简单层设计，无多层套娃） */}
-      <nav className="floating-mode-bar" ref={modeBarRef}>
+      <nav className="floating-mode-bar">
         <button className={`mode-btn ${activeMode === 'contrast' ? 'active' : ''}`} onClick={() => setActiveMode('contrast')}>
           易混辨析
         </button>
