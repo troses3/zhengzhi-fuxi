@@ -439,11 +439,11 @@ function App() {
           const btnRect = actionBtnEl.getBoundingClientRect();
           const floatingRect = floatingBarEl.getBoundingClientRect();
           
-          // 目标下间距再缩小 10% -> 8.7px
-          const targetGap = 8.7;
+          // 目标下间距：10px
+          const targetGap = 10;
           const diff = btnRect.bottom - (floatingRect.top - targetGap);
           
-          if (diff > 1) {
+          if (Math.abs(diff) > 1) {
             window.scrollBy({
               top: diff,
               behavior: 'smooth'
