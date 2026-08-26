@@ -461,7 +461,7 @@ function App() {
     }
 
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
-      const scrollTimer = setTimeout(() => {
+      const doScroll = () => {
         const actionBtnEl = actionButtonsRef.current;
         const floatingBarEl = document.querySelector('.floating-mode-bar');
 
@@ -480,9 +480,15 @@ function App() {
             });
           }
         }
-      }, 40);
+      };
 
-      return () => clearTimeout(scrollTimer);
+      const timer1 = setTimeout(doScroll, 60);
+      const timer2 = setTimeout(doScroll, 160);
+
+      return () => {
+        clearTimeout(timer1);
+        clearTimeout(timer2);
+      };
     }
   }, [selectedOption, currentItem, isFlipped, activeMode]);
 
@@ -924,7 +930,7 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: !isFlipped ? `${calculatedMarginTop}px` : undefined }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: selectedOption === null ? `${calculatedMarginTop}px` : undefined }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
