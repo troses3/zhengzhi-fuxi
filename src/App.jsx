@@ -213,7 +213,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
-  // Dynamic Vertical Centering Calculation
+  // Dynamic Vertical Centering Calculation (Stable & Smooth)
   useEffect(() => {
     const calcMargin = () => {
       if (headerRef.current && modeBarRef.current) {
@@ -225,6 +225,8 @@ function App() {
 
         let currentHeight = 340;
         if (isFlipped && cardBackInnerRef.current) {
+          // If option is selected, keep margin stable to prevent layout thrashing during scroll
+          if (selectedOption !== null) return;
           currentHeight = Math.max(340, cardBackInnerRef.current.scrollHeight);
         }
 
@@ -245,7 +247,7 @@ function App() {
       window.removeEventListener('resize', calcMargin);
       observer.disconnect();
     };
-  }, [isFlipped, selectedOption, activeMode, currentIndex]);
+  }, [isFlipped, activeMode, currentIndex]);
 
   // Safe LocalStorage helpers
   const safeStorage = {
@@ -469,7 +471,7 @@ function App() {
     }
 
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
-      const doScroll = () => {
+      const scrollTimer = setTimeout(() => {
         const actionBtnEl = actionButtonsRef.current;
         const floatingBarEl = document.querySelector('.floating-mode-bar');
 
@@ -488,15 +490,9 @@ function App() {
             });
           }
         }
-      };
+      }, 50);
 
-      const timer1 = setTimeout(doScroll, 60);
-      const timer2 = setTimeout(doScroll, 160);
-
-      return () => {
-        clearTimeout(timer1);
-        clearTimeout(timer2);
-      };
+      return () => clearTimeout(scrollTimer);
     }
   }, [selectedOption, currentItem, isFlipped, activeMode]);
 
@@ -938,7 +934,7 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: selectedOption === null ? `${calculatedMarginTop}px` : undefined }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: `${calculatedMarginTop}px` }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
