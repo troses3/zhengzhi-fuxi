@@ -642,7 +642,7 @@ body {
   gap: 0.75rem;
   width: 100%;
   min-width: 0;
-  min-height: calc(100dvh - 9rem - env(safe-area-inset-bottom));
+  min-height: calc(100dvh - 15rem - env(safe-area-inset-bottom));
   perspective: 1000px;
 }
 
