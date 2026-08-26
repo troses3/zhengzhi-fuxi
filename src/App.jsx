@@ -179,6 +179,20 @@ function KnowledgeSentenceCard({ sentenceItem, searchQuery }) {
 }
 
 function App() {
+  const headerRef = useRef(null);
+  const [headerHeight, setHeaderHeight] = useState(240); // fallback default
+
+  useEffect(() => {
+    if (!headerRef.current) return;
+    const observer = new ResizeObserver(entries => {
+      for (let entry of entries) {
+        setHeaderHeight(entry.borderBoxSize?.[0]?.blockSize || entry.contentRect.height);
+      }
+    });
+    observer.observe(headerRef.current);
+    return () => observer.disconnect();
+  }, []);
+
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -653,7 +667,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="header">
+      <header className="header" ref={headerRef}>
         <div className="header-nav-bar">
           {/* 左上角：重置当前题库进度 */}
           <button 
@@ -857,7 +871,7 @@ function App() {
         </div>
       </header>
 
-      <main className="main-content">
+      <main className="main-content" style={{ minHeight: `calc(100dvh - ${headerHeight}px - 5.4rem - env(safe-area-inset-bottom))` }}>
         {searchQuery.trim() !== '' ? (
           <div className="search-knowledge-view">
             <div className="search-results-bar">
