@@ -4,8 +4,13 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
 
 #root {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }

@@ -36,7 +36,7 @@ body {
   flex-direction: column;
   gap: 0.45rem;
   box-sizing: border-box;
-  min-height: 100dvh;
+  flex: 1;
 }
 
 .header {
