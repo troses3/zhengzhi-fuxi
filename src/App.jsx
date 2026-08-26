@@ -179,38 +179,6 @@ function KnowledgeSentenceCard({ sentenceItem, searchQuery }) {
 }
 
 function App() {
-  const headerRef = useRef(null);
-  const [cardMarginTop, setCardMarginTop] = useState(0);
-
-  useEffect(() => {
-    const updateMargin = (headerH) => {
-        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-        const paddingBottom = 4.5 * rem; 
-        const space = window.innerHeight - headerH - paddingBottom;
-        const gap = Math.max(0, (space - 340) / 2);
-        setCardMarginTop(gap);
-    };
-
-    if (!headerRef.current) return;
-    
-    const observer = new ResizeObserver(entries => {
-      for (let entry of entries) {
-        const headerH = entry.borderBoxSize?.[0]?.blockSize || entry.contentRect.height;
-        updateMargin(headerH);
-      }
-    });
-    observer.observe(headerRef.current);
-    
-    const handleResize = () => {
-        if(headerRef.current) updateMargin(headerRef.current.offsetHeight);
-    };
-    window.addEventListener('resize', handleResize);
-    
-    return () => {
-        observer.disconnect();
-        window.removeEventListener('resize', handleResize);
-    };
-  }, []);
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -685,7 +653,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="header" ref={headerRef}>
+      <header className="header">
         <div className="header-nav-bar">
           {/* 左上角：重置当前题库进度 */}
           <button 
@@ -926,7 +894,7 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: !isFlipped ? `${cardMarginTop}px` : '10px' }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px' }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
