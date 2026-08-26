@@ -427,7 +427,21 @@ function App() {
   useEffect(() => {
     if (cardBackInnerRef.current) {
       const contentHeight = cardBackInnerRef.current.scrollHeight;
-      setCardHeight(`${Math.max(340, contentHeight)}px`);
+      if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
+        // 作答后：根据当前屏幕视口精准计算高度，把评级按钮推至悬浮栏上方 10px
+        const headerEl = document.querySelector('.header');
+        const headerH = headerEl ? headerEl.offsetHeight : 140;
+        const floatingEl = document.querySelector('.floating-mode-bar');
+        const floatingH = floatingEl ? (window.innerHeight - floatingEl.getBoundingClientRect().top) : 70;
+        
+        // 预留顶部与底部操作高度（header + gap 12px + 评级按钮 44px + 目标间隙 10px + 悬浮栏高度）
+        const nonCardSpace = headerH + 12 + 44 + 10 + floatingH;
+        const idealCardHeight = Math.max(340, window.innerHeight - nonCardSpace);
+        
+        setCardHeight(`${Math.max(idealCardHeight, contentHeight)}px`);
+      } else {
+        setCardHeight(`${Math.max(340, contentHeight)}px`);
+      }
     }
 
     if (selectedOption !== null && (activeMode === 'quiz' || activeMode === 'contrast')) {
@@ -443,7 +457,7 @@ function App() {
           const targetGap = 10;
           const diff = btnRect.bottom - (floatingRect.top - targetGap);
           
-          if (Math.abs(diff) > 1) {
+          if (diff > 2) {
             window.scrollBy({
               top: diff,
               behavior: 'smooth'
