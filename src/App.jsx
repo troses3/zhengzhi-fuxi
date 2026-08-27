@@ -212,6 +212,7 @@ function App() {
   const [selectedOption, setSelectedOption] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isPanelOpen, setIsPanelOpen] = useState(false);
 
   // Dynamic Vertical Centering Calculation (Stable & Smooth)
   useEffect(() => {
@@ -247,7 +248,7 @@ function App() {
       window.removeEventListener('resize', calcMargin);
       observer.disconnect();
     };
-  }, [isFlipped, activeMode, currentIndex]);
+  }, [isFlipped, activeMode, currentIndex, isPanelOpen, isSearchOpen]);
 
   // Safe LocalStorage helpers
   const safeStorage = {
@@ -719,11 +720,31 @@ function App() {
             </svg>
           </button>
 
-          {/* 中间：标题（Emoji独立于渐变，色彩清晰饱满） */}
-          <h1 className="header-title">
-            <span className="title-emoji">📚</span>
-            <span className="title-text">政治理论题库</span>
-          </h1>
+          {/* 中间：可交互的沉浸指示胶囊（点击展开/收起题库与筛选控制面板） */}
+          <button 
+            className={`header-meta-pill ${isPanelOpen ? 'active' : ''}`}
+            onClick={() => setIsPanelOpen(prev => !prev)}
+            title={isPanelOpen ? "收起控制面板" : "展开题库与章节面板"}
+          >
+            <span className="pill-db-name">{dataSource === 'huasheng' ? '🥜 花生' : (dataSource === 'chaoge27' ? '📖 超格27' : '📖 超格26')}</span>
+            <span className="pill-divider">·</span>
+            <span className="pill-cat-name">
+              {selectedCategory === 'all' ? '全部章节' : (
+                selectedCategory.includes('十五五') ? '🚩 十五五' :
+                selectedCategory.includes('马原') ? '🧠 马原政经' :
+                selectedCategory.includes('新思想') || selectedCategory.includes('习近平') ? '🌟 新思想' :
+                selectedCategory.includes('方针') || selectedCategory.includes('重大') ? '🚀 方针政策' :
+                selectedCategory.includes('新法典') || selectedCategory.includes('时政') ? '🛡️ 时政法典' :
+                selectedCategory.length > 6 ? selectedCategory.slice(0, 5) + '...' : selectedCategory
+              )}
+            </span>
+            <span className="pill-progress-text">({safeIndex + 1}/{currentCategoryItems.length})</span>
+            <span className={`pill-chevron ${isPanelOpen ? 'open' : ''}`}>
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
 
           {/* 右上角：搜索按钮 */}
           <button 
@@ -798,103 +819,111 @@ function App() {
           </form>
         )}
 
-        <div className="progress-container">
-          <div className="db-toggle-row">
-            <div className="db-toggle">
-              <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
-              <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>📖 超格(26)</button>
-              <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>📖 超格(27)</button>
+        {/* 沉浸式下拉抽屉面板 */}
+        {isPanelOpen && (
+          <div className="progress-container panel-drawer-open">
+            <div className="db-toggle-row">
+              <div className="db-toggle">
+                <button className={`db-btn ${dataSource === 'huasheng' ? 'active' : ''}`} onClick={() => setDataSource('huasheng')}>🥜 花生</button>
+                <button className={`db-btn ${dataSource === 'chaoge26' || dataSource === 'chaoge' ? 'active' : ''}`} onClick={() => setDataSource('chaoge26')}>📖 超格(26)</button>
+                <button className={`db-btn ${dataSource === 'chaoge27' ? 'active' : ''}`} onClick={() => setDataSource('chaoge27')}>📖 超格(27)</button>
+              </div>
+            </div>
+
+            <div className="stats-row">
+              <div className="stats">
+                <button 
+                  className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
+                  onClick={() => handleFilterClick('known')}
+                  title="只复习已掌握"
+                >
+                  <span className="dot dot-known"></span>
+                  已掌握: <span className="stat-count">{stats.known}</span>
+                </button>
+
+                <button 
+                  className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
+                  onClick={() => handleFilterClick('unsure')}
+                  title="只复习模糊"
+                >
+                  <span className="dot dot-unsure"></span>
+                  模糊: <span className="stat-count">{stats.unsure}</span>
+                </button>
+
+                <button 
+                  className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
+                  onClick={() => handleFilterClick('unknown')}
+                  title="只复习生词"
+                >
+                  <span className="dot dot-unknown"></span>
+                  生词: <span className="stat-count">{stats.unknown}</span>
+                </button>
+
+                <button 
+                  className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
+                  onClick={() => setFilter('all')}
+                  title="查看全部"
+                >
+                  总计: <span className="stat-count">{total}</span>
+                </button>
+              </div>
+            </div>
+
+            {/* 单行横向滑动章节栏 */}
+            <div className="category-scroll-container">
+              <div className="category-scroll-track">
+                {dataSource === 'huasheng' ? [
+                  { key: 'all', label: '全部章节' },
+                  { key: '第一章 十五五规划专题', label: '🚩 十五五规划' },
+                  { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
+                  { key: '第三章 习近平新时代思想', label: '🌟 习近平新时代思想' },
+                  { key: '第四章 最新重要方针政策', label: '🚀 重大方针政策' },
+                  { key: '第五章 2026新法典与时政考察', label: '🛡️ 新法典与时政' },
+                ].map(cat => (
+                  <button
+                    key={cat.key}
+                    className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                    onClick={() => {
+                      setSelectedCategory(cat.key);
+                    }}
+                  >
+                    {cat.label}
+                  </button>
+                )) : (dataSource === 'chaoge26' || dataSource === 'chaoge') ? [
+                  { key: 'all', label: '全部章节' },
+                  { key: '第一章 习近平新时代思想', label: '🌟 习近平新时代思想' },
+                  { key: '第二章 时政理论与重大部署', label: '🚀 时政理论与重大部署' },
+                  { key: '第三章 2026新法典与热点专题', label: '🛡️ 新法典与热点' },
+                ].map(cat => (
+                  <button
+                    key={cat.key}
+                    className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                    onClick={() => {
+                      setSelectedCategory(cat.key);
+                    }}
+                  >
+                    {cat.label}
+                  </button>
+                )) : [
+                  { key: 'all', label: '全部章节' },
+                  { key: '第一部分 创新理论与新时代', label: '🌟 创新理论与新时代' },
+                  { key: '第二部分 改革发展与国家治理', label: '🚀 改革发展与国治' },
+                  { key: '第三部分 2027备考前瞻与新法', label: '🛡️ 备考前瞻与新法' },
+                ].map(cat => (
+                  <button
+                    key={cat.key}
+                    className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
+                    onClick={() => {
+                      setSelectedCategory(cat.key);
+                    }}
+                  >
+                    {cat.label}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
-
-          <div className="stats-row">
-            <div className="stats">
-              <button 
-                className={`stat-item ${filter === 'known' ? 'active-known' : ''}`}
-                onClick={() => handleFilterClick('known')}
-                title="只复习已掌握"
-              >
-                <span className="dot dot-known"></span>
-                已掌握: <span className="stat-count">{stats.known}</span>
-              </button>
-
-              <button 
-                className={`stat-item ${filter === 'unsure' ? 'active-unsure' : ''}`}
-                onClick={() => handleFilterClick('unsure')}
-                title="只复习模糊"
-              >
-                <span className="dot dot-unsure"></span>
-                模糊: <span className="stat-count">{stats.unsure}</span>
-              </button>
-
-              <button 
-                className={`stat-item ${filter === 'unknown' ? 'active-unknown' : ''}`}
-                onClick={() => handleFilterClick('unknown')}
-                title="只复习生词"
-              >
-                <span className="dot dot-unknown"></span>
-                生词: <span className="stat-count">{stats.unknown}</span>
-              </button>
-
-              <button 
-                className={`stat-item ${filter === 'all' ? 'active-all' : ''}`}
-                onClick={() => setFilter('all')}
-                title="查看全部"
-              >
-                总计: <span className="stat-count">{total}</span>
-              </button>
-            </div>
-          </div>
-
-          {/* 单行横向滑动章节栏 */}
-          <div className="category-scroll-container">
-            <div className="category-scroll-track">
-              {dataSource === 'huasheng' ? [
-                { key: 'all', label: '全部章节' },
-                { key: '第一章 十五五规划专题', label: '🚩 十五五规划' },
-                { key: '第二章 马克思主义基本原理', label: '🧠 马原政经' },
-                { key: '第三章 习近平新时代思想', label: '🌟 习近平新时代思想' },
-                { key: '第四章 最新重要方针政策', label: '🚀 重大方针政策' },
-                { key: '第五章 2026新法典与时政考察', label: '🛡️ 新法典与时政' },
-              ].map(cat => (
-                <button
-                  key={cat.key}
-                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
-                  onClick={() => setSelectedCategory(cat.key)}
-                >
-                  {cat.label}
-                </button>
-              )) : (dataSource === 'chaoge26' || dataSource === 'chaoge') ? [
-                { key: 'all', label: '全部章节' },
-                { key: '第一章 习近平新时代思想', label: '🌟 习近平新时代思想' },
-                { key: '第二章 时政理论与重大部署', label: '🚀 时政理论与重大部署' },
-                { key: '第三章 马克思主义基本原理', label: '🧠 马克思主义原理' },
-              ].map(cat => (
-                <button
-                  key={cat.key}
-                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
-                  onClick={() => setSelectedCategory(cat.key)}
-                >
-                  {cat.label}
-                </button>
-              )) : [
-                { key: 'all', label: '全部章节' },
-                { key: '第一章 创新理论与新时代', label: '🌟 创新理论与新时代' },
-                { key: '第二章 改革发展与国家战略', label: '🚀 改革发展与国家战略' },
-                { key: '第三章 五位一体与国家安全', label: '🛡️ 五位一体与国家安全' },
-                { key: '第四章 强军外交与从严治党', label: '🎖️ 强军外交与从严治党' },
-              ].map(cat => (
-                <button
-                  key={cat.key}
-                  className={`cat-chip ${selectedCategory === cat.key ? 'active' : ''}`}
-                  onClick={() => setSelectedCategory(cat.key)}
-                >
-                  {cat.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
+        )}
       </header>
 
       <main className="main-content">
