@@ -737,6 +737,7 @@ body {
   height: 340px;
   cursor: pointer;
   position: relative;
+  transition: margin-top 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 }
 .card-container.expanded {
   /* Height is managed dynamically by React inline style */
