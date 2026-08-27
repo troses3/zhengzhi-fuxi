@@ -214,7 +214,7 @@ function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isPanelOpen, setIsPanelOpen] = useState(false);
 
-  // Dynamic Vertical Centering Calculation (Stable & Smooth)
+  // Dynamic Vertical Centering Calculation (True Geometric Symmetry across all 3 steps)
   useEffect(() => {
     const calcMargin = () => {
       if (headerRef.current && modeBarRef.current) {
@@ -226,9 +226,18 @@ function App() {
 
         let currentHeight = 340;
         if (isFlipped && cardBackInnerRef.current) {
-          // If option is selected, keep margin stable to prevent layout thrashing during scroll
-          if (selectedOption !== null) return;
-          currentHeight = Math.max(340, cardBackInnerRef.current.scrollHeight);
+          const cardH = Math.max(340, cardBackInnerRef.current.scrollHeight);
+          if (selectedOption !== null) {
+            // Step 3 (出答案): 将卡片高度 + 间距 + 底部操作按钮高度作为一个整体参与垂直居中
+            const buttonsHeight = (actionButtonsRef.current && actionButtonsRef.current.offsetHeight) ? actionButtonsRef.current.offsetHeight : 44;
+            const totalContentHeight = cardH + gapPx + buttonsHeight;
+            let margin = (space - totalContentHeight) / 2 - gapPx;
+            setCalculatedMarginTop(Math.max(0, margin));
+            return;
+          } else {
+            // Step 2 (待作答): 居中背面选项卡片
+            currentHeight = cardH;
+          }
         }
 
         let margin = (space - currentHeight) / 2 - gapPx;
@@ -243,12 +252,13 @@ function App() {
     if (headerRef.current) observer.observe(headerRef.current);
     if (modeBarRef.current) observer.observe(modeBarRef.current);
     if (cardBackInnerRef.current) observer.observe(cardBackInnerRef.current);
+    if (actionButtonsRef.current) observer.observe(actionButtonsRef.current);
     
     return () => {
       window.removeEventListener('resize', calcMargin);
       observer.disconnect();
     };
-  }, [isFlipped, activeMode, currentIndex, isPanelOpen, isSearchOpen]);
+  }, [isFlipped, selectedOption, activeMode, currentIndex, isPanelOpen, isSearchOpen]);
 
   // Safe LocalStorage helpers
   const safeStorage = {
@@ -963,7 +973,7 @@ function App() {
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
-                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: selectedOption === null ? `${calculatedMarginTop}px` : '0.4rem' }} onClick={() => setIsFlipped(!isFlipped)}>
+                <div className={`card-container ${selectedOption !== null ? 'expanded' : ''}`} style={{ height: isFlipped ? cardHeight : '340px', marginTop: `${calculatedMarginTop}px` }} onClick={() => setIsFlipped(!isFlipped)}>
                   <div className={`card ${isFlipped ? 'flipped' : ''}`}>
                     {/* 卡片正面 */}
                     <div className="card-front">
