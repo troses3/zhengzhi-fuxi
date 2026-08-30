@@ -600,6 +600,20 @@ function App() {
     setItems(updatedItems);
     setIsFlipped(false);
     
+    // 如果当前正在处理搜索结果题目，标记状态后立即自动返回搜索前的原刷题进度！
+    if (returnToPreSearch) {
+      setTimeout(() => {
+        skipCategoryResetRef.current = true;
+        setSelectedCategory(returnToPreSearch.category);
+        setFilter(returnToPreSearch.filter);
+        setCurrentIndex(returnToPreSearch.index);
+        setSelectedOption(null);
+        setReturnToPreSearch(null);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 50);
+      return;
+    }
+
     setHistory(prev => [...prev, currentIndex]);
 
     setTimeout(() => {
@@ -706,8 +720,7 @@ function App() {
   const handleCloseSearch = () => {
     setIsSearchOpen(false);
     setSearchQuery('');
-    // 若未通过搜索结果跳转，则自动恢复搜索前现场
-    if (preSearchStateRef.current && !returnToPreSearch) {
+    if (preSearchStateRef.current) {
       const snap = preSearchStateRef.current;
       skipCategoryResetRef.current = true;
       setSelectedCategory(snap.category);
@@ -717,6 +730,7 @@ function App() {
       setSelectedOption(null);
       preSearchStateRef.current = null;
     }
+    setReturnToPreSearch(null);
   };
 
   const handleSelectSearchItem = (targetItem) => {
