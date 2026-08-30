@@ -214,6 +214,11 @@ function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isPanelOpen, setIsPanelOpen] = useState(false);
 
+  // 搜索前进度现场快照与一键返回状态
+  const preSearchStateRef = useRef(null);
+  const skipCategoryResetRef = useRef(false);
+  const [returnToPreSearch, setReturnToPreSearch] = useState(null);
+
   // Dynamic Vertical Centering Calculation (True Geometric Symmetry across all 3 steps)
   useEffect(() => {
     const calcMargin = () => {
@@ -465,6 +470,11 @@ function App() {
   useEffect(() => {
     if (currentCategoryItems.length === 0) return;
     
+    if (skipCategoryResetRef.current) {
+      skipCategoryResetRef.current = false;
+      return;
+    }
+
     if (isRandom) {
       setCurrentIndex(Math.floor(Math.random() * currentCategoryItems.length));
     } else {
@@ -679,15 +689,77 @@ function App() {
     }
   };
 
-  const handleSelectSearchItem = (targetItem) => {
-    const targetIndex = items.findIndex(i => i.word === targetItem.word && i.group === targetItem.group);
-    if (targetIndex !== -1) {
-      setSelectedCategory('all');
-      setFilter('all');
-      setSearchQuery('');
-      setCurrentIndex(targetIndex);
+  const handleOpenSearch = () => {
+    if (!preSearchStateRef.current) {
+      preSearchStateRef.current = {
+        index: currentIndex,
+        category: selectedCategory,
+        filter: filter,
+        activeMode: activeMode,
+        displayIndex: safeIndex + 1,
+        totalInCat: currentCategoryItems.length
+      };
+    }
+    setIsSearchOpen(true);
+  };
+
+  const handleCloseSearch = () => {
+    setIsSearchOpen(false);
+    setSearchQuery('');
+    // 若未通过搜索结果跳转，则自动恢复搜索前现场
+    if (preSearchStateRef.current && !returnToPreSearch) {
+      const snap = preSearchStateRef.current;
+      skipCategoryResetRef.current = true;
+      setSelectedCategory(snap.category);
+      setFilter(snap.filter);
+      setCurrentIndex(snap.index);
       setIsFlipped(false);
       setSelectedOption(null);
+      preSearchStateRef.current = null;
+    }
+  };
+
+  const handleSelectSearchItem = (targetItem) => {
+    // 捕获搜索前的进度快照
+    const snap = preSearchStateRef.current || {
+      index: currentIndex,
+      category: selectedCategory,
+      filter: filter,
+      activeMode: activeMode,
+      displayIndex: safeIndex + 1,
+      totalInCat: currentCategoryItems.length
+    };
+    setReturnToPreSearch(snap);
+    preSearchStateRef.current = null;
+
+    // 记录到历史，确保“上一题”也能返回搜索前
+    setHistory(prev => [...prev, currentIndex]);
+
+    skipCategoryResetRef.current = true;
+    setSelectedCategory('all');
+    setFilter('all');
+    setSearchQuery('');
+    setIsSearchOpen(false);
+
+    const targetIndex = items.findIndex(i => i.word === targetItem.word && i.group === targetItem.group);
+    if (targetIndex !== -1) {
+      setCurrentIndex(targetIndex);
+    }
+    setIsFlipped(false);
+    setSelectedOption(null);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleRestorePreSearch = () => {
+    if (returnToPreSearch) {
+      skipCategoryResetRef.current = true;
+      setSelectedCategory(returnToPreSearch.category);
+      setFilter(returnToPreSearch.filter);
+      setCurrentIndex(returnToPreSearch.index);
+      setIsFlipped(false);
+      setSelectedOption(null);
+      setReturnToPreSearch(null);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
@@ -763,7 +835,13 @@ function App() {
           <button 
             className={`header-icon-btn search-header-btn ${(isSearchOpen || searchQuery) ? 'active' : ''}`}
             title="搜索考点原句"
-            onClick={() => setIsSearchOpen(prev => !prev)}
+            onClick={() => {
+              if (isSearchOpen || searchQuery) {
+                handleCloseSearch();
+              } else {
+                handleOpenSearch();
+              }
+            }}
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="11" cy="11" r="8"></circle>
@@ -793,10 +871,17 @@ function App() {
               placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
               value={searchQuery}
               onChange={(e) => {
+                if (!preSearchStateRef.current && e.target.value) {
+                  preSearchStateRef.current = {
+                    index: currentIndex,
+                    category: selectedCategory,
+                    filter: filter,
+                    activeMode: activeMode,
+                    displayIndex: safeIndex + 1,
+                    totalInCat: currentCategoryItems.length
+                  };
+                }
                 setSearchQuery(e.target.value);
-                setCurrentIndex(0);
-                setIsFlipped(false);
-                setSelectedOption(null);
               }}
               onKeyDown={(e) => {
                 if (e.key === 'Enter') {
@@ -811,18 +896,12 @@ function App() {
                 onPointerDown={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                  setIsFlipped(false);
-                  setSelectedOption(null);
+                  handleCloseSearch();
                 }}
                 onClick={(e) => {
                   e.preventDefault();
                   e.stopPropagation();
-                  setSearchQuery('');
-                  setCurrentIndex(0);
-                  setIsFlipped(false);
-                  setSelectedOption(null);
+                  handleCloseSearch();
                 }}
                 title="清空搜索"
               >
@@ -946,7 +1025,7 @@ function App() {
               <span className="search-count-text">
                 共匹配到 <strong>{searchMatchedSentences.length}</strong> 条官方原句
               </span>
-              <button className="search-clear-action-btn" onClick={() => setSearchQuery('')}>
+              <button className="search-clear-action-btn" onClick={handleCloseSearch}>
                 清空搜索
               </button>
             </div>
@@ -955,7 +1034,7 @@ function App() {
               <div className="empty-state-card">
                 <h3>未找到匹配原句</h3>
                 <p>请尝试缩短关键词，或切换上方全部章节与题库</p>
-                <button className="empty-state-btn" onClick={() => setSearchQuery('')}>
+                <button className="empty-state-btn" onClick={handleCloseSearch}>
                   清空搜索
                 </button>
               </div>
@@ -973,6 +1052,19 @@ function App() {
           </div>
         ) : (
           <>
+            {/* 从搜索结果临时跳转时的醒目返回胶囊 */}
+            {returnToPreSearch && (
+              <div className="search-return-banner">
+                <div className="banner-info">
+                  <span className="banner-badge">搜索结果</span>
+                  <span className="banner-tip">正在练习搜索选中的考点</span>
+                </div>
+                <button className="banner-return-btn" onClick={handleRestorePreSearch}>
+                  ↩️ 返回原刷题进度 (第 {returnToPreSearch.displayIndex} 题)
+                </button>
+              </div>
+            )}
+
             {/* 卡片模式：挖空特训 & 易混辨析 */}
             {(activeMode === 'quiz' || activeMode === 'contrast') && (
               <>
