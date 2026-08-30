@@ -214,10 +214,8 @@ function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isPanelOpen, setIsPanelOpen] = useState(false);
 
-  // 搜索前进度现场快照与一键返回状态
-  const preSearchStateRef = useRef(null);
-  const skipCategoryResetRef = useRef(false);
-  const [returnToPreSearch, setReturnToPreSearch] = useState(null);
+  // 搜索查看独立状态：完全解耦，绝不污染正常刷题 cursor (currentIndex)
+  const [inspectingSearchItem, setInspectingSearchItem] = useState(null);
 
   // Dynamic Vertical Centering Calculation (True Geometric Symmetry across all 3 steps)
   useEffect(() => {
@@ -464,7 +462,7 @@ function App() {
   }, [items, searchQuery, selectedCategory]);
 
   const safeIndex = (currentCategoryItems.length > 0 && currentIndex >= currentCategoryItems.length) ? 0 : currentIndex;
-  const currentItem = currentCategoryItems[safeIndex] || (currentCategoryItems.length > 0 ? currentCategoryItems[0] : null);
+  const currentItem = inspectingSearchItem || currentCategoryItems[safeIndex] || (currentCategoryItems.length > 0 ? currentCategoryItems[0] : null);
 
   // Category switch
   useEffect(() => {
@@ -592,6 +590,21 @@ function App() {
   const handleNext = (status) => {
     if (!currentItem) return;
 
+    // 如果当前处于搜索独立预览状态，更新状态后直接关闭预览，无缝回到主进度！
+    if (inspectingSearchItem) {
+      const realIndex = items.findIndex(i => i.word === inspectingSearchItem.word && i.group === inspectingSearchItem.group);
+      if (realIndex !== -1) {
+        const updatedItems = [...items];
+        updatedItems[realIndex].status = status;
+        setItems(updatedItems);
+      }
+      setIsFlipped(false);
+      setSelectedOption(null);
+      setInspectingSearchItem(null);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
     const realIndex = items.findIndex(i => i.word === currentItem.word && i.group === currentItem.group);
     if (realIndex === -1) return;
 
@@ -599,20 +612,6 @@ function App() {
     updatedItems[realIndex].status = status;
     setItems(updatedItems);
     setIsFlipped(false);
-    
-    // 如果当前正在处理搜索结果题目，标记状态后立即自动返回搜索前的原刷题进度！
-    if (returnToPreSearch) {
-      setTimeout(() => {
-        skipCategoryResetRef.current = true;
-        setSelectedCategory(returnToPreSearch.category);
-        setFilter(returnToPreSearch.filter);
-        setCurrentIndex(returnToPreSearch.index);
-        setSelectedOption(null);
-        setReturnToPreSearch(null);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }, 50);
-      return;
-    }
 
     setHistory(prev => [...prev, currentIndex]);
 
@@ -704,77 +703,22 @@ function App() {
   };
 
   const handleOpenSearch = () => {
-    if (!preSearchStateRef.current) {
-      preSearchStateRef.current = {
-        index: currentIndex,
-        category: selectedCategory,
-        filter: filter,
-        activeMode: activeMode,
-        displayIndex: safeIndex + 1,
-        totalInCat: currentCategoryItems.length
-      };
-    }
     setIsSearchOpen(true);
   };
 
   const handleCloseSearch = () => {
     setIsSearchOpen(false);
     setSearchQuery('');
-    if (preSearchStateRef.current) {
-      const snap = preSearchStateRef.current;
-      skipCategoryResetRef.current = true;
-      setSelectedCategory(snap.category);
-      setFilter(snap.filter);
-      setCurrentIndex(snap.index);
-      setIsFlipped(false);
-      setSelectedOption(null);
-      preSearchStateRef.current = null;
-    }
-    setReturnToPreSearch(null);
+    setInspectingSearchItem(null);
   };
 
   const handleSelectSearchItem = (targetItem) => {
-    // 捕获搜索前的进度快照
-    const snap = preSearchStateRef.current || {
-      index: currentIndex,
-      category: selectedCategory,
-      filter: filter,
-      activeMode: activeMode,
-      displayIndex: safeIndex + 1,
-      totalInCat: currentCategoryItems.length
-    };
-    setReturnToPreSearch(snap);
-    preSearchStateRef.current = null;
-
-    // 记录到历史，确保“上一题”也能返回搜索前
-    setHistory(prev => [...prev, currentIndex]);
-
-    skipCategoryResetRef.current = true;
-    setSelectedCategory('all');
-    setFilter('all');
+    setInspectingSearchItem(targetItem);
     setSearchQuery('');
     setIsSearchOpen(false);
-
-    const targetIndex = items.findIndex(i => i.word === targetItem.word && i.group === targetItem.group);
-    if (targetIndex !== -1) {
-      setCurrentIndex(targetIndex);
-    }
     setIsFlipped(false);
     setSelectedOption(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const handleRestorePreSearch = () => {
-    if (returnToPreSearch) {
-      skipCategoryResetRef.current = true;
-      setSelectedCategory(returnToPreSearch.category);
-      setFilter(returnToPreSearch.filter);
-      setCurrentIndex(returnToPreSearch.index);
-      setIsFlipped(false);
-      setSelectedOption(null);
-      setReturnToPreSearch(null);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
   };
 
   const getStatusColor = (status) => {
@@ -1067,14 +1011,14 @@ function App() {
         ) : (
           <>
             {/* 从搜索结果临时跳转时的醒目返回胶囊 */}
-            {returnToPreSearch && (
+            {inspectingSearchItem && (
               <div className="search-return-banner">
                 <div className="banner-info">
                   <span className="banner-badge">搜索结果</span>
                   <span className="banner-tip">正在练习搜索选中的考点</span>
                 </div>
-                <button className="banner-return-btn" onClick={handleRestorePreSearch}>
-                  ↩️ 返回原刷题进度 (第 {returnToPreSearch.displayIndex} 题)
+                <button className="banner-return-btn" onClick={() => setInspectingSearchItem(null)}>
+                  ↩️ 返回原刷题进度 (第 {safeIndex + 1} 题)
                 </button>
               </div>
             )}
