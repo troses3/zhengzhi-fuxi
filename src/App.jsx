@@ -356,24 +356,36 @@ function App() {
 
     setItems(loadedItems);
 
-    const isRandomStored = safeStorage.get('pt-tracker-random') === 'true';
-    if (isRandomStored && loadedItems.length > 0) {
-      const candidateIndices = [];
-      loadedItems.forEach((item, index) => {
-        if (item.status !== 'known') {
-          candidateIndices.push(index);
-        }
-      });
-
-      if (candidateIndices.length > 0) {
-        const randIndex = candidateIndices[Math.floor(Math.random() * candidateIndices.length)];
-        setCurrentIndex(randIndex);
+    const savedIndexKey = `pt-tracker-current-index_${dataSource}_${activeMode}`;
+    const savedIndex = safeStorage.get(savedIndexKey);
+    
+    if (savedIndex !== null) {
+      const parsed = parseInt(savedIndex, 10);
+      if (!isNaN(parsed) && parsed >= 0 && parsed < loadedItems.length) {
+        setCurrentIndex(parsed);
       } else {
-        const randIndex = Math.floor(Math.random() * loadedItems.length);
-        setCurrentIndex(randIndex);
+        setCurrentIndex(0);
       }
     } else {
-      setCurrentIndex(0);
+      const isRandomStored = safeStorage.get('pt-tracker-random') === 'true';
+      if (isRandomStored && loadedItems.length > 0) {
+        const candidateIndices = [];
+        loadedItems.forEach((item, index) => {
+          if (item.status !== 'known') {
+            candidateIndices.push(index);
+          }
+        });
+
+        if (candidateIndices.length > 0) {
+          const randIndex = candidateIndices[Math.floor(Math.random() * candidateIndices.length)];
+          setCurrentIndex(randIndex);
+        } else {
+          const randIndex = Math.floor(Math.random() * loadedItems.length);
+          setCurrentIndex(randIndex);
+        }
+      } else {
+        setCurrentIndex(0);
+      }
     }
     
     setSelectedCategory('all');
