@@ -841,19 +841,7 @@ function App() {
               className="search-box-input"
               placeholder={`搜索考点词、官方原句 (${items.length} 题)...`}
               value={searchQuery}
-              onChange={(e) => {
-                if (!preSearchStateRef.current && e.target.value) {
-                  preSearchStateRef.current = {
-                    index: currentIndex,
-                    category: selectedCategory,
-                    filter: filter,
-                    activeMode: activeMode,
-                    displayIndex: safeIndex + 1,
-                    totalInCat: currentCategoryItems.length
-                  };
-                }
-                setSearchQuery(e.target.value);
-              }}
+              onChange={(e) => setSearchQuery(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === 'Enter') {
                   e.target.blur();
