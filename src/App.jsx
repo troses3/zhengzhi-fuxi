@@ -189,7 +189,16 @@ function App() {
 
   const [items, setItems] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(() => {
+    const savedDs = localStorage.getItem('pt-tracker-datasource') || 'huasheng';
+    const savedMode = localStorage.getItem('pt-tracker-active-mode') || 'contrast';
+    const saved = localStorage.getItem(`pt-tracker-current-index_${savedDs}_${savedMode}`);
+    if (saved !== null) {
+      const parsed = parseInt(saved, 10);
+      if (!isNaN(parsed) && parsed >= 0) return parsed;
+    }
+    return 0;
+  });
   const [isFlipped, setIsFlipped] = useState(false);
   const [stats, setStats] = useState({ known: 0, unsure: 0, unknown: 0 });
   const [filter, setFilter] = useState('all'); // 'all', 'known', 'unsure', 'unknown'
@@ -207,6 +216,10 @@ function App() {
   const [hideBlanksInSpeedMode, setHideBlanksInSpeedMode] = useState(true);
   const [currentExample, setCurrentExample] = useState('');
   const [history, setHistory] = useState([]);
+
+  useEffect(() => {
+    localStorage.setItem(`pt-tracker-current-index_${dataSource}_${activeMode}`, currentIndex);
+  }, [currentIndex, dataSource, activeMode]);
 
   const [shuffledOptions, setShuffledOptions] = useState([]);
   const [selectedOption, setSelectedOption] = useState(null);
